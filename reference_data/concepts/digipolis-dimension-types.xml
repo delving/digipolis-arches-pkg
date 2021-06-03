@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="http://localhost:8000/1f2ee7ac-20e4-48e3-a9d9-912863d6a6dc">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/f3655dd2-e84e-4ab2-8f7a-9433ae7cf83d">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/53e768a5-3921-4b32-a265-21a034f79bc5"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/025de267-81f5-4d9f-910e-53e7f8b68336"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/7c0b9ec2-15fd-4318-b808-f9ac6c87c327"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/2ec3f79e-14cf-456c-82c1-d9b5122548d9"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/5adeaf6e-5bd0-41f2-ad2d-8125e9ecbbc8"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/f8321994-2361-445a-ae6c-813f2cf639e4"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/c0916b80-e39f-4871-89be-bb136237d340"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/01b89c5b-627b-42ab-85ff-c400074c3999"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/bc9c4471-1683-4d12-860f-d83f2478ec2e"/>
+        <dcterms:title xml:lang="en">{"id": "2a9393bc-30fe-45ad-bf43-7807cedf9156", "value": "Digipolis Dimension Types"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/e0f8eba2-3b90-4a66-941e-09fdf0c36ad2"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/d1ab3edf-dbd3-4b0f-8a88-6b3909a9b20a"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/1f2ee7ac-20e4-48e3-a9d9-912863d6a6dc"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "431b1112-519c-40e5-957c-5f40e2501f37", "value": "Width"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/f8321994-2361-445a-ae6c-813f2cf639e4">
+    <skos:prefLabel xml:lang="en">{"id": "99c60146-572c-45be-b74f-69916a9f6191", "value": "Formaat height met voet of"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/f3655dd2-e84e-4ab2-8f7a-9433ae7cf83d"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/025de267-81f5-4d9f-910e-53e7f8b68336">
+    <skos:inScheme rdf:resource="http://localhost:8000/f3655dd2-e84e-4ab2-8f7a-9433ae7cf83d"/>
+    <skos:prefLabel xml:lang="en">{"id": "64adbbd6-af65-4678-b270-4d60e1f47c23", "value": "Formaat height of"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/53e768a5-3921-4b32-a265-21a034f79bc5">
+    <skos:prefLabel xml:lang="en">{"id": "794dd9b8-e8a9-424f-a7d2-220948f80f9a", "value": "Height"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/f3655dd2-e84e-4ab2-8f7a-9433ae7cf83d"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/bc9c4471-1683-4d12-860f-d83f2478ec2e">
+    <skos:inScheme rdf:resource="http://localhost:8000/f3655dd2-e84e-4ab2-8f7a-9433ae7cf83d"/>
+    <skos:prefLabel xml:lang="en">{"id": "b029a19c-0134-40d4-91ad-9cd38f1f9618", "value": "Formaat thickness of"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c0916b80-e39f-4871-89be-bb136237d340">
+    <skos:prefLabel xml:lang="en">{"id": "2582225b-9eac-49c9-bf2c-4544ae512270", "value": "Formaat depth of"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/f3655dd2-e84e-4ab2-8f7a-9433ae7cf83d"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e0f8eba2-3b90-4a66-941e-09fdf0c36ad2">
+    <skos:prefLabel xml:lang="en">{"id": "a926d637-3e09-4cd4-950f-bd23246dccb3", "value": "Formaat depth met voet of"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/f3655dd2-e84e-4ab2-8f7a-9433ae7cf83d"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5adeaf6e-5bd0-41f2-ad2d-8125e9ecbbc8">
+    <skos:inScheme rdf:resource="http://localhost:8000/f3655dd2-e84e-4ab2-8f7a-9433ae7cf83d"/>
+    <skos:prefLabel xml:lang="en">{"id": "7caeb24c-0b8d-40ce-892b-40ef2dd277fe", "value": "Formaat width of"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/01b89c5b-627b-42ab-85ff-c400074c3999">
+    <skos:prefLabel xml:lang="en">{"id": "604d2627-1f1d-4fe2-8bde-436ce27e5432", "value": "Formaat breadth met voet of"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/f3655dd2-e84e-4ab2-8f7a-9433ae7cf83d"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7c0b9ec2-15fd-4318-b808-f9ac6c87c327">
+    <skos:prefLabel xml:lang="en">{"id": "b908dce2-4030-4126-bac9-1896be95dad3", "value": "Height of work met rand"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/f3655dd2-e84e-4ab2-8f7a-9433ae7cf83d"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/d1ab3edf-dbd3-4b0f-8a88-6b3909a9b20a">
+    <skos:prefLabel xml:lang="en">{"id": "cad2c4fe-9868-41e9-b958-78a52ec5073b", "value": "Width of work met rand"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/f3655dd2-e84e-4ab2-8f7a-9433ae7cf83d"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/2ec3f79e-14cf-456c-82c1-d9b5122548d9">
+    <skos:inScheme rdf:resource="http://localhost:8000/f3655dd2-e84e-4ab2-8f7a-9433ae7cf83d"/>
+    <skos:prefLabel xml:lang="en">{"id": "8fc9096b-e896-4616-ab3b-ed7033fc07c7", "value": "Formaat breadth of"}</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

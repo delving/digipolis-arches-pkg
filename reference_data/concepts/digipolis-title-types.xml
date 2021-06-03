@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:ConceptScheme rdf:about="http://localhost:8000/15cac445-8eb0-431b-a646-fe085122cb31">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/2b891156-8d44-451e-8697-14376c71bc11">
+        <skos:scopeNote xml:lang="nl">{"id": "18a7e57f-5a8e-49f8-91e8-3e5ff3c6f5ae", "value": "pt"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/15cac445-8eb0-431b-a646-fe085122cb31"/>
+        <skos:prefLabel xml:lang="en">{"id": "f9056eb0-3d9c-40a4-97c0-a37ce5fa0fde", "value": "Parallel title"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">{"id": "d375531e-d4e2-432e-934a-14c944f57eb2", "value": "Paralleltitel"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "64ee4620-4ad9-4e60-9882-510640194834", "value": "Digipolis Title Types"}</dcterms:title>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/d2817920-5237-4aa6-8cc9-59c2c1f2e62b">
+        <skos:prefLabel xml:lang="nl">{"id": "3578a298-f376-4e17-8433-e787d7dfd943", "value": "Vertaalde titel"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/15cac445-8eb0-431b-a646-fe085122cb31"/>
+        <skos:scopeNote xml:lang="nl">{"id": "c418effe-8e37-4113-b44d-bfeb4b8aa472", "value": "vt"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "f4e3b382-b925-49d4-82d9-45f8e2e6ebe6", "value": "Translated title"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/b4113cc0-5f2f-4ee7-b7a3-b55b0d64d32c">
+        <skos:prefLabel xml:lang="en-us">{"id": "9e924092-bff9-4b91-b512-fa0c81d24da3", "value": "Description"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">{"id": "7f27de18-f623-4e02-81fc-a8d612dd3920", "value": "Beschrijving"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="nl">{"id": "4bda7631-4b0e-4842-a3a4-32fc847d3491", "value": "be"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/15cac445-8eb0-431b-a646-fe085122cb31"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/ff10515d-0fbf-4e3a-9d51-a9dcc7166bf1">
+        <skos:inScheme rdf:resource="http://localhost:8000/15cac445-8eb0-431b-a646-fe085122cb31"/>
+        <skos:prefLabel xml:lang="en">{"id": "e8e1d411-fc12-4412-99e7-af3e2c8cd907", "value": "Definite title"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">{"id": "c675fe39-42bf-4fc9-a289-2dc4b9759d9b", "value": "Definitieve titel"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="nl">{"id": "e7973e8b-2af9-452f-b185-74db496814a1", "value": "dt"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/b69d7302-ed1f-45b0-968d-5f6b8f8fa5fd">
+        <skos:prefLabel xml:lang="en">{"id": "b0581270-e789-4b9e-b396-3e48fb2a69e7", "value": "Incipit"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">{"id": "2f9c0565-fec9-493c-bbe9-951c3925039b", "value": "Incipit"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/15cac445-8eb0-431b-a646-fe085122cb31"/>
+        <skos:scopeNote xml:lang="nl">{"id": "d961753e-c890-406c-befc-eff3b2546811", "value": "in"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/47a7b9ef-5be2-48de-b6d5-57fdcf0e966f">
+        <skos:prefLabel xml:lang="nl">{"id": "24869585-2568-4b45-bb1a-a93bc43a1efe", "value": "Titel"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="nl">{"id": "c77610cc-7218-456b-8ca6-218fc05334e2", "value": "ti"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "860b4624-271d-4d21-9239-5192255da74b", "value": "Title"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/15cac445-8eb0-431b-a646-fe085122cb31"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/7063faa2-7fe5-4280-bd2d-84132b1a40c6">
+        <skos:prefLabel xml:lang="nl">{"id": "47a327a7-39d4-4f36-ad3a-e85570b31c22", "value": "Formele titel"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="nl">{"id": "acf8089b-7f60-4e09-85c3-5176fe266f31", "value": "ft"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/15cac445-8eb0-431b-a646-fe085122cb31"/>
+        <skos:prefLabel xml:lang="en">{"id": "2fe34e13-e524-49bc-ae1f-3227331d0052", "value": "Formal title"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/bcb8771f-0290-4d97-a0ee-a307a0a08a28">
+        <skos:prefLabel xml:lang="nl">{"id": "3992b09b-b7e4-477a-99ca-056059104bff", "value": "Alternatieve titel"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="nl">{"id": "3c2faf43-a64b-48b3-b7da-f461b091d25e", "value": "at"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "0862e58d-c77d-402f-813a-04c8851bd93e", "value": "Alternative title"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/15cac445-8eb0-431b-a646-fe085122cb31"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/2a412f2e-bd5f-40bb-a404-e2680e934383">
+        <skos:prefLabel xml:lang="en">{"id": "b295dcbe-c628-4bb9-a337-14b73266aa4d", "value": "Overarching title"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">{"id": "cd12c0ea-e5d2-4f9a-a6a6-bb7f86614134", "value": "Overkoepelende titel"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/15cac445-8eb0-431b-a646-fe085122cb31"/>
+        <skos:scopeNote xml:lang="nl">{"id": "28474af0-14a3-4c3b-8979-840613d13676", "value": "ot"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/a9cd6b82-fed5-4037-b210-dd3a38a332f1">
+        <skos:prefLabel xml:lang="nl">{"id": "1b6c64d9-27c4-4581-83d8-8b9190a8183e", "value": "Toegekende titel"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="nl">{"id": "15ce3c3b-5da4-4623-b81a-15f147530424", "value": "tt"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/15cac445-8eb0-431b-a646-fe085122cb31"/>
+        <skos:prefLabel xml:lang="en">{"id": "6e6a2924-cc3d-41db-9d59-68c5c44c1a2a", "value": "Ascribed title"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/f8e243e9-b641-4ee2-a4b8-def7b6c9eb69">
+        <skos:scopeNote xml:lang="nl">{"id": "33b9d0e0-1f77-4072-a101-1b12766c1876", "value": "om"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="nl">{"id": "75dc0e79-a978-4806-962c-c958ddabdf2a", "value": "Omschrijving"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/15cac445-8eb0-431b-a646-fe085122cb31"/>
+        <skos:prefLabel xml:lang="en">{"id": "ef073b7b-5b79-4293-8011-cd4fbf9136ea", "value": "Paraphrase"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+  </skos:ConceptScheme>
+</rdf:RDF>

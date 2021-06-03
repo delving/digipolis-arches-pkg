@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:ConceptScheme rdf:about="http://localhost:8000/0b574034-412d-4be4-98fe-623e6632cf2c">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/0cc53a3f-8047-4441-b7fa-f7068ee51e97">
+        <skos:prefLabel xml:lang="nl">{"id": "58fdff96-237e-411d-98be-5a9374ffecb0", "value": "partituren"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="nl">{"id": "1c6efe1a-2436-4c5b-9cd8-a3eedc6787d2", "value": "PT"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/0b574034-412d-4be4-98fe-623e6632cf2c"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/b12b5483-f2ab-4197-ab59-6ce27cba5cc8">
+        <skos:prefLabel xml:lang="nl">{"id": "b3cffae5-3833-4efa-bebf-aba23e445cf3", "value": "documenten"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="nl">{"id": "a18bebac-a895-4a3c-95c5-b77f97d27c2d", "value": "D"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/0b574034-412d-4be4-98fe-623e6632cf2c"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/50254475-23c2-46e1-aa0b-2e78fd192041">
+        <skos:prefLabel xml:lang="nl">{"id": "5a18f416-0fbe-496d-abd6-5eec26007f8f", "value": "archivalia"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="nl">{"id": "987ebe1e-303a-49dc-a804-c848a91072a7", "value": "AR"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/0b574034-412d-4be4-98fe-623e6632cf2c"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/8f0b66b6-f4a9-4ab6-a0cc-67fc3675ed96">
+        <skos:scopeNote xml:lang="nl">{"id": "1a4d50cc-9924-431f-8345-1e72b1f72efd", "value": "M"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/0b574034-412d-4be4-98fe-623e6632cf2c"/>
+        <skos:prefLabel xml:lang="nl">{"id": "dec106f9-684c-456c-a850-60e6d159c25e", "value": "menu's"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/c192c6c9-b7c6-4294-bed8-11bcfaaec1de">
+        <skos:scopeNote xml:lang="nl">{"id": "918c3230-5932-4b26-b76d-07ce35cc494b", "value": "N"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="nl">{"id": "8e7fa8ba-0a98-4a0b-bebd-fb775e63dc1d", "value": "necrologia"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/0b574034-412d-4be4-98fe-623e6632cf2c"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/003d4d62-8cd2-4dab-a44d-2ca6c66725a4">
+        <skos:scopeNote xml:lang="nl">{"id": "56172213-b4a2-4c21-a184-1dc701fc7749", "value": "P"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="nl">{"id": "eaa593e2-f3ea-4ced-9335-0af15e93c1b0", "value": "foto's"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/0b574034-412d-4be4-98fe-623e6632cf2c"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/ff4b8df8-10ab-47ec-af94-e87a0c8ce3fb">
+        <skos:inScheme rdf:resource="http://localhost:8000/0b574034-412d-4be4-98fe-623e6632cf2c"/>
+        <skos:prefLabel xml:lang="nl">{"id": "754053fe-7bf9-45b8-a50a-f7d882bd0ce5", "value": "tekeningen"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="nl">{"id": "b99d9d5b-3bb7-4de6-b342-f4ea1552d41d", "value": "TK"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/869e61ea-380d-4c3c-8ce9-c88736991ce7">
+        <skos:inScheme rdf:resource="http://localhost:8000/0b574034-412d-4be4-98fe-623e6632cf2c"/>
+        <skos:prefLabel xml:lang="nl">{"id": "de107ad0-3047-4a64-a1a2-202e0a1536e8", "value": "voorwerpen"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="nl">{"id": "eb292267-ae8c-45b6-a4f3-4f032b3d574d", "value": "V"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/c40b0f74-88d9-4125-91ad-0a98d2d5314d">
+        <skos:inScheme rdf:resource="http://localhost:8000/0b574034-412d-4be4-98fe-623e6632cf2c"/>
+        <skos:prefLabel xml:lang="nl">{"id": "98e8405c-19cb-4244-a3d8-2a7fe7a19b16", "value": "brieven"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="nl">{"id": "76a0217e-3831-4088-9bbe-e79fad42311d", "value": "B"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/45df0d15-211e-4aaf-8722-bc0cf7aec373">
+        <skos:scopeNote xml:lang="nl">{"id": "3279b941-f059-44a1-81ee-6b770480ed73", "value": "F"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/0b574034-412d-4be4-98fe-623e6632cf2c"/>
+        <skos:prefLabel xml:lang="nl">{"id": "359700ca-b28a-4eb6-9601-292273ea8ca2", "value": "films"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/5a670ece-31d4-4036-a069-e50491b07660">
+        <skos:scopeNote xml:lang="nl">{"id": "a93915d2-4096-41ed-9a62-c1d2b545d203", "value": "G"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="nl">{"id": "1714b434-532a-482a-b2fd-87181cef4b44", "value": "getuigschriften"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/0b574034-412d-4be4-98fe-623e6632cf2c"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/0f993c04-9181-4120-b7c7-80d2c260492d">
+        <skos:scopeNote xml:lang="nl">{"id": "9e4a0943-43ff-40a4-9fe3-b95908039300", "value": "C"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="nl">{"id": "fecf4bcc-6fa3-4992-bf0e-dc30d8940a6c", "value": "clich\u00e9s"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/0b574034-412d-4be4-98fe-623e6632cf2c"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/46fef755-5581-4e62-b94a-8f40b5db4b02">
+        <skos:scopeNote xml:lang="nl">{"id": "0c9d74fa-29ae-40f8-b8ab-ca842c075dd9", "value": "E"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/0b574034-412d-4be4-98fe-623e6632cf2c"/>
+        <skos:prefLabel xml:lang="nl">{"id": "1b2ab9f2-22ff-4340-891f-701c70f7c152", "value": "eremetalen"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/3e967fe6-01c6-42ca-b05d-e9207710dbb5">
+        <skos:scopeNote xml:lang="nl">{"id": "b9dc4eb8-3ddc-43de-886b-0664e00cf5ef", "value": "H"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/0b574034-412d-4be4-98fe-623e6632cf2c"/>
+        <skos:prefLabel xml:lang="nl">{"id": "d4bca58a-3b1d-4794-8cbf-abaa57a904b1", "value": "handschriften"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/860340bb-da90-4646-9262-adc6945ccd21">
+        <skos:scopeNote xml:lang="nl">{"id": "f6620eb4-9988-4872-8f2e-fa7722de0cbc", "value": "O"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="nl">{"id": "bb9dc306-e629-4f68-b411-6c6e11399449", "value": "opnamen"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/0b574034-412d-4be4-98fe-623e6632cf2c"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/93150bc0-be06-4b11-b50f-2adc5cfa974a">
+        <skos:prefLabel xml:lang="nl">{"id": "b89d279f-9341-4890-9203-d8c5a7a130c9", "value": "liederen"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="nl">{"id": "7de26821-76a0-4375-ac31-cc39722239ed", "value": "L"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/0b574034-412d-4be4-98fe-623e6632cf2c"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="nl">{"id": "e3cfd529-8ac7-4618-be62-a85fc68015f7", "value": "Digipolis Object Types"}</dcterms:title>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/68f9c419-9566-4d09-94fe-3d0cf2b93195">
+        <skos:prefLabel xml:lang="nl">{"id": "344b2f82-eb00-4024-a456-bc08b4741b51", "value": "knipsels"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/0b574034-412d-4be4-98fe-623e6632cf2c"/>
+        <skos:scopeNote xml:lang="nl">{"id": "d4262d61-5840-4b8a-88b5-9349f1d107df", "value": "K"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/fbb4bf85-06a5-4d98-a72f-3b90a85be050">
+        <skos:inScheme rdf:resource="http://localhost:8000/0b574034-412d-4be4-98fe-623e6632cf2c"/>
+        <skos:prefLabel xml:lang="nl">{"id": "437c021b-5c54-43ca-9c3d-600aab7df95e", "value": "spelprogramma's"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="nl">{"id": "7086ce50-823d-4d40-a300-f3dcb1b01b55", "value": "S"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/cc9f768d-579c-4053-8c9c-1c1a28e90aa3">
+        <skos:prefLabel xml:lang="nl">{"id": "a126d2fc-fed2-4657-863c-e0f9f48f831b", "value": "affiches"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/0b574034-412d-4be4-98fe-623e6632cf2c"/>
+        <skos:scopeNote xml:lang="nl">{"id": "34d14fd8-bb0e-491f-a722-9d3829d4ad2f", "value": "A"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/0415edf6-40c6-4a2c-bc03-74d57e9b0b52">
+        <skos:scopeNote xml:lang="nl">{"id": "0ce7dfb9-62e9-4bde-ad99-ab7261f63d23", "value": "I"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="nl">{"id": "55532140-23be-4a9a-882e-1ab00261e106", "value": "iconografie"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/0b574034-412d-4be4-98fe-623e6632cf2c"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+  </skos:ConceptScheme>
+</rdf:RDF>
