@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:schema="http://schema.org/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:org="http://www.w3.org/ns/org#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:skosthes="http://purl.org/iso25964/skos-thes#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:qb="http://purl.org/linked-data/cube#"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:sh="http://www.w3.org/ns/shacl#"
+	xmlns:dcat="http://www.w3.org/ns/dcat#"
+	xmlns:prov="http://www.w3.org/ns/prov#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:euvoc="http://publications.europa.eu/ontology/euvoc#">
+
+<rdf:Description rdf:about="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<dct:title>Record Types</dct:title>
+	<skos:hasTopConcept rdf:resource="http://id.digipolis.be/concept/e15cc9af-3c56-4d29-b555-03dbc4542613"/>
+	<skos:hasTopConcept rdf:resource="http://id.digipolis.be/concept/b81a96b9-e573-44d9-bdc4-d36cdedc82d0"/>
+	<skos:hasTopConcept rdf:resource="http://id.digipolis.be/concept/bb5cb38e-9036-45d2-86b8-6eb9038d4445"/>
+	<skos:hasTopConcept rdf:resource="http://id.digipolis.be/concept/b6f7f3b1-10c0-4cf1-8f7f-c17197cbc16c"/>
+	<skos:hasTopConcept rdf:resource="http://id.digipolis.be/concept/3cf573d5-b057-400b-908d-78327776d34b"/>
+	<skos:hasTopConcept rdf:resource="http://id.digipolis.be/concept/ec71c69e-8474-423c-afe7-82fa422c8186"/>
+	<skos:hasTopConcept rdf:resource="http://id.digipolis.be/concept/01b11f89-81be-4b0f-b55b-879e2db0cd6d"/>
+	<skos:hasTopConcept rdf:resource="http://id.digipolis.be/concept/f0cc1b17-7041-40a5-a7f5-22232ff2471f"/>
+	<skos:hasTopConcept rdf:resource="http://id.digipolis.be/concept/bb6869ba-db52-4ba4-8552-2cd69623485c"/>
+	<skos:hasTopConcept rdf:resource="http://id.digipolis.be/concept/7f7e3541-1972-429e-9d1d-a31bf3033373"/>
+	<skos:hasTopConcept rdf:resource="http://id.digipolis.be/concept/c981e1d2-1f57-401c-bbc3-18059436ce38"/>
+	<skos:hasTopConcept rdf:resource="http://id.digipolis.be/concept/6321bd9b-82a9-48b6-97b3-239bffcbaaf0"/>
+	<skos:hasTopConcept rdf:resource="http://id.digipolis.be/concept/2c3c44f4-667a-4d0a-b9ad-52cc5de726e2"/>
+	<skos:hasTopConcept rdf:resource="http://id.digipolis.be/concept/2421f07a-f0c4-47a0-90a7-8ab16b911084"/>
+	<skos:hasTopConcept rdf:resource="http://id.digipolis.be/concept/4017fc5c-98ab-4832-a7b2-b416d5e76177"/>
+	<skos:hasTopConcept rdf:resource="http://id.digipolis.be/concept/71e6a88d-00f5-447f-8fe8-fbc864ff51a5"/>
+	<skos:hasTopConcept rdf:resource="http://id.digipolis.be/concept/6cce5b52-3861-49f5-bc08-b81b2ef4ca80"/>
+	<skos:hasTopConcept rdf:resource="http://id.digipolis.be/concept/2df979ed-f565-407d-b363-e1585cca7455"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.digipolis.be/concept/e15cc9af-3c56-4d29-b555-03dbc4542613">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="nl">Akten</skos:prefLabel>
+	<skos:note xml:lang="nl">ak</skos:note>
+	<skos:inScheme rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+	<skos:topConceptOf rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.digipolis.be/concept/b81a96b9-e573-44d9-bdc4-d36cdedc82d0">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="nl">Aquarel</skos:prefLabel>
+	<skos:note xml:lang="nl">aq</skos:note>
+	<skos:inScheme rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+	<skos:topConceptOf rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.digipolis.be/concept/bb5cb38e-9036-45d2-86b8-6eb9038d4445">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="nl">Audio-video</skos:prefLabel>
+	<skos:note xml:lang="nl">av</skos:note>
+	<skos:inScheme rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+	<skos:topConceptOf rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.digipolis.be/concept/b6f7f3b1-10c0-4cf1-8f7f-c17197cbc16c">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="nl">Brief</skos:prefLabel>
+	<skos:note xml:lang="nl">br</skos:note>
+	<skos:inScheme rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+	<skos:topConceptOf rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.digipolis.be/concept/3cf573d5-b057-400b-908d-78327776d34b">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="nl">Document (dc)</skos:prefLabel>
+	<skos:note xml:lang="nl">dc</skos:note>
+	<skos:inScheme rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+	<skos:topConceptOf rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.digipolis.be/concept/ec71c69e-8474-423c-afe7-82fa422c8186">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="nl">Document (doc)</skos:prefLabel>
+	<skos:note xml:lang="nl">doc</skos:note>
+	<skos:inScheme rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+	<skos:topConceptOf rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.digipolis.be/concept/01b11f89-81be-4b0f-b55b-879e2db0cd6d">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="nl">Grossman</skos:prefLabel>
+	<skos:note xml:lang="nl">gr</skos:note>
+	<skos:inScheme rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+	<skos:topConceptOf rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.digipolis.be/concept/f0cc1b17-7041-40a5-a7f5-22232ff2471f">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="nl">Houtblok</skos:prefLabel>
+	<skos:note xml:lang="nl">hb</skos:note>
+	<skos:inScheme rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+	<skos:topConceptOf rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.digipolis.be/concept/bb6869ba-db52-4ba4-8552-2cd69623485c">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="nl">Handschrift</skos:prefLabel>
+	<skos:note xml:lang="nl">hs</skos:note>
+	<skos:inScheme rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+	<skos:topConceptOf rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.digipolis.be/concept/7f7e3541-1972-429e-9d1d-a31bf3033373">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="nl">Koperplaat</skos:prefLabel>
+	<skos:note xml:lang="nl">kp</skos:note>
+	<skos:inScheme rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+	<skos:topConceptOf rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.digipolis.be/concept/c981e1d2-1f57-401c-bbc3-18059436ce38">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="nl">Object</skos:prefLabel>
+	<skos:note xml:lang="nl">ob</skos:note>
+	<skos:inScheme rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+	<skos:topConceptOf rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.digipolis.be/concept/6321bd9b-82a9-48b6-97b3-239bffcbaaf0">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="nl">Schilderij (pa)</skos:prefLabel>
+	<skos:note xml:lang="nl">pa</skos:note>
+	<skos:inScheme rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+	<skos:topConceptOf rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.digipolis.be/concept/2c3c44f4-667a-4d0a-b9ad-52cc5de726e2">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="nl">Foto</skos:prefLabel>
+	<skos:note xml:lang="nl">ph</skos:note>
+	<skos:inScheme rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+	<skos:topConceptOf rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.digipolis.be/concept/2421f07a-f0c4-47a0-90a7-8ab16b911084">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="nl">Prent</skos:prefLabel>
+	<skos:note xml:lang="nl">pr</skos:note>
+	<skos:inScheme rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+	<skos:topConceptOf rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.digipolis.be/concept/4017fc5c-98ab-4832-a7b2-b416d5e76177">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="nl">Affiche</skos:prefLabel>
+	<skos:note xml:lang="nl">ps</skos:note>
+	<skos:inScheme rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+	<skos:topConceptOf rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.digipolis.be/concept/71e6a88d-00f5-447f-8fe8-fbc864ff51a5">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="nl">Registers</skos:prefLabel>
+	<skos:note xml:lang="nl">re</skos:note>
+	<skos:inScheme rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+	<skos:topConceptOf rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.digipolis.be/concept/6cce5b52-3861-49f5-bc08-b81b2ef4ca80">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="nl">Schilderij (sc)</skos:prefLabel>
+	<skos:note xml:lang="nl">sc</skos:note>
+	<skos:inScheme rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+	<skos:topConceptOf rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.digipolis.be/concept/2df979ed-f565-407d-b363-e1585cca7455">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="nl">Tekening</skos:prefLabel>
+	<skos:note xml:lang="nl">tk</skos:note>
+	<skos:inScheme rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+	<skos:topConceptOf rdf:resource="http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+</rdf:Description>
+
+</rdf:RDF>

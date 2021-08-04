@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://localhost:8000/c73cdc1a-1d4f-4d99-a60f-2d4f57891614">
+    <skos:prefLabel xml:lang="nl">{"id": "5d01dbed-96d8-4fcf-8c00-6399981552e2", "value": "Chronogram"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/45924a23-aa04-4390-a8a7-94b4096e9551">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/4047539c-6bdb-43fe-afc2-cafba0d232f9"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/23fb37d3-eee5-410e-9fa6-0ea7261f7f2c"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/c73cdc1a-1d4f-4d99-a60f-2d4f57891614"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/70cb6501-87b0-4279-83d9-85706cd10af6"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/12e65b38-2b53-4f1c-a53c-6c4e160939bc"/>
+        <dcterms:title xml:lang="en">{"id": "3fd51bca-6b7c-4ae2-9cf8-d50c9c837c62", "value": "Signature and Inscription Type"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/83c26bf0-e2a1-418e-9432-9508a82284db"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/5e1f7d25-364d-41e9-90a5-4b44d1475955"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/c604626d-6218-4d80-92ec-44f1a25c0778"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/4ebcc876-3bea-43cc-9d37-7af9823d0fc8"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/141ad9b0-a727-42df-943e-a31969c4b670"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/4ebcc876-3bea-43cc-9d37-7af9823d0fc8">
+    <skos:prefLabel xml:lang="nl">{"id": "b93fe70b-3ace-4251-a383-134cfae81191", "value": "Modelnummer"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/45924a23-aa04-4390-a8a7-94b4096e9551"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/23fb37d3-eee5-410e-9fa6-0ea7261f7f2c">
+    <skos:inScheme rdf:resource="http://localhost:8000/45924a23-aa04-4390-a8a7-94b4096e9551"/>
+    <skos:prefLabel xml:lang="nl">{"id": "cc1eec97-b845-4560-b087-d89208345de2", "value": "Graffito"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c604626d-6218-4d80-92ec-44f1a25c0778">
+    <skos:prefLabel xml:lang="nl">{"id": "5413d686-1144-4c5a-a064-909c79484458", "value": "Opdracht"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/45924a23-aa04-4390-a8a7-94b4096e9551"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/12e65b38-2b53-4f1c-a53c-6c4e160939bc">
+    <skos:prefLabel xml:lang="nl">{"id": "0521852e-7d5a-4c42-9778-1883e6f2e1dc", "value": "Signatuur"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/45924a23-aa04-4390-a8a7-94b4096e9551"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5e1f7d25-364d-41e9-90a5-4b44d1475955">
+    <skos:prefLabel xml:lang="nl">{"id": "e9f716b9-f4dd-440c-8aa3-815f2a30952d", "value": "Aantekening"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/45924a23-aa04-4390-a8a7-94b4096e9551"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/83c26bf0-e2a1-418e-9432-9508a82284db">
+    <skos:inScheme rdf:resource="http://localhost:8000/45924a23-aa04-4390-a8a7-94b4096e9551"/>
+    <skos:prefLabel xml:lang="nl">{"id": "6efeb714-02b4-4848-bef5-0accd65ad8e9", "value": "Monogram"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/4047539c-6bdb-43fe-afc2-cafba0d232f9">
+    <skos:inScheme rdf:resource="http://localhost:8000/45924a23-aa04-4390-a8a7-94b4096e9551"/>
+    <skos:prefLabel xml:lang="nl">{"id": "dbb57c38-7728-464f-8141-b27bd225fe9f", "value": "Etiket"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/70cb6501-87b0-4279-83d9-85706cd10af6">
+    <skos:prefLabel xml:lang="nl">{"id": "ac503426-e5c5-4fc1-9092-1d9b3a6f4250", "value": "Meesterteken"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/45924a23-aa04-4390-a8a7-94b4096e9551"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/141ad9b0-a727-42df-943e-a31969c4b670">
+    <skos:inScheme rdf:resource="http://localhost:8000/45924a23-aa04-4390-a8a7-94b4096e9551"/>
+    <skos:prefLabel xml:lang="nl">{"id": "37d3c8bf-bc9e-4023-8f2f-ac3c5346e555", "value": "Zilvermark"}</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

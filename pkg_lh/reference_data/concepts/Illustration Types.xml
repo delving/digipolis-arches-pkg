@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://localhost:8000/90709a2b-944a-4f34-ba53-8b01f82fbe24">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/3b08e9b8-6e09-4b7b-ae6c-5de6798fbdba">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/aa8ccb23-e097-48c6-89ed-303d6580e531"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/90709a2b-944a-4f34-ba53-8b01f82fbe24"/>
+        <dcterms:title xml:lang="en">{"id": "753c0023-a85c-4bfb-8519-f7264aa2785c", "value": "Illustration Type"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/71af7fe3-5db9-40d8-bce1-61358f31cb58"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "4ca6a51f-60dd-41c8-a749-e80003ee966f", "value": "Lage resolutie"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/aa8ccb23-e097-48c6-89ed-303d6580e531">
+    <skos:inScheme rdf:resource="http://localhost:8000/3b08e9b8-6e09-4b7b-ae6c-5de6798fbdba"/>
+    <skos:prefLabel xml:lang="nl">{"id": "6a8c66d0-1ac0-4718-94fa-5ae3deece12c", "value": "Thumbnail"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/71af7fe3-5db9-40d8-bce1-61358f31cb58">
+    <skos:prefLabel xml:lang="nl">{"id": "57bfcf60-c7b7-47e6-8eb8-ff2eb8fc2567", "value": "Hoog resolutie"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/3b08e9b8-6e09-4b7b-ae6c-5de6798fbdba"/>
+  </skos:Concept>
+</rdf:RDF>

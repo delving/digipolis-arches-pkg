@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://localhost:8000/10eb5d94-ef77-4d21-b120-896edcdee6c7">
+    <dcterms:identifier xml:lang="en">{"id": "db89086a-5e3c-4130-821e-0fd6e3cde60c", "value": "http://localhost:8000/10eb5d94-ef77-4d21-b120-896edcdee6c7"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "b29ec4bd-8cbf-4a00-9762-4f51ba013469", "value": "Reference"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/99658c4d-08ec-4b64-86cf-bdb8c53f2c99">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/5993ccc1-8724-4038-a475-e521fd4217be"/>
+        <dcterms:title xml:lang="en">{"id": "6515fc58-1568-467a-91cf-cc3be632b8ab", "value": "Description Type"}</dcterms:title>
+        <dcterms:identifier xml:lang="en">{"id": "21b741ee-711c-404f-b90d-d148c691beaa", "value": "http://www.archesproject.org/99658c4d-08ec-4b64-86cf-bdb8c53f2c99"}</dcterms:identifier>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/c6be8863-5c88-428b-8fac-e88811369fb8"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/43641e00-178e-450f-826f-61b1d5b2036a"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/10eb5d94-ef77-4d21-b120-896edcdee6c7"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/a2de480c-aa1a-46ef-80e8-9fbef29ced84"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/7fa59c62-acf8-4fed-84c0-ed171c2bbe70"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/a2de480c-aa1a-46ef-80e8-9fbef29ced84">
+    <skos:prefLabel xml:lang="nl">{"id": "eac6247a-f788-40d0-8cb3-82d017aa85fc", "value": "Omschrijving"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "02b28e80-a918-45b6-9a53-d67bf1acf992", "value": "http://localhost:8000/a2de480c-aa1a-46ef-80e8-9fbef29ced84"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/99658c4d-08ec-4b64-86cf-bdb8c53f2c99"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/43641e00-178e-450f-826f-61b1d5b2036a">
+    <dcterms:identifier xml:lang="en">{"id": "950d19b9-bef8-4977-9efa-8daf959dc4b7", "value": "http://localhost:8000/43641e00-178e-450f-826f-61b1d5b2036a"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="nl">{"id": "85ead608-a8ac-446f-80cc-bcf079e0a406", "value": "Beschrijving"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/99658c4d-08ec-4b64-86cf-bdb8c53f2c99"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7fa59c62-acf8-4fed-84c0-ed171c2bbe70">
+    <skos:inScheme rdf:resource="http://localhost:8000/99658c4d-08ec-4b64-86cf-bdb8c53f2c99"/>
+    <skos:prefLabel xml:lang="en">{"id": "f5bbf49b-eb8b-40df-8031-8e3788cb7c7d", "value": "Caption"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "fc54c34c-4e93-48ad-ac87-35a134a33519", "value": "http://localhost:8000/7fa59c62-acf8-4fed-84c0-ed171c2bbe70"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5993ccc1-8724-4038-a475-e521fd4217be">
+    <skos:prefLabel xml:lang="nl">{"id": "ae49dac3-5c6d-4190-84b5-ef07a05056f2", "value": "Noot"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/99658c4d-08ec-4b64-86cf-bdb8c53f2c99"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c6be8863-5c88-428b-8fac-e88811369fb8">
+    <dcterms:identifier xml:lang="en">{"id": "411666c6-bd8a-42d7-a720-3f30c5ed84ba", "value": "http://localhost:8000/c6be8863-5c88-428b-8fac-e88811369fb8"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/99658c4d-08ec-4b64-86cf-bdb8c53f2c99"/>
+    <skos:prefLabel xml:lang="nl">{"id": "e96926cb-0e97-476a-b90a-64e2289a64a9", "value": "Detailbeschrijving"}</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

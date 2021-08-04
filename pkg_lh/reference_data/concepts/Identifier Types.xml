@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:ConceptScheme rdf:about="http://localhost:8000/9e9b44ad-78d7-45f4-af01-110a96b3bc19">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/ba70e945-5a5d-4fa8-a175-5007abc0c63d">
+        <skos:prefLabel xml:lang="nl">{"id": "467bb42c-e68a-4ba3-adc6-41192c4695af", "value": "Inschrijvingsnummer"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "5e49060a-0c42-4b31-9aa3-8c5c3bca53f1", "value": "http://localhost:8000/ba70e945-5a5d-4fa8-a175-5007abc0c63d"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/9e9b44ad-78d7-45f4-af01-110a96b3bc19"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "d921e823-d87c-4b6d-b0da-03bcb4680e31", "value": "Identifier Types"}</dcterms:title>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/536dbf1c-ceae-43fe-bf86-de2659f4a382">
+        <skos:prefLabel xml:lang="nl">{"id": "df37861d-e332-40a2-862e-d1d1585ed476", "value": "Trefwoord ID"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/9e9b44ad-78d7-45f4-af01-110a96b3bc19"/>
+        <dcterms:identifier xml:lang="en">{"id": "12eeeb5c-f7e6-4469-bedb-e85a24c24d8b", "value": "http://localhost:8000/536dbf1c-ceae-43fe-bf86-de2659f4a382"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/0587dd8e-777f-4028-ab9e-8cb10be36374">
+        <skos:inScheme rdf:resource="http://localhost:8000/9e9b44ad-78d7-45f4-af01-110a96b3bc19"/>
+        <dcterms:identifier xml:lang="en">{"id": "e2ee5d07-5a4c-40d6-b9c8-9ca31296d15f", "value": "http://localhost:8000/0587dd8e-777f-4028-ab9e-8cb10be36374"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="nl">{"id": "3ee0d1e1-56e0-4b06-98b3-7eaee815540b", "value": "URL"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/45f2f61e-de28-46c8-8f62-2163169f5dbe">
+        <skos:prefLabel xml:lang="nl">{"id": "4a2b767d-e639-4b0a-bcda-4be4b9bb57ba", "value": "Magazijnplaatse Number"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/9e9b44ad-78d7-45f4-af01-110a96b3bc19"/>
+        <dcterms:identifier xml:lang="en">{"id": "b724a89e-d23e-45b7-b188-400ad527ea35", "value": "http://localhost:8000/45f2f61e-de28-46c8-8f62-2163169f5dbe"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/02b10e02-e5a3-41c6-8d9d-aeeecea0e02d">
+        <dcterms:identifier xml:lang="en">{"id": "a284a9e8-cc20-4b13-951b-231597307afe", "value": "http://localhost:8000/02b10e02-e5a3-41c6-8d9d-aeeecea0e02d"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="nl">{"id": "3f816878-8a70-4b6e-a26d-b10b1dd32a16", "value": "Object Number"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/9e9b44ad-78d7-45f4-af01-110a96b3bc19"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/5556bb83-9225-4a92-95f4-e440f7dc9a04">
+        <skos:prefLabel xml:lang="nl">{"id": "0cbe4c71-c5c7-4de6-8c37-b0f74d826fc8", "value": "Volgnummer"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "a8db01b2-559f-49fd-8b3c-fbb72cb8b05c", "value": "http://localhost:8000/5556bb83-9225-4a92-95f4-e440f7dc9a04"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/9e9b44ad-78d7-45f4-af01-110a96b3bc19"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:identifier xml:lang="en">{"id": "272b31f1-2c72-4358-9a08-a569a59f4538", "value": "http://localhost:8000/9e9b44ad-78d7-45f4-af01-110a96b3bc19"}</dcterms:identifier>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/1d9c612e-fc3c-4c66-98a3-3b200ef32af7">
+        <dcterms:identifier xml:lang="en">{"id": "7f2d0627-2ef0-4343-a813-8245c7adbf53", "value": "http://localhost:8000/1d9c612e-fc3c-4c66-98a3-3b200ef32af7"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "746fc81f-8835-4a27-98d1-d6d281288d55", "value": "Record Identifier"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/9e9b44ad-78d7-45f4-af01-110a96b3bc19"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/0b9d3b3c-0cc8-4b8d-a959-ff9c633e617e">
+        <skos:prefLabel xml:lang="nl">{"id": "97d66a0a-db67-451b-85d4-b4a48216f1e4", "value": "Plaatsingsnummer"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "7da77710-a1c6-418c-b3be-e445af6f5611", "value": "http://localhost:8000/0b9d3b3c-0cc8-4b8d-a959-ff9c633e617e"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/9e9b44ad-78d7-45f4-af01-110a96b3bc19"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+  </skos:ConceptScheme>
+</rdf:RDF>

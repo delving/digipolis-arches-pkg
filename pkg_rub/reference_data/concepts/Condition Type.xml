@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://localhost:8000/2329b97f-f962-42da-8649-8c06895bcdab">
+    <skos:prefLabel xml:lang="en">{"id": "a4853d32-de51-4de1-b837-c9d1bc7aa0cf", "value": "Good"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/1beaf7f9-0b45-4c1a-96c1-3bb7186a5916">
+        <dcterms:title xml:lang="en">{"id": "74f4cdcc-e75a-4f12-9c4b-7b2be9413444", "value": "Condition Type"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/2329b97f-f962-42da-8649-8c06895bcdab"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/80658ee4-1c7c-40af-91dc-55b2918419c3"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/e38cd855-b1b9-4ed1-8489-a58fe555381b"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/65df6f1c-0c78-4643-ad54-5dd80cf6322c"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/65df6f1c-0c78-4643-ad54-5dd80cf6322c">
+    <skos:inScheme rdf:resource="http://localhost:8000/1beaf7f9-0b45-4c1a-96c1-3bb7186a5916"/>
+    <skos:prefLabel xml:lang="en">{"id": "40e4b53e-a306-4d8c-8fe2-40e9cd6671e8", "value": "Bad"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/80658ee4-1c7c-40af-91dc-55b2918419c3">
+    <skos:inScheme rdf:resource="http://localhost:8000/1beaf7f9-0b45-4c1a-96c1-3bb7186a5916"/>
+    <skos:prefLabel xml:lang="en">{"id": "aadb6834-6fa7-461d-8f86-3fb6af361dcc", "value": "Reasonable"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e38cd855-b1b9-4ed1-8489-a58fe555381b">
+    <skos:prefLabel xml:lang="en">{"id": "d2af4078-ab7c-40db-81ce-863642d2272b", "value": "Mediocre"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/1beaf7f9-0b45-4c1a-96c1-3bb7186a5916"/>
+  </skos:Concept>
+</rdf:RDF>
