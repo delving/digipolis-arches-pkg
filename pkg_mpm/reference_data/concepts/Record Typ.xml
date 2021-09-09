@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="http://localhost:8000/7f7e3541-1972-429e-9d1d-a31bf3033373">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/ba8aac7f-5232-4e80-ac58-68b28deff445">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/c981e1d2-1f57-401c-bbc3-18059436ce38"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/01b11f89-81be-4b0f-b55b-879e2db0cd6d"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/2421f07a-f0c4-47a0-90a7-8ab16b911084"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/e15cc9af-3c56-4d29-b555-03dbc4542613"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/2c3c44f4-667a-4d0a-b9ad-52cc5de726e2"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/bb6869ba-db52-4ba4-8552-2cd69623485c"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/bb5cb38e-9036-45d2-86b8-6eb9038d4445"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/ec71c69e-8474-423c-afe7-82fa422c8186"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/4017fc5c-98ab-4832-a7b2-b416d5e76177"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/6321bd9b-82a9-48b6-97b3-239bffcbaaf0"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/b81a96b9-e573-44d9-bdc4-d36cdedc82d0"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/71e6a88d-00f5-447f-8fe8-fbc864ff51a5"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/2df979ed-f565-407d-b363-e1585cca7455"/>
+        <dcterms:title xml:lang="en">{"id": "b57740c6-a384-4985-9897-665391ec8579", "value": "Record Type"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/f0cc1b17-7041-40a5-a7f5-22232ff2471f"/>
+        <dcterms:identifier xml:lang="en">{"id": "5542bff3-f32f-4420-9af4-c279d15aa4fb", "value": "http://id.digipolis.be/schema/ba8aac7f-5232-4e80-ac58-68b28deff445"}</dcterms:identifier>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/7f7e3541-1972-429e-9d1d-a31bf3033373"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/b6f7f3b1-10c0-4cf1-8f7f-c17197cbc16c"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:note xml:lang="nl">{"id": "4e2ee4dc-b0e2-4e1e-a2fb-451af3593cab", "value": "kp"}</skos:note>
+    <skos:prefLabel xml:lang="nl">{"id": "650e1b38-fa19-40a4-823d-49bc210c08f0", "value": "Koperplaat"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "df533df3-8be2-456a-9e59-f35777d4a607", "value": "http://id.digipolis.be/concept/7f7e3541-1972-429e-9d1d-a31bf3033373"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/6321bd9b-82a9-48b6-97b3-239bffcbaaf0">
+    <skos:prefLabel xml:lang="nl">{"id": "81aa277d-1554-42dd-ab20-bb9f4f618e34", "value": "Schilderij"}</skos:prefLabel>
+    <skos:note xml:lang="nl">{"id": "24d69a3f-57c7-42be-8c2f-fcd0cc4e6841", "value": "pa"}</skos:note>
+    <skos:inScheme rdf:resource="http://localhost:8000/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+    <dcterms:identifier xml:lang="en">{"id": "c0b3a1dd-34a4-437d-90eb-e7430d17adc7", "value": "http://id.digipolis.be/concept/6321bd9b-82a9-48b6-97b3-239bffcbaaf0"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/01b11f89-81be-4b0f-b55b-879e2db0cd6d">
+    <skos:prefLabel xml:lang="nl">{"id": "db234ef8-8933-4173-a58c-3108bed180a3", "value": "Grossman"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "8d5599b5-0fee-4669-9cb0-da493d1d1095", "value": "http://id.digipolis.be/concept/01b11f89-81be-4b0f-b55b-879e2db0cd6d"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+    <skos:note xml:lang="nl">{"id": "9f2e75e9-664b-4536-98fb-044d792d21ce", "value": "gr"}</skos:note>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/f0cc1b17-7041-40a5-a7f5-22232ff2471f">
+    <skos:note xml:lang="nl">{"id": "7a8f6911-6d06-4ae9-a880-4a2324add797", "value": "hb"}</skos:note>
+    <skos:inScheme rdf:resource="http://localhost:8000/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+    <skos:prefLabel xml:lang="nl">{"id": "1913b39c-c20e-42c4-9c18-2ac119cca802", "value": "Houtblok"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "68cb3612-7d18-4d7c-9908-5ac72f3a5968", "value": "http://id.digipolis.be/concept/f0cc1b17-7041-40a5-a7f5-22232ff2471f"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/2df979ed-f565-407d-b363-e1585cca7455">
+    <skos:prefLabel xml:lang="nl">{"id": "aeda5621-bda9-4df0-bfa3-9c143bd47338", "value": "Tekening"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+    <dcterms:identifier xml:lang="en">{"id": "4345b664-f512-4df2-a921-08690d29654c", "value": "http://id.digipolis.be/concept/2df979ed-f565-407d-b363-e1585cca7455"}</dcterms:identifier>
+    <skos:note xml:lang="nl">{"id": "157d6aac-d678-4c4a-88ea-4455e9412bac", "value": "tk"}</skos:note>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ec71c69e-8474-423c-afe7-82fa422c8186">
+    <skos:note xml:lang="nl">{"id": "afee0326-7a08-437a-9faa-a1fbb829ec3a", "value": "doc"}</skos:note>
+    <dcterms:identifier xml:lang="en">{"id": "a78f9f1b-9a91-45e8-b881-d21d7d9aa4b9", "value": "http://id.digipolis.be/concept/ec71c69e-8474-423c-afe7-82fa422c8186"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="nl">{"id": "0e66416e-9586-49ed-9d3b-68df05528bfe", "value": "Document"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c981e1d2-1f57-401c-bbc3-18059436ce38">
+    <skos:inScheme rdf:resource="http://localhost:8000/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+    <dcterms:identifier xml:lang="en">{"id": "92e076c8-3009-4cc2-a08f-0e1ed0fce97d", "value": "http://id.digipolis.be/concept/c981e1d2-1f57-401c-bbc3-18059436ce38"}</dcterms:identifier>
+    <skos:note xml:lang="nl">{"id": "7d00747c-bb7a-4035-9dbd-001829c7d722", "value": "ob"}</skos:note>
+    <skos:prefLabel xml:lang="nl">{"id": "188c3028-7704-42bc-92ea-bab589b7cf09", "value": "Object"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/2c3c44f4-667a-4d0a-b9ad-52cc5de726e2">
+    <skos:inScheme rdf:resource="http://localhost:8000/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+    <skos:note xml:lang="nl">{"id": "3631954a-50b1-4d14-bc81-d8758630e4fc", "value": "ph"}</skos:note>
+    <skos:prefLabel xml:lang="nl">{"id": "c1b2c8e4-d2aa-4915-a618-e6b196b57cc8", "value": "Foto"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "c9399aaa-3b81-46b3-9288-a5bcb0ee0eb1", "value": "http://id.digipolis.be/concept/2c3c44f4-667a-4d0a-b9ad-52cc5de726e2"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e15cc9af-3c56-4d29-b555-03dbc4542613">
+    <skos:inScheme rdf:resource="http://localhost:8000/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+    <skos:prefLabel xml:lang="nl">{"id": "94dc72b1-3cc7-4f7e-9dbe-baa070ceb344", "value": "Akten"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "1f740548-2d8a-4d6c-bd8e-18e62a8132e5", "value": "http://id.digipolis.be/concept/e15cc9af-3c56-4d29-b555-03dbc4542613"}</dcterms:identifier>
+    <skos:note xml:lang="nl">{"id": "713bfde4-ae1e-40f1-be73-141717937aab", "value": "ak"}</skos:note>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/4017fc5c-98ab-4832-a7b2-b416d5e76177">
+    <skos:inScheme rdf:resource="http://localhost:8000/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+    <dcterms:identifier xml:lang="en">{"id": "60172fa3-97c1-4e9e-bff9-21699e3ff5d1", "value": "http://id.digipolis.be/concept/4017fc5c-98ab-4832-a7b2-b416d5e76177"}</dcterms:identifier>
+    <skos:note xml:lang="nl">{"id": "61f4b12a-8ffc-4e34-8d77-a2a23b188c19", "value": "ps"}</skos:note>
+    <skos:prefLabel xml:lang="nl">{"id": "e28c0e1f-0bbf-4091-9c9e-dab4e79d39eb", "value": "Affiche"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/2421f07a-f0c4-47a0-90a7-8ab16b911084">
+    <skos:note xml:lang="nl">{"id": "1d5504c3-dac2-4fe3-8fb2-9aab47f79bf3", "value": "pr"}</skos:note>
+    <dcterms:identifier xml:lang="en">{"id": "9b93eb39-eed2-4bd4-89e5-ccc862f24433", "value": "http://id.digipolis.be/concept/2421f07a-f0c4-47a0-90a7-8ab16b911084"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="nl">{"id": "a60f8ac7-b6cd-416a-a827-17ba8c17cc48", "value": "Prent"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/71e6a88d-00f5-447f-8fe8-fbc864ff51a5">
+    <skos:note xml:lang="nl">{"id": "a00d1224-d676-466a-ad8d-4b3e02fdd7a7", "value": "re"}</skos:note>
+    <skos:prefLabel xml:lang="nl">{"id": "6eb98a4e-b0fe-4b3f-96ef-6758608dbe35", "value": "Registers"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "3c4afcfa-41a4-4342-a15e-af6a8edd965c", "value": "http://id.digipolis.be/concept/71e6a88d-00f5-447f-8fe8-fbc864ff51a5"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b81a96b9-e573-44d9-bdc4-d36cdedc82d0">
+    <skos:inScheme rdf:resource="http://localhost:8000/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+    <skos:note xml:lang="nl">{"id": "b7759e49-a427-4cf3-97f9-b4b5d61e7c11", "value": "aq"}</skos:note>
+    <skos:prefLabel xml:lang="nl">{"id": "072f70a9-bc9d-4a34-a361-6737a3a97dab", "value": "Aquarel"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "44919ada-abd2-4f13-8f4a-1b2d380538c9", "value": "http://id.digipolis.be/concept/b81a96b9-e573-44d9-bdc4-d36cdedc82d0"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b6f7f3b1-10c0-4cf1-8f7f-c17197cbc16c">
+    <skos:inScheme rdf:resource="http://localhost:8000/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+    <skos:prefLabel xml:lang="nl">{"id": "7516de2a-77f7-4c2c-a573-e42e288250ef", "value": "Brief"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "b8f0f5c0-0bba-46fc-98f9-15f772fbf045", "value": "http://id.digipolis.be/concept/b6f7f3b1-10c0-4cf1-8f7f-c17197cbc16c"}</dcterms:identifier>
+    <skos:note xml:lang="nl">{"id": "a10a62cc-4eec-4ab2-b24a-1ab2f2311f80", "value": "br"}</skos:note>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/bb5cb38e-9036-45d2-86b8-6eb9038d4445">
+    <skos:note xml:lang="nl">{"id": "2db5aed7-51f3-47ce-896f-19bece8c59d9", "value": "av"}</skos:note>
+    <skos:inScheme rdf:resource="http://localhost:8000/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+    <skos:prefLabel xml:lang="nl">{"id": "7be210f5-47b2-48af-a586-99b8340a92ec", "value": "Audio-video"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "84a9fa69-469a-42b7-b072-17001652a184", "value": "http://id.digipolis.be/concept/bb5cb38e-9036-45d2-86b8-6eb9038d4445"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/bb6869ba-db52-4ba4-8552-2cd69623485c">
+    <skos:inScheme rdf:resource="http://localhost:8000/ba8aac7f-5232-4e80-ac58-68b28deff445"/>
+    <skos:note xml:lang="nl">{"id": "33261d4d-9b06-4d2f-ac62-77171e22dff8", "value": "hs"}</skos:note>
+    <skos:prefLabel xml:lang="nl">{"id": "18c719cb-fd16-437d-9815-323466b928e3", "value": "Handschrift"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "b9c9aff3-8e88-42a2-b4e0-7f9f7cb91d32", "value": "http://id.digipolis.be/concept/bb6869ba-db52-4ba4-8552-2cd69623485c"}</dcterms:identifier>
+  </skos:Concept>
+</rdf:RDF>

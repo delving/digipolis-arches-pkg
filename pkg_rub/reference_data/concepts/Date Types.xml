@@ -4,77 +4,89 @@
   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   xmlns:dcterms="http://purl.org/dc/terms/"
 >
-  <skos:Concept rdf:about="http://localhost:8000/f136795e-00bc-4827-bbdb-ee6fef770892">
-    <skos:prefLabel xml:lang="nl">{"id": "e44effe5-7b00-4c59-8c35-1ca3a1d375ec", "value": "Na"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "51c3583d-85c6-4f3b-a838-fb8c0323d7ce", "value": "date008\n- means \"na\" appears before the date\t\n- date range, end = open"}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "8a53fd67-e02c-4fd0-923a-c19821e382f9", "value": "After"}</skos:prefLabel>
+  <skos:Concept rdf:about="http://localhost:8000/e3fae685-db55-437b-abd4-e57e435b3b43">
+    <skos:prefLabel xml:lang="nl">{"id": "ad3d5ea0-05bb-4c3c-a2b1-be7871a15cad", "value": "Zonder datum"}</skos:prefLabel>
     <skos:inScheme>
       <skos:ConceptScheme rdf:about="http://localhost:8000/d636cab9-92a9-430d-9674-eb4889cfc443">
         <skos:hasTopConcept rdf:resource="http://localhost:8000/e3fae685-db55-437b-abd4-e57e435b3b43"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/18029695-6d2d-48e3-a291-be0ad31143ac"/>
+        <dcterms:identifier xml:lang="nl">{"id": "5c1dedbf-d373-412d-9122-fc47c93545cf", "value": "http://localhost:8000/d636cab9-92a9-430d-9674-eb4889cfc443"}</dcterms:identifier>
         <skos:hasTopConcept rdf:resource="http://localhost:8000/0bab2ecf-8bd3-4281-a8c7-0cf02ceab7cb"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/f136795e-00bc-4827-bbdb-ee6fef770892"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/18029695-6d2d-48e3-a291-be0ad31143ac"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/737481b9-9eae-405f-a672-f95146c1344d"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/5507433e-05b5-47d1-a1a2-8fea9cb61bf2"/>
         <skos:hasTopConcept rdf:resource="http://localhost:8000/1a0cb8d3-da4f-4ae2-80fb-d4793d1b05ca"/>
+        <dcterms:title xml:lang="nl">{"id": "24a90ab1-f1c5-40a5-8abd-d6781e45c4bb", "value": "Date Type"}</dcterms:title>
+        <dcterms:title xml:lang="en">{"id": "2ba34f2d-cd3b-4852-8d53-12d7c35e6d88", "value": "Date Type"}</dcterms:title>
         <skos:hasTopConcept rdf:resource="http://localhost:8000/e7cff894-80cd-4a97-95b9-713e8131c834"/>
         <skos:hasTopConcept rdf:resource="http://localhost:8000/5844ef2f-a5ea-47f2-a6bd-409323262850"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/f136795e-00bc-4827-bbdb-ee6fef770892"/>
-        <dcterms:title xml:lang="en">{"id": "2ba34f2d-cd3b-4852-8d53-12d7c35e6d88", "value": "Date Types"}</dcterms:title>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/5507433e-05b5-47d1-a1a2-8fea9cb61bf2"/>
         <skos:hasTopConcept rdf:resource="http://localhost:8000/ea19a922-665a-4d5f-9657-881239fa41bd"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/737481b9-9eae-405f-a672-f95146c1344d"/>
       </skos:ConceptScheme>
     </skos:inScheme>
+    <dcterms:identifier xml:lang="nl">{"id": "3ddfa964-017a-4acd-baaf-7e5b1c70a158", "value": "http://localhost:8000/e3fae685-db55-437b-abd4-e57e435b3b43"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "2f059b42-e1c1-41c5-9a0b-b2542c966370", "value": "date006\n- means no creation date: coded as \"z.d.\" or \"z.d\" in id/date/creationdate/in and no\t\n- date unknown"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "b4ff2c33-d4b3-48ae-b348-23257fb92bd1", "value": "No date"}</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/ea19a922-665a-4d5f-9657-881239fa41bd">
-    <skos:prefLabel xml:lang="en">{"id": "059cf721-6c82-4e3c-9361-d06ecb71997c", "value": "Before"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "7b8ed052-60d6-40a5-9307-d63922891143", "value": "date 007\n- means \"voor\" (before)\t\n- date range, start = open"}</skos:scopeNote>
+  <skos:Concept rdf:about="http://localhost:8000/1a0cb8d3-da4f-4ae2-80fb-d4793d1b05ca">
+    <skos:prefLabel xml:lang="nl">{"id": "4ffef330-923b-467a-a278-2a2e220dfca0", "value": "Onzeker"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="nl">{"id": "a193c4a7-f5e7-4c0c-8482-9753cb5360b7", "value": "http://localhost:8000/1a0cb8d3-da4f-4ae2-80fb-d4793d1b05ca"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "dcdcb9c7-30a0-4862-ab6e-49bf3c96b25c", "value": "date005\n- means add (?) to the end often associated with dashes in part of the date (year)\t\n- date uncertain"}</skos:scopeNote>
     <skos:inScheme rdf:resource="http://localhost:8000/d636cab9-92a9-430d-9674-eb4889cfc443"/>
-    <skos:prefLabel xml:lang="nl">{"id": "9e0edb8c-30e7-478c-8136-a86e016d4431", "value": "Voor"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/0bab2ecf-8bd3-4281-a8c7-0cf02ceab7cb">
-    <skos:prefLabel xml:lang="nl">{"id": "d935f8ab-f8b4-4cd7-9d06-6b69b6634fa0", "value": "Circa"}</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">{"id": "fb497c9c-41c5-4799-95a3-dd91b2970155", "value": "Circa"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/d636cab9-92a9-430d-9674-eb4889cfc443"/>
-    <skos:scopeNote xml:lang="en">{"id": "bdaa2d18-93a7-499a-9192-770a98ff0b5c", "value": "date003\n- means \"ca.\" appears before the date\t\n- precise date unknown, best-effort estimate"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/18029695-6d2d-48e3-a291-be0ad31143ac">
-    <skos:prefLabel xml:lang="nl">{"id": "c3da3208-2145-4ff0-9faf-b03381037624", "value": "Geschatte datum"}</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">{"id": "f0855443-d440-4128-a61e-389e1e9c43c5", "value": "Estimated date"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/d636cab9-92a9-430d-9674-eb4889cfc443"/>
-    <skos:scopeNote xml:lang="en">{"id": "969f895a-5c3b-4c5f-af71-f52079a90c8a", "value": "date002\n- date is in square brackets: meaning the date has been estimated by the archivist\n- date based on external evidence"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "6e995af5-2b26-4928-abee-9ccab56fe6a9", "value": "Uncertain"}</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/5507433e-05b5-47d1-a1a2-8fea9cb61bf2">
-    <skos:prefLabel xml:lang="nl">{"id": "913e7bb0-09fa-45aa-a118-d91cbfd3b152", "value": "Geschatte decennium"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "27469cbe-e7a9-42a6-a89d-25aa9c972d95", "value": "date009\n- square brackets and last digit of year replaced with a dash means decade estimated by archivist\t\n- round date to decade"}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "ebcd5a33-07f6-44c8-912a-f840d32a7548", "value": "Estimated decade"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/d636cab9-92a9-430d-9674-eb4889cfc443"/>
+    <dcterms:identifier xml:lang="nl">{"id": "f19100e8-b8fe-486a-93d9-1ab816e66a05", "value": "http://localhost:8000/5507433e-05b5-47d1-a1a2-8fea9cb61bf2"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="nl">{"id": "913e7bb0-09fa-45aa-a118-d91cbfd3b152", "value": "Geschatte decennium"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "ebcd5a33-07f6-44c8-912a-f840d32a7548", "value": "Estimated decade"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "27469cbe-e7a9-42a6-a89d-25aa9c972d95", "value": "date009\n- square brackets and last digit of year replaced with a dash means decade estimated by archivist\t\n- round date to decade"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/f136795e-00bc-4827-bbdb-ee6fef770892">
+    <skos:scopeNote xml:lang="en">{"id": "51c3583d-85c6-4f3b-a838-fb8c0323d7ce", "value": "date008\n- means \"na\" appears before the date\t\n- date range, end = open"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="nl">{"id": "e44effe5-7b00-4c59-8c35-1ca3a1d375ec", "value": "Na"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="nl">{"id": "c27cfa2a-439b-4ede-ba12-0eac43c18af3", "value": "http://localhost:8000/f136795e-00bc-4827-bbdb-ee6fef770892"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/d636cab9-92a9-430d-9674-eb4889cfc443"/>
+    <skos:prefLabel xml:lang="en">{"id": "8a53fd67-e02c-4fd0-923a-c19821e382f9", "value": "After"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ea19a922-665a-4d5f-9657-881239fa41bd">
+    <dcterms:identifier xml:lang="nl">{"id": "8da84b4c-4e3d-437e-9def-461f67cbaf41", "value": "http://localhost:8000/ea19a922-665a-4d5f-9657-881239fa41bd"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "059cf721-6c82-4e3c-9361-d06ecb71997c", "value": "Before"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/d636cab9-92a9-430d-9674-eb4889cfc443"/>
+    <skos:scopeNote xml:lang="en">{"id": "7b8ed052-60d6-40a5-9307-d63922891143", "value": "date 007\n- means \"voor\" (before)\t\n- date range, start = open"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="nl">{"id": "9e0edb8c-30e7-478c-8136-a86e016d4431", "value": "Voor"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/18029695-6d2d-48e3-a291-be0ad31143ac">
+    <dcterms:identifier xml:lang="nl">{"id": "1405376f-ecfa-4015-8c4b-b5c82a6932bb", "value": "http://localhost:8000/18029695-6d2d-48e3-a291-be0ad31143ac"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="nl">{"id": "c3da3208-2145-4ff0-9faf-b03381037624", "value": "Geschatte datum"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/d636cab9-92a9-430d-9674-eb4889cfc443"/>
+    <skos:prefLabel xml:lang="en">{"id": "f0855443-d440-4128-a61e-389e1e9c43c5", "value": "Estimated date"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "969f895a-5c3b-4c5f-af71-f52079a90c8a", "value": "date002\n- date is in square brackets: meaning the date has been estimated by the archivist\n- date based on external evidence"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/737481b9-9eae-405f-a672-f95146c1344d">
+    <skos:scopeNote xml:lang="en">{"id": "30380072-f108-4f26-9e34-7cef62607e6d", "value": "date001\n(unused) date is in parentheses: meaning unclear\n"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "1eb0f6ff-ed64-4be8-8bc6-326569648051", "value": "Unclear"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/d636cab9-92a9-430d-9674-eb4889cfc443"/>
+    <skos:prefLabel xml:lang="nl">{"id": "f8a85edf-21a2-4349-bf2d-d1586a3a81ff", "value": "Onduidelijk"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="nl">{"id": "4b59872e-8aa3-4ec7-a394-95ab81f6340e", "value": "http://localhost:8000/737481b9-9eae-405f-a672-f95146c1344d"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5844ef2f-a5ea-47f2-a6bd-409323262850">
+    <skos:scopeNote xml:lang="en">{"id": "22bfc263-16ef-46ab-91f0-bafec4a9cc90", "value": "date004\n- date represented as \"17e eeuw\"\t\n- \"round date to century\n- note: value '1800' w date004 =&gt; 19th century\""}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/d636cab9-92a9-430d-9674-eb4889cfc443"/>
+    <dcterms:identifier xml:lang="nl">{"id": "9682d6f7-2449-4e6a-ae54-9847968fdbe7", "value": "http://localhost:8000/5844ef2f-a5ea-47f2-a6bd-409323262850"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="nl">{"id": "07f94744-7066-4fe9-ab2d-7e204498e872", "value": "Eeuw"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "47eb247c-1935-4ca2-9f83-80f6c95daf16", "value": "Century"}</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/e7cff894-80cd-4a97-95b9-713e8131c834">
+    <dcterms:identifier xml:lang="nl">{"id": "3892f5a2-1e4e-428f-96b8-41e24a94e591", "value": "http://localhost:8000/e7cff894-80cd-4a97-95b9-713e8131c834"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "605c2cb1-72d4-4141-b219-da8961184b75", "value": "Certain"}</skos:prefLabel>
     <skos:prefLabel xml:lang="nl">{"id": "d8c284f8-55e1-4ddc-b897-b03275c522be", "value": "Zeker"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/d636cab9-92a9-430d-9674-eb4889cfc443"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/e3fae685-db55-437b-abd4-e57e435b3b43">
-    <skos:scopeNote xml:lang="en">{"id": "2f059b42-e1c1-41c5-9a0b-b2542c966370", "value": "date006\n- means no creation date: coded as \"z.d.\" or \"z.d\" in id/date/creationdate/in and no\t\n- date unknown"}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "b4ff2c33-d4b3-48ae-b348-23257fb92bd1", "value": "No date"}</skos:prefLabel>
-    <skos:prefLabel xml:lang="nl">{"id": "ad3d5ea0-05bb-4c3c-a2b1-be7871a15cad", "value": "Zonder datum"}</skos:prefLabel>
+  <skos:Concept rdf:about="http://localhost:8000/0bab2ecf-8bd3-4281-a8c7-0cf02ceab7cb">
+    <skos:prefLabel xml:lang="nl">{"id": "d935f8ab-f8b4-4cd7-9d06-6b69b6634fa0", "value": "Circa"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="nl">{"id": "e53ec489-91b0-4ddc-8399-25fecee705e5", "value": "http://localhost:8000/0bab2ecf-8bd3-4281-a8c7-0cf02ceab7cb"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "fb497c9c-41c5-4799-95a3-dd91b2970155", "value": "Circa"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/d636cab9-92a9-430d-9674-eb4889cfc443"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/5844ef2f-a5ea-47f2-a6bd-409323262850">
-    <skos:prefLabel xml:lang="en">{"id": "47eb247c-1935-4ca2-9f83-80f6c95daf16", "value": "Century"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/d636cab9-92a9-430d-9674-eb4889cfc443"/>
-    <skos:prefLabel xml:lang="nl">{"id": "07f94744-7066-4fe9-ab2d-7e204498e872", "value": "Eeuw"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "22bfc263-16ef-46ab-91f0-bafec4a9cc90", "value": "date004\n- date represented as \"17e eeuw\"\t\n- \"round date to century\n- note: value '1800' w date004 =&gt; 19th century\""}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/737481b9-9eae-405f-a672-f95146c1344d">
-    <skos:prefLabel xml:lang="en">{"id": "1eb0f6ff-ed64-4be8-8bc6-326569648051", "value": "Unclear"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/d636cab9-92a9-430d-9674-eb4889cfc443"/>
-    <skos:prefLabel xml:lang="nl">{"id": "f8a85edf-21a2-4349-bf2d-d1586a3a81ff", "value": "Onduidelijk"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "30380072-f108-4f26-9e34-7cef62607e6d", "value": "date001\n(unused) date is in parentheses: meaning unclear\n"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/1a0cb8d3-da4f-4ae2-80fb-d4793d1b05ca">
-    <skos:scopeNote xml:lang="en">{"id": "dcdcb9c7-30a0-4862-ab6e-49bf3c96b25c", "value": "date005\n- means add (?) to the end often associated with dashes in part of the date (year)\t\n- date uncertain"}</skos:scopeNote>
-    <skos:prefLabel xml:lang="nl">{"id": "4ffef330-923b-467a-a278-2a2e220dfca0", "value": "Onzeker"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/d636cab9-92a9-430d-9674-eb4889cfc443"/>
-    <skos:prefLabel xml:lang="en">{"id": "6e995af5-2b26-4928-abee-9ccab56fe6a9", "value": "Uncertain"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "bdaa2d18-93a7-499a-9192-770a98ff0b5c", "value": "date003\n- means \"ca.\" appears before the date\t\n- precise date unknown, best-effort estimate"}</skos:scopeNote>
   </skos:Concept>
 </rdf:RDF>

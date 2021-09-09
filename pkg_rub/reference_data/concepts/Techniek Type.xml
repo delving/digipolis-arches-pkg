@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://localhost:8000/785ad49a-aef3-4664-89e9-ee71c8393f2c">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/5e45401f-5da8-402b-8d1b-4fb1c4f61e6a">
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+        <skos:prefLabel xml:lang="nl">{"id": "3c1c41aa-3620-4ff4-be91-1f14fbb78620", "value": "Gouache met Oost-Indische inkt en pen"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="nl">{"id": "fdeeaed6-c65a-4c39-8857-32a10418d95c", "value": "Gouache en Oost-Indische inkt"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/c0704661-53c2-4ecb-8aff-016b948612a0">
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+        <skos:prefLabel xml:lang="nl">{"id": "b1647d4f-f763-4237-bad8-e4970813013b", "value": "Gouache met Oost-Indische inkt en potlood"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/5692bcae-291e-41dc-b406-295b1a77cc3b"/>
+        <dcterms:title xml:lang="nl">{"id": "a3439b5c-3e9a-4f86-b99d-5eb1b84f7ed7", "value": "Techniek Type"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/b12a052d-a5f1-4462-b0ff-9f7dac5e74ee"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/f3c051a7-746d-4679-a703-90b513346dc7">
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+        <skos:prefLabel xml:lang="nl">{"id": "27bce952-119c-452a-ba25-5dd467800abf", "value": "Gouache met Oost-Indische inkt en aquarel"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/0ee5fea1-e2c4-4cfb-ba3b-c56db841df4d">
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+    <skos:prefLabel xml:lang="nl">{"id": "2b8ac83f-59e6-4f02-87ef-70aeca29fa4d", "value": "Gebruik waterverf"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/85d6f7e5-b089-4f71-be0a-e74696fd3d12">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/9d56f3aa-e866-4baf-8520-a4dc7bee999d">
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+        <skos:prefLabel xml:lang="nl">{"id": "848535ae-a5db-4795-836b-8dda92659076", "value": "Aquarel met potlood en cont\u00e9"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/3e161fe6-355d-40b1-9fd0-2c2fcc7626f1">
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+        <skos:prefLabel xml:lang="nl">{"id": "2109ab2e-e183-4c60-b7b1-97062d422d61", "value": "Aquarel opgehoogd met potlood"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/f94e6e16-14db-49be-8307-b4c36b141238">
+        <skos:prefLabel xml:lang="nl">{"id": "51618ee3-4bb8-4815-bc59-b5d7cc6057f4", "value": "Aquarel bijgewerkt met potlood "}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+        <skos:narrower rdf:resource="http://localhost:8000/3d5361ba-bf91-4657-8646-2a85579b2dd1"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/0b8f1144-4bf1-4fcb-894c-ad65984b678c">
+        <skos:prefLabel xml:lang="nl">{"id": "d3e7bc19-0be9-472e-a506-04086421c182", "value": "Aquarel met potlood en waterverf"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/e5538ae9-b19f-4ed1-bd2e-1079a659e182">
+        <skos:prefLabel xml:lang="nl">{"id": "a1f26836-d914-4e1b-9392-d033d6d37888", "value": "Aquarel en kleurpotlood"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="nl">{"id": "deed6fe2-213e-4d19-9f49-11a0eac0ee12", "value": "Aquarel en potlood"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/713d1844-8453-461f-9808-01599380b712">
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+        <skos:prefLabel xml:lang="nl">{"id": "71fb7ac1-c669-46c1-94c5-9963eb92e1a3", "value": "Aquarel met potlood en inkt"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7381d964-524f-4a48-96e0-7d37cc419c97">
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/fa7ea235-cd71-42dd-9e61-73889237f156">
+        <skos:prefLabel xml:lang="nl">{"id": "fae83d66-6527-46e7-9f83-cf10aec90b50", "value": "Gouache met aquarel en kogelpen"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/14b6e571-5b45-4deb-9a40-97f1ba5f8918">
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+        <skos:prefLabel xml:lang="nl">{"id": "a9cb3037-6a17-4e3e-a76a-37a28295519c", "value": "Gouache met aquarel en kogelpen"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/ad75d9e2-5741-4bfe-92d6-f6ab5a51b6be">
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+        <skos:prefLabel xml:lang="nl">{"id": "82762069-746b-471a-b4fe-7ff1058f99c0", "value": "Gouache met aquarel en inkt"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="nl">{"id": "fe7e8efd-d623-4ae1-a883-6a598f011411", "value": "Gouache en aquarel"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/017299b1-c61c-4b67-9bc6-c2d2f5e87e87">
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+    <skos:prefLabel xml:lang="nl">{"id": "afa778ce-6a39-4e76-98e1-177f3ab530e8", "value": "Cont\u00e9"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/41c5e262-5616-4114-92eb-4c6c3c538b7f">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/0900c86a-933f-41c6-9363-75dcd460887c">
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+        <skos:prefLabel xml:lang="nl">{"id": "6da22f3f-beb6-4708-b71e-7ff2eed67055", "value": "Aquarel bijgewerkt met Oost-Indische inkt"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+    <skos:prefLabel xml:lang="nl">{"id": "fc66c6b0-ef76-4258-bd35-ce037023129f", "value": "Aquarel bijgewerkt met inkt"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/2086959b-9d07-4a12-8446-146ebca4f448">
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+    <skos:prefLabel xml:lang="nl">{"id": "7aed0834-a751-4400-ae19-a55d8af8d66d", "value": "Gouache met dekverf en potlood"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b12a052d-a5f1-4462-b0ff-9f7dac5e74ee">
+    <skos:prefLabel xml:lang="nl">{"id": "7975ec11-f4bf-4d61-b6c1-9753cfc573ab", "value": "Tekening"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/e08efff7-2431-43be-9249-4bdc54164821">
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+        <skos:prefLabel xml:lang="nl">{"id": "7b163d5c-6c63-4aa2-98cf-e30a686f1692", "value": "Gebruik houtskool"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/458a2619-3519-43dc-a8b8-3aa56c154019">
+        <skos:narrower rdf:resource="http://localhost:8000/52423758-9375-4b9d-9f06-590084770333"/>
+        <skos:narrower rdf:resource="http://localhost:8000/7947a130-2ed6-4d65-94ad-0f9d659b66e9"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+        <skos:prefLabel xml:lang="nl">{"id": "51df830f-0219-4288-849b-ec6e6845d134", "value": "Gebruik inkt"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/32e24349-008e-45ec-af7b-dce97968f583">
+        <skos:prefLabel xml:lang="nl">{"id": "deabc858-7eb1-4517-a7a6-6937fc2fc806", "value": "Gebruik waskrijt"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/959e35e0-c0cb-4327-8a89-85584021630a">
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+        <skos:prefLabel xml:lang="nl">{"id": "081756d0-69c8-4a49-af1c-043a904b76fb", "value": "Gebruik pastel"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/fa90d7c2-e880-46d8-908c-8d87e9763541">
+        <skos:prefLabel xml:lang="nl">{"id": "a1c1c30b-05b8-4dfa-ae5b-eb46e6a1be37", "value": "Gebruik potlood"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/a9513cbc-bc04-4fa6-914b-3a1c54c60ecb"/>
+        <skos:narrower rdf:resource="http://localhost:8000/b7fd9b7d-c10a-4a83-8435-b8d9d3ba3ee7"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/72f1de44-885c-4307-ab58-4527f32535a8">
+        <skos:narrower rdf:resource="http://localhost:8000/6a2327ef-937a-4c9c-a5b1-e9047e8232f9"/>
+        <skos:prefLabel xml:lang="nl">{"id": "1dd76d0c-4ff3-438d-b532-a8e9a9366065", "value": "Gebruik krijt"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/017299b1-c61c-4b67-9bc6-c2d2f5e87e87"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/74c9fc49-e40f-4f88-aec5-e472e40e4d67">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/ff6ca878-b331-4907-bdf9-00d8adb8283f">
+        <skos:narrower rdf:resource="http://localhost:8000/1889b8da-3c43-4b1a-b79d-5b5cf7f5e087"/>
+        <skos:prefLabel xml:lang="nl">{"id": "cf241d5f-0b04-48b7-8ef5-944cadf3bf2e", "value": "Aquarel en kogelpen"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/d8e92134-e023-4a75-9e7f-4771aa80d40b">
+        <skos:prefLabel xml:lang="nl">{"id": "cf3bf79c-071b-4f64-9d33-ba2b30e74521", "value": "Aquarel met pen en potlood"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/fbdad6fc-83ce-4dea-9c84-5ca1410a3551">
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+        <skos:prefLabel xml:lang="nl">{"id": "d17b1e6d-619a-4ada-a72f-3fd6e3d9c6cf", "value": "Aquarel en viltstift"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+    <skos:prefLabel xml:lang="nl">{"id": "86423f61-f122-419e-ae55-d2da1af74f68", "value": "Aquarel en pen"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/4c727432-9eed-442d-9c31-3b5af04e8af0">
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/6148a01a-2c64-4522-a537-0dab8f6d3d06">
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+        <skos:prefLabel xml:lang="nl">{"id": "cc9515e4-0130-49b0-90fb-f7980f5845f9", "value": "Gouache met potlood en inkt"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="nl">{"id": "e8b23c74-2dc3-4969-bb46-644b794fe449", "value": "Gouache en potlood"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/1b17d89e-172b-4826-8590-22f92fe93688">
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+        <skos:prefLabel xml:lang="nl">{"id": "5fcc1caa-61fd-472c-a666-240f56f86005", "value": "Gouache bijgewerkt met potlood"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b7fd9b7d-c10a-4a83-8435-b8d9d3ba3ee7">
+    <skos:prefLabel xml:lang="nl">{"id": "efaa749f-54b8-481d-8bae-64ca0deddb19", "value": "Kleurpotlood"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/57960b30-02d7-41c5-8fc7-7282c06806db">
+    <skos:prefLabel xml:lang="nl">{"id": "0e9dd96e-67ec-4610-98c1-bd7044d0059e", "value": "Gouache en krijt"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/8964643e-1d22-4f61-b705-4a31f1b12d87">
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+        <skos:narrower rdf:resource="http://localhost:8000/5f78b1d2-4c48-4c58-95fe-8098f79def44"/>
+        <skos:prefLabel xml:lang="nl">{"id": "d5015473-be8a-45d8-b4aa-83e9f8500d92", "value": "Gouache en kleurkrijt"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/5f60f4a5-f087-4665-afcb-f20fee911947">
+        <skos:prefLabel xml:lang="nl">{"id": "060ce466-6566-4b6a-9fdd-19e599815ae5", "value": "Gouache met krijt en potlood"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/49a2597e-3612-44a2-aa1c-e63231f0dc6a">
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+    <skos:prefLabel xml:lang="nl">{"id": "216620c0-e959-472a-9f78-f7236074daa9", "value": "Ggouache met kogelpen en potlood"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5e86fbfd-4d3f-456a-86b2-9c778376ea06">
+    <skos:prefLabel xml:lang="nl">{"id": "fdad1c32-d552-40f3-a658-37b313bcf7c4", "value": "Aquarel en waterverf"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b1cdd859-e8c5-4452-98ed-ddb7581d4c40">
+        <skos:prefLabel xml:lang="nl">{"id": "974dcce5-84e2-4fb8-926a-e853837526c8", "value": "Aquarel ingekleurd met waterverf"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/16a29dae-8681-48a5-8fe5-00261a07e321">
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b57f00fb-bc0a-4d2c-b02e-1bb8cb17afdd">
+        <skos:narrower rdf:resource="http://localhost:8000/0d4aaa79-2971-4b4d-8061-4098e55de528"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+        <skos:prefLabel xml:lang="nl">{"id": "c2c3d7ae-aac1-45a0-95fe-f68c419d5333", "value": "Gouache en pen"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/a4d74298-cef1-4b40-bb82-e5f1a1ec51a4">
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+        <skos:prefLabel xml:lang="nl">{"id": "58b4fc77-be15-4aac-8454-d0e680c9b9c2", "value": "Gouache bijgewerkt met inkt"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/785ad49a-aef3-4664-89e9-ee71c8393f2c"/>
+    <skos:prefLabel xml:lang="nl">{"id": "d02154c0-a74d-4fc6-af99-1b9f122d38a3", "value": "Gouache en inkt"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/fd7c2549-38f1-4c6b-bd38-023ce8fc5bc6">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/464d140d-f9d7-4de4-9c21-1592da9ef35c">
+        <skos:narrower rdf:resource="http://localhost:8000/2086959b-9d07-4a12-8446-146ebca4f448"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+        <skos:prefLabel xml:lang="nl">{"id": "a975e5ea-3725-4756-9793-93003d0b9f26", "value": "Gouache en dekverf"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/4c727432-9eed-442d-9c31-3b5af04e8af0"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/3dc44d35-b741-4489-9771-860ff90982c3">
+        <skos:prefLabel xml:lang="nl">{"id": "31e333e9-3bf4-441c-8fa3-751feaff4990", "value": "Gouache en houtskool"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/c59e600c-36b8-4837-b9c7-bce7aa3b2493">
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+        <skos:prefLabel xml:lang="nl">{"id": "22c40b6f-89be-4093-9036-7036677526b5", "value": "Gouache en waterverf"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/d316e228-37d0-4a00-b67e-a42ea4dd41be"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/7381d964-524f-4a48-96e0-7d37cc419c97"/>
+    <skos:prefLabel xml:lang="nl">{"id": "48378709-a8d0-49ac-98bd-803d255b3e93", "value": "Gebruik gouache"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/45ed5303-d389-4483-8e3e-78307baa07d6">
+        <skos:prefLabel xml:lang="nl">{"id": "775ceb46-422d-450c-ab2a-e4241a04df77", "value": "Gouache en penseel"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/57960b30-02d7-41c5-8fc7-7282c06806db"/>
+    <skos:narrower rdf:resource="http://localhost:8000/16a29dae-8681-48a5-8fe5-00261a07e321"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/6a2327ef-937a-4c9c-a5b1-e9047e8232f9">
+    <skos:prefLabel xml:lang="nl">{"id": "045403d2-09b3-4ba7-a700-b63187be1b4a", "value": "Gebruik kleurkrijt"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/af0537cd-9b4b-4064-bee4-58e61c34fcec">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/78bc6d0b-3fa0-4569-9d96-36bfc3741f9d">
+        <skos:prefLabel xml:lang="nl">{"id": "efd1abf7-5231-4ff0-9ddb-b96869c73da6", "value": "Aquarel met penseel en waterverf"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+    <skos:prefLabel xml:lang="nl">{"id": "1c2905de-376d-4468-a1c2-b0ab0d6dfc85", "value": "Aquarel en pensel"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/dd29b1bc-b0d9-4974-af6e-0210819e2fa5">
+        <skos:prefLabel xml:lang="nl">{"id": "55a4578a-2efe-41a6-a380-e204ede2b98f", "value": "Aquarel met penseel en pen"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/101f981f-fd40-4117-bd68-30baa542cbf6">
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/24b9854b-a7cb-4801-bb5e-42025195719f">
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+        <skos:prefLabel xml:lang="nl">{"id": "1f4523ad-6f5e-407a-a7f3-33a7ddebcdd7", "value": "Aquarel met dekverf en waterverf"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="nl">{"id": "d309070e-6e33-4be9-bc78-ee7c4b2a1e98", "value": "Aquarel en dekverf"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/7cf63579-9f8e-49d7-b52e-8f4eb2b15e7d">
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+        <skos:prefLabel xml:lang="nl">{"id": "d30ccb54-2cba-4403-a21e-7005eedd481c", "value": "Aquarel met dekverf en potlood"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/554706fb-5bdc-4a63-8a64-85b073f12944">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/5016e939-2864-41ee-8d27-51833fc482ad">
+        <skos:narrower rdf:resource="http://localhost:8000/8c05bf39-89b0-495a-b476-6eb5f63d897b"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+        <skos:prefLabel xml:lang="nl">{"id": "d7c6d0ba-8aff-4336-bc19-6977fcb909ac", "value": "Aquarel en pastel"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/af0537cd-9b4b-4064-bee4-58e61c34fcec"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/866930bf-59d9-4537-aa35-01d29292e07a">
+        <skos:prefLabel xml:lang="nl">{"id": "5318b042-57e0-4864-bf6c-283d151865db", "value": "Aquarel en houtskool"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/740f7084-462d-4894-b527-eb7c230b84a5">
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+        <skos:prefLabel xml:lang="nl">{"id": "b792fe95-c7a8-4f53-9c8e-e0500c8f9d41", "value": "Aquarel en inkt"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/41c5e262-5616-4114-92eb-4c6c3c538b7f"/>
+        <skos:narrower rdf:resource="http://localhost:8000/d4cac144-265b-4a2a-b95b-4862964c2a9b"/>
+        <skos:narrower rdf:resource="http://localhost:8000/74c9fc49-e40f-4f88-aec5-e472e40e4d67"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/94bb5a0c-2f8f-46fa-8dc3-8016496cd45f">
+        <skos:narrower rdf:resource="http://localhost:8000/acfe7445-ef63-46cc-a4dd-a9469ff2e0b8"/>
+        <skos:narrower rdf:resource="http://localhost:8000/9cebb9bf-3840-4fef-975d-4a7f5fe9b63d"/>
+        <skos:narrower rdf:resource="http://localhost:8000/f238b325-3a14-46d2-bc95-3266cb09a415"/>
+        <skos:narrower rdf:resource="http://localhost:8000/60e8312d-49d5-4e62-b7e4-4d7c0ed7840b"/>
+        <skos:prefLabel xml:lang="nl">{"id": "d690d096-1d14-4d68-92d3-a0c1843223ce", "value": "Aquarel en krijt"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/101f981f-fd40-4117-bd68-30baa542cbf6"/>
+    <skos:prefLabel xml:lang="nl">{"id": "c5251d76-fbea-4b79-9852-0b53c7ca7e9a", "value": "Gebruik aquarel"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://localhost:8000/5e86fbfd-4d3f-456a-86b2-9c778376ea06"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/20a6c853-43f6-4af5-b409-0115f2313055">
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+        <skos:narrower rdf:resource="http://localhost:8000/7cf87d5c-1b44-4fa1-9169-4e6670fc1b6f"/>
+        <skos:prefLabel xml:lang="nl">{"id": "07093187-712c-4010-9ab0-c93c6d49d9c5", "value": "Aquarel en waskrijt"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/85d6f7e5-b089-4f71-be0a-e74696fd3d12"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/52423758-9375-4b9d-9f06-590084770333">
+    <skos:prefLabel xml:lang="nl">{"id": "aa82b7fc-a07e-4d3f-88a2-82bdac2dff02", "value": "Oost-Indische inkt"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/eecbb0fa-3dc0-4100-9456-90e9d9b1a496">
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+        <skos:narrower rdf:resource="http://localhost:8000/f8bc9f92-a091-48cf-8eb0-18c4dfb02d09"/>
+        <skos:prefLabel xml:lang="nl">{"id": "be9cbed6-b221-414c-9d67-bf7bd1529687", "value": "Oost-Indische inkt en waterverf"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/4a3ee99b-4d82-4b67-9dc1-ab13e1a821e4"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/0d4aaa79-2971-4b4d-8061-4098e55de528">
+    <skos:prefLabel xml:lang="nl">{"id": "08a12ebe-91bb-4be1-9ba4-2df378a4f878", "value": "Gouache en kogelpen"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://localhost:8000/49a2597e-3612-44a2-aa1c-e63231f0dc6a"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/8c05bf39-89b0-495a-b476-6eb5f63d897b">
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+    <skos:prefLabel xml:lang="nl">{"id": "4b94506b-c47a-4b37-bff4-bbfa6722817c", "value": "Aquarel met pastel en potlood"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5692bcae-291e-41dc-b406-295b1a77cc3b">
+    <skos:narrower rdf:resource="http://localhost:8000/fd7c2549-38f1-4c6b-bd38-023ce8fc5bc6"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+    <skos:prefLabel xml:lang="nl">{"id": "73fd5591-0262-4828-bccd-0aeb28aeb3b2", "value": "Schilderen"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://localhost:8000/0ee5fea1-e2c4-4cfb-ba3b-c56db841df4d"/>
+    <skos:narrower rdf:resource="http://localhost:8000/554706fb-5bdc-4a63-8a64-85b073f12944"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/d4cac144-265b-4a2a-b95b-4862964c2a9b">
+    <skos:prefLabel xml:lang="nl">{"id": "0496847e-65d0-4718-a8d9-cea845a9b663", "value": "Aquarel en Oost-Indische inkt"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/93078bc3-d4e3-42f2-b641-716733ee39f9">
+        <skos:prefLabel xml:lang="nl">{"id": "e0ea39e7-0aa9-4073-b885-e397957f9a5c", "value": "Aquarel met Oost-Indische inkt en waterverf"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/a6be3012-eebc-43a0-b449-d0f331f7188f">
+        <skos:prefLabel xml:lang="nl">{"id": "027d6862-f8af-4721-ae4e-2b85dce75c91", "value": "Aquarel met Oost-Indische inkt en potlood"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/cf60fbd7-5b69-472d-9326-31880dfe1f2b">
+        <skos:prefLabel xml:lang="nl">{"id": "4db9be83-ba80-4393-8754-168175918988", "value": "Aquarel met Oost-Indische inkt en pen"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c8bf0712-0fb0-4836-8b56-b54e11c88206">
+    <skos:prefLabel xml:lang="nl">{"id": "0800e4cb-3b29-43cb-9387-aec80e9b31d5", "value": "Aquarel met kleurkrijt en waterverf"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/f238b325-3a14-46d2-bc95-3266cb09a415">
+    <skos:prefLabel xml:lang="nl">{"id": "49d52289-c195-4ae2-a43e-7520b990207c", "value": "Aquarel en kleurkrijt"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://localhost:8000/c8bf0712-0fb0-4836-8b56-b54e11c88206"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/4a3ee99b-4d82-4b67-9dc1-ab13e1a821e4">
+    <skos:prefLabel xml:lang="nl">{"id": "e7671330-8077-434a-ad2d-3ee1005d52f8", "value": "Oost-Indische inkt met waterverf en krijt"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7947a130-2ed6-4d65-94ad-0f9d659b66e9">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/4489f15f-f2aa-4521-94e0-465019dcf424">
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+        <skos:prefLabel xml:lang="nl">{"id": "e9218115-2470-401e-a632-0ab0b97eb189", "value": "Viltstift"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="nl">{"id": "23485cb4-2dda-4a22-b49e-02ada5691f4e", "value": "Pen"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/25dd16fb-e4c6-4af1-bab4-97a924162576">
+        <skos:prefLabel xml:lang="nl">{"id": "53b9f9a1-984e-4585-a80e-603c92f94c22", "value": "Kogelpen"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5f78b1d2-4c48-4c58-95fe-8098f79def44">
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+    <skos:prefLabel xml:lang="nl">{"id": "fad6c052-1b50-4c8a-8f6d-1a0464c5d0f1", "value": "Gouache met kleurkrijt en houtskool"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/60e8312d-49d5-4e62-b7e4-4d7c0ed7840b">
+    <skos:prefLabel xml:lang="nl">{"id": "ea956c1e-f95f-4b2c-bf4d-7c19c71c5ae1", "value": "Aquarel met krijt en waterverf"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/d316e228-37d0-4a00-b67e-a42ea4dd41be">
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+    <skos:prefLabel xml:lang="nl">{"id": "e27fd857-31ff-4ada-afef-ca7545b0b0ab", "value": "Gouache met waterverf en potlood"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/de7a4156-12ae-4640-bab2-7dc9f1e96493">
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+    <skos:prefLabel xml:lang="nl">{"id": "6397a4ea-3444-4818-8fb5-0fb33085bdcf", "value": "Aquarel bijgewerkt met negropotlood en inkt"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/acfe7445-ef63-46cc-a4dd-a9469ff2e0b8">
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+    <skos:prefLabel xml:lang="nl">{"id": "8ab597cc-e4a3-4915-95f1-6a503255406e", "value": "Aquarel en cont\u00e9"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9cebb9bf-3840-4fef-975d-4a7f5fe9b63d">
+    <skos:prefLabel xml:lang="nl">{"id": "c14dfcbb-a24c-401a-9e8b-2c9e6ccfcaa5", "value": "Aquarel met krijt en Oost-Indische inkt"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/3d5361ba-bf91-4657-8646-2a85579b2dd1">
+    <skos:prefLabel xml:lang="nl">{"id": "f377d8f8-51d4-4d68-bc3f-ca2a31df23de", "value": "Aquarel bijgewerkt met negropotlood"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://localhost:8000/de7a4156-12ae-4640-bab2-7dc9f1e96493"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/1889b8da-3c43-4b1a-b79d-5b5cf7f5e087">
+    <skos:prefLabel xml:lang="nl">{"id": "e33c933a-9822-4627-abbc-75eb13894ef1", "value": "Aquarel met kogelpen en potlood"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/f8bc9f92-a091-48cf-8eb0-18c4dfb02d09">
+    <skos:prefLabel xml:lang="nl">{"id": "990978fd-098f-4850-9b44-003a4bd0baf5", "value": "Oost-Indische inkt ingekleurd met waterverf"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7cf87d5c-1b44-4fa1-9169-4e6670fc1b6f">
+    <skos:prefLabel xml:lang="nl">{"id": "cbf4705e-f2e1-4b89-9e45-20c47c2b838c", "value": "Aquarel met waskrijt en kleurpotlood"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/a9513cbc-bc04-4fa6-914b-3a1c54c60ecb">
+    <skos:prefLabel xml:lang="nl">{"id": "f8192a7b-bfc7-4040-bff2-50ea0dc30732", "value": "Negropotlood"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/f5428ce7-a73c-47f8-8bc1-e1a6c0126469"/>
+  </skos:Concept>
+</rdf:RDF>
