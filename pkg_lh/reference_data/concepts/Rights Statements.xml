@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://localhost:8000/9dda9d75-7c61-3029-b790-c8b7ddb2c31e">
+    <skos:scopeNote xml:lang="nl">{"id": "86e0718a-f8e8-41a9-8e5c-de9454fd5f1f", "value": "Deze Rechtenverklaring dient te worden gebruikt voor Items waarvan de organisatie die van plan is het Item beschikbaar te stellen heeft vastgesteld dat deze vrij is van auteursrechten volgens de wetgeving van de Verenigde Staten. Deze Rechtenverklaring dient niet gebruikt te worden voor verweesde werken (waarvan wordt aangenomen dat ze auteursrechtelijk beschermd zijn) of voor Items waarvoor de organisatie die van plan is het Item beschikbaar te stellen geen inspanningen heeft gedaan om de auteursrechtelijke status van het onderliggende Werk te achterhalen."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "23a8cc1c-22a7-4afd-acc5-20efe8d1f9c5", "value": "In the United States"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "b9137de6-a5c8-4f41-8541-50fd4c188ccf", "value": "http://rightsstatements.org/vocab/NoC-US/1.0/"}</dcterms:identifier>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/071d34c2-b625-3405-a7d4-778c85153380">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/d5f089c9-1ab7-3c10-b35d-c344fd8fc629"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/7e8aeaf7-ce93-3205-a720-3789caad150a"/>
+        <dcterms:title xml:lang="en">{"id": "1b59805e-820f-464a-8b53-25862ba64bd5", "value": "Rights Statements"}</dcterms:title>
+        <dcterms:identifier xml:lang="en">{"id": "a2f10866-bea8-4306-b731-ebc198b3da57", "value": "https://rightsstatements.org/"}</dcterms:identifier>
+        <dcterms:description xml:lang="en">{"id": "6ae9a1a7-c08d-40e1-8536-10a3c24be7f1", "value": "RightsStatements.org provides 12 standardized rights statements for online cultural heritage."}</dcterms:description>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/a6015797-608c-32f5-8a21-ac9b18fa9cba"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="nl">{"id": "e4c70a36-0cce-4135-bda4-6c981f8e6509", "value": "Verenigde Staten"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "696d4da1-fd07-43a8-904b-e9bf2c798e4b", "value": "This Rights Statement should be used for Items for which the organization that intends to make the Item available has determined are free of copyright under the laws of the United States. This Rights Statement should not be used for Orphan Works (which are assumed to be in-copyright) or for Items where the organization that intends to make the Item available has not undertaken an effort to ascertain the copyright status of the underlying Work."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/32587d51-e050-3e0a-a90a-75dfb5e58b92">
+    <skos:scopeNote xml:lang="en">{"id": "791e7709-7ed7-4c9e-bacf-14f43632c7d2", "value": "This Rights Statement can be used only for copyrighted Items for which the organization making the Item available is the rights-holder or has been explicitly authorized by the rights-holder(s) to allow third parties to use their Work(s) for educational purposes without first obtaining permission."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="nl">{"id": "fbfc46fc-e95a-4b86-a1e9-c21cb149baae", "value": "Educatief gebruik toegestaan"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/071d34c2-b625-3405-a7d4-778c85153380"/>
+    <skos:prefLabel xml:lang="en">{"id": "fc291043-cfa3-4381-9b40-d31e622eeb17", "value": "Educational Use Permitted"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="nl">{"id": "721f0d6e-f175-4017-85f5-0879df39d94c", "value": "Deze Rechtenverklaring kan alleen worden gebruikt voor Items die auteursrechtelijk beschermd zijn, en waarvan de organisatie die het Item beschikbaar stelt zelf de rechthebbende is, of door de rechthebbende(n) expliciet gemachtigd is om derden toe te staan \u200b\u200bhun Werk(en) voor educatieve doeleinden te gebruiken zonder eerst toestemming te vragen."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "5ba7e7e4-a0b2-479a-8dd1-8518afc74bbb", "value": "http://rightsstatements.org/vocab/InC-EDU/1.0/"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/a6015797-608c-32f5-8a21-ac9b18fa9cba">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/3c3122fe-5b55-3842-b569-e3c8eb4900e4">
+        <skos:inScheme rdf:resource="http://localhost:8000/071d34c2-b625-3405-a7d4-778c85153380"/>
+        <skos:scopeNote xml:lang="en">{"id": "4bb5a582-e6f6-4218-934e-ef18c1be74ab", "value": "This Rights Statement is intended for use with an Item that has been identified as in copyright but for which no rights-holder(s) has been identified or located after some reasonable investigation. This Rights Statement should only be used if the organization that intends to make the Item available is reasonably sure that the underlying Work is in copyright. This Rights Statement is not intended for use by EU-based organizations who have identified works as Orphan Works in accordance with the EU Orphan Works Directive (they must use InC-OW-EU instead)."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "b49f3821-7687-4ed3-a10f-39fece514cd6", "value": "Unknown rightsholder"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">{"id": "2f79a178-e693-40cf-a1e2-3e107c0272f1", "value": "Rechthebbende(n) niet-lokaliseerbaar of niet-identificeerbaar"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "a229053a-2991-4b09-ad4f-b561faf0fb93", "value": "http://rightsstatements.org/vocab/InC-RUU/1.0/"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="nl">{"id": "ccd3fdc0-edb2-45e7-b8a8-06c2bc77f54a", "value": "Deze Rechtenverklaring is bedoeld voor gebruik met een Item dat is ge\u00efdentificeerd als auteursrechtelijk beschermd, maar waarvoor na enig redelijk onderzoek geen rechthebbende(n) is ge\u00efdentificeerd of gelokaliseerd. Deze Rechtenverklaring dient alleen gebruikt te worden als de organisatie die van plan is het Item beschikbaar te stellen redelijk zeker is dat het onderliggende Werk auteursrechtelijk beschermd is. Deze Rechtenverklaring is niet bedoeld voor gebruik door in de EU gevestigde organisaties die werken als Verweesde Werken hebben ge\u00efdentificeerd in overeenstemming met de EU-richtlijn voor Verweesde Werken (in plaats daarvan moeten ze InC-OW-EU gebruiken)."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="nl">{"id": "2d26c388-e388-4f58-90cf-77aa51ad5075", "value": "Auteursrechtelijk beschermd"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "5dcb9696-1611-4cff-85ea-acadf1dfabd0", "value": "In Copyright"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="nl">{"id": "a9b44110-1d63-4e0b-b435-cd29772c9435", "value": "Deze Rechtenverklaring kan worden gebruikt voor een Item dat auteursrechtelijk beschermd is. Het gebruik van deze verklaring impliceert dat de organisatie die dit Item beschikbaar stelt, heeft vastgesteld dat het Item auteursrechtelijk beschermd is, en dat ze zelf de rechthebbende is, toestemming van de rechthebbende(n) heeft verkregen om hun werk(en) beschikbaar te stellen of het Item beschikbaar stelt onder een uitzondering of beperking van het auteursrecht (inclusief Fair Use) dat het recht geeft om het Item beschikbaar te stellen."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "e3d53a9c-3473-4aae-972d-0246cc38f1de", "value": "http://rightsstatements.org/vocab/InC/1.0/"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/24de737a-e69d-321d-a048-0c015f8039aa">
+        <skos:prefLabel xml:lang="nl">{"id": "39519633-83c4-48d3-9093-0c1c32e5fb69", "value": "Niet-commercieel gebruik toegestaan"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">{"id": "8ba60d49-d21a-4593-8f87-6ad001da0991", "value": "Non-Commercial Use Permitted"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "5e25922d-5028-41bd-a72f-93fc0e191834", "value": "This Rights Statement can be used only for copyrighted Items for which the organization making the Item available is the rights-holder or has been explicitly authorized by the rights-holder(s) to allow third parties to use their Work(s) for non-commercial purposes without obtaining permission first."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/071d34c2-b625-3405-a7d4-778c85153380"/>
+        <skos:scopeNote xml:lang="nl">{"id": "9d7197fb-e851-4605-b5a4-81a8d8338ded", "value": "Deze Rechtenverklaring kan alleen worden gebruikt voor Items die auteursrechtelijk beschermd zijn, en waarvan de organisatie die het Item beschikbaar stelt zelf de rechthebbende is, of van de rechthebbende(n) expliciet toestemming heeft gekregen om derden toe te staan \u200b\u200bhun Werk(en) te gebruiken voor niet-commerci\u00eble doeleinden zonder dat daar eerst toestemming voor nodig is."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "986f81d5-04b0-47c2-89ec-6e1e24b39975", "value": "http://rightsstatements.org/vocab/InC-NC/1.0/"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "84c1b38c-b869-46ca-b09a-26b59f0e2684", "value": "This Rights Statement can be used for an Item that is in copyright. Using this statement implies that the organization making this Item available has determined that the Item is in copyright and either is the rights-holder, has obtained permission from the rights-holder(s) to make their Work(s) available, or makes the Item available under an exception or limitation to copyright (including Fair Use) that entitles it to make the Item available."}</skos:scopeNote>
+    <skos:narrower rdf:resource="http://localhost:8000/32587d51-e050-3e0a-a90a-75dfb5e58b92"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/73ea4489-b0bb-4e34-82fb-9d00a9b47ad7">
+        <skos:scopeNote xml:lang="nl">{"id": "cdefe520-182b-433b-9342-68f08119a861", "value": "Deze Rechtenverklaring is bedoeld voor gebruik met Items waarvan het onderliggende Werk is ge\u00efdentificeerd als Verweesd Werk in overeenstemming met de Richtlijn 2012/28 /EU van het Europees Parlement en de Raad van 25 oktober 2012 betreffende bepaald toegestaan gebruik van Verweesde Werken. Het kan alleen worden toegepast op Items die zijn afgeleid van Werken die onder de Richtlijn vallen: werken die zijn gepubliceerd in de vorm van boeken, tijdschriften, kranten, magazines of andere geschriften, evenals cinematografische of audiovisuele werken en fonogrammen (let op: fotografie en visuele kunsten zijn uitgesloten). Het kan alleen worden toegepast door organisaties die in aanmerking komen voor de Richtlijn: openbaar toegankelijke bibliotheken, onderwijsinstellingen en musea, archieven, instellingen voor cinematografisch of audio-erfgoed en publieke omroeporganisaties, gevestigd in een van de EU-lidstaten. Van de begunstigde wordt ook verwacht dat hij het werk heeft geregistreerd in de Europese Databank voor Verweesde Werken die wordt onderhouden door EUIPO."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "218440e3-25c3-452f-832d-fa7c40e1ef5d", "value": "EU Orphan Work"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/071d34c2-b625-3405-a7d4-778c85153380"/>
+        <skos:scopeNote xml:lang="en">{"id": "9be2f03a-60d0-4c18-8c7f-cd182457e003", "value": "This Rights Statement is intended for use with Items for which the underlying Work has been identified as an Orphan Work in accordance with Directive 2012/28/EU of the European Parliament and of the Council of 25 October 2012 on certain permitted uses of Orphan Works. It can only be applied to Items derived from Works that are covered by the Directive: Works published in the form of books, journals, newspapers, magazines or other writings as well as cinematographic or audiovisual works and phonograms (note: this excludes photography and visual arts). It can only be applied by organizations that are beneficiaries of the Directive: publicly accessible libraries, educational establishments and museums, archives, film or audio heritage institutions and public-service broadcasting organizations, established in one of the EU member states. The beneficiary is also expected to have registered the work in the EU Orphan Works Database maintained by EUIPO."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="nl">{"id": "710e8260-6010-43a4-9520-ccf067904726", "value": "EU Verweesd Werk"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/071d34c2-b625-3405-a7d4-778c85153380"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/f668267e-7000-3a09-9729-677a6d986b6a">
+    <skos:prefLabel xml:lang="en">{"id": "ebd6d29c-6e9e-4ac0-b8de-ebfda786200b", "value": "Copyright Undetermined"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "4cb6adc4-e121-446c-9109-c78e02971b82", "value": "This Rights Statement should be used for Items for which the copyright status is unknown and for which the organization that has made the Item available has undertaken an (unsuccessful) effort to determine the copyright status of the underlying Work. Typically, this Rights Statement is used when the organization is missing key facts essential to making an accurate copyright status determination."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/071d34c2-b625-3405-a7d4-778c85153380"/>
+    <skos:prefLabel xml:lang="nl">{"id": "9c0d1b5d-2b8b-40a0-b733-98c457987afc", "value": "Auteursrechtelijke bescherming niet bepaald"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="nl">{"id": "425fc54d-c594-44f5-b39f-7115d10c93be", "value": "Deze Rechtenverklaring moet gebruikt worden voor Items waarvan de auteursrechtelijke status onbekend is, en waarvoor de organisatie die het Item beschikbaar heeft gesteld een (niet-succesvolle) poging heeft ondernomen om de auteursrechtelijke status van het onderliggende Werk te bepalen. Doorgaans wordt deze Rechtenverklaring gebruikt wanneer de organisatie belangrijke feiten mist die essentieel zijn voor een nauwkeurige bepaling van de auteursrechtelijke status."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "4687ff10-4d10-469b-b17b-030ced81ed01", "value": "http://rightsstatements.org/vocab/UND/1.0/"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/1dadc435-730b-3230-8e4e-03c1540948c4">
+    <skos:inScheme rdf:resource="http://localhost:8000/071d34c2-b625-3405-a7d4-778c85153380"/>
+    <skos:prefLabel xml:lang="en">{"id": "df2054c0-c0f4-4b06-a051-4de7365419ed", "value": "No Known Copyright"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "3d70c9a7-0dc8-4ee7-b58e-ac85bdc54e03", "value": "This Rights Statement should be used for Items for which the copyright status has not been determined conclusively, but for which the organization that intends to make the Item available has reasonable cause to believe that the underlying Work is not covered by copyright or related rights anymore. This Rights Statement should not be used for Orphan Works (which are assumed to be in-copyright) or for Items where the organization that intends to make the Item available has not undertaken an effort to ascertain the copyright status of the underlying Work."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="nl">{"id": "e53f1b3d-36f3-4616-80f8-b8b68b58997a", "value": "Geen auteursrechtelijke beperkingen bekend"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "49cba070-6d49-4d84-87f1-fcd48c8e8984", "value": "http://rightsstatements.org/vocab/NKC/1.0/"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="nl">{"id": "8994bbf1-e2e0-4a41-af86-f5fc571054a4", "value": "Deze Rechtenverklaring moet worden gebruikt voor Items waarvan de auteursrechtelijke status niet definitief is vastgesteld, maar waarvoor de organisatie die van plan is het Item beschikbaar te stellen een redelijke reden heeft om aan te nemen dat het onderliggende Werk niet meer onder het auteursrecht of de aanverwante rechten valt. Deze Rechtenverklaring dient niet gebruikt te worden voor Verweesde Werken (waarvan wordt aangenomen dat ze auteursrechtelijk beschermd zijn) of voor Items waarbij de organisatie die van plan is het item beschikbaar te stellen geen inspanningen heeft gedaan om de auteursrechtelijke status van het onderliggende Werk te achterhalen."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5dbc64d6-04b2-365a-a100-54acd5089ee6">
+    <skos:inScheme rdf:resource="http://localhost:8000/071d34c2-b625-3405-a7d4-778c85153380"/>
+    <skos:prefLabel xml:lang="en">{"id": "da827eeb-d49e-4b12-bc6a-47f61f5a80f6", "value": "Other Legal Restrictions"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "20d2db5e-d727-48d4-b08d-c58aeb6f216c", "value": "http://rightsstatements.org/vocab/NoC-OKLR/1.0/"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="nl">{"id": "79784835-4231-4b8a-8c43-fc81eaf08fd7", "value": "Niet auteursrechtelijk beschermd - andere juridische beperkingen"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="nl">{"id": "a508adc5-7984-427f-ae37-74ed6ab2d6e6", "value": "Deze Rechtenverklaring moet gebruikt worden voor Items die zich in het Publiek Domein bevinden, maar die niet vrijelijk kunnen worden hergebruikt als gevolg van gekende wettelijke beperkingen, zoals de bescherming van cultureel erfgoed of van traditionele culturele uitingen, die verhinderen dat de organisatie die van plan is het Item beschikbaar te stellen vrij hergebruik van het Item toestaat. Om deze Rechtenverklaring definitief te laten zijn, moet de organisatie die van plan is het Item beschikbaar te stellen een link naar een pagina verstrekken met de wettelijke beperkingen die het hergebruik van het Item inperken."}</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">{"id": "9bf0f75c-ec95-47d7-bafe-d5d44042af62", "value": "This Rights Statement should be used for Items that are in the Public Domain but that cannot be freely re-used as the consequence of known legal restrictions that prevent the organization that intends to make the Item available from allowing free re-use of the Item, such as cultural heritage or traditional cultural expression protections. In order for this Rights Statement to be conclusive, the organization that intends to make the Item available should provide a link to a page detailing the legal restrictions that limit re-use of the Item."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/90e5ffec-2e85-3d6d-b130-1e31637d50f3">
+    <skos:prefLabel xml:lang="nl">{"id": "8d57b0d7-3597-4e62-81a6-49c58d7e6232", "value": "Auteursrechtelijke status niet ge\u00ebvalueerd"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "bf6bd396-2f5a-4374-9381-08ab601bb2e7", "value": "Copyright Not Evaluated"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "45e1ef69-28a1-4f6e-99c8-8c2e7e603657", "value": "This Rights Statement should be used for Items for which the copyright status is unknown and for which the organization that intends to make the Item available has not undertaken an effort to determine the copyright status of the underlying Work."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/071d34c2-b625-3405-a7d4-778c85153380"/>
+    <skos:scopeNote xml:lang="nl">{"id": "7b518ec1-359b-4692-8b34-faacc23e9be3", "value": "Deze Rechtenverklaring moet worden gebruikt voor Items waarvan de auteursrechtelijke status onbekend is, en waarvoor de organisatie die van plan is het Item beschikbaar te stellen geen inspanning heeft gedaan om de auteursrechtelijke status van het onderliggende Werk te bepalen."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "9d0b3c4c-fde1-4e09-954b-affd74232af7", "value": "http://rightsstatements.org/vocab/CNE/1.0/"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/d5f089c9-1ab7-3c10-b35d-c344fd8fc629">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/0762de02-2906-3af3-9a1d-5667a0df31b1">
+        <skos:inScheme rdf:resource="http://localhost:8000/071d34c2-b625-3405-a7d4-778c85153380"/>
+        <skos:scopeNote xml:lang="en">{"id": "510bda32-4a07-4d13-827d-6df902f883a6", "value": "This Rights Statement can only be used for Works that are in the Public Domain and have been digitized in a public-private partnership as part of which, the partners have agreed to limit commercial uses of this digital representation of the Work by third parties. It has been developed specifically to allow the inclusion of Works that have been digitized as part of the partnerships between European Libraries and Google, but can in theory be applied to Items that have been digitized in similar public-private partnerships."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="nl">{"id": "df8797c7-0590-45cc-abb8-8efe62ebee08", "value": "Uitsluitend niet-commercieel gebruik toegestaan"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="nl">{"id": "df8f70b8-6716-4d59-b6e4-84e012dc98c8", "value": "Deze Rechtenverklaring kan alleen worden gebruikt voor Werken die zich in het Publiek Domein bevinden en zijn gedigitaliseerd in een publiek-private samenwerking, als onderdeel waarvan de deelnemers zijn overeengekomen om commercieel gebruik van deze digitale representatie van het Werk door derden te beperken. Deze is specifiek ontwikkeld om Werken op te nemen die zijn gedigitaliseerd als onderdeel van de partnerschappen tussen Europese bibliotheken en Google, maar kan in theorie worden toegepast op Items die zijn gedigitaliseerd in soortgelijke publiek-private partnerschappen."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "1f61bd10-b7a3-4e9f-aa73-39b1f08c9d1b", "value": "http://rightsstatements.org/vocab/NoC-NC/1.0/"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "c80faf04-4716-436c-9a90-c8c7271c94b8", "value": "Non-Commercial Use Only"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/5dbc64d6-04b2-365a-a100-54acd5089ee6"/>
+    <skos:prefLabel xml:lang="nl">{"id": "fd911515-fac9-4aab-810b-bca04570bfcd", "value": "Niet auteursrechtelijk beschermd"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/e291ec18-e671-3be9-956a-377107ebcfbd">
+        <dcterms:identifier xml:lang="en">{"id": "2cf102d1-c378-453a-9f11-573fe9d43c4e", "value": "http://rightsstatements.org/vocab/NoC-CR/1.0/"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "045f2f29-be5a-49e7-ab88-97e49a27a078", "value": "This Rights Statement can only be used for Items that are in the Public Domain but for which the organization that intends to make the Item available has entered into contractual agreement that requires it to take steps to restrict third party uses of the Item. In order for this Rights Statement to be conclusive, the organization that intends to make the Item available should provide a link to a page detailing the contractual restrictions that apply to the use of the Item."}</skos:scopeNote>
+        <skos:scopeNote xml:lang="nl">{"id": "0c3a0aad-8277-4900-ae72-2b58aefe0cef", "value": "Deze Rechtenverklaring kan alleen worden gebruikt voor Items die zich in het Publiek Domein bevinden, maar waarvoor de organisatie die van plan is het Item beschikbaar te stellen een contractuele overeenkomst heeft afgesloten die vereist dat ze stappen onderneemt om het gebruik van het Item door derden te beperken. Om deze Rechtenverklaring definitief te laten zijn, moet de organisatie die van plan is het Item beschikbaar te stellen een link naar een pagina verstrekken met de contractuele beperkingen die van toepassing zijn op het gebruik van het Item."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="nl">{"id": "82a643e9-b72e-4868-b7dd-f05e4132abcf", "value": "Contractuele beperkingen"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">{"id": "8f989fc4-fb38-4c6d-96cd-39f13b71d35e", "value": "Contractual Restrictions"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/071d34c2-b625-3405-a7d4-778c85153380"/>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "77b6be15-c936-46b8-927c-cecfef695e61", "value": "http://rightsstatements.org/no_copyright"}</dcterms:identifier>
+    <skos:narrower rdf:resource="http://localhost:8000/9dda9d75-7c61-3029-b790-c8b7ddb2c31e"/>
+    <skos:prefLabel xml:lang="en">{"id": "313483d2-9b8b-4763-9cde-95acb88d8c15", "value": "No Copyright"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/071d34c2-b625-3405-a7d4-778c85153380"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7e8aeaf7-ce93-3205-a720-3789caad150a">
+    <skos:prefLabel xml:lang="en">{"id": "ec24b470-2f0f-4a97-9fbb-7eeaa0b9453b", "value": "Other"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">{"id": "91158f06-e39d-4fb8-8306-bf0bb226a1b2", "value": "Andere"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://localhost:8000/f668267e-7000-3a09-9729-677a6d986b6a"/>
+    <skos:narrower rdf:resource="http://localhost:8000/90e5ffec-2e85-3d6d-b130-1e31637d50f3"/>
+    <dcterms:identifier xml:lang="en">{"id": "589449e7-7b40-4f6e-aff7-70e2cc36ed64", "value": "http://rightsstatements.org/other"}</dcterms:identifier>
+    <skos:narrower rdf:resource="http://localhost:8000/1dadc435-730b-3230-8e4e-03c1540948c4"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/071d34c2-b625-3405-a7d4-778c85153380"/>
+  </skos:Concept>
+</rdf:RDF>
