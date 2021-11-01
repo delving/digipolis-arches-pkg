@@ -1061,6 +1061,21 @@
                 {
                     "card_id": "47eb7020-0b1b-11ec-8021-9cf387da2c40",
                     "config": {
+                        "defaultValue": "",
+                        "label": "Capacity",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "47ec3bfe-0b1b-11ec-8021-9cf387da2c40",
+                    "label": "Capacity",
+                    "node_id": "47ebd4de-0b1b-11ec-8021-9cf387da2c40",
+                    "sortorder": 11,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "47eb7020-0b1b-11ec-8021-9cf387da2c40",
+                    "config": {
                         "defaultValue": null,
                         "label": "Begindatum",
                         "placeholder": null
@@ -1125,21 +1140,6 @@
                     "node_id": "47ebca98-0b1b-11ec-8021-9cf387da2c40",
                     "sortorder": 8,
                     "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "47eb7020-0b1b-11ec-8021-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Capacity",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "47ec3bfe-0b1b-11ec-8021-9cf387da2c40",
-                    "label": "Capacity",
-                    "node_id": "47ebd4de-0b1b-11ec-8021-9cf387da2c40",
-                    "sortorder": 11,
-                    "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
@@ -2284,23 +2284,6 @@
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "47eb5978-0b1b-11ec-8021-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Brocade Record Identifier",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "3615a272-0b29-11ec-8021-9cf387da2c40",
-                    "label": "Brocade Record Identifier",
-                    "node_id": "47ec18fe-0b1b-11ec-8021-9cf387da2c40",
-                    "sortorder": null,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
                     "card_id": "47eb5978-0b1b-11ec-8021-9cf387da2c40",
@@ -4789,15 +4772,6 @@
                 },
                 {
                     "description": null,
-                    "domainnode_id": "47eb555e-0b1b-11ec-8021-9cf387da2c40",
-                    "edgeid": "47f9e588-0b1b-11ec-8021-9cf387da2c40",
-                    "graph_id": "47eb5342-0b1b-11ec-8021-9cf387da2c40",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "rangenode_id": "47ec18fe-0b1b-11ec-8021-9cf387da2c40"
-                },
-                {
-                    "description": null,
                     "domainnode_id": "47ebc250-0b1b-11ec-8021-9cf387da2c40",
                     "edgeid": "47f9e5ec-0b1b-11ec-8021-9cf387da2c40",
                     "graph_id": "47eb5342-0b1b-11ec-8021-9cf387da2c40",
@@ -5887,7 +5861,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "47eb5342-0b1b-11ec-8021-9cf387da2c40",
-                    "id": "643c864a-10e5-11ec-8bf2-9cf387da2c40"
+                    "id": "cb58c03e-3ae6-11ec-acc1-9cf387da2c40"
                 }
             ],
             "graphid": "47eb5342-0b1b-11ec-8021-9cf387da2c40",
@@ -8426,24 +8400,6 @@
                     "nodeid": "47ec2e98-0b1b-11ec-8021-9cf387da2c40",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "url",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "47eb5342-0b1b-11ec-8021-9cf387da2c40",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Brocade Record Identifier",
-                    "nodegroup_id": "47eb555e-0b1b-11ec-8021-9cf387da2c40",
-                    "nodeid": "47ec18fe-0b1b-11ec-8021-9cf387da2c40",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0
                 },
                 {
