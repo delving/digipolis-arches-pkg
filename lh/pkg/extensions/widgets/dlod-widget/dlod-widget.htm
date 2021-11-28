@@ -1,0 +1,44 @@
+{% extends "views/components/widgets/base.htm" %}
+{% load i18n %}
+
+{% block form %}
+<div class="row widget-wrapper">
+    <div class="form-group">
+        <div class="col-xs-12">
+            <input style="display:inline-block;"
+                data-bind="select2Query: { select2Config: select2Config }">
+        </div>
+
+        <div class="col-xs-12">
+            <input type="text" data-bind="textInput: suggestValue, attr: {}" class="form-control input-lg widget-input" placeholder="Enter text" style="margin-bottom: 5px">
+            <input type="hidden" data-bind="textInput: value, attr: {}" class="form-control input-lg widget-input" placeholder="Enter text" style="margin-bottom: 5px">
+        </div>
+        <div class="col-xs-12">
+            <label class="control-label widget-input-label" for="">Preview</label>
+            <input disabled type="text" data-bind="textInput: preview" class="form-control input-lg widget-input">
+
+            <label class="control-label widget-input-label" for="">Displaylabel</label>
+            <input disabled type="text" data-bind="textInput: name" class="form-control input-lg widget-input">
+
+            <label class="control-label widget-input-label" for="">Ark</label>
+            <input disabled type="text" data-bind="textInput: ark" class="form-control input-lg widget-input">
+        </div>
+    </div>
+</div>
+{% endblock form %}
+
+{% block config_form %}
+<div class="control-label">
+    {% trans "DLOD datatype" %}
+</div>
+<div class="col-xs-12 crud-widget-container">
+    <input type="" placeholder="{% trans "Placeholder" %}" id="" class="form-control input-md widget-input" data-bind="textInput: dlod_datatype">
+</div>
+{% endblock config_form %}
+
+{% block report %}
+<dt data-bind="text: label"></dt>
+<dd>
+  <div style='margin-bottom:2px' data-bind="text: preview"></div>
+</dd>
+{% endblock report %}
