@@ -5,21 +5,21 @@
             "cards": [
                 {
                     "active": true,
-                    "cardid": "3b6eca12-0fb8-11ec-9a9d-9cf387da2c40",
+                    "cardid": "f182a462-3ca0-11ec-bd3f-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
                     "description": "",
-                    "graph_id": "3b6ec5bc-0fb8-11ec-9a9d-9cf387da2c40",
+                    "graph_id": "f182a0f2-3ca0-11ec-bd3f-9cf387da2c40",
                     "helpenabled": false,
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
                     "is_editable": true,
                     "name": "Access Type",
-                    "nodegroup_id": "3b6ec7a6-0fb8-11ec-9a9d-9cf387da2c40",
-                    "sortorder": null,
+                    "nodegroup_id": "f182a246-3ca0-11ec-bd3f-9cf387da2c40",
+                    "sortorder": 6,
                     "visible": true
                 }
             ],
@@ -33,7 +33,7 @@
             "description": "",
             "edges": [],
             "functions_x_graphs": [],
-            "graphid": "3b6ec5bc-0fb8-11ec-9a9d-9cf387da2c40",
+            "graphid": "f182a0f2-3ca0-11ec-bd3f-9cf387da2c40",
             "iconclass": "fa fa-paint-brush",
             "is_editable": true,
             "isactive": true,
@@ -44,27 +44,27 @@
                 {
                     "cardinality": "1",
                     "legacygroupid": null,
-                    "nodegroupid": "3b6ec7a6-0fb8-11ec-9a9d-9cf387da2c40",
+                    "nodegroupid": "f182a246-3ca0-11ec-bd3f-9cf387da2c40",
                     "parentnodegroup_id": null
                 }
             ],
             "nodes": [
                 {
                     "config": {
-                        "rdmCollection": "ee956457-b402-4029-aa9f-c89929232bbb"
+                        "rdmCollection": null
                     },
                     "datatype": "concept",
-                    "description": null,
+                    "description": "https://trello.com/c/2QxYTf4R/66-access-type-e55-remove-node-migrate-to-annotations-type-algemeen\n\n**URL Arches**: https://arches.mpm.delving.io/en/report/26126f05-5dd7-5b3e-a75b-4d2001ac944e\n**field in Arches**: Access Type (E55)\n**field in Brocade**: kenmerken/mpmaccess\n**current result:** (none)\n**expected result:** \n\n- mapping: migrate to Annotations (type = algemeen)\n- remove node Access Type (E55)",
                     "exportable": false,
                     "fieldname": null,
-                    "graph_id": "3b6ec5bc-0fb8-11ec-9a9d-9cf387da2c40",
+                    "graph_id": "f182a0f2-3ca0-11ec-bd3f-9cf387da2c40",
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": true,
                     "name": "Access Type",
-                    "nodegroup_id": "3b6ec7a6-0fb8-11ec-9a9d-9cf387da2c40",
-                    "nodeid": "3b6ec7a6-0fb8-11ec-9a9d-9cf387da2c40",
+                    "nodegroup_id": "f182a246-3ca0-11ec-bd3f-9cf387da2c40",
+                    "nodeid": "f182a246-3ca0-11ec-bd3f-9cf387da2c40",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "",
                     "sortorder": 0
@@ -75,20 +75,20 @@
             "resource_2_resource_constraints": [],
             "root": {
                 "config": {
-                    "rdmCollection": "ee956457-b402-4029-aa9f-c89929232bbb"
+                    "rdmCollection": null
                 },
                 "datatype": "concept",
-                "description": null,
+                "description": "https://trello.com/c/2QxYTf4R/66-access-type-e55-remove-node-migrate-to-annotations-type-algemeen\n\n**URL Arches**: https://arches.mpm.delving.io/en/report/26126f05-5dd7-5b3e-a75b-4d2001ac944e\n**field in Arches**: Access Type (E55)\n**field in Brocade**: kenmerken/mpmaccess\n**current result:** (none)\n**expected result:** \n\n- mapping: migrate to Annotations (type = algemeen)\n- remove node Access Type (E55)",
                 "exportable": false,
                 "fieldname": null,
-                "graph_id": "3b6ec5bc-0fb8-11ec-9a9d-9cf387da2c40",
+                "graph_id": "f182a0f2-3ca0-11ec-bd3f-9cf387da2c40",
                 "is_collector": true,
                 "isrequired": false,
                 "issearchable": true,
                 "istopnode": true,
                 "name": "Access Type",
-                "nodegroup_id": "3b6ec7a6-0fb8-11ec-9a9d-9cf387da2c40",
-                "nodeid": "3b6ec7a6-0fb8-11ec-9a9d-9cf387da2c40",
+                "nodegroup_id": "f182a246-3ca0-11ec-bd3f-9cf387da2c40",
+                "nodeid": "f182a246-3ca0-11ec-bd3f-9cf387da2c40",
                 "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                 "sortorder": 0
             },
@@ -97,5 +97,11 @@
             "template_id": "50000000-0000-0000-0000-000000000003",
             "version": ""
         }
-    ]
+    ],
+    "metadata": {
+        "db": "PostgreSQL 12.8 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "git hash": "fatal: not a git repository (or any of the parent directories): .git",
+        "os": "Darwin",
+        "os version": "19.5.0"
+    }
 }

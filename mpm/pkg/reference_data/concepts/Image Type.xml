@@ -4,29 +4,31 @@
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:dcterms="http://purl.org/dc/terms/"
 >
-  <skos:Concept rdf:about="http://localhost:8000/71af7fe3-5db9-40d8-bce1-61358f31cb58">
-    <skos:prefLabel xml:lang="nl">{"id": "57bfcf60-c7b7-47e6-8eb8-ff2eb8fc2567", "value": "Hoge resolutie"}</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">{"id": "bf8287b2-09f1-49e1-9619-6a0e2aa866aa", "value": "High resolution"}</skos:prefLabel>
-    <skos:inScheme>
-      <skos:ConceptScheme rdf:about="http://localhost:8000/3b08e9b8-6e09-4b7b-ae6c-5de6798fbdba">
-        <dcterms:title xml:lang="en">{"id": "753c0023-a85c-4bfb-8519-f7264aa2785c", "value": "Image Type"}</dcterms:title>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/71af7fe3-5db9-40d8-bce1-61358f31cb58"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/90709a2b-944a-4f34-ba53-8b01f82fbe24"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/aa8ccb23-e097-48c6-89ed-303d6580e531"/>
-        <dcterms:identifier xml:lang="en">{"id": "722c04e2-3075-422a-bb2a-d1a8356d5a66", "value": "http://localhost:8000/3b08e9b8-6e09-4b7b-ae6c-5de6798fbdba"}</dcterms:identifier>
-      </skos:ConceptScheme>
-    </skos:inScheme>
-    <dcterms:identifier xml:lang="en">{"id": "f6b1a6f5-164d-4e6e-856e-084e5ac8a75b", "value": "http://localhost:8000/71af7fe3-5db9-40d8-bce1-61358f31cb58"}</dcterms:identifier>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/90709a2b-944a-4f34-ba53-8b01f82fbe24">
-    <skos:prefLabel xml:lang="nl">{"id": "4ca6a51f-60dd-41c8-a749-e80003ee966f", "value": "Lage resolutie"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "138f6ef7-d364-414b-9847-fb8b5fe64d82", "value": "http://localhost:8000/90709a2b-944a-4f34-ba53-8b01f82fbe24"}</dcterms:identifier>
-    <skos:prefLabel xml:lang="en">{"id": "a9e55380-e2d0-4216-9e97-70ddbda232a2", "value": "Low resolution"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/3b08e9b8-6e09-4b7b-ae6c-5de6798fbdba"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/aa8ccb23-e097-48c6-89ed-303d6580e531">
-    <skos:inScheme rdf:resource="http://localhost:8000/3b08e9b8-6e09-4b7b-ae6c-5de6798fbdba"/>
-    <skos:prefLabel xml:lang="nl">{"id": "6a8c66d0-1ac0-4718-94fa-5ae3deece12c", "value": "Thumbnail"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "fa69922b-cf07-42f6-99ee-1f4409c63518", "value": "http://localhost:8000/aa8ccb23-e097-48c6-89ed-303d6580e531"}</dcterms:identifier>
-  </skos:Concept>
+  <skos:ConceptScheme rdf:about="https://arches.importer.delving.io/3b08e9b8-6e09-4b7b-ae6c-5de6798fbdba">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://arches.importer.delving.io/aa8ccb23-e097-48c6-89ed-303d6580e531">
+        <skos:prefLabel xml:lang="nl">{"id": "6a8c66d0-1ac0-4718-94fa-5ae3deece12c", "value": "Thumbnail"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="nl">{"id": "fa69922b-cf07-42f6-99ee-1f4409c63518", "value": "http://localhost:8000/aa8ccb23-e097-48c6-89ed-303d6580e531"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://arches.importer.delving.io/3b08e9b8-6e09-4b7b-ae6c-5de6798fbdba"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://arches.importer.delving.io/71af7fe3-5db9-40d8-bce1-61358f31cb58">
+        <skos:prefLabel xml:lang="en">{"id": "bf8287b2-09f1-49e1-9619-6a0e2aa866aa", "value": "High resolution"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="nl">{"id": "f6b1a6f5-164d-4e6e-856e-084e5ac8a75b", "value": "http://localhost:8000/71af7fe3-5db9-40d8-bce1-61358f31cb58"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="nl">{"id": "57bfcf60-c7b7-47e6-8eb8-ff2eb8fc2567", "value": "Hoge resolutie"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://arches.importer.delving.io/3b08e9b8-6e09-4b7b-ae6c-5de6798fbdba"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:identifier xml:lang="nl">{"id": "722c04e2-3075-422a-bb2a-d1a8356d5a66", "value": "http://localhost:8000/3b08e9b8-6e09-4b7b-ae6c-5de6798fbdba"}</dcterms:identifier>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://arches.importer.delving.io/90709a2b-944a-4f34-ba53-8b01f82fbe24">
+        <skos:prefLabel xml:lang="nl">{"id": "4ca6a51f-60dd-41c8-a749-e80003ee966f", "value": "Lage resolutie"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">{"id": "a9e55380-e2d0-4216-9e97-70ddbda232a2", "value": "Low resolution"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="nl">{"id": "138f6ef7-d364-414b-9847-fb8b5fe64d82", "value": "http://localhost:8000/90709a2b-944a-4f34-ba53-8b01f82fbe24"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://arches.importer.delving.io/3b08e9b8-6e09-4b7b-ae6c-5de6798fbdba"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "753c0023-a85c-4bfb-8519-f7264aa2785c", "value": "Image Type"}</dcterms:title>
+  </skos:ConceptScheme>
 </rdf:RDF>
