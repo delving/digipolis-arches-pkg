@@ -649,7 +649,14 @@
                     "cardid": "e95fb20a-5142-11ec-a4c7-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "e95fb20a-5142-11ec-a4c7-9cf387da2c40",
+                            "constraintid": "20e4540f-179f-4752-9407-967188da77fb",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "e95ea4aa-5142-11ec-a4c7-9cf387da2c40",
@@ -6459,7 +6466,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "e95ea4aa-5142-11ec-a4c7-9cf387da2c40",
-                    "id": "9ef72f72-5151-11ec-b3de-9cf387da2c40"
+                    "id": "1ca94708-51e7-11ec-89f6-9cf387da2c40"
                 }
             ],
             "graphid": "e95ea4aa-5142-11ec-a4c7-9cf387da2c40",
@@ -6651,7 +6658,7 @@
                     "parentnodegroup_id": null
                 },
                 {
-                    "cardinality": "1",
+                    "cardinality": "n",
                     "legacygroupid": null,
                     "nodegroupid": "e95fade6-5142-11ec-a4c7-9cf387da2c40",
                     "parentnodegroup_id": null
