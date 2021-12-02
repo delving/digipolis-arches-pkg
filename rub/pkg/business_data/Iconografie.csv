@@ -1,4 +1,4 @@
-Object Number,Record Type,URL,ResourceID,Reference Number,Keeper,Object Identifier,Record ID Type,Object Number Type,URL Type,Object Identifier Type,Reference Number Type,order,card,brocade.id,Archive Brocade ID,Archive Widget,Archive Identifier,source_field,Description,Description Type,Description Language,Archive Note,Archive Note.1,Keyword,Object Type,Legacy Subject,Legacy Subject Type,Title,Title Type,Title Language,Comment,if.user,Legacy Comment Type,Production Technique Type
+Object Number,Record Type,URL,ResourceID,Reference Number,Keeper,Object Identifier,Record ID Type,Object Number Type,URL Type,Object Identifier Type,Reference Number Type,order,card,brocade.id,Archive Brocade ID,Archive Widget,Archive Identifier,source_field,Description,Description Type,Description Language,adm.archiefstuknummer,adm.isadPartOf,Keyword,Object Type,Legacy Subject,Legacy Subject Type,Title,Title Type,Title Language,Comment,Legacy Comment Type,Legacy Comment Publish Status,Production Technique Type
 tg:rubgr:48,Objecten archief Grossmann,https://anet.be/record/opacrubobj/tg:rubgr:48/N,f579cbab-2d7c-5b36-934e-c1f49eb18929,BE-ANN14/gr/000000048,Rubenianum,https://data.rubenianum.be//ark:/86530/f579cbab-2d7c-5b36-934e-c1f49eb18929,record identifiers,repository numbers,uniform resource locators,object identifier,referentienummer,0,AA,,,,,,,,,,,,,,,,,,,,,
 ,,,f579cbab-2d7c-5b36-934e-c1f49eb18929,,,,,,,,,1,Archives,tg:rubgr:48,isad:rub:2930,"dlod={""id"":""ark:/86530/x0/232883ae-1d65-5082-8020-8f39afe8e5a5"",""text"":""Map 1 (AFG_001)"",""name"":""Map 1 (AFG_001)"",""nameWithContext"":"""",""orgID"":""rub"",""suggestType"":""archiveobject"",""json"":""""}",ark:/86530/x0/232883ae-1d65-5082-8020-8f39afe8e5a5,,,,,,,,,,,,,,,,,
 ,,,f579cbab-2d7c-5b36-934e-c1f49eb18929,,,,,,,,,1,Descriptions,,,,,id.desc,"P. Buttats Junoir fecit, 97 Peeter Brugel. [Portret van Pieter Bruegel door Philibert Bouttats, KB S. I/ 8093; Idem, Philibert Bouttats de Jonge, buste ¾ naar links in een medaillon, burijngravure, Pl. (97) uit: ‘Images de divers hommes d’esprit sublime…’, Anvers,  Jean Meyssens, 1649. Cp.V.S.tI., p. 196, nr. 210d, zie Theodoor Galle, ‘Illustrum… pictorum effigies’, KBR Impr. II 53828]",descriptive note,Nederlands,,,,,,,,,,,,,
@@ -10,7 +10,7 @@ tg:rubgr:48,Objecten archief Grossmann,https://anet.be/record/opacrubobj/tg:rubg
 ,,,f579cbab-2d7c-5b36-934e-c1f49eb18929,,,,,,,,,1,ProductionTechniques,tg:rubgr:48,,,,,,,,,,,,,,,,,,,,dtrvgr NOT FOUND IN: technique_types.csv
 ,,,f579cbab-2d7c-5b36-934e-c1f49eb18929,,,,,,,,,a::rub.5,Subjects,tg:rubgr:48,,,,ow.link,,,,,,,,a::rub.5,related artworks,,,,,,,
 ,,,f579cbab-2d7c-5b36-934e-c1f49eb18929,,,,,,,,,1,Titles,tg:rubgr:48,,,,id.title/title/merged,,,,,,,,,,AFG_001_048,titles proper,Dutch (language),,,,
-,,,f579cbab-2d7c-5b36-934e-c1f49eb18929,,,,,,,,,1,Users,tg:rubgr:48,,,,,,,,,,,,,,,,,"<record>
+,,,f579cbab-2d7c-5b36-934e-c1f49eb18929,,,,,,,,,1,Users,tg:rubgr:48,,,,if.rawcontent,,,,,,,,,,,,,"<record>
 			<priref>2288</priref>
 			<number>AFG_001_048</number>
 			<content>P. Buttats Junoir fecit, 97 Peeter Brugel. [Portret van Pieter Bruegel door Philibert Bouttats, KB S. I/ 8093; Idem, Philibert Bouttats de Jonge, buste &#190; naar links in een medaillon, burijngravure, Pl. (97) uit: &#8216;Images de divers hommes d&#8217;esprit sublime&#8230;&#8217;, Anvers,  Jean Meyssens, 1649. Cp.V.S.tI., p. 196, nr. 210d, zie Theodoor Galle, &#8216;Illustrum&#8230; pictorum effigies&#8217;, KBR Impr. II 53828]</content>
@@ -61,4 +61,4 @@ tg:rubgr:48,Objecten archief Grossmann,https://anet.be/record/opacrubobj/tg:rubg
 			<edit.source>archive</edit.source>
 		</record>
 		
-",usystem,commentaar gebruiker,
+",commentaar gebruiker,False,
