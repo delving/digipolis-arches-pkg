@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://localhost:8000/201051c7-1e57-4f4a-87fa-70e30ea32a2f">
+    <skos:prefLabel xml:lang="en">{"id": "5dbcc3cd-0d73-45ff-a387-408ff6822171", "value": "temporary location"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/66ab83dd-643a-4951-8f31-271b7c11b2cd">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/1cc63f61-d94a-404e-843e-10183b6255d3"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/c244f029-0bf8-4554-a52b-2339d7538207"/>
+        <dcterms:title xml:lang="en">{"id": "83caa7c9-d9fc-46fb-a2c4-0b162e05dec1", "value": "Legacy Information Type"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/d42caf65-b086-4e1a-a586-2b8bee96339e"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/e5a32508-5710-4954-90b4-dccac6a2f371"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/ac93f47b-dfe0-4289-ac8e-b933ae3d7fa1"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/201051c7-1e57-4f4a-87fa-70e30ea32a2f"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/f7b2fce5-3f19-4a1b-8c73-a3dab67ccd86"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/cf987bff-ea15-4ae8-8af8-14296b5519cd"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/cf987bff-ea15-4ae8-8af8-14296b5519cd">
+    <skos:prefLabel xml:lang="nl">{"id": "93e5a9e5-83c1-4844-b0fd-9b7e399c4489", "value": "groepsbeschrijving"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/66ab83dd-643a-4951-8f31-271b7c11b2cd"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c244f029-0bf8-4554-a52b-2339d7538207">
+    <skos:prefLabel xml:lang="en">{"id": "2ec97698-c637-4c3a-bf1f-fbc43eaf19be", "value": "temporary location note"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/66ab83dd-643a-4951-8f31-271b7c11b2cd"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/f7b2fce5-3f19-4a1b-8c73-a3dab67ccd86">
+    <skos:inScheme rdf:resource="http://localhost:8000/66ab83dd-643a-4951-8f31-271b7c11b2cd"/>
+    <skos:prefLabel xml:lang="nl">{"id": "02a63914-32d2-42f9-ace8-e17d57985106", "value": "herkomst"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/1cc63f61-d94a-404e-843e-10183b6255d3">
+    <skos:prefLabel xml:lang="nl">{"id": "23ffd7ab-823d-41e1-967a-f379c9658a7d", "value": "brocade id"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/66ab83dd-643a-4951-8f31-271b7c11b2cd"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/d42caf65-b086-4e1a-a586-2b8bee96339e">
+    <skos:prefLabel xml:lang="nl">{"id": "8a13fa4a-35cc-4092-b78f-69bf7302744f", "value": "commentaar gebruiker"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/66ab83dd-643a-4951-8f31-271b7c11b2cd"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ac93f47b-dfe0-4289-ac8e-b933ae3d7fa1">
+    <skos:prefLabel xml:lang="nl">{"id": "7d321668-c3e2-4671-8778-ab2484835566", "value": "referentienummer"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/66ab83dd-643a-4951-8f31-271b7c11b2cd"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e5a32508-5710-4954-90b4-dccac6a2f371">
+    <skos:prefLabel xml:lang="en-us">{"id": "57a08329-5055-4f9d-9d2e-c554f0b4c42b", "value": "brocade url"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/66ab83dd-643a-4951-8f31-271b7c11b2cd"/>
+  </skos:Concept>
+</rdf:RDF>
