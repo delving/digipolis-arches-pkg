@@ -1,0 +1,409 @@
+{
+  "ProductionTechniques": {
+    "include_codes": [
+      "aca", "agr", "df", "dk", "dtrvdw", "dtrvgr", "dtrvhs", "dtrvif", "dtrvnb", "dtrvnt", "dtrvod", "dtrvrn", "dtrvty", "form", "hs", "hsts", "mpmtechplet", "paq", "pau", "pba", "pbg", "pcg", "pcl", "pct", "pcv", "pdn", "pee", "pet", "pfg", "pfl", "phg", "phs", "pka", "pkd", "pkg", "pkh", "pkl", "pko", "pkr", "pks", "pku", "plc", "pld", "plg", "pll", "pls", "pmh", "pmt", "pmy", "pos", "pr", "psg", "psh", "pst", "ptl", "pvg", "pvm", "pzc", "pzd", "sag", "tcl", "tgt", "tmo", "tpe", "tps", "ts", "vema", "vgog", "vgra", "vlak", "vpat", "vzil", "xgl", "xgp", "xgr", "xgs", "xpa", "xps", "xvz", "zat", "zdn", "zga", "zgw", "zkg", "zlv", "zmt", "ztd", "zvm"
+    ], "exclude_codes": [
+      "formXXXX", "hstsXXXX", "agi", "aio", "mpmtechplgr", "mpmtechplin", "pco", "pda", "pkm", "pmk", "pnp", "pnz", "psc", "pta", "ptf", "ptg", "vgul", "vsla", "zbu", "zec", "zsm", "tbp", "tcl", "tco", "tgt", "thk", "tin", "tkk", "tkp", "tkr", "tmo", "tnp", "toi", "top", "tow", "tpa", "tpe", "tpl", "tps", "trp", "tsg", "tsl", "tvs", "twk"
+    ], "node_mappings": [
+      {
+        "from": "kenmerken.lhorighs", "to": "Production Technique Type", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "technique_types.csv"
+        }
+      }
+      }, {
+        "from": "kenmerken.lhtypohs", "to": "Production Technique Type", "function": {
+          "name": "column_lookup", "args": {
+            "lookup_file": "technique_types.csv"
+          }
+        }
+      }, {
+        "from": "kenmerken/lhtechbasispr.lhtechpr", "to": "Production Technique Type", "function": {
+          "name": "column_lookup", "args": {
+            "lookup_file": "technique_types.csv"
+          }
+        }
+      }, {
+        "from": "kenmerken/lhtechbasispa.lhtechpa", "to": "Production Technique Type", "function": {
+          "name": "column_lookup", "args": {
+            "lookup_file": "technique_types.csv"
+          }
+        }
+      }, {
+        "from": "kenmerken/lhtechbasistk.lhtechtk", "to": "Production Technique Type", "function": {
+          "name": "column_lookup", "args": {
+            "lookup_file": "technique_types.csv"
+          }
+        }
+      }, {
+        "from": "kenmerken/lhtechaanvtk.lhtechtaddtk", "to": "Production Technique Type", "function": {
+          "name": "column_lookup", "args": {
+            "lookup_file": "technique_types.csv"
+          }
+        }
+      }, {
+        "from": "kenmerken/lhmateriaalob.lhmateriaalextraob", "to": "Production Technique Type", "function": {
+          "name": "column_lookup", "args": {
+            "lookup_file": "technique_types.csv"
+          }
+        }
+      }, {
+        "from": "kenmerken/lhtechaanvsc.lhtechtaddsc", "to": "Production Technique Type", "function": {
+          "name": "column_lookup", "args": {
+            "lookup_file": "technique_types.csv"
+          }
+        }
+      }, {
+        "from": "kenmerken.lhstadiumhs", "to": "Production Technique Type", "function": {
+          "name": "column_lookup", "args": {
+            "lookup_file": "technique_types.csv"
+          }
+        }
+      }, {
+        "from": "kenmerken/lhmateriaalaanvob.lhmateriaalextraob", "to": "Production Technique Type", "function": {
+          "name": "column_lookup", "args": {
+            "lookup_file": "technique_types.csv"
+          }
+        }
+      }, {
+        "from": "kenmerken.lhtechvrijic", "to": "Production Technique Note"
+      }, {
+        "from": "kenmerken.mpmstadiumhs", "to": "Production Technique Type", "function": {
+          "name": "column_lookup", "args": {
+            "lookup_file": "technique_types.csv"
+          }
+        }
+      }, {
+        "from": "kenmerken.mpmtypohs", "to": "Production Technique Type", "function": {
+          "name": "column_lookup", "args": {
+            "lookup_file": "technique_types.csv"
+          }
+        }
+      }, {
+        "from": "kenmerken/mpmtechbasistk.mpmtechtk", "to": "Production Technique Type", "function": {
+          "name": "column_lookup", "args": {
+            "lookup_file": "technique_types.csv"
+          }
+        }
+      }, {
+        "from": "kenmerken/mpmtechaanvtk.mpmtechtaddtk", "to": "Production Technique Type", "function": {
+          "name": "column_lookup", "args": {
+            "lookup_file": "technique_types.csv"
+          }
+        }
+      }, {
+        "from": "kenmerken.rubedformgr", "to": "Production Technique Type", "function": {
+          "name": "column_lookup", "args": {
+            "lookup_file": "technique_types.csv"
+          }
+        }
+      }, {
+        "from": "kenmerken.rubstadiumhs", "to": "Production Technique Type", "function": {
+          "name": "column_lookup", "args": {
+            "lookup_file": "technique_types.csv"
+          }
+        }
+      }
+    ]
+  },
+  "Materials": {
+  "include_codes": [
+    "aaq", "ago", "bal", "bar", "bbr", "bei", "bgi", "bgr", "bgs", "bho", "bi", "bij", "biv", "bke", "bko", "bks", "bli", "bma", "bmd", "bmm", "bmo", "bol", "bpe", "bpl", "bpo", "bpr", "bse", "bsp", "bst", "bte", "bth", "bwa", "bws", "bza", "bzi", "daa", "dbe", "dbr", "dcu", "dem", "dgo", "dgs", "dho", "div", "dka", "dkt", "dku", "dle", "dlo", "dma", "dme", "dpo", "dpp", "dst", "dti", "dto", "dtx", "dyz", "dzl", "dzy", "ft", "in", "pc", "sac", "sov", "stp", "svo", "tbp", "tco", "thk", "tin", "tkk", "tkp", "tkr", "tnp", "toi", "top", "tow", "tpa", "tpl", "trp", "tsg", "tsl", "tvs", "twk", "vleg", "zaq", "zbw", "zdv", "zov", "zwv"
+  ], "exclude_codes": [
+    "bac", "bcr", "bed", "bfa", "bfs", "bgl", "bha", "bhl", "bla", "bmh", "btb", "bvi", "bzk", "bzm", "dba", "dbl", "dgk", "dmp", "dot", "dsm", "dvi", "xgb", "xgd", "ddo", "ddp", "det", "dgp", "dgs", "dhb", "dho", "dhp", "djp", "dko", "dkt", "dlb", "dli", "dmd", "dpa", "dpm", "dpp", "dsb", "dsp", "dtp", "dvp", "dzi", "dzy", "tcl", "tgt", "tmo", "tpe", "tps", "xgl", "xgp", "xgr", "xgs", "xvz", "ddh", "dgl", "dkp", "dkr", "dlp", "dpb", "dpd", "dpk", "dpr", "drp", "dun", "bse", "bws", "tkk", "tnp", "tow", "xpa", "xps"
+  ], "node_mappings": [
+    {
+      "from": "kenmerken/lhmateriaalaanvob.lhmateriaalextraob", "to": "Material", "function": {
+      "name": "column_lookup", "args": {
+        "lookup_file": "materiaal_types.csv"
+      }
+    }
+    }, {
+      "from": "kenmerken/lhtechbasisaq.lhtechaq", "to": "Material", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "materiaal_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken/lhtechbasissc.lhtechsc", "to": "Material", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "materiaal_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken.lhschrijfhs", "to": "Material", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "materiaal_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken/lhmateriaalob.lhmateriaalsoortob", "to": "Material", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "materiaal_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken/lhmateriaalaanvob.lhmateriaalsoortob", "to": "Material", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "materiaal_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken/lhtechbasispa.lhtechpa", "to": "Material", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "materiaal_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken/lhtechaanvtk.lhtechtaddtk", "to": "Material", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "materiaal_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken/lhtechbasistk.lhtechtk", "to": "Material", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "materiaal_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken/lhmateriaalob.lhmateriaalextraob", "to": "Material", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "materiaal_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken.rubschrijfhs", "to": "Material", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "materiaal_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken.mpmschrijf", "to": "Material", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "materiaal_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken/mpmtechbasistk.mpmtechtk", "to": "Material", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "materiaal_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken/mpmtechaanvtk.mpmtechtaddtk", "to": "Material", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "materiaal_types.csv"
+        }
+      }
+    }
+  ]
+},
+  "Colours": {
+  "include_codes": [
+    "kbj", "kbl", "kbr", "kbs", "kdb", "kdr", "kge", "kgr", "kgw", "kiw", "kjs", "kkg", "klb", "klr", "koj", "kor", "kpa", "kro", "krz", "ksp", "kwt", "kzi", "kzw"
+  ], "exclude_codes": [
+    "kbg", "kcu", "kgg", "kjg", "kma", "kme", "kog", "kol", "ksg", "ktc", "kvi"
+  ], "node_mappings": [
+    {
+      "from": "kenmerken/lhdragerico.lhkleur", "to": "Colour", "function": {
+      "name": "column_lookup", "args": {
+        "lookup_file": "kleur_types.csv"
+      }
+    }
+    }, {
+      "from": "kenmerken/lhmateriaalaanvob.lhmateriaalkleurob", "to": "Colour", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "kleur_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken/lhmateriaalob.lhmateriaalkleurob", "to": "Colour", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "kleur_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken/lhtechaanvsc.lhkleur", "to": "Colour", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "kleur_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken/lhtechaanvtk.lhkleur", "to": "Colour", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "kleur_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken/lhtechbasisaq.lhkleur", "to": "Colour", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "kleur_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken/lhtechbasispa.lhkleur", "to": "Colour", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "kleur_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken/lhtechbasispr.lhkleur", "to": "Colour", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "kleur_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken/lhtechbasissc.lhkleur", "to": "Colour", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "kleur_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken/lhtechbasistk.lhkleur", "to": "Colour", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "kleur_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken/mpmtechaanvtk.mpmkleur", "to": "Colour", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "kleur_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken/mpmtechbasistk.mpmkleur", "to": "Colour", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "kleur_types.csv"
+        }
+      }
+    }
+  ]
+},
+  "Drager": [
+          {"from": "kenmerken/lhdragerico.lhdragertypeico", "to": "Carrier Type",
+         "function": {
+             "name": "column_lookup",
+             "args": [{"lookup_file": "drager_types.csv"}]}
+        },
+        {"from": "kenmerken/lhdragerico.lhkleur", "to": "Carrier Colour",
+         "function": {
+             "name": "column_lookup",
+             "args": [{"lookup_file": "kleur_types.csv"}]}
+        },
+        {"from": "kenmerken.mpmdragerak", "to": "Carrier Type",
+         "function": {
+             "name": "column_lookup",
+             "args": [{"lookup_file": "drager_types.csv"}]}
+        },
+        {"from": "kenmerken.mpmdragertk", "to": "Carrier Type",
+         "function": {
+             "name": "column_lookup",
+             "args": [{"lookup_file": "drager_types.csv"}]}
+        },
+        {"from": "kenmerken.lhdragerps", "to": "Carrier Type",
+         "function": {
+             "name": "column_lookup",
+             "args": [{"lookup_file": "drager_types.csv"}]}
+        }
+    ],
+  "ObjectTypes": {
+  "include_codes": [
+    "ag", "akco", "akge", "akkw", "akoo", "akpa", "akpo", "akpr", "aksc", "akte", "akvo", "akvr", "bh", "bp", "brbe", "brbk", "brci", "brdd", "brem", "brfx", "brgg", "brkl", "brlc", "brpp", "brtg", "brtx", "brvc", "CD", "CN", "CP", "dcbr", "dcdo", "dcfi", "dcfo", "dcge", "dcid", "dcka", "dckn", "dclb", "dcli", "dclk", "dclr", "dcmn", "dcob", "dcov", "dcsw", "dr", "DT", "dtrvak", "dtrvat", "dtrvbb", "dtrvbk", "dtrvbm", "dtrvbo", "dtrvbr", "dtrvbu", "dtrvdo", "dtrvdp", "dtrvdw", "dtrvfk", "dtrvfo", "dtrvfr", "dtrvgr", "dtrvhs", "dtrvif", "dtrvka", "dtrvkb", "dtrvkn", "dtrvnb", "dtrvnt", "dtrvod", "dtrvpd", "dtrvpk", "dtrvpr", "dtrvre", "dtrvrf", "dtrvrg", "dtrvrn", "dtrvtc", "dtrvtg", "dtrvtp", "dtrvts", "dtrvty", "dtrvui", "dtrvvc", "dtrvvi", "dtrvvk", "form", "gac", "gas", "gbr", "gbs", "gdm", "gen", "gfh", "gg", "gha", "gis", "gkp", "gmd", "gmk", "gmq", "GN", "gpl", "gsf", "gzb", "ln", "mz", "nb", "pz", "rebb", "redb", "regb", "rein", "rekb", "SC", "sw", "ttkt", "ttpl", "tttek", "va", "vaud", "vbri", "vcer", "vhui", "vkos", "vkun", "vmed", "vmem", "vmeu", "vmuz", "vp", "vpor", "vrek", "vroo", "vs", "vschi", "vschr", "vsie", "vtex", "vtro", "vvla", "vwan", "vwap", "ZD", "ZN", "ZP"
+  ], "exclude_codes": [
+    "dtrvca", "dtrvkr", "dtrvlm", "dtrvpb", "dtrvpf", "dtrvpg", "dtrvrk", "dtrvrv", "dtrvsk", "dtrvtk", "dtrvvh", "dtrvwk", "dtrvwt", "lhcopyright", "lhrights", "lhtermsofuse", "lhtranscript", "mpmcopyright", "mpmtermsofuse", "rubcopyright", "rubtermsofuse", "brin", "dcci", "dcpa", "dcpr", "ght"
+  ], "node_mappings": [
+    {
+      "from": "kenmerken.lhgenrehs", "to": "Genre Type", "function": {
+      "name": "column_lookup", "args": {
+        "lookup_file": "object_types.csv"
+      }
+    }
+    }, {
+      "from": "kenmerken.lhgenresc", "to": "Genre Type", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "object_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken.lhtypebr", "to": "Object Type", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "object_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken.lhtypedc", "to": "Object Type", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "object_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken.lhtypeob", "to": "Object Type", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "object_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken.lhtypeph", "to": "Object Type", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "object_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken.mpmgenrehs", "to": "Genre Type", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "object_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken.mpmtypeak", "to": "Object Type", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "object_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken.mpmtypeph", "to": "Object Type", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "object_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken.mpmtypere", "to": "Object Type", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "object_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken.mpmtypetk", "to": "Object Type", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "object_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken.mpmtypohs, ", "to": "Object Type", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "object_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken.rubedformgr", "to": "Object Type", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "object_types.csv"
+        }
+      }
+    }, {
+      "from": "kenmerken.rubgenrehs", "to": "Genre Type", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "object_types.csvv"
+        }
+      }
+    }, {
+      "from": "kenmerken.rubtypedoc", "to": "Object Type", "function": {
+        "name": "column_lookup", "args": {
+          "lookup_file": "object_types.csv"
+        }
+      }
+    }
+  ]
+}
+}
