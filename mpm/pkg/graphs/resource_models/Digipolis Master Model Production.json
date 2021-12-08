@@ -135,7 +135,14 @@
                     "cardid": "f80f7912-5420-11ec-8d2a-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "f80f7912-5420-11ec-8d2a-9cf387da2c40",
+                            "constraintid": "d1398f76-c211-41b7-ac17-1d8179f861ad",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "adm.isadPartOf",
                     "graph_id": "f80f46b8-5420-11ec-8d2a-9cf387da2c40",
@@ -230,7 +237,14 @@
                     "cardid": "f80fa5b8-5420-11ec-8d2a-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "f80fa5b8-5420-11ec-8d2a-9cf387da2c40",
+                            "constraintid": "ec816c38-4b7b-40ad-ad66-d1a68cf86fae",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "f80f46b8-5420-11ec-8d2a-9cf387da2c40",
@@ -249,7 +263,14 @@
                     "cardid": "f80fad42-5420-11ec-8d2a-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "f80fad42-5420-11ec-8d2a-9cf387da2c40",
+                            "constraintid": "24ee7bbd-f3c6-4c95-ba3d-cbc04ba13147",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "f80f46b8-5420-11ec-8d2a-9cf387da2c40",
@@ -713,7 +734,14 @@
                     "cardid": "f8104bb2-5420-11ec-8d2a-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "f8104bb2-5420-11ec-8d2a-9cf387da2c40",
+                            "constraintid": "824413b4-27ff-45c9-b841-7374793277ec",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "I'll wait with adding the transfer of custody part until we see if there is anything in the data from ASpace that we can actually use for two classes.\n\nI understand why but can't see the point if all of it documented in another resource and linked from here.\n",
                     "graph_id": "f80f46b8-5420-11ec-8d2a-9cf387da2c40",
@@ -789,7 +817,14 @@
                     "cardid": "f81068c2-5420-11ec-8d2a-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "f81068c2-5420-11ec-8d2a-9cf387da2c40",
+                            "constraintid": "618df557-7fea-4293-b97c-6f8807ab25cf",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "f80f46b8-5420-11ec-8d2a-9cf387da2c40",
@@ -922,7 +957,14 @@
                     "cardid": "f8109900-5420-11ec-8d2a-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "f8109900-5420-11ec-8d2a-9cf387da2c40",
+                            "constraintid": "e07bc37d-4205-4282-8da4-1d12b84feec5",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "f80f46b8-5420-11ec-8d2a-9cf387da2c40",
@@ -931,7 +973,7 @@
                     "helptitle": null,
                     "instructions": null,
                     "is_editable": true,
-                    "name": "Status",
+                    "name": "Document status",
                     "nodegroup_id": "f810934c-5420-11ec-8d2a-9cf387da2c40",
                     "sortorder": null,
                     "visible": true
@@ -941,7 +983,14 @@
                     "cardid": "f8109fcc-5420-11ec-8d2a-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "f8109fcc-5420-11ec-8d2a-9cf387da2c40",
+                            "constraintid": "98b8b4c1-a7fe-4366-a6d1-8a069cfc941b",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "f80f46b8-5420-11ec-8d2a-9cf387da2c40",
@@ -973,9 +1022,91 @@
                     "nodegroup_id": "f810a0b2-5420-11ec-8d2a-9cf387da2c40",
                     "sortorder": null,
                     "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "f886a542-5753-11ec-a307-9cf387da2c40",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "f886a542-5753-11ec-a307-9cf387da2c40",
+                            "constraintid": "476f956b-8528-44cb-93bd-3df3b992657b",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        },
+                        {
+                            "card_id": "f886a542-5753-11ec-a307-9cf387da2c40",
+                            "constraintid": "1a6dc325-7228-4f7d-8a9a-8f34c63b40e0",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "f80f46b8-5420-11ec-8d2a-9cf387da2c40",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Production stadium",
+                    "nodegroup_id": "f8866276-5753-11ec-a307-9cf387da2c40",
+                    "sortorder": null,
+                    "visible": true
                 }
             ],
             "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "f886a542-5753-11ec-a307-9cf387da2c40",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Product stadium",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "2b10482e-5754-11ec-a307-9cf387da2c40",
+                    "label": "Product stadium",
+                    "node_id": "f8866276-5753-11ec-a307-9cf387da2c40",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "f8107d30-5420-11ec-8d2a-9cf387da2c40",
+                    "config": {
+                        "defaultValue": "",
+                        "dlod_datatype": "agent",
+                        "label": "Production Place Widget",
+                        "maxLength": "place",
+                        "placeholder": "https://hub3.digipolis.delving.io",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "a57c8371-57a0-11ec-92a9-960000cf02df",
+                    "label": "Production Place Widget",
+                    "node_id": "f8112bc2-5420-11ec-8d2a-9cf387da2c40",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "37d48742-ccf0-470b-8b41-d799ad912c51"
+                },
+                {
+                    "card_id": "f8107d30-5420-11ec-8d2a-9cf387da2c40",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Production Place Identifier",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": true,
+                        "width": "100%"
+                    },
+                    "id": "a57d9576-57a0-11ec-91e8-960000cf02df",
+                    "label": "Production Place Identifier",
+                    "node_id": "f8112b36-5420-11ec-8d2a-9cf387da2c40",
+                    "sortorder": 6,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
                 {
                     "card_id": "f80f500e-5420-11ec-8d2a-9cf387da2c40",
                     "config": {
@@ -1469,7 +1600,7 @@
                     "id": "f8113f86-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Archive Identifier Type",
                     "node_id": "f810efe0-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": null,
+                    "sortorder": 2,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -1484,7 +1615,7 @@
                     "id": "f8113fb8-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Archive Identifier Metatype",
                     "node_id": "f810e0ae-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": null,
+                    "sortorder": 1,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -1497,13 +1628,13 @@
                         "link_color": "blue",
                         "maxLength": null,
                         "placeholder": "Enter text",
-                        "uneditable": false,
+                        "uneditable": true,
                         "width": "100%"
                     },
                     "id": "f8113ffe-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Archive Identifier",
                     "node_id": "f810acd8-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": null,
+                    "sortorder": 3,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -1513,15 +1644,15 @@
                         "defaultValue": "",
                         "dlod_datatype": "agent",
                         "label": "Archive Widget",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
+                        "maxLength": "archiveobject",
+                        "placeholder": "https://hub3.digipolis.delving.io",
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "f8114030-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Archive Widget",
                     "node_id": "f8112c6c-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": null,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "37d48742-ccf0-470b-8b41-d799ad912c51"
                 },
@@ -1956,7 +2087,7 @@
                     "id": "f8114594-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Entity Note",
                     "node_id": "f810b656-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": null,
+                    "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -1964,18 +2095,19 @@
                     "card_id": "f80fa5b8-5420-11ec-8d2a-9cf387da2c40",
                     "config": {
                         "defaultValue": "",
-                        "label": "Authority naam",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
+                        "dlod_datatype": "agent",
+                        "label": "Entity Widget",
+                        "maxLength": "agent",
+                        "placeholder": "https://hub3.digipolis.delving.io",
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "f81145c6-5420-11ec-8d2a-9cf387da2c40",
-                    "label": "Authority naam",
+                    "label": "Entity Widget",
                     "node_id": "f810c7cc-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": 1,
+                    "sortorder": 0,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                    "widget_id": "37d48742-ccf0-470b-8b41-d799ad912c51"
                 },
                 {
                     "card_id": "f80fa5b8-5420-11ec-8d2a-9cf387da2c40",
@@ -1988,7 +2120,7 @@
                     "id": "f81145ee-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Relatie type",
                     "node_id": "f810d17c-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": 0,
+                    "sortorder": 2,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -1999,13 +2131,13 @@
                         "label": "Entiteit identifier",
                         "maxLength": null,
                         "placeholder": "Enter text",
-                        "uneditable": false,
+                        "uneditable": true,
                         "width": "100%"
                     },
                     "id": "f8114616-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Entiteit identifier",
                     "node_id": "f8110070-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": 2,
+                    "sortorder": 3,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -2022,7 +2154,7 @@
                     "id": "f8114648-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Artistic Actor Note",
                     "node_id": "f810b430-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": 3,
+                    "sortorder": 2,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
@@ -2032,8 +2164,8 @@
                         "defaultValue": "",
                         "dlod_datatype": "agent",
                         "label": "Artistic Actor Widget",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
+                        "maxLength": "agent",
+                        "placeholder": "https://hub3.digipolis.delving.io",
                         "uneditable": false,
                         "width": "100%"
                     },
@@ -2084,15 +2216,15 @@
                         "link_color": "blue",
                         "maxLength": null,
                         "placeholder": "Enter text",
-                        "uneditable": false,
+                        "uneditable": true,
                         "width": "100%"
                     },
                     "id": "f81146f2-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Artistic Actor Identifier",
                     "node_id": "f810fbe8-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": 2,
+                    "sortorder": 3,
                     "visible": true,
-                    "widget_id": "a32c6aec-92f4-4580-8446-29f88659ae31"
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
                     "card_id": "f80fb4e0-5420-11ec-8d2a-9cf387da2c40",
@@ -2305,7 +2437,7 @@
                     "id": "f8114968-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Acquisition Identifier Metatype",
                     "node_id": "f810e158-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": 1,
+                    "sortorder": 2,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -2320,7 +2452,7 @@
                     "id": "f811499a-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Acquisition Identifier Type",
                     "node_id": "f810eb8a-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": 2,
+                    "sortorder": 3,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -2339,7 +2471,7 @@
                     "id": "f81149c2-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Acquisition Identifier",
                     "node_id": "f810dae6-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": 0,
+                    "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -2349,15 +2481,15 @@
                         "defaultValue": "",
                         "dlod_datatype": "agent",
                         "label": "Acquisition Widget",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
+                        "maxLength": "accession",
+                        "placeholder": "https://hub3.digipolis.delving.io",
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "f81149f4-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Acquisition Widget",
                     "node_id": "f8112f96-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": 3,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "37d48742-ccf0-470b-8b41-d799ad912c51"
                 },
@@ -2799,7 +2931,7 @@
                     "id": "f8114fa8-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Production Actor Note",
                     "node_id": "f8111f4c-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": 4,
+                    "sortorder": 3,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
@@ -2809,8 +2941,8 @@
                         "defaultValue": "",
                         "dlod_datatype": "agent",
                         "label": "Production Actor Widget",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
+                        "maxLength": "agent",
+                        "placeholder": "https://hub3.digipolis.delving.io",
                         "uneditable": true,
                         "width": "100%"
                     },
@@ -2832,7 +2964,7 @@
                     "id": "f811508e-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Role Metatype",
                     "node_id": "f8111d76-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": 3,
+                    "sortorder": 2,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -2847,7 +2979,7 @@
                     "id": "f81150b6-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Actor Role",
                     "node_id": "f811208c-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": 2,
+                    "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000012"
                 },
@@ -2862,7 +2994,7 @@
                     "id": "f81150de-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Production Actor Note Type",
                     "node_id": "f811212c-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": 5,
+                    "sortorder": 4,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -2877,7 +3009,7 @@
                     "id": "f8115106-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Production Actor Note Language",
                     "node_id": "f8111b78-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": 6,
+                    "sortorder": 5,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -2889,13 +3021,13 @@
                         "label": "Production Actor Identifier",
                         "maxLength": null,
                         "placeholder": "Enter text",
-                        "uneditable": false,
+                        "uneditable": true,
                         "width": "100%"
                     },
                     "id": "f811512e-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Production Actor Identifier",
                     "node_id": "f8111e16-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": 1,
+                    "sortorder": 8,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -2910,7 +3042,7 @@
                     "id": "f811514c-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Production Actor Note Metatype",
                     "node_id": "f8111cd6-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": 7,
+                    "sortorder": 6,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -2925,7 +3057,7 @@
                     "id": "f8115174-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Production Actor Note Language Metatype",
                     "node_id": "f8111c36-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": 8,
+                    "sortorder": 7,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -3346,7 +3478,7 @@
                     "id": "f81155e8-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Textual Actor Note",
                     "node_id": "f811019c-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": null,
+                    "sortorder": 2,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
@@ -3378,7 +3510,7 @@
                     "id": "f8115638-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Textual Actor Role",
                     "node_id": "f810ea22-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": 2,
+                    "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -3390,15 +3522,15 @@
                         "link_color": "blue",
                         "maxLength": null,
                         "placeholder": "Enter text",
-                        "uneditable": false,
+                        "uneditable": true,
                         "width": "100%"
                     },
                     "id": "f8115660-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Textual Actor Identifier",
                     "node_id": "f8110110-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": null,
+                    "sortorder": 3,
                     "visible": true,
-                    "widget_id": "a32c6aec-92f4-4580-8446-29f88659ae31"
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
                     "card_id": "f81068c2-5420-11ec-8d2a-9cf387da2c40",
@@ -3406,15 +3538,15 @@
                         "defaultValue": "",
                         "dlod_datatype": "agent",
                         "label": "Textual Actor Widget",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
+                        "maxLength": "agent",
+                        "placeholder": "https://hub3.digipolis.delving.io",
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "f8115688-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Textual Actor Widget",
                     "node_id": "f81122a8-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": null,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "37d48742-ccf0-470b-8b41-d799ad912c51"
                 },
@@ -3557,7 +3689,7 @@
                     "id": "f81157fa-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Production Place Note Metatype",
                     "node_id": "f81127f8-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": 6,
+                    "sortorder": 4,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -3574,7 +3706,7 @@
                     "id": "f8115822-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Production Place Note",
                     "node_id": "f81125f0-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": 3,
+                    "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
@@ -3589,7 +3721,7 @@
                     "id": "f811584a-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Production Place Note Language Metatype",
                     "node_id": "f8112a00-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": 7,
+                    "sortorder": 5,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -3604,7 +3736,7 @@
                     "id": "f8115872-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Production Place Note Language",
                     "node_id": "f811274e-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": 4,
+                    "sortorder": 2,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -3619,7 +3751,7 @@
                     "id": "f811589a-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Production Place Note Type",
                     "node_id": "f81126a4-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": 5,
+                    "sortorder": 3,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -3659,6 +3791,7 @@
                         "defaultValue": "",
                         "label": "Status",
                         "maxLength": null,
+                        "options": [],
                         "placeholder": "Enter text",
                         "uneditable": false,
                         "width": "100%"
@@ -3668,7 +3801,7 @@
                     "node_id": "f810934c-5420-11ec-8d2a-9cf387da2c40",
                     "sortorder": 0,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
                     "card_id": "f8109fcc-5420-11ec-8d2a-9cf387da2c40",
@@ -3683,7 +3816,7 @@
                     "id": "f8115944-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Visual Actor Note",
                     "node_id": "f8113194-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": null,
+                    "sortorder": 2,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
@@ -3693,15 +3826,15 @@
                         "defaultValue": "",
                         "dlod_datatype": "agent",
                         "label": "Visual Actor Widget",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
+                        "maxLength": "agent",
+                        "placeholder": "hub3.digipolis.delving.io",
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "f8115976-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Visual Actor Widget",
                     "node_id": "f811334c-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": null,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "37d48742-ccf0-470b-8b41-d799ad912c51"
                 },
@@ -3733,7 +3866,7 @@
                     "id": "f81159bc-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Visual Actor Role",
                     "node_id": "f811304a-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": 2,
+                    "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -3745,15 +3878,15 @@
                         "link_color": "blue",
                         "maxLength": null,
                         "placeholder": "Enter text",
-                        "uneditable": false,
+                        "uneditable": true,
                         "width": "100%"
                     },
                     "id": "f81159ee-5420-11ec-8d2a-9cf387da2c40",
                     "label": "Visual Actor Identifier",
                     "node_id": "f81130f4-5420-11ec-8d2a-9cf387da2c40",
-                    "sortorder": null,
+                    "sortorder": 3,
                     "visible": true,
-                    "widget_id": "a32c6aec-92f4-4580-8446-29f88659ae31"
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 }
             ],
             "color": null,
@@ -5944,15 +6077,6 @@
                 },
                 {
                     "description": null,
-                    "domainnode_id": "f81077ea-5420-11ec-8d2a-9cf387da2c40",
-                    "edgeid": "f82b4fb6-5420-11ec-8d2a-9cf387da2c40",
-                    "graph_id": "f80f46b8-5420-11ec-8d2a-9cf387da2c40",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
-                    "rangenode_id": "f8112960-5420-11ec-8d2a-9cf387da2c40"
-                },
-                {
-                    "description": null,
                     "domainnode_id": "f8105d14-5420-11ec-8d2a-9cf387da2c40",
                     "edgeid": "f82b5006-5420-11ec-8d2a-9cf387da2c40",
                     "graph_id": "f80f46b8-5420-11ec-8d2a-9cf387da2c40",
@@ -5995,6 +6119,15 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "rangenode_id": "f810e3e2-5420-11ec-8d2a-9cf387da2c40"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "f810a9f4-5420-11ec-8d2a-9cf387da2c40",
+                    "edgeid": "f886f89e-5753-11ec-a307-9cf387da2c40",
+                    "graph_id": "f80f46b8-5420-11ec-8d2a-9cf387da2c40",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "f8866276-5753-11ec-a307-9cf387da2c40"
                 }
             ],
             "functions_x_graphs": [
@@ -6016,7 +6149,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "f80f46b8-5420-11ec-8d2a-9cf387da2c40",
-                    "id": "47e8d6d4-5423-11ec-8edc-9cf387da2c40"
+                    "id": "d14be3b8-584f-11ec-a5a7-960000cf02df"
                 }
             ],
             "graphid": "f80f46b8-5420-11ec-8d2a-9cf387da2c40",
@@ -6292,7 +6425,7 @@
                     "parentnodegroup_id": null
                 },
                 {
-                    "cardinality": "1",
+                    "cardinality": "n",
                     "legacygroupid": null,
                     "nodegroupid": "f810934c-5420-11ec-8d2a-9cf387da2c40",
                     "parentnodegroup_id": null
@@ -6308,6 +6441,12 @@
                     "legacygroupid": null,
                     "nodegroupid": "f810a0b2-5420-11ec-8d2a-9cf387da2c40",
                     "parentnodegroup_id": "f80fef8c-5420-11ec-8d2a-9cf387da2c40"
+                },
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "f8866276-5753-11ec-a307-9cf387da2c40",
+                    "parentnodegroup_id": null
                 }
             ],
             "nodes": [
@@ -7118,8 +7257,10 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
-                    "datatype": "string",
+                    "config": {
+                        "rdmCollection": "4f38135a-38d1-425a-8536-87aac32cabee"
+                    },
+                    "datatype": "concept",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
@@ -7128,7 +7269,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Status",
+                    "name": "Document status",
                     "nodegroup_id": "f810934c-5420-11ec-8d2a-9cf387da2c40",
                     "nodeid": "f810934c-5420-11ec-8d2a-9cf387da2c40",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
@@ -10617,24 +10758,6 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
-                    "datatype": "string",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "f80f46b8-5420-11ec-8d2a-9cf387da2c40",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Production Place Name",
-                    "nodegroup_id": "f81077ea-5420-11ec-8d2a-9cf387da2c40",
-                    "nodeid": "f8112960-5420-11ec-8d2a-9cf387da2c40",
-                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
-                    "sortorder": 0
-                },
-                {
                     "config": {
                         "rdmCollection": "9cef0ace-0b95-4878-a3ee-d12c64649aee"
                     },
@@ -11063,6 +11186,26 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": "eeab89b5-55cc-4c9c-883b-8c871eda99ba"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "f80f46b8-5420-11ec-8d2a-9cf387da2c40",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Product stadium",
+                    "nodegroup_id": "f8866276-5753-11ec-a307-9cf387da2c40",
+                    "nodeid": "f8866276-5753-11ec-a307-9cf387da2c40",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
                 }
             ],
             "ontology_id": "83a164f7-2ec1-48db-bdd8-b73779c339c9",
@@ -11092,9 +11235,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.9 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "db": "PostgreSQL 13.3 (Debian 13.3-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit",
         "git hash": "fatal: not a git repository (or any of the parent directories): .git",
-        "os": "Darwin",
-        "os version": "19.5.0"
+        "os": "Linux",
+        "os version": "4.19.0-17-amd64"
     }
 }
