@@ -150,7 +150,7 @@
   "Colours": {
   "node_mappings": [
     {
-      "from": "kenmerken/lhdragerico.lhkleur", "to": "Colour", "include_codes": ["kbe", "kbj", "kbl", "kbr", "kbs", "kdb", "kdr", "kge", "kgr", "kgw", "kiw", "kjs", "kkg", "klb", "klr", "klr", "kor", "kro", "krz", "ksp", "kwt", "kzw"], "function": {
+      "from": "kenmerken/lhdragerico.lhkleur", "to": "Colour", "include_codes": ["kbe", "kbj", "kbl", "kbr", "kbs", "kdb", "kdr", "kge", "kgr", "kgw", "kiw", "kjs", "kkg", "klb", "klr", "koj", "kor", "kro", "krz", "ksp", "kwt", "kzw"], "function": {
       "name": "column_lookup", "args": {"lookup_file": "kleur_types.csv"}
     }
     }, {
@@ -162,7 +162,7 @@
         "name": "column_lookup", "args": {"lookup_file": "kleur_types.csv"}
       }
     }, {
-      "from": "kenmerken/lhtechaanvsc.lhkleur", "to": "Colour", "include_codes": ["kbe", "kbj", "kbl", "kbr", "kbs", "kdb", "kdr", "kge", "kgr", "kgw", "kiw", "kjs", "kkg", "klb", "klr", "klr", "kor", "kro", "krz", "kwt", "kzi", "kzw"], "function": {
+      "from": "kenmerken/lhtechaanvsc.lhkleur", "to": "Colour", "include_codes": ["kbe", "kbj", "kbl", "kbr", "kbs", "kdb", "kdr", "kge", "kgr", "kgw", "kiw", "kjs", "kkg", "klb", "klr", "koj", "kor", "kro", "krz", "kwt", "kzi", "kzw"], "function": {
         "name": "column_lookup", "args": {"lookup_file": "kleur_types.csv"}
       }
     }, {
@@ -178,15 +178,15 @@
         "name": "column_lookup", "args": {"lookup_file": "kleur_types.csv"}
       }
     }, {
-      "from": "kenmerken/lhtechbasispr.lhkleur", "to": "Colour", "include_codes": ["kbe", "kbj", "kbl", "kbr", "kbs", "kdb", "kdr", "kge", "kgr", "kgw", "kiw", "kjs", "klb", "klr", "klr", "kor", "kro", "krz", "ksp", "kwt", "kzw"], "function": {
+      "from": "kenmerken/lhtechbasispr.lhkleur", "to": "Colour", "include_codes": ["kbe", "kbj", "kbl", "kbr", "kbs", "kdb", "kdr", "kge", "kgr", "kgw", "kiw", "kjs", "klb", "klr", "koj", "kor", "kro", "krz", "ksp", "kwt", "kzw"], "function": {
         "name": "column_lookup", "args": {"lookup_file": "kleur_types.csv"}
       }
     }, {
-      "from": "kenmerken/lhtechbasissc.lhkleur", "to": "Colour", "include_codes": ["kbe", "kbl", "kbr", "kbs", "kdr", "kge", "kgr", "kgw", "kiw", "kjs", "kkg", "klr", "klr", "kor", "kro", "krz", "kwt", "kzw"], "function": {
+      "from": "kenmerken/lhtechbasissc.lhkleur", "to": "Colour", "include_codes": ["kbe", "kbl", "kbr", "kbs", "kdr", "kge", "kgr", "kgw", "kiw", "kjs", "kkg", "klr", "koj", "kor", "kro", "krz", "kwt", "kzw"], "function": {
         "name": "column_lookup", "args": {"lookup_file": "kleur_types.csv"}
       }
     }, {
-      "from": "kenmerken/lhtechbasistk.lhkleur", "to": "Colour", "include_codes": ["kbe", "kbj", "kbl", "kbr", "kbs", "kdb", "kdr", "kge", "kgr", "kjs", "klr", "klr", "kor", "kro", "krz", "ksp", "kwt", "kzw"], "function": {
+      "from": "kenmerken/lhtechbasistk.lhkleur", "to": "Colour", "include_codes": ["kbe", "kbj", "kbl", "kbr", "kbs", "kdb", "kdr", "kge", "kgr", "kjs", "klr", "koj", "kor", "kro", "krz", "ksp", "kwt", "kzw"], "function": {
         "name": "column_lookup", "args": {"lookup_file": "kleur_types.csv"}
       }
     }, {
@@ -214,8 +214,14 @@
                "name": "column_lookup",
               "args": {"lookup_file": "materiaal_types.csv"}}
             },
+          {"from": "kenmerken/lhmateriaalob.lhmateriaalsoortob", "to": "Material",
+            "include_codes": ["daa","dbe","dbr","dcu","dgo","dgs","dho","div","dkt","dku","dle","dme","dpo","dst","dti","dtx","dyz","dzl","dzy"],
+            "function": {
+               "name": "column_lookup",
+              "args": {"lookup_file": "materiaal_types.csv"}}
+            },
           {"from": "kenmerken/lhmateriaalob.lhmateriaalextraob", "to": "Material",
-            "include_codes":  ["vleg","daa","dbe","dbr","dcu","dgo","dgs","dho","div","dkt","dku","dle","dme","dpo","dst","dti","dtx","dyz","dzl","dzy"],
+            "include_codes":  ["vleg"],
             "function": {
                "name": "column_lookup",
               "args": {"lookup_file": "materiaal_types.csv"}}
@@ -291,16 +297,7 @@
           "args": {
             "lookup_file": "merkteken_types.csv"}
         }
-      },
-      {"from": "kenmerken.mpmtypeak", "to": "Merkteken Type",
-        "include_codes": ["akak"],
-        "function": {
-          "name": "column_lookup",
-          "args": {
-            "lookup_file": "merkteken_types.csv"}
-        }
       }
-
     ]
   },
    "ObjectTypes": {
@@ -355,7 +352,7 @@
         }
       },
       {"from": "kenmerken.mpmtypeak", "to": "Object Type",
-        "include_codes": ["akco","akge","akkw","akoo","akpa","akpo","akpr","aksc","akte","akvo","akvr"],
+        "include_codes": ["akak","akco","akge","akkw","akoo","akpa","akpo","akpr","aksc","akte","akvo","akvr"],
         "function": {
           "name": "column_lookup",
           "args": {"lookup_file": "object_types.csv"}
@@ -398,6 +395,13 @@
       },
       {"from": "kenmerken.rubgenrehs", "to": "Object Type",
         "include_codes": ["ag","nb"],
+        "function": {
+          "name": "column_lookup",
+          "args": {"lookup_file": "object_types.csv"}
+        }
+      },
+      {"from": "kenmerken.rubtypedoc", "to": "Object Type",
+        "include_codes": ["dcdo"],
         "function": {
           "name": "column_lookup",
           "args": {"lookup_file": "object_types.csv"}
