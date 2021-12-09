@@ -4,11 +4,6 @@ Single Values,brocade.subtype,Record Type,,column_lookup,[{'lookup_file': 'recor
 Single Values,static.name,Keeper,,add_static,"[{'type': 'string', 'key': 'name'}]"
 Single Values,brocade.uuid,ResourceID,,,
 Single Values,brocade.ark.id,Object Identifier,[{'Object Identifier Type': 'object identifier'}],add_ark_id,[{'url': 'data.digipolis.be/'}]
-Single Values,kenmerken/lhdragerico.lhdragertypeico,Carrier Type,,column_lookup,[{'lookup_file': 'drager_types.csv'}]
-Single Values,kenmerken/lhdragerico.lhkleur,Carrier Colour,,column_lookup,[{'lookup_file': 'kleur_types.csv'}]
-Single Values,kenmerken.mpmdragerak,Carrier Type,,column_lookup,[{'lookup_file': 'drager_types.csv'}]
-Single Values,kenmerken.mpmdragertk,Carrier Type,,column_lookup,[{'lookup_file': 'drager_types.csv'}]
-Single Values,kenmerken.lhdragerps,Carrier Type,,column_lookup,[{'lookup_file': 'drager_types.csv'}]
 TimeSpans,id/date.creationdate/so,Date,,,
 TimeSpans,id/date.creationdate/tr,Date Type,,,
 TimeSpans,id/date.creationdate/sr,Date Note,"{'Type': 'production date note', 'Language': 'Nederlands'}",,
@@ -22,9 +17,20 @@ ProductionActors,ire.role,Production Actor Role,,,
 ProductionActors,ire.markdown,Production Actor Note,,,
 ProductionActors,ire.isaar.id,Production Actor ID,,,
 Places,id/place.place,function,,,
+ObjectTypes,kenmerken.lhgenrehs,Object Type,,,
+ObjectTypes,kenmerken.lhgenresc,Object Type,,,
+ObjectTypes,kenmerken.lhtypebr,Object Type,,,
+ObjectTypes,kenmerken.lhtypedc,Object Type,,,
 ObjectTypes,kenmerken.lhtypeob,Object Type,,,
+ObjectTypes,kenmerken.lhtypeph,Object Type,,,
+ObjectTypes,kenmerken.mpmgenrehs,Object Type,,,
+ObjectTypes,kenmerken.mpmtypeak,Object Type,,,
+ObjectTypes,kenmerken.mpmtypeph,Object Type,,,
+ObjectTypes,kenmerken.mpmtypere,Object Type,,,
 ObjectTypes,kenmerken.mpmtypetk,Object Type,,,
+ObjectTypes,kenmerken.mpmtypohs,Object Type,,,
 ObjectTypes,kenmerken.rubedformgr,Object Type,,,
+ObjectTypes,kenmerken.rubgenrehs,Object Type,,,
 GenreTypes,kenmerken.lhgenrehs,Genre Type,,,
 GenreTypes,kenmerken.mpmgenrehs,Genre Type,,,
 WritingMaterials,kenmerken.lhschrijfhs,Writing material,,,
@@ -46,6 +52,7 @@ Descriptions,note.lhdetail,Description,"{'Description Type': 'detailbeschrijving
 Descriptions,note.mpmcontent,Description,"{'Description Type': 'descriptive note', 'Description Language': 'Nederlands'}",,
 Descriptions,note.mpmdetail,Description,"{'Description Type': 'detailbeschrijving', 'Description Language': 'Nederlands'}",,
 Descriptions,note.rubdetail,Description,"{'Description Type': 'detailbeschrijving', 'Description Language': 'Nederlands'}",,
+Descriptions,id.title/subTitle,Description,"{'Description Type': 'descriptive note', 'Description Language': 'Nederlands'}",,
 Images,ill.lowres,Illustration URL,{'Illustration Type': 'Lage resolutie'},,
 Images,ill.highres,Illustration URL,{'Illustration Type': 'Hoge resolutie'},,
 Items,adm.inv,Registration Number value,,,
@@ -74,13 +81,16 @@ ProductStadiums,kenmerken.lhtypebr,Product stadium,,,
 ProductStadiums,kenmerken.mpmorigak,Product stadium,,,
 ProductStadiums,kenmerken.mpmorighs,Product stadium,,,
 ProductStadiums,kenmerken.rubedformgr,Product stadium,,,
-DocumentStatus,kenmerken.lhorigh,Document status,,,
 DocumentStatus,kenmerken.lhorighs,Document status,,,
 DocumentStatus,kenmerken.lhstadiumhs,Document status,,,
 DocumentStatus,kenmerken.lhtypebr,Document status,,,
 DocumentStatus,kenmerken.mpmorigak,Document status,,,
 DocumentStatus,kenmerken.mpmorighs,Document status,,,
 DocumentStatus,kenmerken.rubedformgr,Document status,,,
+Carrier,kenmerken/lhdragerico.lhdragertypeico,Carrier Type,,,
+Carrier,kenmerken.lhdragerps,Carrier Type,,,
+Carrier,kenmerken.mpmdragerak,Carrier Type,,,
+Carrier,kenmerken.mpmdragertk,Carrier Type,,,
 TimeSpans,id/date.creationdate/so,Date,,,
 TimeSpans,id/date.creationdate/tr,Date Type,,,
 TimeSpans,id/date.creationdate/sr,Date Note,"{'Type': 'production date note', 'Language': 'Nederlands'}",,
@@ -94,9 +104,20 @@ ProductionActors,ire.role,Production Actor Role,,,
 ProductionActors,ire.markdown,Production Actor Note,,,
 ProductionActors,ire.isaar.id,Production Actor ID,,,
 Places,id/place.place,function,,,
+ObjectTypes,kenmerken.lhgenrehs,Object Type,,,
+ObjectTypes,kenmerken.lhgenresc,Object Type,,,
+ObjectTypes,kenmerken.lhtypebr,Object Type,,,
+ObjectTypes,kenmerken.lhtypedc,Object Type,,,
 ObjectTypes,kenmerken.lhtypeob,Object Type,,,
+ObjectTypes,kenmerken.lhtypeph,Object Type,,,
+ObjectTypes,kenmerken.mpmgenrehs,Object Type,,,
+ObjectTypes,kenmerken.mpmtypeak,Object Type,,,
+ObjectTypes,kenmerken.mpmtypeph,Object Type,,,
+ObjectTypes,kenmerken.mpmtypere,Object Type,,,
 ObjectTypes,kenmerken.mpmtypetk,Object Type,,,
+ObjectTypes,kenmerken.mpmtypohs,Object Type,,,
 ObjectTypes,kenmerken.rubedformgr,Object Type,,,
+ObjectTypes,kenmerken.rubgenrehs,Object Type,,,
 GenreTypes,kenmerken.lhgenrehs,Genre Type,,,
 GenreTypes,kenmerken.mpmgenrehs,Genre Type,,,
 WritingMaterials,kenmerken.lhschrijfhs,Writing material,,,
@@ -118,6 +139,7 @@ Descriptions,note.lhdetail,Description,"{'Description Type': 'detailbeschrijving
 Descriptions,note.mpmcontent,Description,"{'Description Type': 'descriptive note', 'Description Language': 'Nederlands'}",,
 Descriptions,note.mpmdetail,Description,"{'Description Type': 'detailbeschrijving', 'Description Language': 'Nederlands'}",,
 Descriptions,note.rubdetail,Description,"{'Description Type': 'detailbeschrijving', 'Description Language': 'Nederlands'}",,
+Descriptions,id.title/subTitle,Description,"{'Description Type': 'descriptive note', 'Description Language': 'Nederlands'}",,
 Images,ill.lowres,Illustration URL,{'Illustration Type': 'Lage resolutie'},,
 Images,ill.highres,Illustration URL,{'Illustration Type': 'Hoge resolutie'},,
 Items,adm.inv,Registration Number value,,,
@@ -146,13 +168,16 @@ ProductStadiums,kenmerken.lhtypebr,Product stadium,,,
 ProductStadiums,kenmerken.mpmorigak,Product stadium,,,
 ProductStadiums,kenmerken.mpmorighs,Product stadium,,,
 ProductStadiums,kenmerken.rubedformgr,Product stadium,,,
-DocumentStatus,kenmerken.lhorigh,Document status,,,
 DocumentStatus,kenmerken.lhorighs,Document status,,,
 DocumentStatus,kenmerken.lhstadiumhs,Document status,,,
 DocumentStatus,kenmerken.lhtypebr,Document status,,,
 DocumentStatus,kenmerken.mpmorigak,Document status,,,
 DocumentStatus,kenmerken.mpmorighs,Document status,,,
 DocumentStatus,kenmerken.rubedformgr,Document status,,,
+Carrier,kenmerken/lhdragerico.lhdragertypeico,Carrier Type,,,
+Carrier,kenmerken.lhdragerps,Carrier Type,,,
+Carrier,kenmerken.mpmdragerak,Carrier Type,,,
+Carrier,kenmerken.mpmdragertk,Carrier Type,,,
 OriginalBrocade,ire.identifier,Entity Identifier,,,
 OriginalBrocade,ire.isaar.name,Entity Name,,,
 OriginalBrocade,ire.role,Entity Relation,,,
@@ -206,16 +231,34 @@ Formats,kenmerken/lhpageshs.lhpageshsnumber,Sheet Numbers,"{'Format Unit Type': 
 Formats,kenmerken/lhpageswrittenhs.lhpageswrittenhsnumber,Page Numbers,"{'Format Unit Type': 'pages', 'Format Number Type': 'written'}",type_lookup,"{'from': 'kenmerken/lhpageswrittenhs.lhpageswrittenhstyp', 'to': 'Format Unit Qualifier'}"
 ProductionTechniques,kenmerken/lhmateriaalaanvob.lhmateriaalextraob,Production Technique Type,,column_lookup,{'lookup_file': 'technique_types.csv'}
 ProductionTechniques,kenmerken/lhmateriaalob.lhmateriaalextraob,Production Technique Type,,column_lookup,{'lookup_file': 'technique_types.csv'}
+ProductionTechniques,kenmerken.lhorighs,Production Technique Type,,column_lookup,{'lookup_file': 'technique_types.csv'}
+ProductionTechniques,kenmerken.lhstadiumhs,Production Technique Type,,column_lookup,{'lookup_file': 'technique_types.csv'}
+ProductionTechniques,kenmerken/lhtechaanvsc.lhtechtaddsc,Production Technique Type,,column_lookup,{'lookup_file': 'technique_types.csv'}
 ProductionTechniques,kenmerken/lhtechaanvtk.lhtechtaddtk,Production Technique Type,,column_lookup,{'lookup_file': 'technique_types.csv'}
 ProductionTechniques,kenmerken/lhtechbasispa.lhtechpa,Production Technique Type,,column_lookup,{'lookup_file': 'technique_types.csv'}
+ProductionTechniques,kenmerken/lhtechbasispr.lhtechpr,Production Technique Type,,column_lookup,{'lookup_file': 'technique_types.csv'}
+ProductionTechniques,kenmerken/lhtechbasistk.lhtechtk,Production Technique Type,,column_lookup,{'lookup_file': 'technique_types.csv'}
+ProductionTechniques,kenmerken.lhtypohs,Production Technique Type,,column_lookup,{'lookup_file': 'technique_types.csv'}
+ProductionTechniques,kenmerken.mpmstadiumhs,Production Technique Type,,column_lookup,{'lookup_file': 'technique_types.csv'}
 ProductionTechniques,kenmerken/mpmtechaanvtk.mpmtechtaddtk,Production Technique Type,,column_lookup,{'lookup_file': 'technique_types.csv'}
+ProductionTechniques,kenmerken/mpmtechbasistk.mpmtechtk,Production Technique Type,,column_lookup,{'lookup_file': 'technique_types.csv'}
+ProductionTechniques,kenmerken.mpmtypohs,Production Technique Type,,column_lookup,{'lookup_file': 'technique_types.csv'}
+ProductionTechniques,kenmerken.rubedformgr,Production Technique Type,,column_lookup,{'lookup_file': 'technique_types.csv'}
+ProductionTechniques,kenmerken.rubstadiumhs,Production Technique Type,,column_lookup,{'lookup_file': 'technique_types.csv'}
 ProductionTechniques,kenmerken.lhtechvrijic,Production Technique Note,,,
-Materials,kenmerken/lhmateriaalob.lhmateriaalsoortob,Material,,column_lookup,{'lookup_file': 'materiaal_types.csv'}
+Materials,kenmerken/lhmateriaalaanvob.lhmateriaalextraob,Material,,column_lookup,{'lookup_file': 'materiaal_types.csv'}
 Materials,kenmerken/lhmateriaalaanvob.lhmateriaalsoortob,Material,,column_lookup,{'lookup_file': 'materiaal_types.csv'}
+Materials,kenmerken/lhmateriaalob.lhmateriaalextraob,Material,,column_lookup,{'lookup_file': 'materiaal_types.csv'}
+Materials,kenmerken.lhschrijfhs,Material,,column_lookup,{'lookup_file': 'materiaal_types.csv'}
 Materials,kenmerken/lhtechaanvtk.lhtechtaddtk,Material,,column_lookup,{'lookup_file': 'materiaal_types.csv'}
+Materials,kenmerken/lhtechbasisaq.lhtechaq,Material,,column_lookup,{'lookup_file': 'materiaal_types.csv'}
+Materials,kenmerken/lhtechbasispa.lhtechpa,Material,,column_lookup,{'lookup_file': 'materiaal_types.csv'}
 Materials,kenmerken/lhtechbasissc.lhtechsc,Material,,column_lookup,{'lookup_file': 'materiaal_types.csv'}
 Materials,kenmerken/lhtechbasistk.lhtechtk,Material,,column_lookup,{'lookup_file': 'materiaal_types.csv'}
-Materials,kenmerken/mpmtechbasistk.mpmtechtk,Material,,column_lookup,{'lookup_file': 'materiaal_types.csv'}
+Materials,kenmerken.mpmschrijf,Material,,column_lookup,{'lookup_file': 'materiaal_types.csv'}
+Materials,kenmerken.mpmtechaanvtk.mpmtechtaddtk,Material,,column_lookup,{'lookup_file': 'materiaal_types.csv'}
+Materials,kenmerken.mpmtechbasistk.mpmtecht,Material,,column_lookup,{'lookup_file': 'materiaal_types.csv'}
+Materials,kenmerken.rubschrijfhs,Material,,column_lookup,{'lookup_file': 'materiaal_types.csv'}
 Colours,kenmerken/lhdragerico.lhkleur,Colour,,column_lookup,{'lookup_file': 'kleur_types.csv'}
 Colours,kenmerken/lhmateriaalaanvob.lhmateriaalkleurob,Colour,,column_lookup,{'lookup_file': 'kleur_types.csv'}
 Colours,kenmerken/lhmateriaalob.lhmateriaalkleurob,Colour,,column_lookup,{'lookup_file': 'kleur_types.csv'}
