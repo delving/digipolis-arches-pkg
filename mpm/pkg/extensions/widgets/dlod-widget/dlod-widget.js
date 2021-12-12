@@ -24,17 +24,50 @@ define([
 
             WidgetViewModel.apply(this, [params]);
             var self = this;
+            // main block
             this.ark = ko.observable();
+            this.uri= ko.observable();
             this.name = ko.observable();
-            this.hasCapacity = ko.observable();
-            this.brocadeID = ko.observable();
-            this.suggestValue = ko.observable();
+            this.id = ko.observable();
+            this.nameWithContext = ko.observable();
+
+            // agent
             this.capacityName = ko.observable();
-            this.archivesSpaceID = ko.observable();
-            this.removedCapacity = false;
+            this.hasCapacity = ko.observable();
+
+            // archive resource
+            this.resourceName = ko.observable();
+            this.resourceArk = ko.observable();
+            this.resourceID = ko.observable();
+            this.resourceURI = ko.observable();
+
+            // system fields
+            this.suggestValue = ko.observable();
             this.suggestCapacity = ko.observable();
             this.dlodURL = ko.unwrap(this.placeholder);
             this.dlodSuggestType = ko.unwrap(this.maxLength);
+
+            this.formattedDlodType = ko.computed(function(){
+                if (this.dlodSuggestType) {
+                    // var label = this.dlodSuggestType;
+                    // if (label == "archive") {
+                        // return "Archief"
+                    // } else if () {
+
+                    // }
+                    return this.dlodSuggestType.replace(/^\w/, (c) => c.toUpperCase())
+                }
+
+                return "not configured";
+            }, this);
+
+            this.isArchive = ko.computed(function() {
+                return this.dlodSuggestType === "archive";
+            }, this);
+
+            this.isNoArchive = ko.computed(function() {
+                return this.dlodSuggestType !== "archive";
+            }, this);
 
             function trimPrefix(str, prefix) {
                 if (str.startsWith(prefix)) {
@@ -48,17 +81,25 @@ define([
                 // console.log("setting default values on startup")
                 this.suggestValue(this.value());
                 var data = JSON.parse(trimPrefix(this.value(), "dlod="));
-                this.ark = ko.observable(data.id);
-                this.brocadeID = ko.observable(data.brocadeID);
+                // main
+                this.ark = ko.observable(data.ark);
+                this.id = ko.observable(data.id);
                 this.name = ko.observable(data.name);
+                this.uri = ko.observable(data.uri);
+                this.nameWithContext = ko.observable(data.nameWithContext);
+
+                // agent capacity
                 this.capacityName = ko.observable(data.capacity);
                 this.hasCapacity = ko.observable(data.hasCapacity);
-                this.archivesSpaceID = ko.observable(data.archivesSpaceID);
-
                 if (data.capacity) {
                     this.suggestCapacity(this.value());
                 }
 
+                // archive resource
+                this.resourceName = ko.observable(data.resourceName);
+                this.resourceID = ko.observable(data.resourceID);
+                this.resourceArk = ko.observable(data.resourceArk);
+                this.resourceURI = ko.observable(data.resourceURI);
             };
 
             this.suggestValue.subscribe(
@@ -70,6 +111,10 @@ define([
                     this.value(newValue);
             }.bind(this));
 
+            this.callURL = function(){
+                return true;
+            };
+
             this.getData = function(jsonID) {
                 if (!jsonID) {
                     return {}
@@ -77,6 +122,13 @@ define([
 
                 return JSON.parse(trimPrefix(jsonID, "dlod="))
             }
+
+            this.filterID = ko.computed(function() {
+                if (this.isArchive()) {
+                    return this.resourceArk();
+                }
+                return this.ark();
+            }, this);
 
             this.suggestCapacity.subscribe(
                 function(newValue) {
@@ -87,11 +139,23 @@ define([
                         data = this.getData(this.value());
                         data.capacity = '';
                         data.capacityID = '';
+                        if (this.isArchive()){
+                            data.name = '';
+                            data.id = '';
+                            data.uri = '';
+                            data.ark = '';
+                            data.nameWithContext = '';
+                        }
                         var jsonData = "dlod=" + JSON.stringify(data);
-                        this.value(jsonData)
+                        this.value(jsonData);
                         return
                     } 
-                    this.value(newValue);
+                    // console.log("suggestCapacity: ", this.isArchive(), this.resourceArk())
+                    if (this.isArchive() && !this.resourceArk()) {
+                        this.suggestValue(newValue);
+                    } else {
+                        this.value(newValue);
+                    }
             }.bind(this));
 
             this.value.subscribe(
@@ -101,44 +165,124 @@ define([
                     if (newValue) {
                         data = this.getData(newValue);
                     }
-                    this.ark(data.id);
+                    // main
+                    this.ark(data.ark);
                     this.name(data.name);
+                    this.id(data.id);
+                    this.uri(data.uri);
+                    this.nameWithContext(data.nameWithContext);
+
+                    // agent capacity
                     this.capacityName(data.capacity);
                     if (!data.capacity) {
                         this.suggestCapacity('');
                     }
-                    this.brocadeID(data.brocadeID);
-                    this.archivesSpaceID(data.archivesSpaceID);
                     this.hasCapacity(data.hasCapacity);
+
+                    // archive resource
+                    this.resourceName(data.resourceName);
+                    this.resourceArk(data.resourceArk);
+                    this.resourceID(data.resourceID);
+                    this.resourceURI(data.resourceURI);
             }.bind(this));
 
 
             this.displayValue = ko.computed(function() {
+                if (this.isArchive() && this.capacityName()) {
+                    return this.resourceName() + " (" + this.capacityName() +")";
+                }
+                if (this.isArchive() && !this.capacityName()) {
+                    return this.resourceName();
+                }
                 if (this.capacityName()) {
                     return this.name() + " (" + this.capacityName() +")";
                 };
                 return this.name();
+            }, this);
+
+
+            this.nameWithContextRaw = ko.computed(function(){
+                if (!this.nameWithContext()) {
+                    return [];
+                }
+
+                function addLeaders(value, index, array) {
+                    return "-".repeat(index+1) + " " + value;
+                } 
+                return this.nameWithContext().map(addLeaders);
+            }, this);
+
+            this.agentNameWithContext = ko.computed(function(){
+                if (this.nameWithContext()) {
+                    return this.nameWithContext().join(", ");
+                }
+                return "";
             }, this);
 
             this.showCapacity = ko.computed(function(){
                 return this.hasCapacity() || this.ark() !== ""
             }, this);
 
-
+            
+            // preview is the view in the overview page and sidebar
             this.preview = ko.computed(function() {
+                if (this.isArchive() && this.capacityName()) {
+                    return this.resourceName() + " (" + this.capacityName() +")";
+                }
                 if (this.capacityName()) {
                     return this.name() + " (" + this.capacityName() +")";
                 };
                 return this.name();
             }, this);
 
-
-            this.resolveURI = ko.computed(function() {
-                return this.dlodURL + this.archivesSpaceID();
+            // previewID returns the object (now brocade) identifier for the overview.
+            // It calculates which level for archives
+            this.previewID = ko.computed(function() {
+                return this.id();
             }, this);
+
+            this.previewResolveURI = ko.computed(function() {
+                var target = self.dlodURL + self.uri() + '?format=redirect';
+                return target;
+            }, this);
+
+            this.anetResolveURI = ko.computed(function() {
+                if (this.dlodSuggestType == "accessions") {
+                    return "";
+                }
+                var target = self.dlodURL + self.uri() + '?format=anet';
+                return target;
+            }, this);
+
+            this.resolveURI = function(datatype) {
+                var uri = '';
+                if (datatype === 'archive' && self.isArchive()) {
+                    uri = self.resourceURI();
+                } else {
+                    uri = self.uri();
+                }
+                var target = self.dlodURL + uri + '?format=redirect';
+                window.open(target);
+            };
 
             this.isAgent = ko.computed(function() {
                 return this.dlodSuggestType === "agent";
+            }, this);
+
+            this.mainSearch = ko.computed(function() {
+                if (this.dlodSuggestType !== "archive") {
+                    return this.dlodSuggestType;
+                }
+
+                return "archiveresource";
+            }, this);
+
+            this.subSelectionSearch = ko.computed(function() {
+                if (this.dlodSuggestType !== "archive") {
+                    return this.dlodSuggestType;
+                }
+
+                return "archiveobject";
             }, this);
 
             this.select2Config = {
@@ -157,13 +301,13 @@ define([
                         return {
                             query: term, // search term
                             page: page || 1,
-                            type: self.dlodSuggestType
+                            type: self.mainSearch
                         };
                     },
-                    results: function (data) {
+                    results: function (data, page) {
                         return {
                             results: data.results,
-                            pagination: data.pagination
+                            more: data.pagination.more
                         };
                     },
                     cache: true
@@ -172,12 +316,30 @@ define([
                     return item.json;
                 },
                 formatResult: function(item) {
+                    var label = item.name;
+                    if (item.id) {
+                        label += "<br/><div style=\"margin-left:40px\"> <small>identifier: " + item.id + "</small>";
+                    }
+                    if (item.nameWithContext) {
+                        if (self.dlodSuggestType == "archive") {
+                            label += ";<br/><div style=\"margin-left:40px\"><small>context2: " + item.nameWithContext.join(" > ") + "</small></div>";
+
+                        } else {
+                            label += "; <small>alternatieve namen: " + item.nameWithContext.join(", ") + "</small>";
+                        }
+                    }
+                    if (item.id) {
+                        label += "</div>"
+                    }
                     // console.log("result item: ", item, self);
-                    return item.name + "<br/><div style=\"margin-left:40px\" <small>identifier: " + item.brocadeID + "</small>";
+                    return label;
                 },
                 formatSelection: function(item) {
-                    // console.log("selection item: ", item);
-                    return item.name + ": " + item.brocadeID;
+                    // console.log("selection item: ", item, self.isArchive());
+                    if (self.isArchive()) {
+                        return item.resourceName + ": " + item.resourceID;
+                    }
+                    return item.name + ": " + item.id;
                 },
                 initSelection: function(element, callback) {
                     // console.log("initSeloction agent: ", element);
@@ -211,14 +373,14 @@ define([
                         return {
                             query: term, // search term
                             page: page || 1,
-                            type: self.dlodSuggestType,
-                            filterID: self.ark() || ""
+                            type: self.subSelectionSearch,
+                            filterID: self.filterID() || ""
                         };
                     },
-                    results: function (data) {
+                    results: function (data, page) {
                         return {
                             results: data.results,
-                            pagination: data.pagination
+                            more: data.pagination.more
                         };
                     },
                     cache: false
@@ -227,9 +389,24 @@ define([
                     return item.json;
                 },
                 formatResult: function(item) {
-                        return item.capacity;
+                    var label = item.capacity;
+                    label += "<br/><div style=\"margin-left:40px\"> <small>identifier: " + item.id + "</small>";
+                    if (item.resourceName) {
+                        if (self.dlodSuggestType == "archive") {
+                            label += ";<br/><small>archiefnaam: " + item.resourceName + "</small>";
+                        }
+                    }
+                    if (item.nameWithContext) {
+                        if (self.dlodSuggestType == "archive") {
+                            label += ";<br/><small>context: " + item.nameWithContext.join(" > ") + "</small>";
+                        }
+                    }
+                    return label;
                 },
                 formatSelection: function(item) {
+                    if (self.isArchive()) {
+                        return item.capacity+ ": " + item.id;
+                    }
                     return item.capacity;
                 },
                 initSelection: function(element, callback) {
@@ -247,7 +424,7 @@ define([
                 }
             };
 
-            console.log(this);
+            // console.log(this);
         },
         template: { require: 'text!templates/views/components/widgets/dlod-widget.htm' }
     });
