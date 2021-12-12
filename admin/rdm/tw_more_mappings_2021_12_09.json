@@ -1,0 +1,119 @@
+{
+  "Conditions": {
+    "node_mappings": [
+      {
+        "from": "kenmerken.rubfyformgr", "to": "Condition Status", "function": {
+        "name": "lookup", "args": {"lookup_file": "conditie_types.csv"}
+      }
+      }, {
+        "from": "note.lhconditie", "to": "Condition State Note", "constants": {
+          "Condition State Notes Language": "Nederlands", "Condition State Notes Type": "condition/examination description"
+        }
+      }
+    ]
+  },
+
+   "Annotations": {
+      "node_mappings": [
+            {"from": "note.lhalg", "to": "Annotation",
+              "constants":
+                {"Annotation Language": "Nederlands", "Annotation Type": "remarks"}},
+            {"from": "note.mpmalg", "to": "Annotation",
+              "constants":
+                {"Annotation Language": "Nederlands", "Annotation Type": "remarks"}},
+            {"from": "note.mpmsup", "to": "Annotation",
+              "constants":
+                {"Annotation Language": "Nederlands", "Annotation Type": "remarks"}},
+            {"from": "note.rubalg", "to": "Annotation",
+              "constants":
+                {"Annotation Language": "Nederlands", "Annotation Type": "remarks"}},
+            {"from": "adm.note", "to": "Annotation",
+              "constants":
+                {"Annotation Language": "Nederlands", "Annotation Type": "remarks"}}
+      ]
+    },
+
+  "Carrier": {
+      "node_mappings": [
+        {"from": "kenmerken/lhdragerico.lhdragertypeico", "to": "Carrier Type",
+          "include_codes": ["ddh","ddo","ddp","det","dgl","dgp","dgs","dhb","dho","dhp","djp","dko","dkp","dkr","dkt","dli","dlp","dmd","dpa","dpd","dpk","dpm","dpp","dpr","drp","dsb","dsp","dtp","dun","dvp","dzy"],
+          "function": {
+            "name": "column_lookup",
+            "args": {"lookup_file": "drager_types.csv"}}
+            },
+        {"from": "kenmerken.lhdragerps", "to": "Carrier Type",
+          "include_codes": ["ddo","dkt","dpp"],
+          "function": {
+            "name": "column_lookup",
+            "args": {"lookup_file": "drager_types.csv"}}
+            },
+        {"from": "kenmerken.mpmdragerak", "to": "Carrier Type",
+          "include_codes": ["dpm","dpp"],
+          "function": {
+            "name": "column_lookup",
+            "args": {"lookup_file": "drager_types.csv"}}
+            },
+        {"from": "kenmerken.mpmdragertk", "to": "Carrier Type",
+          "include_codes": ["dpp"],
+          "function": {
+            "name": "column_lookup",
+            "args": {"lookup_file": "drager_types.csv"}}
+            }
+      ]
+  },
+ "LegacyInformation": {
+    "node_mappings": [
+      {"from": "if.rawcontent", "to": "Legacy Information Value",
+        "constants": {
+          "Legacy Information Type": "commentaar gebruiker",
+          "Legacy Information Published": "False"}
+        },
+      {"from": "note.lhherkomst", "to": "Legacy Information Value",
+        "constants": {
+          "Legacy Information Type": "herkomst",
+          "Legacy Information Published": "False"}
+        },
+      {"from": "kenmerken.lhvoorlstandic", "to": "Legacy Information Value",
+        "constants": {
+          "Legacy Information Type": "temporary location",
+          "Legacy Information Published": "False"}
+        },
+      {"from": "id.objectNumber", "to": "Legacy Information Value",
+         "constants": {
+           "Legacy Information Type": "referentienummer",
+           "Legacy Information Published": "False"}
+           },
+      {"from": "brocade.id", "to": "Legacy Information Value",
+         "constants": {
+           "Legacy Information Type": "brocade id",
+           "Legacy Information Published": "False"}
+         },
+      {"from": "note.lhvoorlstandic", "to": "Legacy Information Value",
+         "constants": {
+           "Legacy Information Type": "temporary location note",
+           "Legacy Information Published": "False"}
+        },
+      {"from": "brocade.url", "to": "Legacy Information Value",
+         "constants": {
+           "Legacy Information Type": "brocade url",
+           "Legacy Information Published": "False"}
+        }
+      ]
+  },
+  "LegacyInformationMerged": {
+    "node_mappings": [
+      {"from": "kenmerken.lhitembr", "to": "number"},
+      {"from": "kenmerken.lhdescrbr", "to": "type",
+         "constants": {
+           "Legacy Information Type": "groepsbeschrijving",
+           "Legacy Information Published": "False"}
+        },
+      {"from": "kenmerken.mpmitembr", "to": "number"},
+      {"from": "kenmerken.mpmdescrbr", "to": "type",
+         "constants": {
+           "Legacy Information Type": "groepsbeschrijving",
+           "Legacy Information Published": "False"}
+        }
+    ]
+  }
+}

@@ -5,6 +5,38 @@
             "cards": [
                 {
                     "active": true,
+                    "cardid": "914871c0-56eb-11ec-b0d1-9cf387da2c40",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "914871c0-56eb-11ec-b0d1-9cf387da2c40",
+                            "constraintid": "02a7b945-6cae-40cf-9a1a-a1296ad23aac",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        },
+                        {
+                            "card_id": "914871c0-56eb-11ec-b0d1-9cf387da2c40",
+                            "constraintid": "4bd0ce69-1c02-4c92-b1ef-ee4ab9bb0bf1",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "f80f46b8-5420-11ec-8d2a-9cf387da2c40",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Stadium",
+                    "nodegroup_id": "9145fc4c-56eb-11ec-b0d1-9cf387da2c40",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
                     "cardid": "f80f500e-5420-11ec-8d2a-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -922,7 +954,14 @@
                     "cardid": "f8109900-5420-11ec-8d2a-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "f8109900-5420-11ec-8d2a-9cf387da2c40",
+                            "constraintid": "c30c8b39-7a4a-4af6-8726-f26caeb90eea",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "f80f46b8-5420-11ec-8d2a-9cf387da2c40",
@@ -931,7 +970,7 @@
                     "helptitle": null,
                     "instructions": null,
                     "is_editable": true,
-                    "name": "Status",
+                    "name": "Document Status",
                     "nodegroup_id": "f810934c-5420-11ec-8d2a-9cf387da2c40",
                     "sortorder": null,
                     "visible": true
@@ -976,6 +1015,21 @@
                 }
             ],
             "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "914871c0-56eb-11ec-b0d1-9cf387da2c40",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Product stadium",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "b48f58e2-56eb-11ec-b0d1-9cf387da2c40",
+                    "label": "Product stadium",
+                    "node_id": "9145fc4c-56eb-11ec-b0d1-9cf387da2c40",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
                 {
                     "card_id": "f80f500e-5420-11ec-8d2a-9cf387da2c40",
                     "config": {
@@ -3767,6 +3821,15 @@
                 {
                     "description": null,
                     "domainnode_id": "f810a9f4-5420-11ec-8d2a-9cf387da2c40",
+                    "edgeid": "914aa7e2-56eb-11ec-b0d1-9cf387da2c40",
+                    "graph_id": "f80f46b8-5420-11ec-8d2a-9cf387da2c40",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "9145fc4c-56eb-11ec-b0d1-9cf387da2c40"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "f810a9f4-5420-11ec-8d2a-9cf387da2c40",
                     "edgeid": "f82b0114-5420-11ec-8d2a-9cf387da2c40",
                     "graph_id": "f80f46b8-5420-11ec-8d2a-9cf387da2c40",
                     "name": null,
@@ -6016,7 +6079,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "f80f46b8-5420-11ec-8d2a-9cf387da2c40",
-                    "id": "47e8d6d4-5423-11ec-8edc-9cf387da2c40"
+                    "id": "595a58c4-551e-11ec-bd84-9cf387da2c40"
                 }
             ],
             "graphid": "f80f46b8-5420-11ec-8d2a-9cf387da2c40",
@@ -6027,6 +6090,12 @@
             "jsonldcontext": null,
             "name": "Digipolis Master Model Production",
             "nodegroups": [
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "9145fc4c-56eb-11ec-b0d1-9cf387da2c40",
+                    "parentnodegroup_id": null
+                },
                 {
                     "cardinality": "1",
                     "legacygroupid": null,
@@ -6292,7 +6361,7 @@
                     "parentnodegroup_id": null
                 },
                 {
-                    "cardinality": "1",
+                    "cardinality": "n",
                     "legacygroupid": null,
                     "nodegroupid": "f810934c-5420-11ec-8d2a-9cf387da2c40",
                     "parentnodegroup_id": null
@@ -6311,6 +6380,26 @@
                 }
             ],
             "nodes": [
+                {
+                    "config": {
+                        "rdmCollection": "eeab89b5-55cc-4c9c-883b-8c871eda99ba"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "f80f46b8-5420-11ec-8d2a-9cf387da2c40",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Product stadium",
+                    "nodegroup_id": "9145fc4c-56eb-11ec-b0d1-9cf387da2c40",
+                    "nodeid": "9145fc4c-56eb-11ec-b0d1-9cf387da2c40",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
                 {
                     "config": {
                         "rdmCollection": "b19df25d-7bac-4fb8-90ac-5dd28c84ab37"
@@ -7118,8 +7207,10 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
-                    "datatype": "string",
+                    "config": {
+                        "rdmCollection": "4f38135a-38d1-425a-8536-87aac32cabee"
+                    },
+                    "datatype": "concept",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
@@ -7128,7 +7219,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Status",
+                    "name": "Document status",
                     "nodegroup_id": "f810934c-5420-11ec-8d2a-9cf387da2c40",
                     "nodeid": "f810934c-5420-11ec-8d2a-9cf387da2c40",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
