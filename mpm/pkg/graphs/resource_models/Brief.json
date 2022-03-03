@@ -35,7 +35,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Brocade bewerkingshistoriek (migratie)",
                     "nodegroup_id": "f8a4ed70-9ad0-11ec-a6b5-9cf387da2c40",
                     "sortorder": 2,
@@ -111,7 +111,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Record type",
                     "nodegroup_id": "f8a531b8-9ad0-11ec-a6b5-9cf387da2c40",
                     "sortorder": 0,
@@ -3326,7 +3326,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "f8a4dd1c-9ad0-11ec-a6b5-9cf387da2c40",
-                    "id": "04af9b24-9b12-11ec-a6b5-9cf387da2c40"
+                    "id": "e2237472-9b43-11ec-90b2-9cf387da2c40"
                 }
             ],
             "graphid": "f8a4dd1c-9ad0-11ec-a6b5-9cf387da2c40",
@@ -3344,7 +3344,7 @@
                     "parentnodegroup_id": null
                 },
                 {
-                    "cardinality": "1",
+                    "cardinality": "n",
                     "legacygroupid": null,
                     "nodegroupid": "f8a4ed70-9ad0-11ec-a6b5-9cf387da2c40",
                     "parentnodegroup_id": "f8a5cdd0-9ad0-11ec-a6b5-9cf387da2c40"
@@ -3464,7 +3464,7 @@
                     "parentnodegroup_id": null
                 },
                 {
-                    "cardinality": "1",
+                    "cardinality": "n",
                     "legacygroupid": null,
                     "nodegroupid": "f8a5da32-9ad0-11ec-a6b5-9cf387da2c40",
                     "parentnodegroup_id": "f8a5cdd0-9ad0-11ec-a6b5-9cf387da2c40"
