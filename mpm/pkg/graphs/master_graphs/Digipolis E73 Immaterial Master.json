@@ -31,6 +31,25 @@
                 },
                 {
                     "active": true,
+                    "cardid": "10c830c4-9bad-11ec-877d-9cf387da2c40",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": "",
+                    "graph_id": "72a02aac-7d43-11ec-a130-960000cf02df",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Legacy Information Code",
+                    "nodegroup_id": "10c82e44-9bad-11ec-877d-9cf387da2c40",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
                     "cardid": "18a4fbaf-93bd-11ec-9139-960000cf02df",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -531,7 +550,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Oorspronkelijke Brocade gegevens (migratie)",
                     "nodegroup_id": "aa49026c-7d44-11ec-b932-960000cf02df",
                     "sortorder": 20,
@@ -2332,6 +2351,15 @@
                 },
                 {
                     "description": null,
+                    "domainnode_id": "7e5eb913-986b-11ec-a443-960000cf02df",
+                    "edgeid": "10c83420-9bad-11ec-877d-9cf387da2c40",
+                    "graph_id": "72a02aac-7d43-11ec-a130-960000cf02df",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "10c82e44-9bad-11ec-877d-9cf387da2c40"
+                },
+                {
+                    "description": null,
                     "domainnode_id": "aa49026c-7d44-11ec-b932-960000cf02df",
                     "edgeid": "17f43b30-7f83-11ec-ac91-960000cf02df",
                     "graph_id": "72a02aac-7d43-11ec-a130-960000cf02df",
@@ -3450,7 +3478,7 @@
             "functions_x_graphs": [],
             "graphid": "72a02aac-7d43-11ec-a130-960000cf02df",
             "iconclass": "",
-            "is_editable": false,
+            "is_editable": true,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
@@ -3461,6 +3489,12 @@
                     "legacygroupid": null,
                     "nodegroupid": "08b5ea8a-7f65-11ec-999d-960000cf02df",
                     "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "10c82e44-9bad-11ec-877d-9cf387da2c40",
+                    "parentnodegroup_id": "7e5eb913-986b-11ec-a443-960000cf02df"
                 },
                 {
                     "cardinality": "1",
@@ -3660,7 +3694,7 @@
                     "nodeid": "08b5ea8a-7f65-11ec-999d-960000cf02df",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E31_Document",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
-                    "sortorder": 4
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -3738,6 +3772,24 @@
                 },
                 {
                     "config": null,
+                    "datatype": "string",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "72a02aac-7d43-11ec-a130-960000cf02df",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Legacy Information Code",
+                    "nodegroup_id": "10c82e44-9bad-11ec-877d-9cf387da2c40",
+                    "nodeid": "10c82e44-9bad-11ec-877d-9cf387da2c40",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -3806,7 +3858,7 @@
                     "nodeid": "38bcfe2c-7d44-11ec-a3be-960000cf02df",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "sortorder": 5
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -3964,7 +4016,7 @@
                     "nodeid": "559c59d8-7d44-11ec-96dc-960000cf02df",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 7
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -4058,7 +4110,7 @@
                     "nodeid": "66750ec1-7d44-11ec-a4e7-960000cf02df",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
-                    "sortorder": 8
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -4342,7 +4394,7 @@
                     "nodeid": "7775da60-84f4-11ec-bf78-960000cf02df",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "sortorder": 2
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -4713,7 +4765,7 @@
                     "nodeid": "87acecb2-7d44-11ec-894a-960000cf02df",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E65_Creation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by",
-                    "sortorder": 9
+                    "sortorder": 0
                 },
                 {
                     "config": {
@@ -5324,7 +5376,7 @@
                     "nodeid": "9978e0da-7d44-11ec-ba2a-960000cf02df",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P128i_is_carried_by",
-                    "sortorder": 10
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -5490,7 +5542,7 @@
                     "nodeid": "b822c313-7d44-11ec-b095-960000cf02df",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of",
-                    "sortorder": 12
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -5806,7 +5858,7 @@
                     "nodeid": "dca740e5-7f60-11ec-8592-960000cf02df",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
-                    "sortorder": 1
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -5882,7 +5934,7 @@
                     "nodeid": "e3631a20-7d43-11ec-a879-960000cf02df",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E35_Title",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P102_has_title",
-                    "sortorder": 6
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -6149,9 +6201,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 13.3 (Debian 13.3-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit",
+        "db": "PostgreSQL 12.9 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
         "git hash": "fatal: not a git repository (or any of the parent directories): .git",
-        "os": "Linux",
-        "os version": "4.19.0-17-amd64"
+        "os": "Darwin",
+        "os version": "19.5.0"
     }
 }

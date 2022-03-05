@@ -635,6 +635,25 @@
                     "nodegroup_id": "0a30bbe6-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 15,
                     "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "a06cbc32-9bac-11ec-877d-9cf387da2c40",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": "",
+                    "graph_id": "0a2eb1ca-9ad1-11ec-a6b5-9cf387da2c40",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Legacy Information Code",
+                    "nodegroup_id": "a06cb8cc-9bac-11ec-877d-9cf387da2c40",
+                    "sortorder": null,
+                    "visible": true
                 }
             ],
             "cards_x_nodes_x_widgets": [
@@ -3305,6 +3324,15 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "rangenode_id": "0a310380-9ad1-11ec-a6b5-9cf387da2c40"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "0a2fbd18-9ad1-11ec-a6b5-9cf387da2c40",
+                    "edgeid": "a06cbf84-9bac-11ec-877d-9cf387da2c40",
+                    "graph_id": "0a2eb1ca-9ad1-11ec-a6b5-9cf387da2c40",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "a06cb8cc-9bac-11ec-877d-9cf387da2c40"
                 }
             ],
             "functions_x_graphs": [
@@ -3326,7 +3354,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "0a2eb1ca-9ad1-11ec-a6b5-9cf387da2c40",
-                    "id": "6edc2bfa-9b4b-11ec-b26e-9cf387da2c40"
+                    "id": "abaf3158-9b91-11ec-8bf7-9cf387da2c40"
                 }
             ],
             "graphid": "0a2eb1ca-9ad1-11ec-a6b5-9cf387da2c40",
@@ -3522,6 +3550,12 @@
                     "legacygroupid": null,
                     "nodegroupid": "0a30bbe6-9ad1-11ec-a6b5-9cf387da2c40",
                     "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "a06cb8cc-9bac-11ec-877d-9cf387da2c40",
+                    "parentnodegroup_id": "0a2fbd18-9ad1-11ec-a6b5-9cf387da2c40"
                 }
             ],
             "nodes": [
@@ -6020,6 +6054,24 @@
                     "nodeid": "0a31042a-9ad1-11ec-a6b5-9cf387da2c40",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
                     "parentproperty": "",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "string",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "0a2eb1ca-9ad1-11ec-a6b5-9cf387da2c40",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Legacy Information Code",
+                    "nodegroup_id": "a06cb8cc-9bac-11ec-877d-9cf387da2c40",
+                    "nodeid": "a06cb8cc-9bac-11ec-877d-9cf387da2c40",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0
                 }
             ],
