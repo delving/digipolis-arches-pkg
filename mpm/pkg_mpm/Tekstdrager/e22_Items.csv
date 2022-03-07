@@ -1,4 +1,4 @@
-card,order,adm.id_mat,Registration Number value,adm.isadPartOf,Warehouse Location (begin),adm.uuid_mat,Serial Number,ResourceID,brocade.id,adm.note
+card,order,adm.id_mat,adm.inv,adm.isadPartOf,Warehouse Location (begin),adm.uuid_mat,Volgnummer,ResourceID,brocade.id,Source Note
 e22_Items,1,tg:mpmak:31_#1,R 63.8 IV,isad:mpm:245,15 H 2 I,c3a3aad4-e5a2-53ae-9122-1374e1ae944f,8,c3a3aad4-e5a2-53ae-9122-1374e1ae944f,tg:mpmak:31_#1,
 e22_Items,1,tg:mpmak:21_#1,R 63.8 IV,isad:mpm:245,15 H 2 I,518c1b18-f962-5208-9fb5-be34ac12df7e,3,518c1b18-f962-5208-9fb5-be34ac12df7e,tg:mpmak:21_#1,
 e22_Items,1,tg:mpmak:88_#1,Arch. TS A stuk 1,isad:mpm:327,15 R 1 A,fa0627da-a5b7-5bd6-8ce9-2d120f03351e,,fa0627da-a5b7-5bd6-8ce9-2d120f03351e,tg:mpmak:88_#1,Tussen fol. 65 links-rechts
@@ -372,13 +372,7 @@ e22_Items,1,tg:mpmdc:12_#1,Arch. TS C stuk 10,isad:mpm:331,15 R 1 A,a61681b5-435
 e22_Items,1,tg:mpmdc:8_#1,Arch. TS C stuk 4,isad:mpm:331,15 R 1 A,58db313b-ca28-5acc-88e6-80d8560704dd,,58db313b-ca28-5acc-88e6-80d8560704dd,tg:mpmdc:8_#1,
 e22_Items,1,tg:mpmdc:24_#1,Arch. 1150a,isad:mpm:669,15 H 1 D,8307f841-f215-5114-a393-0b0dfb0c5701,fol. 176,8307f841-f215-5114-a393-0b0dfb0c5701,tg:mpmdc:24_#1,
 e22_Items,1,tg:mpmhs:21_#1,Arch. 89,isad:mpm:260,10 Q 2 D,955c8891-01e7-56df-81bf-ec8854c454e2,p. 783-790,955c8891-01e7-56df-81bf-ec8854c454e2,tg:mpmhs:21_#1,
-e22_Items,1,tg:mpmhs:17_#1,MR 47.05,isad:mpm:640,,6b78bb1d-221c-5a10-af46-5c6b365440bf,,6b78bb1d-221c-5a10-af46-5c6b365440bf,tg:mpmhs:17_#1,
 e22_Items,1,tg:mpmhs:5_#1,M 172,isad:mpm:260,10 I 2 A,feaac8e1-bce6-5114-95d4-8a63b322b283,,feaac8e1-bce6-5114-95d4-8a63b322b283,tg:mpmhs:5_#1,
-e22_Items,1,tg:mpmhs:16_#1,MR 47.02,isad:mpm:643,,9a65e24a-d957-5dca-bdaa-4bb0355530e9,,9a65e24a-d957-5dca-bdaa-4bb0355530e9,tg:mpmhs:16_#1,
-e22_Items,1,tg:mpmhs:22_#1,MR 47.04,isad:mpm:640,,917ecd69-8ffe-5b85-a1f9-aed4bce35212,,917ecd69-8ffe-5b85-a1f9-aed4bce35212,tg:mpmhs:22_#1,
-e22_Items,1,tg:mpmhs:15_#1,MR 47.01,isad:mpm:643,,0d032749-a386-512b-9f93-8475951f67c0,,0d032749-a386-512b-9f93-8475951f67c0,tg:mpmhs:15_#1,
-e22_Items,1,tg:mpmhs:19_#1,MR 47.07,isad:mpm:640,,b698b051-d9a5-521b-ba51-8281ecf76642,,b698b051-d9a5-521b-ba51-8281ecf76642,tg:mpmhs:19_#1,
-e22_Items,1,tg:mpmhs:18_#1,MR 47.06,isad:mpm:640,,70874e1f-dcd8-581b-980a-ccf4295c9007,,70874e1f-dcd8-581b-980a-ccf4295c9007,tg:mpmhs:18_#1,
 e22_Items,1,tg:mpmhs:11_#1,E 3,,15 P 4 D,19355cb7-917f-5216-8e50-835437475d64,V.V.552,19355cb7-917f-5216-8e50-835437475d64,tg:mpmhs:11_#1,
 e22_Items,1,tg:mpmhs:13_#1,ZB 13,isad:mpm:313,15 R 6 D,2496020e-5dd4-58b4-9a51-cac11bbbed9e,stuk 197,2496020e-5dd4-58b4-9a51-cac11bbbed9e,tg:mpmhs:13_#1,
 e22_Items,1,tg:mpmhs:12_#1,E 13,,15 P 4 D,cac4f336-3e74-5035-8864-95836d72380b,V.V.310,cac4f336-3e74-5035-8864-95836d72380b,tg:mpmhs:12_#1,
@@ -415,8 +409,6 @@ e22_Items,1,tg:mpmre:223_#1,Arch. 901,isad:mpm:203,10 R 8 D,81240c44-54dc-53dd-b
 e22_Items,1,tg:mpmre:155_#1,Arch. 782,isad:mpm:212,10 R 9 B,4774f9b4-06d4-5a44-9e4b-6e7ea301bd33,,4774f9b4-06d4-5a44-9e4b-6e7ea301bd33,tg:mpmre:155_#1,
 e22_Items,1,tg:mpmre:145_#1,Arch. 794,isad:mpm:215,10 R 9 A,0a746825-269a-58bd-b6e5-47006a9f3ac2,stuk 2,0a746825-269a-58bd-b6e5-47006a9f3ac2,tg:mpmre:145_#1,
 e22_Items,1,tg:mpmre:700_#1,Arch. 14,isad:mpm:215,10 Q 1 E,f8c14ffb-88e0-5a24-a5f3-a5c6ee06d3c4,3,f8c14ffb-88e0-5a24-a5f3-a5c6ee06d3c4,tg:mpmre:700_#1,
-e22_Items,1,tg:mpmre:678_#1,MR 42.02,isad:mpm:583,,52ed0ca0-2481-525b-bc4e-7e2bf60c60f9,,52ed0ca0-2481-525b-bc4e-7e2bf60c60f9,tg:mpmre:678_#1,
-e22_Items,1,tg:mpmre:710_#1,Arch. 1073,isad:mpm:668,,5aed6408-d8e9-578d-86f0-12aec8901051,,5aed6408-d8e9-578d-86f0-12aec8901051,tg:mpmre:710_#1,
 e22_Items,1,tg:mpmre:668_#1,SCH/OA/FA/022,isad:mpm:347,15-Q-8-A,f5635344-3d0b-57db-8d8c-ddbd8789ba64,map 662,f5635344-3d0b-57db-8d8c-ddbd8789ba64,tg:mpmre:668_#1,
 e22_Items,1,tg:mpmre:390_#1,Arch. 405,isad:mpm:206,10 Q 5 A,135a48de-341d-59c5-8012-e2462bd0a8f5,,135a48de-341d-59c5-8012-e2462bd0a8f5,tg:mpmre:390_#1,
 e22_Items,1,tg:mpmre:380_#1,Arch. 253,isad:mpm:206,10 Q 4 C,186570fd-adf4-50a6-b051-a05359c4210f,,186570fd-adf4-50a6-b051-a05359c4210f,tg:mpmre:380_#1,
@@ -434,7 +426,6 @@ e22_Items,1,tg:mpmre:422_#1,Arch. 366,isad:mpm:206,10 Q 5 B,a19eca97-273b-5fb8-a
 e22_Items,1,tg:mpmre:432_#1,Arch. 375,isad:mpm:206,10 Q 5 B,c28d1b8f-410f-5354-be14-151662db6d71,,c28d1b8f-410f-5354-be14-151662db6d71,tg:mpmre:432_#1,
 e22_Items,1,tg:mpmre:111_#1,Arch. 1037,isad:mpm:202,10 R 8 B,d750dfb7-a95f-53a4-b697-ab2dd64aaccf,,d750dfb7-a95f-53a4-b697-ab2dd64aaccf,tg:mpmre:111_#1,
 e22_Items,1,tg:mpmre:101_#1,Arch. 1027,isad:mpm:202,10 R 8 B,de29b05d-6d7a-5c62-885d-75ad49e8f9f4,,de29b05d-6d7a-5c62-885d-75ad49e8f9f4,tg:mpmre:101_#1,
-e22_Items,1,tg:mpmre:685_#1,MR 45.06,isad:mpm:635,,5005cc16-4990-5e68-91c1-27406c5b5e74,,5005cc16-4990-5e68-91c1-27406c5b5e74,tg:mpmre:685_#1,
 e22_Items,1,tg:mpmre:695_#1,Arch. 1228,isad:mpm:664,10 R 5 C,a0d75ba5-52cc-5494-b7ce-26d9a91c29a0,,a0d75ba5-52cc-5494-b7ce-26d9a91c29a0,tg:mpmre:695_#1,
 e22_Items,1,tg:mpmre:28_#1,Arch. 818,isad:mpm:344,10 R 8 F,702d6b07-38d6-5c48-9d35-1a119d112648,,702d6b07-38d6-5c48-9d35-1a119d112648,tg:mpmre:28_#1,
 e22_Items,1,tg:mpmre:591_#1,Arch. 1372 (II),isad:mpm:446,10 R 4 A,cb92203f-956f-5abb-8bb3-7799d15d0964,,cb92203f-956f-5abb-8bb3-7799d15d0964,tg:mpmre:591_#1,
@@ -468,13 +459,11 @@ e22_Items,1,tg:mpmre:517_#1,SCH/OA/FA/021,isad:mpm:347,15-Q-8-A,b052c0a6-2b79-52
 e22_Items,1,tg:mpmre:352_#1,Arch. 225,isad:mpm:206,10 Q 4 D,e56fe709-343c-5096-a2bf-7c88921c0c55,,e56fe709-343c-5096-a2bf-7c88921c0c55,tg:mpmre:352_#1,
 e22_Items,1,tg:mpmre:342_#1,Arch. 180,isad:mpm:206,10 Q 3 A,34c3ff9a-31f1-5d59-87ae-0a62c0d38414,,34c3ff9a-31f1-5d59-87ae-0a62c0d38414,tg:mpmre:342_#1,
 e22_Items,1,tg:mpmre:661_#1,Arch. 301,isad:mpm:567,10 Q 4 A,b2eeaba9-c963-5874-bfdb-0b7517858438,los stuk tussen fol. 207 links-rechts,b2eeaba9-c963-5874-bfdb-0b7517858438,tg:mpmre:661_#1,
-e22_Items,1,tg:mpmre:709_#1,Arch. 1072,isad:mpm:668,,e7395a85-4e3b-568d-ba58-c27b007a97ca,,e7395a85-4e3b-568d-ba58-c27b007a97ca,tg:mpmre:709_#1,
 e22_Items,1,tg:mpmre:671_#1,Arch. 662,isad:mpm:221,10 Q 8 A,0ffd144a-ff00-5097-804c-cce2af312df8,,0ffd144a-ff00-5097-804c-cce2af312df8,tg:mpmre:671_#1,
 e22_Items,1,tg:mpmre:17_#1,Arch. 334,isad:mpm:248,10 Q 5 C,7b72d3cc-56b1-5195-addc-1fbd19c7a7e5,fol. 89-102,7b72d3cc-56b1-5195-addc-1fbd19c7a7e5,tg:mpmre:17_#1,
 e22_Items,1,tg:mpmre:293_#1,Arch. 1096,isad:mpm:203,10 R 8 A,6219c73c-af47-5f87-874f-f0e25014ecd5,,6219c73c-af47-5f87-874f-f0e25014ecd5,tg:mpmre:293_#1,Arch. 1090-1100 zijn samen in een moderne convoluutband ingebonden
 e22_Items,1,tg:mpmre:283_#1,Arch. 957,isad:mpm:304,10 R 8 D,b37aba04-c3ba-509c-8f73-cda8a03651af,,b37aba04-c3ba-509c-8f73-cda8a03651af,tg:mpmre:283_#1,Arch. 947-961 zijn samen in een moderne convoluutband ingebonden
 e22_Items,1,tg:mpmre:694_#1,Arch. 1230,isad:mpm:664,10 R 5 C,7a921fc1-ce2c-5b5f-8a46-a763e6afc9bc,,7a921fc1-ce2c-5b5f-8a46-a763e6afc9bc,tg:mpmre:694_#1,
-e22_Items,1,tg:mpmre:684_#1,MR 45.04,isad:mpm:586,,5df713b8-d257-548f-8f0b-de409031702a,,5df713b8-d257-548f-8f0b-de409031702a,tg:mpmre:684_#1,
 e22_Items,1,tg:mpmre:433_#1,Arch. 837,isad:mpm:206,10 R 8 E,1ef48c27-89c0-50bd-9fdf-86eff844b124,,1ef48c27-89c0-50bd-9fdf-86eff844b124,tg:mpmre:433_#1,
 e22_Items,1,tg:mpmre:423_#1,Arch. 367,isad:mpm:206,10 Q 5 B,3dd2c914-b196-5049-9e18-8f421dba65ae,,3dd2c914-b196-5049-9e18-8f421dba65ae,tg:mpmre:423_#1,
 e22_Items,1,tg:mpmre:266_#1,Arch. 940,isad:mpm:203,10 R 8 D,26a0a02b-d7bf-56d7-8585-d32c41c58554,,26a0a02b-d7bf-56d7-8585-d32c41c58554,tg:mpmre:266_#1,Arch. 931-946 zijn samen in een moderne convoluutband ingebonden
@@ -516,7 +505,6 @@ e22_Items,1,tg:mpmre:353_#1,Arch. 226,isad:mpm:206,10 Q 4 D,a782e2cb-465b-5abd-a
 e22_Items,1,tg:mpmre:516_#1,Arch. 1459,isad:mpm:259,10 R 3 B,5a3a46a7-e4a4-5b65-bc12-abd8633eda30,10,5a3a46a7-e4a4-5b65-bc12-abd8633eda30,tg:mpmre:516_#1,
 e22_Items,1,tg:mpmre:506_#1,Arch. 1459,isad:mpm:259,10 R 3 B,dcc1981f-2dfc-59d1-8d90-f939048f16a6,1,dcc1981f-2dfc-59d1-8d90-f939048f16a6,tg:mpmre:506_#1,
 e22_Items,1,tg:mpmre:670_#1,Arch. 89,isad:mpm:42,10 Q 2 D,a65fba2c-75bd-561b-8e20-20ba84f826a6,p. 69-72,a65fba2c-75bd-561b-8e20-20ba84f826a6,tg:mpmre:670_#1,
-e22_Items,1,tg:mpmre:708_#1,Arch. 1071,isad:mpm:668,,c521911c-42da-5672-86a3-a17353732cb7,,c521911c-42da-5672-86a3-a17353732cb7,tg:mpmre:708_#1,
 e22_Items,1,tg:mpmre:660_#1,Arch. 301,isad:mpm:567,10 Q 4 A,7ec3e9d0-75c6-580b-93c1-dcbecb8b009a,los stuk tussen fol. 203 links-rechts,7ec3e9d0-75c6-580b-93c1-dcbecb8b009a,tg:mpmre:660_#1,
 e22_Items,1,tg:mpmre:656_#1,Arch. 320,isad:mpm:99,10 Q 5 D,7d5c3473-7899-5ca2-af7e-3670d90a36df,los stuk 5 tussen fol. 290 links-rechts,7d5c3473-7899-5ca2-af7e-3670d90a36df,tg:mpmre:656_#1,
 e22_Items,1,tg:mpmre:646_#1,Arch. 128,isad:mpm:220,10 Q 3 D,25d6fbe0-8802-5ae8-882a-03bde5134b9c,,25d6fbe0-8802-5ae8-882a-03bde5134b9c,tg:mpmre:646_#1,
@@ -550,7 +538,6 @@ e22_Items,1,tg:mpmre:477_#1,Arch. TS G,isad:mpm:332,15 R 1 A,c230c4ec-8e4d-51b7-
 e22_Items,1,tg:mpmre:467_#1,Arch. 1166,isad:mpm:213,10 R 7 D,a2e40450-c95f-5034-aade-a8cf3cfcc316,,a2e40450-c95f-5034-aade-a8cf3cfcc316,tg:mpmre:467_#1,Arch. 1166 en 1167 zijn samen in een moderne convoluutband ingebonden
 e22_Items,1,tg:mpmre:669_#1,Arch. 431,isad:mpm:571,10 Q 6 E,a2231304-45bb-5bb3-a6ad-d6c5f4dda3a4,,a2231304-45bb-5bb3-a6ad-d6c5f4dda3a4,tg:mpmre:669_#1,
 e22_Items,1,tg:mpmre:711_#1,Arch. 101,isad:mpm:766,10 Q 2 A,20819212-86b3-5561-9eb3-4684c76db3b9,,20819212-86b3-5561-9eb3-4684c76db3b9,tg:mpmre:711_#1,
-e22_Items,1,tg:mpmre:679_#1,MR 42.03,isad:mpm:583,,23a633a1-349e-5628-8193-c933c6c5d931,,23a633a1-349e-5628-8193-c933c6c5d931,tg:mpmre:679_#1,
 e22_Items,1,tg:mpmre:701_#1,Arch. 14,isad:mpm:215,10 Q 1 E,3a92e45f-2d3f-5fe0-ac6c-c0cff12af17a,4,3a92e45f-2d3f-5fe0-ac6c-c0cff12af17a,tg:mpmre:701_#1,
 e22_Items,1,tg:mpmre:144_#1,Arch. 430,isad:mpm:211,10 Q 6 E,ca0fa374-3fe4-5f70-81fa-f0d988bed45e,stuk 1,ca0fa374-3fe4-5f70-81fa-f0d988bed45e,tg:mpmre:144_#1,
 e22_Items,1,tg:mpmre:154_#1,Arch. 783,isad:mpm:212,10 R 9 B,5692d191-13c5-5cea-87cd-68d552416e14,,5692d191-13c5-5cea-87cd-68d552416e14,tg:mpmre:154_#1,
@@ -577,7 +564,6 @@ e22_Items,1,tg:mpmre:49_#1,Arch. 1052 bis,isad:mpm:202,15 R 6 C,23853e57-c5d1-51
 e22_Items,1,tg:mpmre:498_#1,Arch. 754,isad:mpm:201,10 R 9 D,567fdbb8-473c-5623-a5b5-f9814c0c3a90,,567fdbb8-473c-5623-a5b5-f9814c0c3a90,tg:mpmre:498_#1,
 e22_Items,1,tg:mpmre:59_#1,Arch. 990,isad:mpm:202,10 R 8 C,cda8ecd9-88f5-57d0-b48e-55b44cfe2172,,cda8ecd9-88f5-57d0-b48e-55b44cfe2172,tg:mpmre:59_#1,
 e22_Items,1,tg:mpmre:488_#1,Arch. 322,isad:mpm:207,10 Q 5 D,864e67cc-16df-5fb3-be2e-4ed298b24438,,864e67cc-16df-5fb3-be2e-4ed298b24438,tg:mpmre:488_#1,
-e22_Items,1,tg:mpmre:686_#1,MR 47.03,isad:mpm:639,,c836de2a-e6b1-5fe5-9984-ebf413be75de,,c836de2a-e6b1-5fe5-9984-ebf413be75de,tg:mpmre:686_#1,
 e22_Items,1,tg:mpmre:696_#1,Arch. 1461,isad:mpm:313,10 R 1 A,6223b59b-4312-5576-b0a7-273d8c671036,1,6223b59b-4312-5576-b0a7-273d8c671036,tg:mpmre:696_#1,
 e22_Items,1,tg:mpmre:112_#1,Arch. 1038,isad:mpm:202,10 R 8 B,22fa5908-8a7a-576c-9a9b-4c713daf9107,,22fa5908-8a7a-576c-9a9b-4c713daf9107,tg:mpmre:112_#1,
 e22_Items,1,tg:mpmre:102_#1,Arch. 1028,isad:mpm:202,10 R 8 B,5dcc320d-6df8-5e03-a07c-7e7413601a04,,5dcc320d-6df8-5e03-a07c-7e7413601a04,tg:mpmre:102_#1,
@@ -716,8 +702,6 @@ e22_Items,1,tg:mpmre:58_#1,Arch. 989,isad:mpm:202,10 R 8 C,7899d7b8-105b-5fdc-b7
 e22_Items,1,tg:mpmre:499_#1,Arch. 496,isad:mpm:201,10 Q 6 C,78d888be-f0bb-5430-9bfb-499fec5fadd1,,78d888be-f0bb-5430-9bfb-499fec5fadd1,tg:mpmre:499_#1,
 e22_Items,1,tg:mpmre:48_#1,Arch. 980,isad:mpm:202,10 R 8 D,dcd56a96-0fb3-51cd-945d-59930172e26f,,dcd56a96-0fb3-51cd-945d-59930172e26f,tg:mpmre:48_#1,
 e22_Items,1,tg:mpmre:697_#1,Arch. 1461,isad:mpm:313,10 R 1 A,bf324e15-d3c0-5afd-a3c2-b0e0e3aadbfc,2,bf324e15-d3c0-5afd-a3c2-b0e0e3aadbfc,tg:mpmre:697_#1,
-e22_Items,1,tg:mpmre:687_#1,MR 48.01,isad:mpm:590,,dcfa64a1-549f-5227-a11c-0a4015b34ed1,,dcfa64a1-549f-5227-a11c-0a4015b34ed1,tg:mpmre:687_#1,
-e22_Items,1,tg:mpmre:673_#1,MR 41.01,isad:mpm:629,,a07d6936-0ff9-52ed-992a-dd5540a0f2ee,,a07d6936-0ff9-52ed-992a-dd5540a0f2ee,tg:mpmre:673_#1,
 e22_Items,1,tg:mpmre:663_#1,Arch. 315,isad:mpm:276,10 Q 5 D,f4d880ec-e38b-59b4-8321-3a08cb409a73,los stuk vooraan,f4d880ec-e38b-59b4-8321-3a08cb409a73,tg:mpmre:663_#1,
 e22_Items,1,tg:mpmre:238_#1,Arch. 915,isad:mpm:305,10 R 8 D,2bcac107-5a60-51c3-86c7-34a99937e803,,2bcac107-5a60-51c3-86c7-34a99937e803,tg:mpmre:238_#1,Arch. 899-918 zijn samen in een moderne convoluutband ingebonden
 e22_Items,1,tg:mpmre:340_#1,Arch. 178,isad:mpm:206,10 Q 3 A,36d7f668-8836-5784-897d-9f0746246135,,36d7f668-8836-5784-897d-9f0746246135,tg:mpmre:340_#1,
@@ -746,7 +730,6 @@ e22_Items,1,tg:mpmre:500_#1,Arch. 497,isad:mpm:201,10 Q 6 C,9f5f81cb-b449-5d7a-8
 e22_Items,1,tg:mpmre:468_#1,Arch. 166,isad:mpm:214,10 Q 3 B,11e90c32-f42c-5695-ac74-40f998daec18,,11e90c32-f42c-5695-ac74-40f998daec18,tg:mpmre:468_#1,
 e22_Items,1,tg:mpmre:510_#1,Arch. 1459,isad:mpm:259,10 R 3 B,5bdd21fd-370f-5a9f-bc12-b87a34063214,4,5bdd21fd-370f-5a9f-bc12-b87a34063214,tg:mpmre:510_#1,
 e22_Items,1,tg:mpmre:666_#1,Arch. 362,isad:mpm:564,10 Q 5 B,910dd6e3-0405-5d30-995c-988e7003219b,,910dd6e3-0405-5d30-995c-988e7003219b,tg:mpmre:666_#1,
-e22_Items,1,tg:mpmre:676_#1,MR 41.04,isad:mpm:629,,fb969103-1595-5a41-bb9a-a0611b97ec11,,fb969103-1595-5a41-bb9a-a0611b97ec11,tg:mpmre:676_#1,
 e22_Items,1,tg:mpmre:294_#1,Arch. 1097,isad:mpm:203,10 R 8 A,b915631e-1465-5c8d-a9df-a730fc35bf34,,b915631e-1465-5c8d-a9df-a730fc35bf34,tg:mpmre:294_#1,Arch. 1090-1100 zijn samen in een moderne convoluutband ingebonden
 e22_Items,1,tg:mpmre:284_#1,Arch. 958,isad:mpm:203,10 R 8 D,7cbfd40a-a3df-5d61-ab0a-dea6e0dac73a,,7cbfd40a-a3df-5d61-ab0a-dea6e0dac73a,tg:mpmre:284_#1,Arch. 947-961 zijn samen in een moderne convoluutband ingebonden
 e22_Items,1,tg:mpmre:72_#1,Arch. 999,isad:mpm:202,10 R 8 C,999315fd-c220-5bcd-986a-8275861d1b96,,999315fd-c220-5bcd-986a-8275861d1b96,tg:mpmre:72_#1,
@@ -780,8 +763,6 @@ e22_Items,1,tg:mpmre:260_#1,Arch. 935,isad:mpm:203,10 R 8 D,2b78c80e-ff54-5978-b
 e22_Items,1,tg:mpmre:318_#1,Arch. 61,isad:mpm:206,10 Q 1 B,90072057-c707-5394-adf3-ad469badf99c,,90072057-c707-5394-adf3-ad469badf99c,tg:mpmre:318_#1,
 e22_Items,1,tg:mpmre:116_#1,Arch. 1042,isad:mpm:202,10 R 8 B,dff3dec8-7454-5aae-9950-98ff1ca99719,,dff3dec8-7454-5aae-9950-98ff1ca99719,tg:mpmre:116_#1,
 e22_Items,1,tg:mpmre:106_#1,Arch. 1032,isad:mpm:202,10 R 8 B,6c99113b-12a8-5d8d-9396-154eba942172,,6c99113b-12a8-5d8d-9396-154eba942172,tg:mpmre:106_#1,
-e22_Items,1,tg:mpmre:682_#1,MR 45.02,isad:mpm:585,,7da8432a-2a48-5f34-b170-1bb9ccb92d34,,7da8432a-2a48-5f34-b170-1bb9ccb92d34,tg:mpmre:682_#1,
-e22_Items,1,tg:mpmre:692_#1,MR 44.06,isad:mpm:592,,c99ad64e-76a0-5cd3-905b-933ea145f923,,c99ad64e-76a0-5cd3-905b-933ea145f923,tg:mpmre:692_#1,
 e22_Items,1,tg:mpmre:397_#1,Arch. 412,isad:mpm:206,10 Q 5 A,1e941198-9b37-5ad3-85d6-2e49f98fefb9,,1e941198-9b37-5ad3-85d6-2e49f98fefb9,tg:mpmre:397_#1,
 e22_Items,1,tg:mpmre:387_#1,Arch. 402,isad:mpm:206,10 Q 5 A,3c051ce3-efd0-5ede-8816-eb29f8b91f09,,3c051ce3-efd0-5ede-8816-eb29f8b91f09,tg:mpmre:387_#1,
 e22_Items,1,tg:mpmre:189_#1,Arch. 867,isad:mpm:203,10 R 8 D,1b2be833-55fb-5cb2-b4bc-5a304ebeffb0,,1b2be833-55fb-5cb2-b4bc-5a304ebeffb0,tg:mpmre:189_#1,Arch. 863-898 zijn samen in een moderne convoluutband ingebonden
@@ -796,7 +777,6 @@ e22_Items,1,tg:mpmre:234_#1,Arch. 911,isad:mpm:203,10 R 8 D,04ca38fc-973c-5fd1-a
 e22_Items,1,tg:mpmre:224_#1,Arch. 902,isad:mpm:203,10 R 8 D,7ff09d27-8dcf-54ad-89cd-6ecdb975aa3e,,7ff09d27-8dcf-54ad-89cd-6ecdb975aa3e,tg:mpmre:224_#1,Arch. 899-918 zijn samen in een moderne convoluutband ingebonden
 e22_Items,1,tg:mpmre:461_#1,Arch. 495,isad:mpm:213,10 Q 6 C,6b37c968-e3e0-59b8-b899-11a33fe2db9b,,6b37c968-e3e0-59b8-b899-11a33fe2db9b,tg:mpmre:461_#1,
 e22_Items,1,tg:mpmre:471_#1,Arch. TS A stuk 10,isad:mpm:329,15 R 1 A,5b1c3c40-a884-51f9-a8a4-7af5656964a6,,5b1c3c40-a884-51f9-a8a4-7af5656964a6,tg:mpmre:471_#1,Tussen fol. 144 links-rechts
-e22_Items,1,tg:mpmre:707_#1,Arch. 1070,isad:mpm:668,,23220dba-7847-5534-82bc-b59f7f1c211e,,23220dba-7847-5534-82bc-b59f7f1c211e,tg:mpmre:707_#1,
 e22_Items,1,tg:mpmre:152_#1,Arch. 781,isad:mpm:212,10 R 9 B,c1b5c8c5-4080-5c45-8397-6f8d1b28f683,,c1b5c8c5-4080-5c45-8397-6f8d1b28f683,tg:mpmre:152_#1,
 e22_Items,1,tg:mpmre:142_#1,Arch. 793,isad:mpm:211,10 R 9 B,463f1038-38ac-5f42-98b6-1855ae8b699d,,463f1038-38ac-5f42-98b6-1855ae8b699d,tg:mpmre:142_#1,
 e22_Items,1,tg:mpmre:19_#1,Arch. 697,isad:mpm:249,10 Q 9 D,d1e2dab0-c9dd-5b3a-94f2-4bb175c5b4dc,fol. 1-39,d1e2dab0-c9dd-5b3a-94f2-4bb175c5b4dc,tg:mpmre:19_#1,
@@ -839,7 +819,6 @@ e22_Items,1,tg:mpmre:225_#1,Arch. 903,isad:mpm:203,10 R 8 D,d3aae511-cc14-57bf-9
 e22_Items,1,tg:mpmre:235_#1,Arch. 912,isad:mpm:203,10 R 8 D,7101f711-a297-51aa-82c0-b3f6c2de6c3e,,7101f711-a297-51aa-82c0-b3f6c2de6c3e,tg:mpmre:235_#1,Arch. 899-918 zijn samen in een moderne convoluutband ingebonden
 e22_Items,1,tg:mpmre:143_#1,Arch. 794,isad:mpm:211,10 R 9 A,d7708212-b346-5552-81f0-4429608ca051,,d7708212-b346-5552-81f0-4429608ca051,tg:mpmre:143_#1,
 e22_Items,1,tg:mpmre:153_#1,Arch. 784,isad:mpm:212,10 R 9 B,040945c4-ea25-5159-90b1-45e2a01199fd,,040945c4-ea25-5159-90b1-45e2a01199fd,tg:mpmre:153_#1,
-e22_Items,1,tg:mpmre:706_#1,Arch. 1069,isad:mpm:668,,0fcdc927-9c8f-52b9-a25f-670a85b27d7a,,0fcdc927-9c8f-52b9-a25f-670a85b27d7a,tg:mpmre:706_#1,
 e22_Items,1,tg:mpmre:45_#1,Arch. 977,isad:mpm:202,10 R 8 D,429244aa-5d21-5e78-9425-1e357d42ac87,,429244aa-5d21-5e78-9425-1e357d42ac87,tg:mpmre:45_#1,
 e22_Items,1,tg:mpmre:494_#1,Arch. 760,isad:mpm:201,10 R 9 D,cca63b1d-543e-5451-a8f1-10a4659b4095,,cca63b1d-543e-5451-a8f1-10a4659b4095,tg:mpmre:494_#1,
 e22_Items,1,tg:mpmre:55_#1,Arch. 986,isad:mpm:202,10 R 8 C,ccd0643a-09ba-5ee3-a59c-9e3152880c9c,,ccd0643a-09ba-5ee3-a59c-9e3152880c9c,tg:mpmre:55_#1,
@@ -868,7 +847,6 @@ e22_Items,1,tg:mpmre:501_#1,Arch. 187,isad:mpm:202,10 Q 3 A,a22588e5-a2fd-5012-9
 e22_Items,1,tg:mpmre:479_#1,Arch. 738,isad:mpm:208,10 Q 9 A,92109159-31b1-5b4d-aa7b-15a32d3b9626,,92109159-31b1-5b4d-aa7b-15a32d3b9626,tg:mpmre:479_#1,
 e22_Items,1,tg:mpmre:344_#1,Arch. 217,isad:mpm:206,10 Q 3 A,c799d16b-944e-525f-9f14-3763401708ef,,c799d16b-944e-525f-9f14-3763401708ef,tg:mpmre:344_#1,
 e22_Items,1,tg:mpmre:354_#1,Arch. 227,isad:mpm:206,10 Q 4 D,1aec8667-53b3-5d49-a7b0-2b9886235533,,1aec8667-53b3-5d49-a7b0-2b9886235533,tg:mpmre:354_#1,
-e22_Items,1,tg:mpmre:677_#1,MR 42.01,isad:mpm:583,,86b240fb-f086-55cb-b795-506d8a07aa42,,86b240fb-f086-55cb-b795-506d8a07aa42,tg:mpmre:677_#1,
 e22_Items,1,tg:mpmre:667_#1,Arch. 743,isad:mpm:225,10 R 9 D,c1a97a02-593e-5c79-869e-aaba1cb7c9ae,,c1a97a02-593e-5c79-869e-aaba1cb7c9ae,tg:mpmre:667_#1,
 e22_Items,1,tg:mpmre:615_#1,Arch. 1337,isad:mpm:466,10 R 4 C,863465b2-9830-5450-b432-83be7c243441,,863465b2-9830-5450-b432-83be7c243441,tg:mpmre:615_#1,
 e22_Items,1,tg:mpmre:138_#1,Arch. 325,isad:mpm:211,10 Q 5 C,a3ad3f37-e649-56d5-8e1c-dedf32c7584b,,a3ad3f37-e649-56d5-8e1c-dedf32c7584b,tg:mpmre:138_#1,
@@ -893,8 +871,6 @@ e22_Items,1,tg:mpmre:203_#1,Arch. 881,isad:mpm:203,10 R 8 D,ff28d73f-4fed-553d-8
 e22_Items,1,tg:mpmre:213_#1,Arch. 891,isad:mpm:203,10 R 8 D,b7d46190-3041-594b-acc6-571a9f9a7f9b,,b7d46190-3041-594b-acc6-571a9f9a7f9b,tg:mpmre:213_#1,Arch. 863-898 zijn samen in een moderne convoluutband ingebonden
 e22_Items,1,tg:mpmre:597_#1,Arch. 1198,isad:mpm:364,10 R 6 C,8c55a46d-0618-5f88-8b76-0f0dbb20659e,,8c55a46d-0618-5f88-8b76-0f0dbb20659e,tg:mpmre:597_#1,samen ingebonden met Arch. 1196 tot en met Arch. 1200
 e22_Items,1,tg:mpmre:587_#1,Arch. 290,isad:mpm:364,10 Q 4 A,a19ec598-bf7d-5b9f-a5a7-79627869fea8,,a19ec598-bf7d-5b9f-a5a7-79627869fea8,tg:mpmre:587_#1,
-e22_Items,1,tg:mpmre:693_#1,MR 42.01,isad:mpm:631,,6e1a9721-a6f0-5919-a974-9baaf1dcbea0,,6e1a9721-a6f0-5919-a974-9baaf1dcbea0,tg:mpmre:693_#1,
-e22_Items,1,tg:mpmre:683_#1,MR 45.03,isad:mpm:585,,0e9cbc01-c8e6-53ee-b114-7a8f3b69259f,,0e9cbc01-c8e6-53ee-b114-7a8f3b69259f,tg:mpmre:683_#1,
 e22_Items,1,tg:mpmre:319_#1,Arch. 62,isad:mpm:206,10 Q 1 B,745e7c03-5178-5e40-8050-a5a44b05082d,,745e7c03-5178-5e40-8050-a5a44b05082d,tg:mpmre:319_#1,
 e22_Items,1,tg:mpmre:261_#1,Arch. 936,isad:mpm:203,10 R 8 D,e12b200c-5240-5745-9eda-10208c824a81,,e12b200c-5240-5745-9eda-10208c824a81,tg:mpmre:261_#1,Arch. 931-946 zijn samen in een moderne convoluutband ingebonden
 e22_Items,1,tg:mpmre:309_#1,Arch. 53,isad:mpm:206,10 Q 1 C,bd0ed05e-03b0-5a5a-8add-fc47fbed2e7c,,bd0ed05e-03b0-5a5a-8add-fc47fbed2e7c,tg:mpmre:309_#1,
@@ -903,7 +879,6 @@ e22_Items,1,tg:mpmre:434_#1,Arch. 376,isad:mpm:206,10 Q 5 B,0abd1998-5649-53a9-b
 e22_Items,1,tg:mpmre:424_#1,Arch. 368,isad:mpm:206,10 Q 5 B,5bc224ff-3a64-55d8-a954-4dca3362099a,,5bc224ff-3a64-55d8-a954-4dca3362099a,tg:mpmre:424_#1,
 e22_Items,1,tg:mpmre:107_#1,Arch. 1033,isad:mpm:202,10 R 8 B,9e32d022-60ca-5bbd-a2f7-c50529e82c83,,9e32d022-60ca-5bbd-a2f7-c50529e82c83,tg:mpmre:107_#1,
 e22_Items,1,tg:mpmre:117_#1,Arch. 1043,isad:mpm:202,10 R 8 B,eab35089-88e1-509a-8cdb-046fa8141e6d,,eab35089-88e1-509a-8cdb-046fa8141e6d,tg:mpmre:117_#1,
-e22_Items,1,tg:mpmre:704_#1,Arch. 1067,isad:mpm:668,,54977e35-4b36-5cfe-b704-c99c7e8e2e5b,,54977e35-4b36-5cfe-b704-c99c7e8e2e5b,tg:mpmre:704_#1,
 e22_Items,1,tg:mpmre:714_#1,Arch. 363,isad:mpm:225,10 Q 5 A,331b1179-e39b-5292-ac40-201234d3d3eb,,331b1179-e39b-5292-ac40-201234d3d3eb,tg:mpmre:714_#1,
 e22_Items,1,tg:mpmre:151_#1,Arch. 780,isad:mpm:212,10 R 9 B,953e572a-be36-5145-8168-31b9e30b127b,,953e572a-be36-5145-8168-31b9e30b127b,tg:mpmre:151_#1,
 e22_Items,1,tg:mpmre:141_#1,Arch. 792,isad:mpm:211,10 R 9 B,66ee994b-1f25-5851-9105-180d30120276,,66ee994b-1f25-5851-9105-180d30120276,tg:mpmre:141_#1,
@@ -938,7 +913,6 @@ e22_Items,1,tg:mpmre:486_#1,Arch. 113,isad:mpm:208,10 Q 2 A,f63700a8-11be-57e7-9
 e22_Items,1,tg:mpmre:47_#1,Arch. 979,isad:mpm:202,10 R 8 D,0472504d-fb68-5287-9b80-5f891eef838f,,0472504d-fb68-5287-9b80-5f891eef838f,tg:mpmre:47_#1,
 e22_Items,1,tg:mpmre:496_#1,Arch. 753,isad:mpm:201,10 R 9 D,ffb94f3f-c310-59b7-abc0-f1badab5f279,,ffb94f3f-c310-59b7-abc0-f1badab5f279,tg:mpmre:496_#1,
 e22_Items,1,tg:mpmre:698_#1,Arch. 14,isad:mpm:215,10 Q 1 E,14ba92df-611f-5b2f-9dc1-3c7b2f8ab12f,1,14ba92df-611f-5b2f-9dc1-3c7b2f8ab12f,tg:mpmre:698_#1,
-e22_Items,1,tg:mpmre:688_#1,MR 48.02,isad:mpm:590,,90750c7b-af02-578c-9d5a-a63368d59035,,90750c7b-af02-578c-9d5a-a63368d59035,tg:mpmre:688_#1,
 e22_Items,1,tg:mpmre:621_#1,Arch. 1390,isad:mpm:466,10 R 3 D,dd2fbd7c-e619-5cec-84e5-c7c62e3cc9a8,,dd2fbd7c-e619-5cec-84e5-c7c62e3cc9a8,tg:mpmre:621_#1,
 e22_Items,1,tg:mpmre:631_#1,Arch. 38,isad:mpm:207,10 Q 1 D,36530c20-157d-5a8d-82a5-e67a2cea64c7,,36530c20-157d-5a8d-82a5-e67a2cea64c7,tg:mpmre:631_#1,
 e22_Items,1,tg:mpmre:547_#1,Arch. 300,isad:mpm:364,10 Q 4 A,d30a86f0-cdcd-5ced-9505-dad582c9a7ca,,d30a86f0-cdcd-5ced-9505-dad582c9a7ca,tg:mpmre:547_#1,
@@ -961,15 +935,12 @@ e22_Items,1,tg:mpmre:297_#1,Arch. 1100,isad:mpm:304,10 R 8 A,75ca1b34-a66a-5ab6-
 e22_Items,1,tg:mpmre:287_#1,Arch. 961,isad:mpm:304,10 R 8 D,906b55e2-5a38-5ee0-a562-d7f6033c20b9,,906b55e2-5a38-5ee0-a562-d7f6033c20b9,tg:mpmre:287_#1,Arch. 947-961 zijn samen in een moderne convoluutband ingebonden
 e22_Items,1,tg:mpmre:13_#1,Arch. 478,isad:mpm:248,10 Q 6 D,2c4e17a7-6261-5601-a4b1-7779494016ae,fol. 1-26,2c4e17a7-6261-5601-a4b1-7779494016ae,tg:mpmre:13_#1,
 e22_Items,1,tg:mpmre:665_#1,Arch. 353,isad:mpm:564,10 Q 5 C,79cbf3ab-c1bd-5b9d-b040-623269762a88,,79cbf3ab-c1bd-5b9d-b040-623269762a88,tg:mpmre:665_#1,
-e22_Items,1,tg:mpmre:675_#1,MR 41.03,isad:mpm:629,,6fe9323b-28e8-537b-beeb-78087c1bada3,,6fe9323b-28e8-537b-beeb-78087c1bada3,tg:mpmre:675_#1,
 e22_Items,1,tg:mpmre:148_#1,Arch. 33,isad:mpm:212,10 Q 1 D,6daff9fb-9c26-54b0-b1da-51e977f3f2e4,,6daff9fb-9c26-54b0-b1da-51e977f3f2e4,tg:mpmre:148_#1,
 e22_Items,1,tg:mpmre:158_#1,Arch. 817,isad:mpm:246,10 R 8 F,9406a3fb-348f-516d-854c-cf07f883df8c,,9406a3fb-348f-516d-854c-cf07f883df8c,tg:mpmre:158_#1,Los stuk tussen fol. 135-136
 e22_Items,1,tg:mpmre:356_#1,Arch. 229,isad:mpm:206,10 Q 4 D,ac9c7cf3-1336-55c9-9e56-6a7997d45728,,ac9c7cf3-1336-55c9-9e56-6a7997d45728,tg:mpmre:356_#1,
 e22_Items,1,tg:mpmre:346_#1,Arch. 219,isad:mpm:206,10 Q 3 A,56b8373d-fc22-5f55-8a23-7c2d33405698,,56b8373d-fc22-5f55-8a23-7c2d33405698,tg:mpmre:346_#1,
 e22_Items,1,tg:mpmre:503_#1,Arch. 337,isad:mpm:221,10 Q 5 C,12c4343b-c912-5ce5-9da7-4de1aa2d8b0b,,12c4343b-c912-5ce5-9da7-4de1aa2d8b0b,tg:mpmre:503_#1,
 e22_Items,1,tg:mpmre:513_#1,Arch. 1459,isad:mpm:259,10 R 3 B,6326c0ac-ac32-5caf-9bdc-b024ad7572bf,7,6326c0ac-ac32-5caf-9bdc-b024ad7572bf,tg:mpmre:513_#1,
-e22_Items,1,tg:mpmre:681_#1,MR 45.01,isad:mpm:585,,c6e88420-095b-53bf-8b7d-50077a609e0f,,c6e88420-095b-53bf-8b7d-50077a609e0f,tg:mpmre:681_#1,
-e22_Items,1,tg:mpmre:691_#1,MR 48.05,isad:mpm:591,,6f03b973-c2a0-539a-b144-83dfe5822df0,,6f03b973-c2a0-539a-b144-83dfe5822df0,tg:mpmre:691_#1,
 e22_Items,1,tg:mpmre:115_#1,Arch. 1041,isad:mpm:202,10 R 8 B,a5199b80-0730-574b-844e-0adce28040ea,,a5199b80-0730-574b-844e-0adce28040ea,tg:mpmre:115_#1,
 e22_Items,1,tg:mpmre:105_#1,Arch. 1031,isad:mpm:202,10 R 8 B,dafc9892-d767-570f-a5bb-1ab3e68d0bec,,dafc9892-d767-570f-a5bb-1ab3e68d0bec,tg:mpmre:105_#1,
 e22_Items,1,tg:mpmre:638_#1,Arch. 3,isad:mpm:215,10 Q 1 E,c4c3aa5e-97e8-56bf-b20d-b4c3e04896d8,,c4c3aa5e-97e8-56bf-b20d-b4c3e04896d8,tg:mpmre:638_#1,
@@ -1003,7 +974,6 @@ e22_Items,1,tg:mpmre:616_#1,Arch. 1357,isad:mpm:466,10 R 4 B,c25159eb-3461-5422-
 e22_Items,1,tg:mpmre:606_#1,Arch. 1350,isad:mpm:465,10 R 4 C,f3f7bc56-26a9-5756-819d-21941e8cfd85,,f3f7bc56-26a9-5756-819d-21941e8cfd85,tg:mpmre:606_#1,
 e22_Items,1,tg:mpmre:159_#1,Arch. 42,isad:mpm:256,10 Q 1 C,fbb98dd4-1d6b-5291-9deb-c02d8c6cd884,,fbb98dd4-1d6b-5291-9deb-c02d8c6cd884,tg:mpmre:159_#1,
 e22_Items,1,tg:mpmre:149_#1,Arch. 786,isad:mpm:212,10 R 9 B,564af6d1-ccdd-5dc1-917b-3ac0739195d7,,564af6d1-ccdd-5dc1-917b-3ac0739195d7,tg:mpmre:149_#1,
-e22_Items,1,tg:mpmre:674_#1,MR 41.02,isad:mpm:629,,004129c1-7161-55e4-96d4-792ff4f6a214,,004129c1-7161-55e4-96d4-792ff4f6a214,tg:mpmre:674_#1,
 e22_Items,1,tg:mpmre:664_#1,Arch. 353 (2),isad:mpm:564,10 Q 5 C,c8482190-e2d1-5436-b9ef-3b9b6d8bf488,,c8482190-e2d1-5436-b9ef-3b9b6d8bf488,tg:mpmre:664_#1,
 e22_Items,1,tg:mpmre:512_#1,Arch. 1459,isad:mpm:259,10 R 3 B,2d3c5755-ce54-5c92-852e-a6a4bbdddc8b,6,2d3c5755-ce54-5c92-852e-a6a4bbdddc8b,tg:mpmre:512_#1,
 e22_Items,1,tg:mpmre:502_#1,Arch. 43.1,isad:mpm:201,10 Q 1 C,68b34c0e-408f-50d1-bc55-22d147cb1972,,68b34c0e-408f-50d1-bc55-22d147cb1972,tg:mpmre:502_#1,
@@ -1020,8 +990,6 @@ e22_Items,1,tg:mpmre:262_#1,Arch. 936 bis,isad:mpm:242,10 R 8 D,5ebc9a29-c2c1-5f
 e22_Items,1,tg:mpmre:272_#1,Arch. 946,isad:mpm:203,10 R 8 D,04bc84ca-6f43-522e-b1a9-fc2fffe55f11,,04bc84ca-6f43-522e-b1a9-fc2fffe55f11,tg:mpmre:272_#1,Arch. 931-946 zijn samen in een moderne convoluutband ingebonden
 e22_Items,1,tg:mpmre:437_#1,Arch. 378,isad:mpm:259,10 Q 5 B,49945d19-3390-57fd-a91d-c61a1a343ccc,,49945d19-3390-57fd-a91d-c61a1a343ccc,tg:mpmre:437_#1,2de los stuk achteraan
 e22_Items,1,tg:mpmre:427_#1,Arch. 371,isad:mpm:206,10 Q 5 B,2dfd4c52-e631-5507-9935-e349d8e7b9e1,,2dfd4c52-e631-5507-9935-e349d8e7b9e1,tg:mpmre:427_#1,
-e22_Items,1,tg:mpmre:690_#1,MR 48.04,isad:mpm:591,,3fab3ba5-5f06-5894-9fa8-6e105468ed21,,3fab3ba5-5f06-5894-9fa8-6e105468ed21,tg:mpmre:690_#1,
-e22_Items,1,tg:mpmre:680_#1,MR 42.05,isad:mpm:632,,682c5cf7-5aa9-530f-b949-f72803fc535c,,682c5cf7-5aa9-530f-b949-f72803fc535c,tg:mpmre:680_#1,
 e22_Items,1,tg:mpmre:594_#1,Arch. 350,isad:mpm:557,10 Q 5 C,06b30d5f-ee67-5cf4-bb56-4491a733899f,,06b30d5f-ee67-5cf4-bb56-4491a733899f,tg:mpmre:594_#1,
 e22_Items,1,tg:mpmre:584_#1,Arch. 1339,isad:mpm:446,10 R 4 C,0b1faadc-4b03-5c7b-a8e1-985711942d61,,0b1faadc-4b03-5c7b-a8e1-985711942d61,tg:mpmre:584_#1,
 e22_Items,1,tg:mpmre:455_#1,Arch. 36,isad:mpm:206,10 Q 1 D,9754017a-b799-51d2-8645-421074fb30d3,,9754017a-b799-51d2-8645-421074fb30d3,tg:mpmre:455_#1,
@@ -1037,7 +1005,6 @@ e22_Items,1,tg:mpmre:176_#1,Arch. 854,isad:mpm:203,10 R 8 D,52c4de99-c2c3-5cac-b
 e22_Items,1,tg:mpmre:140_#1,Arch. 791,isad:mpm:211,10 R 9 B,ae4fe5d5-39af-5f63-8dca-bde6f90b1e38,,ae4fe5d5-39af-5f63-8dca-bde6f90b1e38,tg:mpmre:140_#1,
 e22_Items,1,tg:mpmre:150_#1,Arch. 785,isad:mpm:212,10 R 9 B,a57cf7b7-01c0-5b0c-af58-ddd9d24b2873,,a57cf7b7-01c0-5b0c-af58-ddd9d24b2873,tg:mpmre:150_#1,
 e22_Items,1,tg:mpmre:715_#1,Arch. 516,isad:mpm:785,10 Q 6 B,41e9bca0-6072-5e17-96e4-d6761d287265,,41e9bca0-6072-5e17-96e4-d6761d287265,tg:mpmre:715_#1,
-e22_Items,1,tg:mpmre:705_#1,Arch. 1068,isad:mpm:668,,262572e6-1413-5ca2-b41f-50965275ab91,,262572e6-1413-5ca2-b41f-50965275ab91,tg:mpmre:705_#1,
 e22_Items,1,tg:mpmre:473_#1,Arch. TS C,isad:mpm:329,15 R 1 A,f8b7f195-21cb-5232-85ba-ffbd7edfa604,,f8b7f195-21cb-5232-85ba-ffbd7edfa604,tg:mpmre:473_#1,
 e22_Items,1,tg:mpmre:463_#1,Arch. 262,isad:mpm:213,10 Q 4 B,9b0c5f29-7aa9-5b05-b8c9-a320c1da9ae9,,9b0c5f29-7aa9-5b05-b8c9-a320c1da9ae9,tg:mpmre:463_#1,
 e22_Items,1,tg:mpmre:226_#1,Arch. 904,isad:mpm:203,10 R 8 D,05305c47-efd7-5f1d-a942-0a8138282441,,05305c47-efd7-5f1d-a942-0a8138282441,tg:mpmre:226_#1,Arch. 899-918 zijn samen in een moderne convoluutband ingebonden
@@ -1075,5 +1042,4 @@ e22_Items,1,tg:mpmre:497_#1,Arch. 498,isad:mpm:201,10 Q 6 C,13c0daac-5f8b-5180-8
 e22_Items,1,tg:mpmre:46_#1,Arch. 978,isad:mpm:202,10 R 8 D,d0bfcd79-a489-5a92-bc25-5e670034d832,,d0bfcd79-a489-5a92-bc25-5e670034d832,tg:mpmre:46_#1,
 e22_Items,1,tg:mpmre:487_#1,Arch. 114,isad:mpm:208,10 Q 2 A,814310c0-6534-5751-8ca8-ea8d76f04357,,814310c0-6534-5751-8ca8-ea8d76f04357,tg:mpmre:487_#1,
 e22_Items,1,tg:mpmre:56_#1,Arch. 987,isad:mpm:202,10 R 8 C,270cc033-6611-5381-b038-ffe52806bec6,,270cc033-6611-5381-b038-ffe52806bec6,tg:mpmre:56_#1,
-e22_Items,1,tg:mpmre:689_#1,MR 48.03,isad:mpm:590,,aa30328b-50fa-5978-9daa-8f6571e00c9e,,aa30328b-50fa-5978-9daa-8f6571e00c9e,tg:mpmre:689_#1,
 e22_Items,1,tg:mpmre:699_#1,Arch. 14,isad:mpm:215,10 Q 1 E,5b2cda9a-6f05-5006-8bd3-f24c95d5d7d0,2,5b2cda9a-6f05-5006-8bd3-f24c95d5d7d0,tg:mpmre:699_#1,
