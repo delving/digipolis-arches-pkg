@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="http://localhost:8000/1359dc9c-dd29-4b58-864a-509bba4f75c2">
+    <skos:prefLabel xml:lang="en">{"id": "8984a5a6-ab00-4e83-8bf4-677673e098a1", "value": "United States"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/796b9a55-d49e-4677-82aa-54fd34b72919">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/c6154c9f-163a-482b-a6af-5f942524f9f9"/>
+        <dcterms:title xml:lang="nl">{"id": "665b4664-d325-4ec4-acbe-4a2aab27e037", "value": "Rechtendocumentatie"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/b684534f-af11-4ab6-a885-27cb3d4f4ed4"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/630d31f4-24c3-455e-be93-e51ffe53aa93">
+    <skos:inScheme rdf:resource="http://localhost:8000/796b9a55-d49e-4677-82aa-54fd34b72919"/>
+    <skos:prefLabel xml:lang="en">{"id": "07ca9267-951f-4a00-8495-63bb499a36e8", "value": "No Known Copyright"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e9978a49-c0f0-4be4-9a11-688d8dd6cf2d">
+    <skos:inScheme rdf:resource="http://localhost:8000/796b9a55-d49e-4677-82aa-54fd34b72919"/>
+    <skos:prefLabel xml:lang="en">{"id": "22675cfb-c01b-48a6-a30b-4b7ff19260e8", "value": "EU Orphan Work"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9d79fe07-8b48-4b08-88af-a34d3fd8e8d2">
+    <skos:prefLabel xml:lang="en">{"id": "500735b9-585c-4972-8ff8-f038981d1449", "value": "Rights-Holder(s) Unlocatable Or Unidentifiable"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/796b9a55-d49e-4677-82aa-54fd34b72919"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/23a3a28e-e97d-41d0-a490-ebed113487e1">
+    <skos:inScheme rdf:resource="http://localhost:8000/796b9a55-d49e-4677-82aa-54fd34b72919"/>
+    <skos:prefLabel xml:lang="en">{"id": "96f88b32-3c14-4c4c-93bd-d9f1c9fd099a", "value": "Educational Use Permitted"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ce13d4e5-f03a-448e-86ee-024c89a98b6c">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/571aa2a5-4652-4a3c-a695-12b0162c0159">
+        <skos:inScheme rdf:resource="http://localhost:8000/796b9a55-d49e-4677-82aa-54fd34b72919"/>
+        <skos:prefLabel xml:lang="en">{"id": "29dd1355-c83d-4655-ac91-0c637beadfd8", "value": "Non-Commercial Use Permitted"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/796b9a55-d49e-4677-82aa-54fd34b72919"/>
+    <skos:narrower rdf:resource="http://localhost:8000/23a3a28e-e97d-41d0-a490-ebed113487e1"/>
+    <skos:narrower rdf:resource="http://localhost:8000/e9978a49-c0f0-4be4-9a11-688d8dd6cf2d"/>
+    <skos:prefLabel xml:lang="en">{"id": "3f300321-12ce-4a2a-b5c0-014d98a9dc51", "value": "In Copyright"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://localhost:8000/9d79fe07-8b48-4b08-88af-a34d3fd8e8d2"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ace1eef1-7b16-4945-a575-54a6b358c07a">
+    <skos:inScheme rdf:resource="http://localhost:8000/796b9a55-d49e-4677-82aa-54fd34b72919"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b8f41edd-57a9-435d-942a-508ade51cd64">
+        <skos:inScheme rdf:resource="http://localhost:8000/796b9a55-d49e-4677-82aa-54fd34b72919"/>
+        <skos:prefLabel xml:lang="en">{"id": "53f428a3-60e6-43a3-abb9-34b951854265", "value": "Copyright Not Evaluated"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/630d31f4-24c3-455e-be93-e51ffe53aa93"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/342215b7-ba6a-48dd-9a96-a5dc70ac1dea">
+        <skos:prefLabel xml:lang="en">{"id": "a4a86845-1b40-474d-b679-1defcc5bc96e", "value": "Copyright Undetermined"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/796b9a55-d49e-4677-82aa-54fd34b72919"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "5d44d2bc-3794-4303-9a61-9ee8134deec6", "value": "Other"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b684534f-af11-4ab6-a885-27cb3d4f4ed4">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/cdd45ec8-ffd6-4e7f-9108-cd67a9505dcc">
+        <skos:narrower rdf:resource="http://localhost:8000/4a39a4ef-8a84-42a2-ac20-a7a96d4b9eb0"/>
+        <skos:narrower rdf:resource="http://localhost:8000/faea5756-bb62-44d3-9b6c-f1bffa0e6a71"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/796b9a55-d49e-4677-82aa-54fd34b72919"/>
+        <skos:narrower rdf:resource="http://localhost:8000/a54c0623-927d-4cde-9a79-f7bff9cd6902"/>
+        <skos:prefLabel xml:lang="en">{"id": "5e49e567-bcbf-4607-948c-029219b2ebcd", "value": "No Copyright"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/1359dc9c-dd29-4b58-864a-509bba4f75c2"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/ace1eef1-7b16-4945-a575-54a6b358c07a"/>
+    <skos:narrower rdf:resource="http://localhost:8000/ce13d4e5-f03a-448e-86ee-024c89a98b6c"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/796b9a55-d49e-4677-82aa-54fd34b72919"/>
+    <skos:prefLabel xml:lang="en">{"id": "27885eed-5d75-435d-9269-65393fba32f1", "value": "Rights Statements"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/4a39a4ef-8a84-42a2-ac20-a7a96d4b9eb0">
+    <skos:inScheme rdf:resource="http://localhost:8000/796b9a55-d49e-4677-82aa-54fd34b72919"/>
+    <skos:prefLabel xml:lang="en">{"id": "93b1db97-8a66-4dd7-8f64-178471c77268", "value": "Non-Commercial Use Only"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5eab07fc-ea43-4bcd-b722-cd12ebb9e2b5">
+    <skos:prefLabel xml:lang="en">{"id": "548cfccf-e750-457b-9981-2d8293fc8d33", "value": "No Copyright - Public Domain Mark 1.0"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/796b9a55-d49e-4677-82aa-54fd34b72919"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/a54c0623-927d-4cde-9a79-f7bff9cd6902">
+    <skos:prefLabel xml:lang="en">{"id": "618b6cb0-379f-4815-9e67-c490016b9a41", "value": "Contractual Restrictions"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/796b9a55-d49e-4677-82aa-54fd34b72919"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c6154c9f-163a-482b-a6af-5f942524f9f9">
+    <skos:prefLabel xml:lang="en">{"id": "2cc3fdaf-e72c-4c6f-817e-758a8adbd4ad", "value": "Creative Commons"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://localhost:8000/5eab07fc-ea43-4bcd-b722-cd12ebb9e2b5"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/796b9a55-d49e-4677-82aa-54fd34b72919"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/faea5756-bb62-44d3-9b6c-f1bffa0e6a71">
+    <skos:inScheme rdf:resource="http://localhost:8000/796b9a55-d49e-4677-82aa-54fd34b72919"/>
+    <skos:prefLabel xml:lang="en">{"id": "8969e43e-cedb-44c0-bb8a-a00786a224fa", "value": "Other Legal Restrictions"}</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>
