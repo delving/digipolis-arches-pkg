@@ -3335,7 +3335,28 @@
                     "rangenode_id": "5948cf08-9bac-11ec-877d-9cf387da2c40"
                 }
             ],
-            "functions_x_graphs": [],
+            "functions_x_graphs": [
+                {
+                    "config": {
+                        "description": {
+                            "nodegroup_id": "",
+                            "string_template": ""
+                        },
+                        "map_popup": {
+                            "nodegroup_id": "",
+                            "string_template": ""
+                        },
+                        "name": {
+                            "nodegroup_id": "4a736bfe-9ad1-11ec-a6b5-9cf387da2c40",
+                            "string_template": "<Object Number>"
+                        },
+                        "triggering_nodegroups": []
+                    },
+                    "function_id": "60000000-0000-0000-0000-000000000001",
+                    "graph_id": "4a732432-9ad1-11ec-a6b5-9cf387da2c40",
+                    "id": "8d9a7730-a0ab-11ec-85cb-9cf387da2c40"
+                }
+            ],
             "graphid": "4a732432-9ad1-11ec-a6b5-9cf387da2c40",
             "iconclass": "",
             "is_editable": true,
@@ -5950,10 +5971,6 @@
                                 "name": "Foto"
                             },
                             {
-                                "graphid": "f8a4dd1c-9ad0-11ec-a6b5-9cf387da2c40",
-                                "name": "Brief"
-                            },
-                            {
                                 "graphid": "395c88e6-9ad1-11ec-a6b5-9cf387da2c40",
                                 "name": "Affiche"
                             }
@@ -5961,7 +5978,7 @@
                         "searchDsl": "",
                         "searchString": ""
                     },
-                    "datatype": "resource-instance",
+                    "datatype": "resource-instance-list",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
