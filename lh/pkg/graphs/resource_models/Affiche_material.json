@@ -16,8 +16,8 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
-                    "name": "Documented Place Notes",
+                    "is_editable": false,
+                    "name": "Opmerkingen",
                     "nodegroup_id": "248409b6-9d52-11ec-a696-9cf387da2c40",
                     "sortorder": null,
                     "visible": true
@@ -27,7 +27,14 @@
                     "cardid": "96348b36-9ad1-11ec-a6b5-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "96348b36-9ad1-11ec-a6b5-9cf387da2c40",
+                            "constraintid": "c58587f7-bfd0-4d50-9522-410e6e41f39c",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "963484ba-9ad1-11ec-a6b5-9cf387da2c40",
@@ -54,7 +61,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Gedocumenteerde plaatsen",
                     "nodegroup_id": "96348dac-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 6,
@@ -65,7 +72,14 @@
                     "cardid": "96349b76-9ad1-11ec-a6b5-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "96349b76-9ad1-11ec-a6b5-9cf387da2c40",
+                            "constraintid": "6a660afc-134b-4a07-b6fe-c201c4694735",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "963484ba-9ad1-11ec-a6b5-9cf387da2c40",
@@ -73,7 +87,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Objectnummer",
                     "nodegroup_id": "963497c0-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 1,
@@ -111,7 +125,7 @@
                     "helptext": "<p>Production Actors</p>\n\n<ul>\n\t<li>This card will use a widget to link place data from D-LoD. None of that data will be editable in the card.</li>\n\t<li>Production Actor ID will be removed in production migration.</li>\n\t<li>Production Actor Role can be added and editied in the card.</li>\n\t<li>The Production Actor Note can be added and edited in the card.</li>\n</ul>\n",
                     "helptitle": "Actor Card Note",
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Actoren",
                     "nodegroup_id": "9634a990-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 0,
@@ -211,7 +225,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Vervaardiging",
                     "nodegroup_id": "9634cfa6-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 5,
@@ -230,7 +244,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Bewaarinstelling",
                     "nodegroup_id": "9634d596-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 4,
@@ -263,7 +277,14 @@
                         "groupedCardIds": [],
                         "sortedWidgetIds": []
                     },
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "9634e392-9ad1-11ec-a6b5-9cf387da2c40",
+                            "constraintid": "f1a19aff-ac6b-48c9-82a9-0cb7f22029a7",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "963484ba-9ad1-11ec-a6b5-9cf387da2c40",
@@ -271,7 +292,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Items",
                     "nodegroup_id": "9634e11c-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 11,
@@ -290,7 +311,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Archief",
                     "nodegroup_id": "9634e6b2-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 8,
@@ -301,7 +322,14 @@
                     "cardid": "9634eef0-9ad1-11ec-a6b5-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "9634eef0-9ad1-11ec-a6b5-9cf387da2c40",
+                            "constraintid": "041a1e49-f7cd-4649-bf38-728961193f0e",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "963484ba-9ad1-11ec-a6b5-9cf387da2c40",
@@ -309,7 +337,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Identificatie",
                     "nodegroup_id": "9634ec48-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 2,
@@ -339,7 +367,14 @@
                     "cardid": "9634fa58-9ad1-11ec-a6b5-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "9634fa58-9ad1-11ec-a6b5-9cf387da2c40",
+                            "constraintid": "c40b04f3-01c8-4fda-ac0b-d99d76ba364b",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "963484ba-9ad1-11ec-a6b5-9cf387da2c40",
@@ -396,7 +431,14 @@
                     "cardid": "96350d04-9ad1-11ec-a6b5-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "96350d04-9ad1-11ec-a6b5-9cf387da2c40",
+                            "constraintid": "a25f8ce0-2f7d-4887-9443-4cd3158ef0c7",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "963484ba-9ad1-11ec-a6b5-9cf387da2c40",
@@ -404,7 +446,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Dragers",
                     "nodegroup_id": "9635084a-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 14,
@@ -423,7 +465,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Afmetingen: oorspronkelijke waarde (migratie)",
                     "nodegroup_id": "96350f66-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 18,
@@ -442,7 +484,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Afmeting",
                     "nodegroup_id": "96352578-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": null,
@@ -461,7 +503,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Afmetingen",
                     "nodegroup_id": "96352d98-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 17,
@@ -480,7 +522,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Toelichtingen",
                     "nodegroup_id": "963533c4-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 7,
@@ -518,7 +560,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Aanwinst",
                     "nodegroup_id": "9635458a-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 9,
@@ -603,6 +645,87 @@
             ],
             "cards_x_nodes_x_widgets": [
                 {
+                    "card_id": "9634e392-9ad1-11ec-a6b5-9cf387da2c40",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Volgnummer",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "0619e9b1-a266-11ec-bbcb-960000f945b3",
+                    "label": "Volgnummer",
+                    "node_id": "9635a728-9ad1-11ec-a6b5-9cf387da2c40",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "9634e392-9ad1-11ec-a6b5-9cf387da2c40",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Plaatsingsnummer",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "061aa312-a266-11ec-bd37-960000f945b3",
+                    "label": "Plaatsingsnummer",
+                    "node_id": "9635cea6-9ad1-11ec-a6b5-9cf387da2c40",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "248412bc-9d52-11ec-a696-9cf387da2c40",
+                    "config": {
+                        "defaultValue": "2af5e05a-ea73-4272-9fea-c827792a41a0",
+                        "label": "Opmerking taal",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "62940df9-a265-11ec-96f7-960000f945b3",
+                    "label": "Opmerking taal",
+                    "node_id": "2484150a-9d52-11ec-a696-9cf387da2c40",
+                    "sortorder": 2,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "248412bc-9d52-11ec-a696-9cf387da2c40",
+                    "config": {
+                        "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
+                        "label": "Opmerking type",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "6294d2b4-a265-11ec-953f-960000f945b3",
+                    "label": "Opmerking type",
+                    "node_id": "248416e0-9d52-11ec-a696-9cf387da2c40",
+                    "sortorder": 1,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "248412bc-9d52-11ec-a696-9cf387da2c40",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Opmerking",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "62955b4e-a265-11ec-ad68-960000f945b3",
+                    "label": "Opmerking",
+                    "node_id": "24841848-9d52-11ec-a696-9cf387da2c40",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                },
+                {
                     "card_id": "96348ef6-9ad1-11ec-a6b5-9cf387da2c40",
                     "config": {
                         "defaultValue": "",
@@ -642,7 +765,7 @@
                         "label": "Objectnummer",
                         "maxLength": null,
                         "placeholder": "Enter text",
-                        "uneditable": false,
+                        "uneditable": true,
                         "width": "100%"
                     },
                     "id": "9635fd2c-9ad1-11ec-a6b5-9cf387da2c40",
@@ -1211,7 +1334,7 @@
                     "label": "Bron Noot",
                     "node_id": "9635f19c-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 14,
-                    "visible": false,
+                    "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
                 {
@@ -1248,7 +1371,7 @@
                     "node_id": "9635ec88-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 0,
                     "visible": true,
-                    "widget_id": "a32c6aec-92f4-4580-8446-29f88659ae31"
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
                     "card_id": "9634eef0-9ad1-11ec-a6b5-9cf387da2c40",
@@ -1574,7 +1697,7 @@
                     "node_id": "9635e260-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 0,
                     "visible": true,
-                    "widget_id": "a32c6aec-92f4-4580-8446-29f88659ae31"
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
                     "card_id": "9634d91a-9ad1-11ec-a6b5-9cf387da2c40",
@@ -1647,7 +1770,7 @@
                     "id": "963609a2-9ad1-11ec-a6b5-9cf387da2c40",
                     "label": "Materiaal",
                     "node_id": "9635d5fe-9ad1-11ec-a6b5-9cf387da2c40",
-                    "sortorder": 0,
+                    "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -1677,7 +1800,7 @@
                     "id": "96360bd2-9ad1-11ec-a6b5-9cf387da2c40",
                     "label": "Onderdeel van het object",
                     "node_id": "9635e4ea-9ad1-11ec-a6b5-9cf387da2c40",
-                    "sortorder": 4,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -3174,12 +3297,12 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "963484ba-9ad1-11ec-a6b5-9cf387da2c40",
-                    "id": "b56d1132-a0ab-11ec-85cb-9cf387da2c40"
+                    "id": "3ec148fc-a0ea-11ec-be29-960000f945b3"
                 }
             ],
             "graphid": "963484ba-9ad1-11ec-a6b5-9cf387da2c40",
             "iconclass": "fa fa-building-o",
-            "is_editable": true,
+            "is_editable": false,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
@@ -3380,7 +3503,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "963484ba-9ad1-11ec-a6b5-9cf387da2c40",
-                    "is_collector": true,
+                    "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -5921,9 +6044,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.9 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "db": "PostgreSQL 13.3 (Debian 13.3-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit",
         "git hash": "fatal: not a git repository (or any of the parent directories): .git",
-        "os": "Darwin",
-        "os version": "19.5.0"
+        "os": "Linux",
+        "os version": "4.19.0-17-amd64"
     }
 }
