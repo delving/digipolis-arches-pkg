@@ -2176,14 +2176,14 @@
                     "card_id": "395ce16a-9ad1-11ec-a6b5-9cf387da2c40",
                     "config": {
                         "defaultValue": "",
-                        "label": "Legacy Information Code",
+                        "label": "dloi (afbeeldingen)",
                         "maxLength": null,
                         "placeholder": "Enter text",
                         "uneditable": true,
                         "width": "100%"
                     },
                     "id": "9652e822-a25f-11ec-9c71-960000f945b3",
-                    "label": "Legacy Information Code",
+                    "label": "dloi (afbeeldingen)",
                     "node_id": "3d7d9f6a-9bac-11ec-877d-9cf387da2c40",
                     "sortorder": 3,
                     "visible": true,
@@ -3433,7 +3433,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "395c88e6-9ad1-11ec-a6b5-9cf387da2c40",
-                    "id": "377ef3c9-a0ea-11ec-afbd-960000f945b3"
+                    "id": "d50266fa-a32d-11ec-931e-960000f945b3"
                 }
             ],
             "graphid": "395c88e6-9ad1-11ec-a6b5-9cf387da2c40",
@@ -4930,7 +4930,7 @@
                     "nodeid": "395e414a-9ad1-11ec-a6b5-9cf387da2c40",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 1
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -4948,7 +4948,7 @@
                     "nodeid": "395e41fe-9ad1-11ec-a6b5-9cf387da2c40",
                     "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
-                    "sortorder": 2
+                    "sortorder": 0
                 },
                 {
                     "config": {
@@ -4968,7 +4968,7 @@
                     "nodeid": "395e42a8-9ad1-11ec-a6b5-9cf387da2c40",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 3
+                    "sortorder": 0
                 },
                 {
                     "config": {
