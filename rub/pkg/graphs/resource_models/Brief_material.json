@@ -46,7 +46,14 @@
                     "cardid": "a6ec4766-9ad1-11ec-a6b5-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "a6ec4766-9ad1-11ec-a6b5-9cf387da2c40",
+                            "constraintid": "d13e2f5b-8df9-4a56-ac4a-dc75e092a54b",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "a6ec341a-9ad1-11ec-a6b5-9cf387da2c40",
@@ -54,7 +61,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Objectnummer",
                     "nodegroup_id": "a6ec45d6-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 1,
@@ -154,7 +161,7 @@
                     "helptext": "<p>Production Techniques</p>\n\n<ul>\n\t<li>All fields can be added and edited in the card.</li>\n</ul>\n",
                     "helptitle": "Production Techniques Note",
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Technieken",
                     "nodegroup_id": "a6ec72c2-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 3,
@@ -192,7 +199,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Vervaardiging",
                     "nodegroup_id": "a6ec7e98-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 5,
@@ -211,7 +218,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Bewaarinstelling",
                     "nodegroup_id": "a6ec849c-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 4,
@@ -271,7 +278,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Archief",
                     "nodegroup_id": "a6ec95b8-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 8,
@@ -290,7 +297,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Identificatie",
                     "nodegroup_id": "a6ec9b62-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 2,
@@ -328,7 +335,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Conditiebeoordeling",
                     "nodegroup_id": "a6eca6ac-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 22,
@@ -377,7 +384,14 @@
                     "cardid": "a6ecbb06-9ad1-11ec-a6b5-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "a6ecbb06-9ad1-11ec-a6b5-9cf387da2c40",
+                            "constraintid": "d7ba7ae9-bdac-4227-b3f4-b4db5df97f4d",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "a6ec341a-9ad1-11ec-a6b5-9cf387da2c40",
@@ -461,7 +475,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Toelichtingen",
                     "nodegroup_id": "a6ecdb04-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 7,
@@ -556,7 +570,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Documentstatus",
                     "nodegroup_id": "a6ecfd14-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 13,
@@ -575,7 +589,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Productiestadium",
                     "nodegroup_id": "a6ed02d2-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 12,
@@ -623,7 +637,7 @@
                         "label": "Objectnummer",
                         "maxLength": null,
                         "placeholder": "Enter text",
-                        "uneditable": false,
+                        "uneditable": true,
                         "width": "100%"
                     },
                     "id": "a6ed4a8a-9ad1-11ec-a6b5-9cf387da2c40",
@@ -794,14 +808,14 @@
                     "config": {
                         "defaultValue": "",
                         "dlod_datatype": "agent",
-                        "label": "Naam",
+                        "label": "ID",
                         "maxLength": "place",
                         "placeholder": "https://hub3.digipolis.delving.io",
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "a6ed4c92-9ad1-11ec-a6b5-9cf387da2c40",
-                    "label": "Naam",
+                    "label": "ID",
                     "node_id": "a6ed1c68-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 0,
                     "visible": true,
@@ -1628,7 +1642,7 @@
                     "id": "a6ed5642-9ad1-11ec-a6b5-9cf387da2c40",
                     "label": "Materiaal",
                     "node_id": "a6ed2e10-9ad1-11ec-a6b5-9cf387da2c40",
-                    "sortorder": 0,
+                    "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -1658,7 +1672,7 @@
                     "id": "a6ed569c-9ad1-11ec-a6b5-9cf387da2c40",
                     "label": "Onderdeel van het object",
                     "node_id": "a6ed3946-9ad1-11ec-a6b5-9cf387da2c40",
-                    "sortorder": 4,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -3119,12 +3133,12 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "a6ec341a-9ad1-11ec-a6b5-9cf387da2c40",
-                    "id": "517af074-a0a9-11ec-8952-9cf387da2c40"
+                    "id": "e6134789-a323-11ec-9cd9-960000cf02df"
                 }
             ],
             "graphid": "a6ec341a-9ad1-11ec-a6b5-9cf387da2c40",
             "iconclass": "fa fa-building-o",
-            "is_editable": true,
+            "is_editable": false,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
@@ -5784,9 +5798,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.9 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "db": "PostgreSQL 13.3 (Debian 13.3-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit",
         "git hash": "fatal: not a git repository (or any of the parent directories): .git",
-        "os": "Darwin",
-        "os version": "19.5.0"
+        "os": "Linux",
+        "os version": "4.19.0-17-amd64"
     }
 }

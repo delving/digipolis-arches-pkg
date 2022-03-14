@@ -27,7 +27,14 @@
                     "cardid": "b95e0164-9ad1-11ec-a6b5-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "b95e0164-9ad1-11ec-a6b5-9cf387da2c40",
+                            "constraintid": "0c100873-ae10-4b5d-860b-287674e66e3f",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "b95df75a-9ad1-11ec-a6b5-9cf387da2c40",
@@ -46,7 +53,14 @@
                     "cardid": "b95e0682-9ad1-11ec-a6b5-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "b95e0682-9ad1-11ec-a6b5-9cf387da2c40",
+                            "constraintid": "6b5f5c53-08c8-495e-91c5-93308ca23af0",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "b95df75a-9ad1-11ec-a6b5-9cf387da2c40",
@@ -54,7 +68,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Objectnummer",
                     "nodegroup_id": "b95e0538-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 1,
@@ -154,7 +168,7 @@
                     "helptext": "<p>Production Techniques</p>\n\n<ul>\n\t<li>All fields can be added and edited in the card.</li>\n</ul>\n",
                     "helptitle": "Production Techniques Note",
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Technieken",
                     "nodegroup_id": "b95e5bb4-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 3,
@@ -173,7 +187,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Productiestadium",
                     "nodegroup_id": "b95e68b6-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 12,
@@ -211,7 +225,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Vervaardiging",
                     "nodegroup_id": "b95e83c8-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 5,
@@ -230,7 +244,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Bewaarinstelling",
                     "nodegroup_id": "b95e8fbc-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 4,
@@ -271,7 +285,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Items",
                     "nodegroup_id": "b95ea984-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 11,
@@ -290,7 +304,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Archief",
                     "nodegroup_id": "b95eb4c4-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 8,
@@ -309,7 +323,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Identificatie",
                     "nodegroup_id": "b95ec338-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 2,
@@ -347,7 +361,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Conditiebeoordeling",
                     "nodegroup_id": "b95ee4e4-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 22,
@@ -366,7 +380,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Objecttype",
                     "nodegroup_id": "b95ef150-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 0,
@@ -385,7 +399,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Materialen",
                     "nodegroup_id": "b95f082a-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 14,
@@ -396,7 +410,14 @@
                     "cardid": "b95f1d4c-9ad1-11ec-a6b5-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "b95f1d4c-9ad1-11ec-a6b5-9cf387da2c40",
+                            "constraintid": "196be05d-d74b-4b0a-9c57-84c3332d8986",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "b95df75a-9ad1-11ec-a6b5-9cf387da2c40",
@@ -423,7 +444,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Afmetingen: oorspronkelijke waarde (migratie)",
                     "nodegroup_id": "b95f2044-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 18,
@@ -442,7 +463,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Afmeting",
                     "nodegroup_id": "b95f2850-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": null,
@@ -461,7 +482,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Afmetingen",
                     "nodegroup_id": "b95f2f12-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 17,
@@ -480,7 +501,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Toelichtingen",
                     "nodegroup_id": "b95f352a-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 7,
@@ -556,7 +577,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Paginering",
                     "nodegroup_id": "b95f51b8-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 19,
@@ -575,33 +596,61 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Documentstatus",
                     "nodegroup_id": "b95f5758-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 13,
                     "visible": true
-                },
-                {
-                    "active": true,
-                    "cardid": "c43d0dfa-9d51-11ec-a696-9cf387da2c40",
-                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
-                    "config": null,
-                    "constraints": [],
-                    "cssclass": null,
-                    "description": "",
-                    "graph_id": "b95df75a-9ad1-11ec-a6b5-9cf387da2c40",
-                    "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": true,
-                    "name": "Documented Place Notes",
-                    "nodegroup_id": "c43d0ada-9d51-11ec-a696-9cf387da2c40",
-                    "sortorder": null,
-                    "visible": true
                 }
             ],
             "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "b95e0164-9ad1-11ec-a6b5-9cf387da2c40",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Opmerking",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "a3227e6e-a383-11ec-a86d-960000cf02df",
+                    "label": "Opmerking",
+                    "node_id": "c43d0f76-9d51-11ec-a696-9cf387da2c40",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                },
+                {
+                    "card_id": "b95e0164-9ad1-11ec-a6b5-9cf387da2c40",
+                    "config": {
+                        "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
+                        "label": "Opmerking type",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "a32330e1-a383-11ec-8463-960000cf02df",
+                    "label": "Opmerking type",
+                    "node_id": "c43d10b6-9d51-11ec-a696-9cf387da2c40",
+                    "sortorder": 2,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "b95e0164-9ad1-11ec-a6b5-9cf387da2c40",
+                    "config": {
+                        "defaultValue": "2af5e05a-ea73-4272-9fea-c827792a41a0",
+                        "label": "Opmerking taal",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "a323ab16-a383-11ec-aa51-960000cf02df",
+                    "label": "Opmerking taal",
+                    "node_id": "c43d11a6-9d51-11ec-a696-9cf387da2c40",
+                    "sortorder": 3,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
                 {
                     "card_id": "b95e0164-9ad1-11ec-a6b5-9cf387da2c40",
                     "config": {
@@ -642,7 +691,7 @@
                         "label": "Objectnummer",
                         "maxLength": null,
                         "placeholder": "Enter text",
-                        "uneditable": false,
+                        "uneditable": true,
                         "width": "100%"
                     },
                     "id": "b95faeba-9ad1-11ec-a6b5-9cf387da2c40",
@@ -813,14 +862,14 @@
                     "config": {
                         "defaultValue": "",
                         "dlod_datatype": "agent",
-                        "label": "Naam",
+                        "label": "ID",
                         "maxLength": "place",
                         "placeholder": "https://hub3.digipolis.delving.io",
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "b95fb16c-9ad1-11ec-a6b5-9cf387da2c40",
-                    "label": "Naam",
+                    "label": "ID",
                     "node_id": "b95f79d6-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 0,
                     "visible": true,
@@ -1647,7 +1696,7 @@
                     "id": "b95fbdd8-9ad1-11ec-a6b5-9cf387da2c40",
                     "label": "Materiaal",
                     "node_id": "b95f90b0-9ad1-11ec-a6b5-9cf387da2c40",
-                    "sortorder": 0,
+                    "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -1677,7 +1726,7 @@
                     "id": "b95fbe50-9ad1-11ec-a6b5-9cf387da2c40",
                     "label": "Onderdeel van het object",
                     "node_id": "b95f9ccc-9ad1-11ec-a6b5-9cf387da2c40",
-                    "sortorder": 4,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -3174,12 +3223,12 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "b95df75a-9ad1-11ec-a6b5-9cf387da2c40",
-                    "id": "689785d8-a0a9-11ec-8952-9cf387da2c40"
+                    "id": "ec30477f-a323-11ec-ae37-960000cf02df"
                 }
             ],
             "graphid": "b95df75a-9ad1-11ec-a6b5-9cf387da2c40",
             "iconclass": "fa fa-building-o",
-            "is_editable": true,
+            "is_editable": false,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
@@ -3364,12 +3413,6 @@
                     "legacygroupid": null,
                     "nodegroupid": "b95f5758-9ad1-11ec-a6b5-9cf387da2c40",
                     "parentnodegroup_id": null
-                },
-                {
-                    "cardinality": "1",
-                    "legacygroupid": null,
-                    "nodegroupid": "c43d0ada-9d51-11ec-a696-9cf387da2c40",
-                    "parentnodegroup_id": "b95e001a-9ad1-11ec-a6b5-9cf387da2c40"
                 }
             ],
             "nodes": [
@@ -5824,12 +5867,12 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "b95df75a-9ad1-11ec-a6b5-9cf387da2c40",
-                    "is_collector": true,
+                    "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Documented Place Notes",
-                    "nodegroup_id": "c43d0ada-9d51-11ec-a696-9cf387da2c40",
+                    "nodegroup_id": "b95e001a-9ad1-11ec-a6b5-9cf387da2c40",
                     "nodeid": "c43d0ada-9d51-11ec-a696-9cf387da2c40",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
@@ -5847,7 +5890,7 @@
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Documented Place Note",
-                    "nodegroup_id": "c43d0ada-9d51-11ec-a696-9cf387da2c40",
+                    "nodegroup_id": "b95e001a-9ad1-11ec-a6b5-9cf387da2c40",
                     "nodeid": "c43d0f76-9d51-11ec-a696-9cf387da2c40",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E62_String",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
@@ -5867,7 +5910,7 @@
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Documented Place Note Type",
-                    "nodegroup_id": "c43d0ada-9d51-11ec-a696-9cf387da2c40",
+                    "nodegroup_id": "b95e001a-9ad1-11ec-a6b5-9cf387da2c40",
                     "nodeid": "c43d10b6-9d51-11ec-a696-9cf387da2c40",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
@@ -5887,7 +5930,7 @@
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Documented Place Note Language",
-                    "nodegroup_id": "c43d0ada-9d51-11ec-a696-9cf387da2c40",
+                    "nodegroup_id": "b95e001a-9ad1-11ec-a6b5-9cf387da2c40",
                     "nodeid": "c43d11a6-9d51-11ec-a696-9cf387da2c40",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P72_has_language",
@@ -5921,9 +5964,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.9 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "db": "PostgreSQL 13.3 (Debian 13.3-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit",
         "git hash": "fatal: not a git repository (or any of the parent directories): .git",
-        "os": "Darwin",
-        "os version": "19.5.0"
+        "os": "Linux",
+        "os version": "4.19.0-17-amd64"
     }
 }
