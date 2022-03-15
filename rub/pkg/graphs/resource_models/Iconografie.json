@@ -80,7 +80,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Identificatie",
                     "nodegroup_id": "1e4dc614-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 2,
@@ -99,7 +99,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Algemene verwijzingstermen",
                     "nodegroup_id": "1e4dd4ba-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 18,
@@ -118,7 +118,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Record type",
                     "nodegroup_id": "1e4de590-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 0,
@@ -159,7 +159,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Beschrijving",
                     "nodegroup_id": "1e4dfa08-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 7,
@@ -204,7 +204,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Objectnummer",
                     "nodegroup_id": "1e4e62ae-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 1,
@@ -264,7 +264,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Oorspronkelijke Brocade gegevens (migratie)",
                     "nodegroup_id": "1e4e8144-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 1,
@@ -435,7 +435,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Fysieke exemplaren",
                     "nodegroup_id": "1e4f0e8e-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 13,
@@ -454,7 +454,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Oorspronkelijke Brocade gegevens (migratie)",
                     "nodegroup_id": "1e4f1a5a-9ad1-11ec-a6b5-9cf387da2c40",
                     "sortorder": 20,
@@ -3128,7 +3128,7 @@
                     "edgeid": "1e62ab4c-9ad1-11ec-a6b5-9cf387da2c40",
                     "graph_id": "1e4d61e2-9ad1-11ec-a6b5-9cf387da2c40",
                     "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "rangenode_id": "1e500f50-9ad1-11ec-a6b5-9cf387da2c40"
                 },
                 {
@@ -3412,12 +3412,12 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "1e4d61e2-9ad1-11ec-a6b5-9cf387da2c40",
-                    "id": "ddcd5450-a323-11ec-a35a-960000cf02df"
+                    "id": "2a47c976-a457-11ec-9946-9cf387da2c40"
                 }
             ],
             "graphid": "1e4d61e2-9ad1-11ec-a6b5-9cf387da2c40",
             "iconclass": "",
-            "is_editable": false,
+            "is_editable": true,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
@@ -5569,8 +5569,8 @@
                     "name": "Associated Archive",
                     "nodegroup_id": "1e4f367a-9ad1-11ec-a6b5-9cf387da2c40",
                     "nodeid": "1e500f50-9ad1-11ec-a6b5-9cf387da2c40",
-                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0
                 },
                 {
@@ -6134,9 +6134,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 13.3 (Debian 13.3-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit",
+        "db": "PostgreSQL 12.9 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
         "git hash": "fatal: not a git repository (or any of the parent directories): .git",
-        "os": "Linux",
-        "os version": "4.19.0-17-amd64"
+        "os": "Darwin",
+        "os version": "19.5.0"
     }
 }
