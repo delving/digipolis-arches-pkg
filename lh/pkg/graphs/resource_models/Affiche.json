@@ -209,7 +209,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Rechten",
                     "nodegroup_id": "69d9cc46-a471-11ec-b19f-9cf387da2c40",
                     "sortorder": 14,
@@ -269,7 +269,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Datering",
                     "nodegroup_id": "69d9dae2-a471-11ec-b19f-9cf387da2c40",
                     "sortorder": 2,
@@ -470,7 +470,14 @@
                     "cardid": "69da36cc-a471-11ec-b19f-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "69da36cc-a471-11ec-b19f-9cf387da2c40",
+                            "constraintid": "efa4ee5d-c6c2-4802-8045-fb6c94caa801",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "69d97d2c-a471-11ec-b19f-9cf387da2c40",
@@ -3391,7 +3398,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "69d97d2c-a471-11ec-b19f-9cf387da2c40",
-                    "id": "ff52a7fd-a4a6-11ec-b8b5-960000f945b3"
+                    "id": "3f5f0200-a551-11ec-b231-960000f945b3"
                 }
             ],
             "graphid": "69d97d2c-a471-11ec-b19f-9cf387da2c40",
@@ -3535,7 +3542,7 @@
                     "parentnodegroup_id": "69da22ea-a471-11ec-b19f-9cf387da2c40"
                 },
                 {
-                    "cardinality": "1",
+                    "cardinality": "n",
                     "legacygroupid": null,
                     "nodegroupid": "69da329e-a471-11ec-b19f-9cf387da2c40",
                     "parentnodegroup_id": null

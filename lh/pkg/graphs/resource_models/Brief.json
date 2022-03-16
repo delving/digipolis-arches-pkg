@@ -103,7 +103,14 @@
                     "cardid": "bd9ab1b0-a471-11ec-b19f-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "bd9ab1b0-a471-11ec-b19f-9cf387da2c40",
+                            "constraintid": "f2653eeb-5951-4bf0-8885-199380757357",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "bd9a2fb0-a471-11ec-b19f-9cf387da2c40",
@@ -470,7 +477,14 @@
                     "cardid": "bd9bed14-a471-11ec-b19f-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "bd9bed14-a471-11ec-b19f-9cf387da2c40",
+                            "constraintid": "e569d9c9-ab08-46dc-8714-63e2ded27812",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "bd9a2fb0-a471-11ec-b19f-9cf387da2c40",
@@ -3391,7 +3405,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "bd9a2fb0-a471-11ec-b19f-9cf387da2c40",
-                    "id": "0a78cf4d-a4a7-11ec-b94a-960000f945b3"
+                    "id": "4af9a2ca-a551-11ec-bda7-960000f945b3"
                 }
             ],
             "graphid": "bd9a2fb0-a471-11ec-b19f-9cf387da2c40",
@@ -3433,7 +3447,7 @@
                     "parentnodegroup_id": null
                 },
                 {
-                    "cardinality": "1",
+                    "cardinality": "n",
                     "legacygroupid": null,
                     "nodegroupid": "bd9aa45e-a471-11ec-b19f-9cf387da2c40",
                     "parentnodegroup_id": null
@@ -3535,7 +3549,7 @@
                     "parentnodegroup_id": "bd9bc938-a471-11ec-b19f-9cf387da2c40"
                 },
                 {
-                    "cardinality": "1",
+                    "cardinality": "n",
                     "legacygroupid": null,
                     "nodegroupid": "bd9be710-a471-11ec-b19f-9cf387da2c40",
                     "parentnodegroup_id": null
