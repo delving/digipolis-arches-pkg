@@ -1,0 +1,48 @@
+{
+    "resource_model_id": "3a981eaa-aaa2-11ec-8d92-960000cf02df",
+    "resource_model_name": "Change History Log",
+    "nodes": [
+        {
+            "arches_nodeid": "5a49bfc5-aaa2-11ec-8420-960000cf02df",
+            "arches_node_name": "Activity Name",
+            "file_field_name": "Activity Name",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "5a49bbc9-aaa2-11ec-a83f-960000cf02df",
+            "arches_node_name": "Date",
+            "file_field_name": "Date",
+            "data_type": "edtf",
+            "export": true
+        },
+        {
+            "arches_nodeid": "5a49bdc2-aaa2-11ec-9315-960000cf02df",
+            "arches_node_name": "Description",
+            "file_field_name": "Description",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "5a49bab5-aaa2-11ec-baa1-960000cf02df",
+            "arches_node_name": "Identifier",
+            "file_field_name": "Identifier",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3eeb9e44-aaa3-11ec-bd9c-960000cf02df",
+            "arches_node_name": "Legacy Object Number",
+            "file_field_name": "Legacy Object Number",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "5a49becb-aaa2-11ec-9404-960000cf02df",
+            "arches_node_name": "User",
+            "file_field_name": "User",
+            "data_type": "string",
+            "export": true
+        }
+    ]
+}
