@@ -5,25 +5,6 @@
             "cards": [
                 {
                     "active": true,
-                    "cardid": "864d0c8a-ac0f-11ec-b19f-9cf387da2c40",
-                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
-                    "config": null,
-                    "constraints": [],
-                    "cssclass": null,
-                    "description": null,
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": true,
-                    "name": "Opschriften",
-                    "nodegroup_id": "864d0938-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 20,
-                    "visible": true
-                },
-                {
-                    "active": true,
                     "cardid": "864d13ba-ac0f-11ec-b19f-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -305,25 +286,6 @@
                 },
                 {
                     "active": true,
-                    "cardid": "864d6234-ac0f-11ec-b19f-9cf387da2c40",
-                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
-                    "config": null,
-                    "constraints": [],
-                    "cssclass": null,
-                    "description": "",
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": true,
-                    "name": "Mark",
-                    "nodegroup_id": "864d60d6-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": null,
-                    "visible": true
-                },
-                {
-                    "active": true,
                     "cardid": "864d6bda-ac0f-11ec-b19f-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -568,118 +530,54 @@
                     "nodegroup_id": "864dedda-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": null,
                     "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "f8ba0bda-b03e-11ec-b0d6-960000cf02df",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": "",
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Opschrift",
+                    "nodegroup_id": "f8b9ef70-b03e-11ec-adce-960000cf02df",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "f8ba0f43-b03e-11ec-9b39-960000cf02df",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "f8ba0f43-b03e-11ec-9b39-960000cf02df",
+                            "constraintid": "fdf2741e-1188-458f-ba49-f23aa012c51f",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": "",
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Opschriften",
+                    "nodegroup_id": "f8ba0d53-b03e-11ec-8495-960000cf02df",
+                    "sortorder": 20,
+                    "visible": true
                 }
             ],
             "cards_x_nodes_x_widgets": [
-                {
-                    "card_id": "864d6234-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Mark Note Type",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "864e7156-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Mark Note Type",
-                    "node_id": "864e1666-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "864d6234-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Mark Note",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "864e71ce-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Mark Note",
-                    "node_id": "864e4d3e-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "864d6234-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Mark Note Language",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "864e7200-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Mark Note Language",
-                    "node_id": "864e4faa-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "864d6234-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Mark Language",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "864e7250-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Mark Language",
-                    "node_id": "864e5e96-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "864d6234-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Mark Text",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "864e728c-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Mark Text",
-                    "node_id": "864e6a9e-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "864d6234-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Mark Position",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "864e72be-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Mark Position",
-                    "node_id": "864e6b48-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "864d6234-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Mark Type",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "864e72f0-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Mark Type",
-                    "node_id": "864e65f8-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
                 {
                     "card_id": "864d8200-ac0f-11ec-b19f-9cf387da2c40",
                     "config": {
@@ -1314,13 +1212,13 @@
                     "card_id": "864d2670-ac0f-11ec-b19f-9cf387da2c40",
                     "config": {
                         "defaultValue": "",
-                        "label": "Bron Noot",
+                        "label": "Magazijnplaatsing Opmerking",
                         "maxLength": null,
                         "placeholder": "Enter text",
                         "width": "100%"
                     },
                     "id": "864e7c3c-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Bron Noot",
+                    "label": "Magazijnplaatsing Opmerking",
                     "node_id": "864e6288-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 14,
                     "visible": true,
@@ -1415,12 +1313,12 @@
                     "card_id": "864d2670-ac0f-11ec-b19f-9cf387da2c40",
                     "config": {
                         "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
-                        "label": "Bron Noot Type",
+                        "label": "Magazijnplaatsing Opmerking Type",
                         "options": [],
                         "placeholder": "Select an option"
                     },
                     "id": "864e7d7c-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Bron Noot Type",
+                    "label": "Magazijnplaatsing Opmerking Type",
                     "node_id": "864e615c-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 15,
                     "visible": false,
@@ -1430,12 +1328,12 @@
                     "card_id": "864d2670-ac0f-11ec-b19f-9cf387da2c40",
                     "config": {
                         "defaultValue": "048fca15-5c29-4911-ab5b-2b767b9b5fec",
-                        "label": "Bron Noot Taal",
+                        "label": "Magazijnplaatsing Opmerking Taal",
                         "options": [],
                         "placeholder": "Select an option"
                     },
                     "id": "864e7db8-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Bron Noot Taal",
+                    "label": "Magazijnplaatsing Opmerking Taal",
                     "node_id": "864e0202-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 17,
                     "visible": false,
@@ -1933,6 +1831,115 @@
                     "sortorder": 5,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "f8ba0bda-b03e-11ec-b0d6-960000cf02df",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Type",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "f8ba185a-b03e-11ec-9512-960000cf02df",
+                    "label": "Type",
+                    "node_id": "f8ba17a2-b03e-11ec-9595-960000cf02df",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "f8ba0bda-b03e-11ec-b0d6-960000cf02df",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Opmerking",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "f8ba18ca-b03e-11ec-8356-960000cf02df",
+                    "label": "Opmerking",
+                    "node_id": "f8ba125f-b03e-11ec-add0-960000cf02df",
+                    "sortorder": 4,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                },
+                {
+                    "card_id": "f8ba0bda-b03e-11ec-b0d6-960000cf02df",
+                    "config": {
+                        "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
+                        "label": "Opmerking type",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "f8ba1927-b03e-11ec-903b-960000cf02df",
+                    "label": "Opmerking type",
+                    "node_id": "f8ba107b-b03e-11ec-8569-960000cf02df",
+                    "sortorder": 5,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "f8ba0bda-b03e-11ec-b0d6-960000cf02df",
+                    "config": {
+                        "defaultValue": "048fca15-5c29-4911-ab5b-2b767b9b5fec",
+                        "label": "Opemerking taal",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "f8ba1982-b03e-11ec-b14b-960000cf02df",
+                    "label": "Opemerking taal",
+                    "node_id": "f8ba1327-b03e-11ec-9012-960000cf02df",
+                    "sortorder": 6,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "f8ba0bda-b03e-11ec-b0d6-960000cf02df",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Taal",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "f8ba19d4-b03e-11ec-8b55-960000cf02df",
+                    "label": "Taal",
+                    "node_id": "f8ba13e2-b03e-11ec-b2d4-960000cf02df",
+                    "sortorder": 3,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "f8ba0bda-b03e-11ec-b0d6-960000cf02df",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Tekst",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "f8ba1a23-b03e-11ec-b0f3-960000cf02df",
+                    "label": "Tekst",
+                    "node_id": "f8ba14cc-b03e-11ec-a3ed-960000cf02df",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "f8ba0bda-b03e-11ec-b0d6-960000cf02df",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Positie",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "f8ba1a70-b03e-11ec-bc1f-960000cf02df",
+                    "label": "Positie",
+                    "node_id": "f8ba1650-b03e-11ec-b21f-960000cf02df",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
                 }
             ],
             "color": null,
@@ -1960,15 +1967,6 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "rangenode_id": "864e34a2-ac0f-11ec-b19f-9cf387da2c40"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "864d60d6-ac0f-11ec-b19f-9cf387da2c40",
-                    "edgeid": "8658840c-ac0f-11ec-b19f-9cf387da2c40",
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
-                    "rangenode_id": "864e69fe-ac0f-11ec-b19f-9cf387da2c40"
                 },
                 {
                     "description": null,
@@ -2005,15 +2003,6 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "rangenode_id": "864e615c-ac0f-11ec-b19f-9cf387da2c40"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "864e70e8-ac0f-11ec-b19f-9cf387da2c40",
-                    "edgeid": "865889b6-ac0f-11ec-b19f-9cf387da2c40",
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P128_carries",
-                    "rangenode_id": "864d0938-ac0f-11ec-b19f-9cf387da2c40"
                 },
                 {
                     "description": null,
@@ -2107,15 +2096,6 @@
                 },
                 {
                     "description": null,
-                    "domainnode_id": "864e69fe-ac0f-11ec-b19f-9cf387da2c40",
-                    "edgeid": "86589758-ac0f-11ec-b19f-9cf387da2c40",
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P72_has_language",
-                    "rangenode_id": "864e4faa-ac0f-11ec-b19f-9cf387da2c40"
-                },
-                {
-                    "description": null,
                     "domainnode_id": "864e56a8-ac0f-11ec-b19f-9cf387da2c40",
                     "edgeid": "86589852-ac0f-11ec-b19f-9cf387da2c40",
                     "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
@@ -2149,24 +2129,6 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
                     "rangenode_id": "864e48fc-ac0f-11ec-b19f-9cf387da2c40"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "864e69fe-ac0f-11ec-b19f-9cf387da2c40",
-                    "edgeid": "86589c12-ac0f-11ec-b19f-9cf387da2c40",
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "rangenode_id": "864e1666-ac0f-11ec-b19f-9cf387da2c40"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "864e69fe-ac0f-11ec-b19f-9cf387da2c40",
-                    "edgeid": "86589cb2-ac0f-11ec-b19f-9cf387da2c40",
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
-                    "rangenode_id": "864e4d3e-ac0f-11ec-b19f-9cf387da2c40"
                 },
                 {
                     "description": null,
@@ -2293,15 +2255,6 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P72_has_language",
                     "rangenode_id": "864e5d56-ac0f-11ec-b19f-9cf387da2c40"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "864d60d6-ac0f-11ec-b19f-9cf387da2c40",
-                    "edgeid": "8658a5ae-ac0f-11ec-b19f-9cf387da2c40",
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "rangenode_id": "864e6b48-ac0f-11ec-b19f-9cf387da2c40"
                 },
                 {
                     "description": null,
@@ -2482,15 +2435,6 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
                     "rangenode_id": "864e0b94-ac0f-11ec-b19f-9cf387da2c40"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "864d0938-ac0f-11ec-b19f-9cf387da2c40",
-                    "edgeid": "8658aea0-ac0f-11ec-b19f-9cf387da2c40",
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P148_has_component",
-                    "rangenode_id": "864d60d6-ac0f-11ec-b19f-9cf387da2c40"
                 },
                 {
                     "description": null,
@@ -2908,30 +2852,12 @@
                 },
                 {
                     "description": null,
-                    "domainnode_id": "864d60d6-ac0f-11ec-b19f-9cf387da2c40",
-                    "edgeid": "8658ce62-ac0f-11ec-b19f-9cf387da2c40",
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
-                    "rangenode_id": "864e6a9e-ac0f-11ec-b19f-9cf387da2c40"
-                },
-                {
-                    "description": null,
                     "domainnode_id": "864d80ac-ac0f-11ec-b19f-9cf387da2c40",
                     "edgeid": "8658cec6-ac0f-11ec-b19f-9cf387da2c40",
                     "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P91_has_unit",
                     "rangenode_id": "864e5df6-ac0f-11ec-b19f-9cf387da2c40"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "864d60d6-ac0f-11ec-b19f-9cf387da2c40",
-                    "edgeid": "8658cf20-ac0f-11ec-b19f-9cf387da2c40",
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P72_has_language",
-                    "rangenode_id": "864e5e96-ac0f-11ec-b19f-9cf387da2c40"
                 },
                 {
                     "description": null,
@@ -2977,15 +2903,6 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
                     "rangenode_id": "864e6e0e-ac0f-11ec-b19f-9cf387da2c40"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "864d60d6-ac0f-11ec-b19f-9cf387da2c40",
-                    "edgeid": "8658d15a-ac0f-11ec-b19f-9cf387da2c40",
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "rangenode_id": "864e65f8-ac0f-11ec-b19f-9cf387da2c40"
                 },
                 {
                     "description": null,
@@ -3040,6 +2957,96 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
                     "rangenode_id": "864e5a0e-ac0f-11ec-b19f-9cf387da2c40"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "f8ba1182-b03e-11ec-b698-960000cf02df",
+                    "edgeid": "f8ba2d4b-b03e-11ec-bb3d-960000cf02df",
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P72_has_language",
+                    "rangenode_id": "f8ba1327-b03e-11ec-9012-960000cf02df"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "f8ba1182-b03e-11ec-b698-960000cf02df",
+                    "edgeid": "f8ba2e54-b03e-11ec-b5dc-960000cf02df",
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "f8ba107b-b03e-11ec-8569-960000cf02df"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "f8ba1182-b03e-11ec-b698-960000cf02df",
+                    "edgeid": "f8ba2f0a-b03e-11ec-b896-960000cf02df",
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "rangenode_id": "f8ba125f-b03e-11ec-add0-960000cf02df"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "f8b9ef70-b03e-11ec-adce-960000cf02df",
+                    "edgeid": "f8ba2fd3-b03e-11ec-8929-960000cf02df",
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
+                    "rangenode_id": "f8ba1182-b03e-11ec-b698-960000cf02df"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "f8b9ef70-b03e-11ec-adce-960000cf02df",
+                    "edgeid": "f8ba30aa-b03e-11ec-bd0c-960000cf02df",
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "f8ba1650-b03e-11ec-b21f-960000cf02df"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "f8b9ef70-b03e-11ec-adce-960000cf02df",
+                    "edgeid": "f8ba3175-b03e-11ec-aa08-960000cf02df",
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "f8ba17a2-b03e-11ec-9595-960000cf02df"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "f8b9ef70-b03e-11ec-adce-960000cf02df",
+                    "edgeid": "f8ba3225-b03e-11ec-ab62-960000cf02df",
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "rangenode_id": "f8ba14cc-b03e-11ec-a3ed-960000cf02df"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "f8b9ef70-b03e-11ec-adce-960000cf02df",
+                    "edgeid": "f8ba32cd-b03e-11ec-be27-960000cf02df",
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P72_has_language",
+                    "rangenode_id": "f8ba13e2-b03e-11ec-b2d4-960000cf02df"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "f8ba0d53-b03e-11ec-8495-960000cf02df",
+                    "edgeid": "f8ba338b-b03e-11ec-9412-960000cf02df",
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P148_has_component",
+                    "rangenode_id": "f8b9ef70-b03e-11ec-adce-960000cf02df"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "864e70e8-ac0f-11ec-b19f-9cf387da2c40",
+                    "edgeid": "f8ba355f-b03e-11ec-aa05-960000cf02df",
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P128_carries",
+                    "rangenode_id": "f8ba0d53-b03e-11ec-8495-960000cf02df"
                 }
             ],
             "functions_x_graphs": [
@@ -3061,7 +3068,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "id": "5cb1d5d4-af59-11ec-a282-9cf387da2c40"
+                    "id": "ac162904-b05d-11ec-9a64-9cf387da2c40"
                 }
             ],
             "graphid": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
@@ -3072,12 +3079,6 @@
             "jsonldcontext": null,
             "name": "Iconografie_material",
             "nodegroups": [
-                {
-                    "cardinality": "1",
-                    "legacygroupid": null,
-                    "nodegroupid": "864d0938-ac0f-11ec-b19f-9cf387da2c40",
-                    "parentnodegroup_id": null
-                },
                 {
                     "cardinality": "1",
                     "legacygroupid": null,
@@ -3165,12 +3166,6 @@
                 {
                     "cardinality": "n",
                     "legacygroupid": null,
-                    "nodegroupid": "864d60d6-ac0f-11ec-b19f-9cf387da2c40",
-                    "parentnodegroup_id": "864d0938-ac0f-11ec-b19f-9cf387da2c40"
-                },
-                {
-                    "cardinality": "n",
-                    "legacygroupid": null,
                     "nodegroupid": "864d6658-ac0f-11ec-b19f-9cf387da2c40",
                     "parentnodegroup_id": null
                 },
@@ -3245,27 +3240,21 @@
                     "legacygroupid": null,
                     "nodegroupid": "864dedda-ac0f-11ec-b19f-9cf387da2c40",
                     "parentnodegroup_id": "864d8aac-ac0f-11ec-b19f-9cf387da2c40"
+                },
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "f8b9ef70-b03e-11ec-adce-960000cf02df",
+                    "parentnodegroup_id": "f8ba0d53-b03e-11ec-8495-960000cf02df"
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "f8ba0d53-b03e-11ec-8495-960000cf02df",
+                    "parentnodegroup_id": null
                 }
             ],
             "nodes": [
-                {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Marks",
-                    "nodegroup_id": "864d0938-ac0f-11ec-b19f-9cf387da2c40",
-                    "nodeid": "864d0938-ac0f-11ec-b19f-9cf387da2c40",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E37_Mark",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P128_carries",
-                    "sortorder": 0
-                },
                 {
                     "config": null,
                     "datatype": "semantic",
@@ -3533,24 +3522,6 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Mark",
-                    "nodegroup_id": "864d60d6-ac0f-11ec-b19f-9cf387da2c40",
-                    "nodeid": "864d60d6-ac0f-11ec-b19f-9cf387da2c40",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P148_has_component",
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": "",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
                     "name": "Condition Assessment",
                     "nodegroup_id": "864d6658-ac0f-11ec-b19f-9cf387da2c40",
                     "nodeid": "864d6658-ac0f-11ec-b19f-9cf387da2c40",
@@ -3764,7 +3735,7 @@
                 },
                 {
                     "config": null,
-                    "datatype": "semantic",
+                    "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
@@ -3918,26 +3889,6 @@
                     "nodeid": "864e129c-ac0f-11ec-b19f-9cf387da2c40",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E21_Person",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
-                        "rdmCollection": "08690407-592d-4596-8ce9-06abcf38ce8c"
-                    },
-                    "datatype": "concept",
-                    "description": "",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Mark Note Type",
-                    "nodegroup_id": "864d60d6-ac0f-11ec-b19f-9cf387da2c40",
-                    "nodeid": "864e1666-ac0f-11ec-b19f-9cf387da2c40",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 0
                 },
                 {
@@ -4724,44 +4675,6 @@
                 },
                 {
                     "config": null,
-                    "datatype": "string",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Mark Note",
-                    "nodegroup_id": "864d60d6-ac0f-11ec-b19f-9cf387da2c40",
-                    "nodeid": "864e4d3e-ac0f-11ec-b19f-9cf387da2c40",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E62_String",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
-                        "rdmCollection": "6fa7dd5b-6df6-46f4-9c19-42a66be267ab"
-                    },
-                    "datatype": "concept",
-                    "description": "",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Mark Note Language",
-                    "nodegroup_id": "864d60d6-ac0f-11ec-b19f-9cf387da2c40",
-                    "nodeid": "864e4faa-ac0f-11ec-b19f-9cf387da2c40",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P72_has_language",
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -5144,26 +5057,6 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "6fa7dd5b-6df6-46f4-9c19-42a66be267ab"
-                    },
-                    "datatype": "concept",
-                    "description": "",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Mark Language",
-                    "nodegroup_id": "864d60d6-ac0f-11ec-b19f-9cf387da2c40",
-                    "nodeid": "864e5e96-ac0f-11ec-b19f-9cf387da2c40",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P72_has_language",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
                         "rdmCollection": "c744109c-38b9-4552-84ed-80ab01cbcc7d"
                     },
                     "datatype": "concept",
@@ -5279,26 +5172,6 @@
                     "sortorder": 0
                 },
                 {
-                    "config": {
-                        "rdmCollection": "a202de8f-37d6-4cce-a924-cc50e7ce2896"
-                    },
-                    "datatype": "concept",
-                    "description": "",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Mark Type",
-                    "nodegroup_id": "864d60d6-ac0f-11ec-b19f-9cf387da2c40",
-                    "nodeid": "864e65f8-ac0f-11ec-b19f-9cf387da2c40",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 0
-                },
-                {
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
@@ -5396,62 +5269,6 @@
                     "nodeid": "864e6954-ac0f-11ec-b19f-9cf387da2c40",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P44_has_condition",
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": "",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Mark Notes",
-                    "nodegroup_id": "864d60d6-ac0f-11ec-b19f-9cf387da2c40",
-                    "nodeid": "864e69fe-ac0f-11ec-b19f-9cf387da2c40",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "string",
-                    "description": "This field is to record the actual text of the mark or signature.\n\n\nnotes/lhsignatuur",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Mark Text",
-                    "nodegroup_id": "864d60d6-ac0f-11ec-b19f-9cf387da2c40",
-                    "nodeid": "864e6a9e-ac0f-11ec-b19f-9cf387da2c40",
-                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
-                        "rdmCollection": "f8524b74-7546-4a0c-b4f4-634ca319f1de"
-                    },
-                    "datatype": "concept",
-                    "description": "This field is used to record information about the position of the mark or signature.",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Mark Position",
-                    "nodegroup_id": "864d60d6-ac0f-11ec-b19f-9cf387da2c40",
-                    "nodeid": "864e6b48-ac0f-11ec-b19f-9cf387da2c40",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 0
                 },
                 {
@@ -5600,6 +5417,196 @@
                     "nodeid": "864e70e8-ac0f-11ec-b19f-9cf387da2c40",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object",
                     "parentproperty": "",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Mark",
+                    "nodegroup_id": "f8b9ef70-b03e-11ec-adce-960000cf02df",
+                    "nodeid": "f8b9ef70-b03e-11ec-adce-960000cf02df",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P148_has_component",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Marks",
+                    "nodegroup_id": "f8ba0d53-b03e-11ec-8495-960000cf02df",
+                    "nodeid": "f8ba0d53-b03e-11ec-8495-960000cf02df",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E37_Mark",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P128_carries",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": "08690407-592d-4596-8ce9-06abcf38ce8c"
+                    },
+                    "datatype": "concept",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Mark Note Type",
+                    "nodegroup_id": "f8b9ef70-b03e-11ec-adce-960000cf02df",
+                    "nodeid": "f8ba107b-b03e-11ec-8569-960000cf02df",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Mark Notes",
+                    "nodegroup_id": "f8b9ef70-b03e-11ec-adce-960000cf02df",
+                    "nodeid": "f8ba1182-b03e-11ec-b698-960000cf02df",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Mark Note",
+                    "nodegroup_id": "f8b9ef70-b03e-11ec-adce-960000cf02df",
+                    "nodeid": "f8ba125f-b03e-11ec-add0-960000cf02df",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E62_String",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": "6fa7dd5b-6df6-46f4-9c19-42a66be267ab"
+                    },
+                    "datatype": "concept",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Mark Note Language",
+                    "nodegroup_id": "f8b9ef70-b03e-11ec-adce-960000cf02df",
+                    "nodeid": "f8ba1327-b03e-11ec-9012-960000cf02df",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P72_has_language",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": "6fa7dd5b-6df6-46f4-9c19-42a66be267ab"
+                    },
+                    "datatype": "concept",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Mark Language",
+                    "nodegroup_id": "f8b9ef70-b03e-11ec-adce-960000cf02df",
+                    "nodeid": "f8ba13e2-b03e-11ec-b2d4-960000cf02df",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P72_has_language",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "string",
+                    "description": "This field is to record the actual text of the mark or signature.\n\n\nnotes/lhsignatuur",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Mark Text",
+                    "nodegroup_id": "f8b9ef70-b03e-11ec-adce-960000cf02df",
+                    "nodeid": "f8ba14cc-b03e-11ec-a3ed-960000cf02df",
+                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": "f8524b74-7546-4a0c-b4f4-634ca319f1de"
+                    },
+                    "datatype": "concept",
+                    "description": "This field is used to record information about the position of the mark or signature.",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Mark Position",
+                    "nodegroup_id": "f8b9ef70-b03e-11ec-adce-960000cf02df",
+                    "nodeid": "f8ba1650-b03e-11ec-b21f-960000cf02df",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": "a202de8f-37d6-4cce-a924-cc50e7ce2896"
+                    },
+                    "datatype": "concept",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Mark Type",
+                    "nodegroup_id": "f8b9ef70-b03e-11ec-adce-960000cf02df",
+                    "nodeid": "f8ba17a2-b03e-11ec-9595-960000cf02df",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 0
                 }
             ],
