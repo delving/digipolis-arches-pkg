@@ -144,7 +144,14 @@
                     "cardid": "11bd90c6-af87-11ec-b19f-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "11bd90c6-af87-11ec-b19f-9cf387da2c40",
+                            "constraintid": "663f1ea8-fd31-489c-832a-b1e8c62d0274",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "11bd6024-af87-11ec-b19f-9cf387da2c40",
@@ -823,7 +830,7 @@
                     "id": "11be736a-af87-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking type",
                     "node_id": "11be3184-af87-11ec-b19f-9cf387da2c40",
-                    "sortorder": 4,
+                    "sortorder": 5,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -840,7 +847,7 @@
                     "id": "11be7392-af87-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking",
                     "node_id": "11be32d8-af87-11ec-b19f-9cf387da2c40",
-                    "sortorder": 3,
+                    "sortorder": 4,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
@@ -855,7 +862,7 @@
                     "id": "11be73ba-af87-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking taal",
                     "node_id": "11be338c-af87-11ec-b19f-9cf387da2c40",
-                    "sortorder": 5,
+                    "sortorder": 6,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -870,7 +877,7 @@
                     "id": "11be73e2-af87-11ec-b19f-9cf387da2c40",
                     "label": "URL type",
                     "node_id": "11be30ee-af87-11ec-b19f-9cf387da2c40",
-                    "sortorder": 2,
+                    "sortorder": 3,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -878,7 +885,7 @@
                     "card_id": "11bd90c6-af87-11ec-b19f-9cf387da2c40",
                     "config": {
                         "defaultValue": "",
-                        "label": "URL",
+                        "label": "URL fragment",
                         "link_color": "blue",
                         "maxLength": null,
                         "placeholder": "Enter text",
@@ -886,11 +893,11 @@
                         "width": "100%"
                     },
                     "id": "11be7414-af87-11ec-b19f-9cf387da2c40",
-                    "label": "URL",
+                    "label": "URL fragment",
                     "node_id": "11be304e-af87-11ec-b19f-9cf387da2c40",
-                    "sortorder": 1,
+                    "sortorder": 2,
                     "visible": true,
-                    "widget_id": "a32c6aec-92f4-4580-8446-29f88659ae31"
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
                     "card_id": "11bd9670-af87-11ec-b19f-9cf387da2c40",
@@ -2258,6 +2265,21 @@
                     "sortorder": 2,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "11bd90c6-af87-11ec-b19f-9cf387da2c40",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "URL Prefix",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "972fc294-b052-11ec-b19f-9cf387da2c40",
+                    "label": "URL Prefix",
+                    "node_id": "11be1d34-af87-11ec-b19f-9cf387da2c40",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
                 }
             ],
             "color": null,
@@ -3528,7 +3550,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "11bd6024-af87-11ec-b19f-9cf387da2c40",
-                    "id": "18d3f594-af87-11ec-b19f-9cf387da2c40"
+                    "id": "46cc0c84-b045-11ec-b483-9cf387da2c40"
                 }
             ],
             "graphid": "11bd6024-af87-11ec-b19f-9cf387da2c40",
