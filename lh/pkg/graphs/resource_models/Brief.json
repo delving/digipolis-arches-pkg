@@ -1098,7 +1098,7 @@
                     "id": "2f63b9da-a5fe-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking type",
                     "node_id": "2f637696-a5fe-11ec-b19f-9cf387da2c40",
-                    "sortorder": 4,
+                    "sortorder": 5,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -1115,7 +1115,7 @@
                     "id": "2f63ba0c-a5fe-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking",
                     "node_id": "2f63772c-a5fe-11ec-b19f-9cf387da2c40",
-                    "sortorder": 3,
+                    "sortorder": 4,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
@@ -1130,7 +1130,7 @@
                     "id": "2f63ba34-a5fe-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking taal",
                     "node_id": "2f6377c2-a5fe-11ec-b19f-9cf387da2c40",
-                    "sortorder": 5,
+                    "sortorder": 6,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -1145,7 +1145,7 @@
                     "id": "2f63ba66-a5fe-11ec-b19f-9cf387da2c40",
                     "label": "URL type",
                     "node_id": "2f63756a-a5fe-11ec-b19f-9cf387da2c40",
-                    "sortorder": 2,
+                    "sortorder": 3,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -1153,7 +1153,7 @@
                     "card_id": "2f627886-a5fe-11ec-b19f-9cf387da2c40",
                     "config": {
                         "defaultValue": "",
-                        "label": "URL",
+                        "label": "URL fragment",
                         "link_color": "blue",
                         "maxLength": null,
                         "placeholder": "Enter text",
@@ -1161,11 +1161,11 @@
                         "width": "100%"
                     },
                     "id": "2f63ba98-a5fe-11ec-b19f-9cf387da2c40",
-                    "label": "URL",
+                    "label": "URL fragment",
                     "node_id": "2f6374de-a5fe-11ec-b19f-9cf387da2c40",
-                    "sortorder": 1,
+                    "sortorder": 2,
                     "visible": true,
-                    "widget_id": "a32c6aec-92f4-4580-8446-29f88659ae31"
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
                     "card_id": "2f628c4a-a5fe-11ec-b19f-9cf387da2c40",
@@ -2312,6 +2312,21 @@
                     "node_id": "2f63b0de-a5fe-11ec-b19f-9cf387da2c40",
                     "sortorder": 3,
                     "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "2f627886-a5fe-11ec-b19f-9cf387da2c40",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "URL Prefix",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "f61e4d26-b051-11ec-b19f-9cf387da2c40",
+                    "label": "URL Prefix",
+                    "node_id": "0cba7466-af4d-11ec-b19f-9cf387da2c40",
+                    "sortorder": 1,
+                    "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 }
             ],
@@ -3583,7 +3598,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "2f62301a-a5fe-11ec-b19f-9cf387da2c40",
-                    "id": "23132b4a-af84-11ec-b902-9cf387da2c40"
+                    "id": "307b6f24-b045-11ec-b483-9cf387da2c40"
                 }
             ],
             "graphid": "2f62301a-a5fe-11ec-b19f-9cf387da2c40",
