@@ -23,8 +23,8 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
-                    "name": "Bewerking",
+                    "is_editable": true,
+                    "name": "Brocade bewerkingshistoriek",
                     "nodegroup_id": "5a4991e2-aaa2-11ec-82ce-960000cf02df",
                     "sortorder": 2,
                     "visible": true
@@ -35,14 +35,14 @@
                     "card_id": "5a49b6d9-aaa2-11ec-8395-960000cf02df",
                     "config": {
                         "defaultValue": "",
-                        "label": "Transactions",
+                        "label": "Bewerkingen",
                         "maxLength": null,
                         "placeholder": "Enter text",
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "158ddcda-b1a1-11ec-ab68-9cf387da2c40",
-                    "label": "Transactions",
+                    "label": "Bewerkingen",
                     "node_id": "36d5dab2-b19e-11ec-ab68-9cf387da2c40",
                     "sortorder": 1,
                     "visible": true,
@@ -52,14 +52,14 @@
                     "card_id": "5a49b6d9-aaa2-11ec-8395-960000cf02df",
                     "config": {
                         "defaultValue": "",
-                        "label": "Legacy Object Number",
+                        "label": "Objectnummer",
                         "maxLength": null,
                         "placeholder": "Enter text",
                         "uneditable": true,
                         "width": "100%"
                     },
                     "id": "158f455c-b1a1-11ec-ab68-9cf387da2c40",
-                    "label": "Legacy Object Number",
+                    "label": "Objectnummer",
                     "node_id": "de04bb12-b1a0-11ec-ab68-9cf387da2c40",
                     "sortorder": 0,
                     "visible": true,
@@ -119,12 +119,12 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "3a981eaa-aaa2-11ec-8d92-960000cf02df",
-                    "id": "bac0b2cc-b331-11ec-9699-9cf387da2c40"
+                    "id": "0cdc5080-b4ee-11ec-8f8b-9cf387da2c40"
                 }
             ],
             "graphid": "3a981eaa-aaa2-11ec-8d92-960000cf02df",
             "iconclass": "fa fa-archive",
-            "is_editable": false,
+            "is_editable": true,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
