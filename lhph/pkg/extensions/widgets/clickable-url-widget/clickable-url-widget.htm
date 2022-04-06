@@ -1,0 +1,41 @@
+{% extends "views/components/widgets/base.htm" %}
+{% load i18n %}
+
+{% block form %}
+<div class="row widget-wrapper">
+    <div class="form-group">
+        <div class="col-xs-12">
+            <input type="text" data-bind="textInput: value, attr: {}" class="form-control input-lg widget-input" placeholder="Enter text" style="margin-bottom: 5px">
+        </div>
+        <div class="col-xs-12">
+            <label class="control-label widget-input-label" for="">Preview</label>
+            <div style='margin-bottom:2px'>
+                <a target="_blank" data-bind="attr: {href: value}, style: { color: link_color }">
+                    <span data-bind="text: value"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock form %}
+
+{% block config_form %}
+<div class="control-label">
+    {% trans "URL Link color" %}
+</div>
+<div class="col-xs-12 crud-widget-container">
+    <input type="" id="" class="form-control input-md widget-input"
+    data-bind="textInput: link_color">
+</div>
+{% endblock config_form %}
+
+{% block report %}
+<dt data-bind="text: label"></dt>
+<dd>
+  <div style='margin-bottom:2px'>
+    <a target="_blank" data-bind="attr: {href: value}, style: { color: link_color }">
+        <span data-bind="text: value"></span>
+    </a>
+  </div>
+</dd>
+{% endblock report %}
