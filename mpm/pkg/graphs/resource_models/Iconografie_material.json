@@ -5,6 +5,70 @@
             "cards": [
                 {
                     "active": true,
+                    "cardid": "3fc5496a-b6fc-11ec-b41d-9cf387da2c40",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Aanwinst",
+                    "nodegroup_id": "3fc54398-b6fc-11ec-b41d-9cf387da2c40",
+                    "sortorder": 0,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "3fc54ee2-b6fc-11ec-b41d-9cf387da2c40",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Inschrijvingsnummers",
+                    "nodegroup_id": "3fc54c08-b6fc-11ec-b41d-9cf387da2c40",
+                    "sortorder": 1,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "3fc55428-b6fc-11ec-b41d-9cf387da2c40",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "3fc55428-b6fc-11ec-b41d-9cf387da2c40",
+                            "constraintid": "f09667c2-9f8f-4f26-b069-55d364ba8838",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": "",
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Aanwinsten",
+                    "nodegroup_id": "3fc550c2-b6fc-11ec-b41d-9cf387da2c40",
+                    "sortorder": 9,
+                    "visible": true
+                },
+                {
+                    "active": true,
                     "cardid": "864d13ba-ac0f-11ec-b19f-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -73,7 +137,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Objectnummer",
                     "nodegroup_id": "864d1e8c-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 1,
@@ -102,7 +166,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Items",
                     "nodegroup_id": "864d2346-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 11,
@@ -121,7 +185,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Gebruiksbeperkingen",
                     "nodegroup_id": "864d280a-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 23,
@@ -140,7 +204,7 @@
                     "helptext": "<p>Production Actors</p>\n\n<ul>\n\t<li>This card will use a widget to link place data from D-LoD. None of that data will be editable in the card.</li>\n\t<li>Production Actor ID will be removed in production migration.</li>\n\t<li>Production Actor Role can be added and editied in the card.</li>\n\t<li>The Production Actor Note can be added and edited in the card.</li>\n</ul>\n",
                     "helptitle": "Actor Card Note",
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Actoren",
                     "nodegroup_id": "864d2d50-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 0,
@@ -183,7 +247,7 @@
                     "helptext": "<p>Production Techniques</p>\n\n<ul>\n\t<li>All fields can be added and edited in the card.</li>\n</ul>\n",
                     "helptitle": "Production Techniques Note",
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Technieken",
                     "nodegroup_id": "864d3ef8-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 3,
@@ -221,7 +285,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Vervaardiging",
                     "nodegroup_id": "864d4ac4-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 5,
@@ -240,7 +304,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Bewaarinstelling",
                     "nodegroup_id": "864d5064-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 4,
@@ -278,7 +342,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Identificatie",
                     "nodegroup_id": "864d5b5e-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 2,
@@ -316,7 +380,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Objecttype",
                     "nodegroup_id": "864d6e3c-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 0,
@@ -354,7 +418,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Dragers",
                     "nodegroup_id": "864d7bc0-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 14,
@@ -373,7 +437,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Afmeting",
                     "nodegroup_id": "864d80ac-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": null,
@@ -392,7 +456,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Afmetingen",
                     "nodegroup_id": "864d8aac-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 17,
@@ -411,7 +475,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Toelichtingen",
                     "nodegroup_id": "864d97f4-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 7,
@@ -434,25 +498,6 @@
                     "name": "Afbeeldingen",
                     "nodegroup_id": "864da802-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 10,
-                    "visible": true
-                },
-                {
-                    "active": true,
-                    "cardid": "864dbad6-ac0f-11ec-b19f-9cf387da2c40",
-                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
-                    "config": null,
-                    "constraints": [],
-                    "cssclass": null,
-                    "description": "I'll wait with adding the transfer of custody part until we see if there is anything in the data from ASpace that we can actually use for two classes.\n\nI understand why but can't see the point if all of it documented in another resource and linked from here.\n",
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": true,
-                    "name": "Aanwinst",
-                    "nodegroup_id": "864db6d0-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 9,
                     "visible": true
                 },
                 {
@@ -525,7 +570,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Afmetingen: oorspronkelijke waarde (migratie)",
                     "nodegroup_id": "864dedda-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": null,
@@ -544,7 +589,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Opschrift",
                     "nodegroup_id": "f8b9ef70-b03e-11ec-adce-960000cf02df",
                     "sortorder": null,
@@ -570,7 +615,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Opschriften",
                     "nodegroup_id": "f8ba0d53-b03e-11ec-8495-960000cf02df",
                     "sortorder": 20,
@@ -578,6 +623,56 @@
                 }
             ],
             "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "3fc5496a-b6fc-11ec-b41d-9cf387da2c40",
+                    "config": {
+                        "defaultValue": "",
+                        "dlod_datatype": "agent",
+                        "label": "ID",
+                        "maxLength": "accessions",
+                        "placeholder": "https://hub3.digipolis.delving.io",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "3fc5596e-b6fc-11ec-b41d-9cf387da2c40",
+                    "label": "ID",
+                    "node_id": "3fc55766-b6fc-11ec-b41d-9cf387da2c40",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "37d48742-ccf0-470b-8b41-d799ad912c51"
+                },
+                {
+                    "card_id": "3fc54ee2-b6fc-11ec-b41d-9cf387da2c40",
+                    "config": {
+                        "defaultValue": "b6fad5a7-6082-46bd-b692-3c70190f2101",
+                        "label": "Inschrijvingsnummer type",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "3fc559dc-b6fc-11ec-b41d-9cf387da2c40",
+                    "label": "Inschrijvingsnummer type",
+                    "node_id": "3fc558b0-b6fc-11ec-b41d-9cf387da2c40",
+                    "sortorder": 0,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "3fc54ee2-b6fc-11ec-b41d-9cf387da2c40",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Inschrijvingsnummer",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": true,
+                        "width": "100%"
+                    },
+                    "id": "3fc55a36-b6fc-11ec-b41d-9cf387da2c40",
+                    "label": "Inschrijvingsnummer",
+                    "node_id": "3fc555ea-b6fc-11ec-b41d-9cf387da2c40",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
                 {
                     "card_id": "864d8200-ac0f-11ec-b19f-9cf387da2c40",
                     "config": {
@@ -767,56 +862,6 @@
                     "sortorder": null,
                     "visible": true,
                     "widget_id": "ca0c43ff-af73-4349-bafd-53ff9f22eebd"
-                },
-                {
-                    "card_id": "864dbad6-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "b6fad5a7-6082-46bd-b692-3c70190f2101",
-                        "label": "Inschrijvingsnummer type",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "864e75ca-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Inschrijvingsnummer type",
-                    "node_id": "864e1e86-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 2,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "864dbad6-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Inschrijvingsnummer",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "uneditable": true,
-                        "width": "100%"
-                    },
-                    "id": "864e7606-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Inschrijvingsnummer",
-                    "node_id": "864e1f94-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "864dbad6-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "dlod_datatype": "agent",
-                        "label": "ID",
-                        "maxLength": "accessions",
-                        "placeholder": "https://hub3.digipolis.delving.io",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "864e7642-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "ID",
-                    "node_id": "864e680a-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "37d48742-ccf0-470b-8b41-d799ad912c51"
                 },
                 {
                     "card_id": "864dc300-ac0f-11ec-b19f-9cf387da2c40",
@@ -1952,6 +1997,60 @@
             "edges": [
                 {
                     "description": null,
+                    "domainnode_id": "3fc550c2-b6fc-11ec-b41d-9cf387da2c40",
+                    "edgeid": "3fc56ae4-b6fc-11ec-b41d-9cf387da2c40",
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P9i_forms_part_of",
+                    "rangenode_id": "3fc54398-b6fc-11ec-b41d-9cf387da2c40"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "3fc54398-b6fc-11ec-b41d-9cf387da2c40",
+                    "edgeid": "3fc56bde-b6fc-11ec-b41d-9cf387da2c40",
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "3fc55766-b6fc-11ec-b41d-9cf387da2c40"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "3fc54c08-b6fc-11ec-b41d-9cf387da2c40",
+                    "edgeid": "3fc56c7e-b6fc-11ec-b41d-9cf387da2c40",
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "rangenode_id": "3fc555ea-b6fc-11ec-b41d-9cf387da2c40"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "3fc54c08-b6fc-11ec-b41d-9cf387da2c40",
+                    "edgeid": "3fc56d14-b6fc-11ec-b41d-9cf387da2c40",
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "3fc558b0-b6fc-11ec-b41d-9cf387da2c40"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "3fc550c2-b6fc-11ec-b41d-9cf387da2c40",
+                    "edgeid": "3fc56da0-b6fc-11ec-b41d-9cf387da2c40",
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "3fc54c08-b6fc-11ec-b41d-9cf387da2c40"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "864e70e8-ac0f-11ec-b19f-9cf387da2c40",
+                    "edgeid": "3fc56fc6-b6fc-11ec-b41d-9cf387da2c40",
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P12i_was_present_at",
+                    "rangenode_id": "3fc550c2-b6fc-11ec-b41d-9cf387da2c40"
+                },
+                {
+                    "description": null,
                     "domainnode_id": "864d38fe-ac0f-11ec-b19f-9cf387da2c40",
                     "edgeid": "86587b38-ac0f-11ec-b19f-9cf387da2c40",
                     "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
@@ -2420,15 +2519,6 @@
                 },
                 {
                     "description": null,
-                    "domainnode_id": "864e66a2-ac0f-11ec-b19f-9cf387da2c40",
-                    "edgeid": "8658adc4-ac0f-11ec-b19f-9cf387da2c40",
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "rangenode_id": "864e680a-ac0f-11ec-b19f-9cf387da2c40"
-                },
-                {
-                    "description": null,
                     "domainnode_id": "864e6f6c-ac0f-11ec-b19f-9cf387da2c40",
                     "edgeid": "8658ae32-ac0f-11ec-b19f-9cf387da2c40",
                     "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
@@ -2471,33 +2561,6 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P17i_motivated",
                     "rangenode_id": "864e18c8-ac0f-11ec-b19f-9cf387da2c40"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "864e1c4c-ac0f-11ec-b19f-9cf387da2c40",
-                    "edgeid": "8658b0c6-ac0f-11ec-b19f-9cf387da2c40",
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1i_identifies",
-                    "rangenode_id": "864e1e86-ac0f-11ec-b19f-9cf387da2c40"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "864e1c4c-ac0f-11ec-b19f-9cf387da2c40",
-                    "edgeid": "8658b134-ac0f-11ec-b19f-9cf387da2c40",
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
-                    "rangenode_id": "864e1f94-ac0f-11ec-b19f-9cf387da2c40"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "864db6d0-ac0f-11ec-b19f-9cf387da2c40",
-                    "edgeid": "8658b1a2-ac0f-11ec-b19f-9cf387da2c40",
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "rangenode_id": "864e1c4c-ac0f-11ec-b19f-9cf387da2c40"
                 },
                 {
                     "description": null,
@@ -2651,15 +2714,6 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "rangenode_id": "864e57fc-ac0f-11ec-b19f-9cf387da2c40"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "864db6d0-ac0f-11ec-b19f-9cf387da2c40",
-                    "edgeid": "8658c1e2-ac0f-11ec-b19f-9cf387da2c40",
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P9i_forms_part_of",
-                    "rangenode_id": "864e66a2-ac0f-11ec-b19f-9cf387da2c40"
                 },
                 {
                     "description": null,
@@ -2933,15 +2987,6 @@
                 },
                 {
                     "description": null,
-                    "domainnode_id": "864e70e8-ac0f-11ec-b19f-9cf387da2c40",
-                    "edgeid": "8658d2b8-ac0f-11ec-b19f-9cf387da2c40",
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P12i_was_present_at",
-                    "rangenode_id": "864db6d0-ac0f-11ec-b19f-9cf387da2c40"
-                },
-                {
-                    "description": null,
                     "domainnode_id": "864d7bc0-ac0f-11ec-b19f-9cf387da2c40",
                     "edgeid": "8658d312-ac0f-11ec-b19f-9cf387da2c40",
                     "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
@@ -3068,17 +3113,35 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "id": "6c41c616-b068-11ec-8be6-960000cf02df"
+                    "id": "2b7ae948-b6fb-11ec-b5fa-9cf387da2c40"
                 }
             ],
             "graphid": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
             "iconclass": "fa fa-envelope",
-            "is_editable": false,
+            "is_editable": true,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
             "name": "Iconografie_material",
             "nodegroups": [
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "3fc54398-b6fc-11ec-b41d-9cf387da2c40",
+                    "parentnodegroup_id": "3fc550c2-b6fc-11ec-b41d-9cf387da2c40"
+                },
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "3fc54c08-b6fc-11ec-b41d-9cf387da2c40",
+                    "parentnodegroup_id": "3fc550c2-b6fc-11ec-b41d-9cf387da2c40"
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "3fc550c2-b6fc-11ec-b41d-9cf387da2c40",
+                    "parentnodegroup_id": null
+                },
                 {
                     "cardinality": "1",
                     "legacygroupid": null,
@@ -3212,12 +3275,6 @@
                     "parentnodegroup_id": null
                 },
                 {
-                    "cardinality": "n",
-                    "legacygroupid": null,
-                    "nodegroupid": "864db6d0-ac0f-11ec-b19f-9cf387da2c40",
-                    "parentnodegroup_id": null
-                },
-                {
                     "cardinality": "1",
                     "legacygroupid": null,
                     "nodegroupid": "864dbf5e-ac0f-11ec-b19f-9cf387da2c40",
@@ -3255,6 +3312,116 @@
                 }
             ],
             "nodes": [
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Acquisition",
+                    "nodegroup_id": "3fc54398-b6fc-11ec-b41d-9cf387da2c40",
+                    "nodeid": "3fc54398-b6fc-11ec-b41d-9cf387da2c40",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P9i_forms_part_of",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Acquisition Numbers",
+                    "nodegroup_id": "3fc54c08-b6fc-11ec-b41d-9cf387da2c40",
+                    "nodeid": "3fc54c08-b6fc-11ec-b41d-9cf387da2c40",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Acquisitions",
+                    "nodegroup_id": "3fc550c2-b6fc-11ec-b41d-9cf387da2c40",
+                    "nodeid": "3fc550c2-b6fc-11ec-b41d-9cf387da2c40",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P12i_was_present_at",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Acquisition Number",
+                    "nodegroup_id": "3fc54c08-b6fc-11ec-b41d-9cf387da2c40",
+                    "nodeid": "3fc555ea-b6fc-11ec-b41d-9cf387da2c40",
+                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Acquisition Widget",
+                    "nodegroup_id": "3fc54398-b6fc-11ec-b41d-9cf387da2c40",
+                    "nodeid": "3fc55766-b6fc-11ec-b41d-9cf387da2c40",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": "c744109c-38b9-4552-84ed-80ab01cbcc7d"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Acquisition Number Type",
+                    "nodegroup_id": "3fc54c08-b6fc-11ec-b41d-9cf387da2c40",
+                    "nodeid": "3fc558b0-b6fc-11ec-b41d-9cf387da2c40",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
                 {
                     "config": null,
                     "datatype": "semantic",
@@ -3660,24 +3827,6 @@
                 {
                     "config": null,
                     "datatype": "semantic",
-                    "description": "I'll wait with adding the transfer of custody part until we see if there is anything in the data from ASpace that we can actually use for two classes.\n\nI understand why but can't see the point if all of it documented in another resource and linked from here.\n",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Acquisitions",
-                    "nodegroup_id": "864db6d0-ac0f-11ec-b19f-9cf387da2c40",
-                    "nodeid": "864db6d0-ac0f-11ec-b19f-9cf387da2c40",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P12i_was_present_at",
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
@@ -3907,62 +4056,6 @@
                     "nodeid": "864e18c8-ac0f-11ec-b19f-9cf387da2c40",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P17i_motivated",
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": "",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Acquisition Numbers",
-                    "nodegroup_id": "864db6d0-ac0f-11ec-b19f-9cf387da2c40",
-                    "nodeid": "864e1c4c-ac0f-11ec-b19f-9cf387da2c40",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
-                        "rdmCollection": "c744109c-38b9-4552-84ed-80ab01cbcc7d"
-                    },
-                    "datatype": "concept",
-                    "description": "",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Acquisition Number Type",
-                    "nodegroup_id": "864db6d0-ac0f-11ec-b19f-9cf387da2c40",
-                    "nodeid": "864e1e86-ac0f-11ec-b19f-9cf387da2c40",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1i_identifies",
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "string",
-                    "description": "adm/inv",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Acquisition Number",
-                    "nodegroup_id": "864db6d0-ac0f-11ec-b19f-9cf387da2c40",
-                    "nodeid": "864e1f94-ac0f-11ec-b19f-9cf387da2c40",
-                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
                     "sortorder": 0
                 },
                 {
@@ -5172,24 +5265,6 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Acquisition",
-                    "nodegroup_id": "864db6d0-ac0f-11ec-b19f-9cf387da2c40",
-                    "nodeid": "864e66a2-ac0f-11ec-b19f-9cf387da2c40",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P9i_forms_part_of",
-                    "sortorder": 0
-                },
-                {
                     "config": {
                         "rdmCollection": "08690407-592d-4596-8ce9-06abcf38ce8c"
                     },
@@ -5207,24 +5282,6 @@
                     "nodeid": "864e6756-ac0f-11ec-b19f-9cf387da2c40",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "string",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Acquisition Widget",
-                    "nodegroup_id": "864db6d0-ac0f-11ec-b19f-9cf387da2c40",
-                    "nodeid": "864e680a-ac0f-11ec-b19f-9cf387da2c40",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0
                 },
                 {
@@ -5637,9 +5694,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 13.3 (Debian 13.3-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit",
+        "db": "PostgreSQL 12.9 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
         "git hash": "fatal: not a git repository (or any of the parent directories): .git",
-        "os": "Linux",
-        "os version": "4.19.0-17-amd64"
+        "os": "Darwin",
+        "os version": "19.5.0"
     }
 }

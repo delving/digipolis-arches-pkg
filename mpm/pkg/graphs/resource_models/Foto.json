@@ -73,7 +73,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Datering: oorspronkelijke waarde (migratie)",
                     "nodegroup_id": "397ddd80-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 10,
@@ -92,7 +92,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Identificatie",
                     "nodegroup_id": "397de37a-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 2,
@@ -130,7 +130,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Record type",
                     "nodegroup_id": "397df7a2-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 0,
@@ -171,7 +171,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Beschrijving",
                     "nodegroup_id": "397dfd7e-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 7,
@@ -216,7 +216,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Objectnummer",
                     "nodegroup_id": "397e08be-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 1,
@@ -235,7 +235,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Rechten",
                     "nodegroup_id": "397e0e72-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 15,
@@ -276,7 +276,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Oorspronkelijke Brocade gegevens (migratie)",
                     "nodegroup_id": "397e137c-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 1,
@@ -295,7 +295,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Datering",
                     "nodegroup_id": "397e1872-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 2,
@@ -352,7 +352,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Actoren",
                     "nodegroup_id": "397e2736-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 0,
@@ -371,7 +371,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Creatie",
                     "nodegroup_id": "397e2c18-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 5,
@@ -454,7 +454,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Fysieke exemplaren",
                     "nodegroup_id": "397e3f8c-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 14,
@@ -473,7 +473,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Oorspronkelijke Brocade gegevens (migratie)",
                     "nodegroup_id": "397e446e-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 22,
@@ -492,7 +492,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Oorspronkelijke Brocade verwijzingstermen (migratie)",
                     "nodegroup_id": "397e4aa4-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 0,
@@ -511,7 +511,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Afgebeelde inhoud",
                     "nodegroup_id": "397e4f90-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 8,
@@ -629,6 +629,25 @@
                     "name": "Gedocumenteerde plaatsen",
                     "nodegroup_id": "397e6cfa-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 9,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "9326b276-b4f7-11ec-9349-9cf387da2c40",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": "",
+                    "graph_id": "397dc07a-ac0f-11ec-b19f-9cf387da2c40",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Brocade bewerkingshistoriek",
+                    "nodegroup_id": "9326af2e-b4f7-11ec-9349-9cf387da2c40",
+                    "sortorder": null,
                     "visible": true
                 }
             ],
@@ -2274,6 +2293,34 @@
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
+                    "card_id": "9326b276-b4f7-11ec-9349-9cf387da2c40",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "label": "Change History",
+                        "placeholder": ""
+                    },
+                    "id": "9326b49c-b4f7-11ec-9349-9cf387da2c40",
+                    "label": "Change History",
+                    "node_id": "9326af2e-b4f7-11ec-9349-9cf387da2c40",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
+                },
+                {
+                    "card_id": "9326b276-b4f7-11ec-9349-9cf387da2c40",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "label": "Logbestand",
+                        "placeholder": ""
+                    },
+                    "id": "9326b4f6-b4f7-11ec-9349-9cf387da2c40",
+                    "label": "Logbestand",
+                    "node_id": "9326b3e8-b4f7-11ec-9349-9cf387da2c40",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
+                },
+                {
                     "card_id": "397e0634-ac0f-11ec-b19f-9cf387da2c40",
                     "config": {
                         "defaultValue": "",
@@ -3530,6 +3577,24 @@
                 },
                 {
                     "description": null,
+                    "domainnode_id": "9326af2e-b4f7-11ec-9349-9cf387da2c40",
+                    "edgeid": "9326b834-b4f7-11ec-9349-9cf387da2c40",
+                    "graph_id": "397dc07a-ac0f-11ec-b19f-9cf387da2c40",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in",
+                    "rangenode_id": "9326b3e8-b4f7-11ec-9349-9cf387da2c40"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "397e446e-ac0f-11ec-b19f-9cf387da2c40",
+                    "edgeid": "9326b992-b4f7-11ec-9349-9cf387da2c40",
+                    "graph_id": "397dc07a-ac0f-11ec-b19f-9cf387da2c40",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P16i_was_used_for",
+                    "rangenode_id": "9326af2e-b4f7-11ec-9349-9cf387da2c40"
+                },
+                {
+                    "description": null,
                     "domainnode_id": "397e0328-ac0f-11ec-b19f-9cf387da2c40",
                     "edgeid": "aa78c400-af4d-11ec-b19f-9cf387da2c40",
                     "graph_id": "397dc07a-ac0f-11ec-b19f-9cf387da2c40",
@@ -3557,12 +3622,12 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "397dc07a-ac0f-11ec-b19f-9cf387da2c40",
-                    "id": "1a93b244-af87-11ec-8854-960000cf02df"
+                    "id": "06163f54-b6fb-11ec-b5fa-9cf387da2c40"
                 }
             ],
             "graphid": "397dc07a-ac0f-11ec-b19f-9cf387da2c40",
             "iconclass": "fa fa-envelope",
-            "is_editable": false,
+            "is_editable": true,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
@@ -3747,6 +3812,12 @@
                     "legacygroupid": null,
                     "nodegroupid": "397e6cfa-ac0f-11ec-b19f-9cf387da2c40",
                     "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "9326af2e-b4f7-11ec-9349-9cf387da2c40",
+                    "parentnodegroup_id": "397e446e-ac0f-11ec-b19f-9cf387da2c40"
                 }
             ],
             "nodes": [
@@ -6403,6 +6474,51 @@
                     "sortorder": 0
                 },
                 {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "397dc07a-ac0f-11ec-b19f-9cf387da2c40",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Change History",
+                    "nodegroup_id": "9326af2e-b4f7-11ec-9349-9cf387da2c40",
+                    "nodeid": "9326af2e-b4f7-11ec-9349-9cf387da2c40",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P16i_was_used_for",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "3a981eaa-aaa2-11ec-8d92-960000cf02df",
+                                "name": "Change History Log"
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "397dc07a-ac0f-11ec-b19f-9cf387da2c40",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Transactions",
+                    "nodegroup_id": "9326af2e-b4f7-11ec-9349-9cf387da2c40",
+                    "nodeid": "9326b3e8-b4f7-11ec-9349-9cf387da2c40",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E31_Document",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in",
+                    "sortorder": 0
+                },
+                {
                     "config": {
                         "rdmCollection": "7b6749e5-8c9e-4c24-bb13-20baaaa2ef6b"
                     },
@@ -6450,9 +6566,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 13.3 (Debian 13.3-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit",
+        "db": "PostgreSQL 12.9 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
         "git hash": "fatal: not a git repository (or any of the parent directories): .git",
-        "os": "Linux",
-        "os version": "4.19.0-17-amd64"
+        "os": "Darwin",
+        "os version": "19.5.0"
     }
 }
