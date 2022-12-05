@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <skos:ConceptScheme rdf:about="https://arches.museumplantinmoretus.be/3daf0291-def1-4838-ae92-0ec0559a7cb5">
+        <skos:hasTopConcept>
+            <skos:Concept rdf:about="https://arches.museumplantinmoretus.be/8140c432-a7a5-4749-9e13-286a9f77f6dd">
+                <skos:prefLabel xml:lang="nl">{"id": "a78c10ec-9659-4ffc-a733-d0c964c7d1ee", "value": "Beschadigd"}</skos:prefLabel>
+                <skos:inScheme rdf:resource="https://arches.museumplantinmoretus.be/3daf0291-def1-4838-ae92-0ec0559a7cb5">
+                </skos:inScheme>
+            </skos:Concept>
+        </skos:hasTopConcept>
+        <dcterms:identifier xml:lang="nl">{"id": "fa722174-b952-4e13-80a5-9a2587c4f731", "value": "https://arches.importer.delving.io/3daf0291-def1-4838-ae92-0ec0559a7cb5"}</dcterms:identifier>
+        <skos:hasTopConcept>
+            <skos:Concept rdf:about="https://arches.museumplantinmoretus.be/b58d7cd5-c1bf-4876-9c8a-9291f8287877">
+                <skos:inScheme rdf:resource="https://arches.museumplantinmoretus.be/3daf0291-def1-4838-ae92-0ec0559a7cb5">
+                </skos:inScheme>
+                <skos:prefLabel xml:lang="nl">{"id": "94d38f01-308d-4716-929e-7732fa851eb9", "value": "goede staat"}</skos:prefLabel>
+            </skos:Concept>
+        </skos:hasTopConcept>
+        <skos:hasTopConcept>
+            <skos:Concept rdf:about="https://arches.museumplantinmoretus.be/dc974a67-540d-43aa-aa32-37d6e0d7bde1">
+                <skos:prefLabel xml:lang="nl">{"id": "e03a9159-109a-4e20-8053-7d7a07dbb985", "value": "slechte staat"}</skos:prefLabel>
+                <skos:inScheme rdf:resource="https://arches.museumplantinmoretus.be/3daf0291-def1-4838-ae92-0ec0559a7cb5">
+                </skos:inScheme>
+            </skos:Concept>
+        </skos:hasTopConcept>
+        <skos:hasTopConcept>
+            <skos:Concept rdf:about="https://arches.museumplantinmoretus.be/37decff9-5152-43f3-9a27-ab0e3c8a5a1a">
+                <skos:prefLabel xml:lang="nl">{"id": "9063de9d-6884-46d0-b1e5-557615b39251", "value": "zeer slechte staat"}</skos:prefLabel>
+                <skos:inScheme rdf:resource="https://arches.museumplantinmoretus.be/3daf0291-def1-4838-ae92-0ec0559a7cb5">
+                </skos:inScheme>
+            </skos:Concept>
+        </skos:hasTopConcept>
+        <dcterms:title xml:lang="nl">{"id": "1ba2a568-7afb-460b-bfc2-c2d8eb3043cc", "value": "Conditie Type"}</dcterms:title>
+    </skos:ConceptScheme>
+</rdf:RDF>
