@@ -661,7 +661,7 @@
                     "helptitle": null,
                     "instructions": null,
                     "is_editable": true,
-                    "name": "Documented Event",
+                    "name": "Gedocumenteerde tijdspanne",
                     "nodegroup_id": "340bdebe-756e-11ed-9e69-9cf387da2c40",
                     "sortorder": 10,
                     "visible": true
@@ -2316,106 +2316,106 @@
                     "card_id": "340be1e8-756e-11ed-9e69-9cf387da2c40",
                     "config": {
                         "defaultValue": "",
-                        "label": "Event End Date Note",
+                        "label": "Einddatum opmerking",
                         "maxLength": null,
                         "placeholder": "Enter text",
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "6496fc4e-756e-11ed-9e69-9cf387da2c40",
-                    "label": "Event End Date Note",
+                    "label": "Einddatum opmerking",
                     "node_id": "340be49a-756e-11ed-9e69-9cf387da2c40",
-                    "sortorder": null,
+                    "sortorder": 7,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
                 {
                     "card_id": "340be1e8-756e-11ed-9e69-9cf387da2c40",
                     "config": {
-                        "defaultValue": "",
-                        "label": "Event Start Date Note Type",
+                        "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
+                        "label": "Begindatum opmerking type",
                         "options": [],
                         "placeholder": "Select an option"
                     },
                     "id": "6497f5ae-756e-11ed-9e69-9cf387da2c40",
-                    "label": "Event Start Date Note Type",
+                    "label": "Begindatum opmerking type",
                     "node_id": "340be53a-756e-11ed-9e69-9cf387da2c40",
-                    "sortorder": null,
-                    "visible": true,
+                    "sortorder": 3,
+                    "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
                     "card_id": "340be1e8-756e-11ed-9e69-9cf387da2c40",
                     "config": {
                         "defaultValue": "",
-                        "label": "Event Start Date",
+                        "label": "Begindatum",
                         "placeholder": ""
                     },
                     "id": "6498a4ea-756e-11ed-9e69-9cf387da2c40",
-                    "label": "Event Start Date",
+                    "label": "Begindatum",
                     "node_id": "340be5d0-756e-11ed-9e69-9cf387da2c40",
-                    "sortorder": null,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
                 },
                 {
                     "card_id": "340be1e8-756e-11ed-9e69-9cf387da2c40",
                     "config": {
-                        "defaultValue": "",
-                        "label": "Event End Date Note Type",
+                        "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
+                        "label": "Einddatum opmerking type",
                         "options": [],
                         "placeholder": "Select an option"
                     },
                     "id": "64994120-756e-11ed-9e69-9cf387da2c40",
-                    "label": "Event End Date Note Type",
+                    "label": "Einddatum opmerking type",
                     "node_id": "340be670-756e-11ed-9e69-9cf387da2c40",
-                    "sortorder": null,
-                    "visible": true,
+                    "sortorder": 8,
+                    "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
                     "card_id": "340be1e8-756e-11ed-9e69-9cf387da2c40",
                     "config": {
                         "defaultValue": "",
-                        "label": "Event Start Date Note",
+                        "label": "Begindatum opmerking",
                         "maxLength": null,
                         "placeholder": "Enter text",
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "6499e062-756e-11ed-9e69-9cf387da2c40",
-                    "label": "Event Start Date Note",
+                    "label": "Begindatum opmerking",
                     "node_id": "340be710-756e-11ed-9e69-9cf387da2c40",
-                    "sortorder": null,
+                    "sortorder": 2,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
                 {
                     "card_id": "340be1e8-756e-11ed-9e69-9cf387da2c40",
                     "config": {
-                        "defaultValue": "",
-                        "label": "Event End Date Note Language",
+                        "defaultValue": "2af5e05a-ea73-4272-9fea-c827792a41a0",
+                        "label": "Einddatum opmerking taal",
                         "options": [],
                         "placeholder": "Select an option"
                     },
                     "id": "649a718a-756e-11ed-9e69-9cf387da2c40",
-                    "label": "Event End Date Note Language",
+                    "label": "Einddatum opmerking taal",
                     "node_id": "340be7b0-756e-11ed-9e69-9cf387da2c40",
-                    "sortorder": null,
-                    "visible": true,
+                    "sortorder": 9,
+                    "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
                     "card_id": "340be1e8-756e-11ed-9e69-9cf387da2c40",
                     "config": {
                         "defaultValue": "",
-                        "label": "Event End Date",
+                        "label": "Einddatum",
                         "placeholder": ""
                     },
                     "id": "649b0c80-756e-11ed-9e69-9cf387da2c40",
-                    "label": "Event End Date",
+                    "label": "Einddatum",
                     "node_id": "340be846-756e-11ed-9e69-9cf387da2c40",
-                    "sortorder": null,
+                    "sortorder": 5,
                     "visible": true,
                     "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
                 },
@@ -2423,44 +2423,44 @@
                     "card_id": "340be1e8-756e-11ed-9e69-9cf387da2c40",
                     "config": {
                         "defaultValue": "",
-                        "label": "Event End Date Type",
+                        "label": "Einddatum kwalificatie",
                         "options": [],
                         "placeholder": "Select an option"
                     },
                     "id": "649bb07c-756e-11ed-9e69-9cf387da2c40",
-                    "label": "Event End Date Type",
+                    "label": "Einddatum kwalificatie",
                     "node_id": "340be986-756e-11ed-9e69-9cf387da2c40",
-                    "sortorder": null,
+                    "sortorder": 6,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
                     "card_id": "340be1e8-756e-11ed-9e69-9cf387da2c40",
                     "config": {
-                        "defaultValue": "",
-                        "label": "Event Start Date Note Language",
+                        "defaultValue": "2af5e05a-ea73-4272-9fea-c827792a41a0",
+                        "label": "Begindatum opmerking taal",
                         "options": [],
                         "placeholder": "Select an option"
                     },
                     "id": "649c3916-756e-11ed-9e69-9cf387da2c40",
-                    "label": "Event Start Date Note Language",
+                    "label": "Begindatum opmerking taal",
                     "node_id": "340bea1c-756e-11ed-9e69-9cf387da2c40",
-                    "sortorder": null,
-                    "visible": true,
+                    "sortorder": 4,
+                    "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
                     "card_id": "340be1e8-756e-11ed-9e69-9cf387da2c40",
                     "config": {
                         "defaultValue": "",
-                        "label": "Event Start Date Type",
+                        "label": "Begindatum kwalificatie",
                         "options": [],
                         "placeholder": "Select an option"
                     },
                     "id": "649cb5c6-756e-11ed-9e69-9cf387da2c40",
-                    "label": "Event Start Date Type",
+                    "label": "Begindatum kwalificatie",
                     "node_id": "340beab2-756e-11ed-9e69-9cf387da2c40",
-                    "sortorder": null,
+                    "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -3981,7 +3981,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "2f62301a-a5fe-11ec-b19f-9cf387da2c40",
-                    "id": "10ac96b0-7583-11ed-bfa3-9cf387da2c40"
+                    "id": "2aabfdfa-7606-11ed-b908-960000f945b2"
                 }
             ],
             "graphid": "2f62301a-a5fe-11ec-b19f-9cf387da2c40",
@@ -6777,7 +6777,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Documented Event",
+                    "name": "Documented Events",
                     "nodegroup_id": "340bdebe-756e-11ed-9e69-9cf387da2c40",
                     "nodeid": "340bdebe-756e-11ed-9e69-9cf387da2c40",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E31_Document",
@@ -6840,7 +6840,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "08690407-592d-4596-8ce9-06abcf38ce8c"
+                        "rdmCollection": "80e57d86-70b7-4cf1-addb-0627bcd3247e"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -6886,7 +6886,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "08690407-592d-4596-8ce9-06abcf38ce8c"
+                        "rdmCollection": "80e57d86-70b7-4cf1-addb-0627bcd3247e"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -6924,7 +6924,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "6fa7dd5b-6df6-46f4-9c19-42a66be267ab"
+                        "rdmCollection": "4a4c44bf-9ed0-4542-a628-7f84e25eba7d"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -6988,7 +6988,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "d31333e7-b57b-489f-9b4b-31ae06bdde73"
+                        "rdmCollection": "56c904d7-0ff1-49f5-bb92-bfb1a751dee9"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -7008,7 +7008,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "6fa7dd5b-6df6-46f4-9c19-42a66be267ab"
+                        "rdmCollection": "4a4c44bf-9ed0-4542-a628-7f84e25eba7d"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -7028,7 +7028,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "d31333e7-b57b-489f-9b4b-31ae06bdde73"
+                        "rdmCollection": "56c904d7-0ff1-49f5-bb92-bfb1a751dee9"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -7213,9 +7213,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.12 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "db": "PostgreSQL 13.3 (Debian 13.3-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit",
         "git hash": "fatal: not a git repository (or any of the parent directories): .git",
-        "os": "Darwin",
-        "os version": "19.5.0"
+        "os": "Linux",
+        "os version": "4.19.0-17-amd64"
     }
 }
