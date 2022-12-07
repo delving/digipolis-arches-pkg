@@ -27,14 +27,21 @@
                     "name": "Gedocumenteerde tijdspanne",
                     "nodegroup_id": "1f7d85f9-7621-11ed-b386-960000f945b2",
                     "sortorder": 10,
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "active": true,
                     "cardid": "2687a7b0-ac0f-11ec-b19f-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "2687a7b0-ac0f-11ec-b19f-9cf387da2c40",
+                            "constraintid": "6f1bed94-c3fe-4a78-9c76-ba1a62fff2be",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
@@ -110,7 +117,14 @@
                     "cardid": "2687dc76-ac0f-11ec-b19f-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "2687dc76-ac0f-11ec-b19f-9cf387da2c40",
+                            "constraintid": "ad665e50-dd91-49df-9e72-84a61c14e993",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
@@ -122,7 +136,7 @@
                     "name": "Algemene verwijzingstermen",
                     "nodegroup_id": "2687d12c-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 20,
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "active": true,
@@ -378,7 +392,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Creatie",
                     "nodegroup_id": "26882456-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 5,
@@ -408,14 +422,21 @@
                     "name": "Andere identificatiecodes",
                     "nodegroup_id": "2688299c-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 4,
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "active": true,
                     "cardid": "26883270-ac0f-11ec-b19f-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "26883270-ac0f-11ec-b19f-9cf387da2c40",
+                            "constraintid": "3e005064-a1c4-4e8c-83f5-69a1354846a9",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
@@ -427,7 +448,7 @@
                     "name": "Referentie-afbeeldingen",
                     "nodegroup_id": "26882f00-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 13,
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "active": true,
@@ -480,7 +501,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Oorspronkelijke Brocade gegevens (migratie)",
                     "nodegroup_id": "26883dd8-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 22,
@@ -510,7 +531,14 @@
                     "cardid": "26884a08-ac0f-11ec-b19f-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "26884a08-ac0f-11ec-b19f-9cf387da2c40",
+                            "constraintid": "c5175a45-6542-4f9b-b763-df8ee512750c",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
@@ -522,14 +550,21 @@
                     "name": "Afgebeelde inhoud",
                     "nodegroup_id": "268847e2-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 8,
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "active": true,
                     "cardid": "26884e2c-ac0f-11ec-b19f-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "26884e2c-ac0f-11ec-b19f-9cf387da2c40",
+                            "constraintid": "d238e679-3847-4b39-8f5f-c5539ce47ba3",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
@@ -541,14 +576,21 @@
                     "name": "Gerelateerde archieven",
                     "nodegroup_id": "26884cd8-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 19,
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "active": true,
                     "cardid": "26885944-ac0f-11ec-b19f-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "26885944-ac0f-11ec-b19f-9cf387da2c40",
+                            "constraintid": "e16cb29f-a208-4b14-a5a1-b9b2bb067793",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "This is the URL of the Archive Space Authority Record for the item that is referred to",
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
@@ -605,7 +647,14 @@
                     "cardid": "26886bc8-ac0f-11ec-b19f-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "26886bc8-ac0f-11ec-b19f-9cf387da2c40",
+                            "constraintid": "9e8cb792-84f9-4cf7-bc62-bcedf6742d42",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
@@ -624,7 +673,14 @@
                     "cardid": "26887104-ac0f-11ec-b19f-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "26887104-ac0f-11ec-b19f-9cf387da2c40",
+                            "constraintid": "2ecbe94d-8403-42c0-9900-d5c62c3d76ce",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
@@ -636,14 +692,21 @@
                     "name": "Gedocumenteerde plaatsen",
                     "nodegroup_id": "26886f56-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 9,
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "active": true,
                     "cardid": "268876a4-ac0f-11ec-b19f-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "268876a4-ac0f-11ec-b19f-9cf387da2c40",
+                            "constraintid": "c0f967a3-a841-4154-9967-4aa84b2ec5bf",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
@@ -655,7 +718,7 @@
                     "name": "Eerdere versies",
                     "nodegroup_id": "268874d8-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 17,
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "active": true,
@@ -856,7 +919,7 @@
                     "id": "2688bc18-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Taal",
                     "node_id": "26889f26-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 3,
+                    "sortorder": 2,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -986,7 +1049,7 @@
                     "label": "URL type",
                     "node_id": "26888edc-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 3,
-                    "visible": true,
+                    "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
@@ -1021,7 +1084,7 @@
                     "label": "Volgnummer",
                     "node_id": "2688b75e-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 1,
-                    "visible": true,
+                    "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
@@ -1224,7 +1287,7 @@
                     "node_id": "2688b10a-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 2,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
                 {
                     "card_id": "2687b084-ac0f-11ec-b19f-9cf387da2c40",
@@ -1650,12 +1713,12 @@
                     "card_id": "26885944-ac0f-11ec-b19f-9cf387da2c40",
                     "config": {
                         "defaultValue": "048fca15-5c29-4911-ab5b-2b767b9b5fec",
-                        "label": "Opmarking taal",
+                        "label": "Opmerking taal",
                         "options": [],
                         "placeholder": "Select an option"
                     },
                     "id": "2688c442-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Opmarking taal",
+                    "label": "Opmerking taal",
                     "node_id": "2688af52-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 3,
                     "visible": false,
@@ -3945,7 +4008,7 @@
             ],
             "graphid": "26879842-ac0f-11ec-b19f-9cf387da2c40",
             "iconclass": "fa fa-envelope",
-            "is_editable": true,
+            "is_editable": false,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
@@ -4245,7 +4308,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "80e57d86-70b7-4cf1-addb-0627bcd3247e"
+                        "rdmCollection": "7b1c79f0-09b4-4845-bd70-9f979fb130a5"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -4253,7 +4316,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Event End Date Note Type",
@@ -4283,7 +4346,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "4a4c44bf-9ed0-4542-a628-7f84e25eba7d"
+                        "rdmCollection": "b0fae882-db9a-4e43-ba95-8b7858cb0c77"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -4291,7 +4354,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Event End Date Note Language",
@@ -4347,7 +4410,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "56c904d7-0ff1-49f5-bb92-bfb1a751dee9"
+                        "rdmCollection": "0dcb5d52-2fa6-4c0e-9189-807703997adb"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -4367,7 +4430,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "4a4c44bf-9ed0-4542-a628-7f84e25eba7d"
+                        "rdmCollection": "b0fae882-db9a-4e43-ba95-8b7858cb0c77"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -4375,7 +4438,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Event Start Date Note Language",
@@ -4387,7 +4450,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "56c904d7-0ff1-49f5-bb92-bfb1a751dee9"
+                        "rdmCollection": "0dcb5d52-2fa6-4c0e-9189-807703997adb"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -4407,7 +4470,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "80e57d86-70b7-4cf1-addb-0627bcd3247e"
+                        "rdmCollection": "7b1c79f0-09b4-4845-bd70-9f979fb130a5"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -4415,7 +4478,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Event Start Date Note Type",
@@ -4433,7 +4496,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": true,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Titles",
@@ -4487,7 +4550,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": true,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Object Identifiers",
@@ -4525,7 +4588,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": true,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Record Type",
@@ -4579,7 +4642,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": true,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Object Numbers",
@@ -4597,7 +4660,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": true,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Copyright",
@@ -4705,7 +4768,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": true,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Creation",
@@ -4786,7 +4849,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": true,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Material Records",
@@ -4986,7 +5049,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "External Relation",
@@ -5040,7 +5103,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Title",
@@ -5058,7 +5121,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Object Number",
@@ -5097,7 +5160,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Previous Version",
@@ -5117,7 +5180,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Title Type",
@@ -5155,7 +5218,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Associated Record Note Language",
@@ -5175,7 +5238,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Associated Record Note Type",
@@ -5211,7 +5274,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Associated Archive",
@@ -5285,7 +5348,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Authority Entity Widget",
@@ -5321,7 +5384,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Keyword",
@@ -5431,7 +5494,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Object Identifier",
@@ -5451,7 +5514,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Object Identifier Type",
@@ -5471,7 +5534,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Creation Note Type",
@@ -5491,7 +5554,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Copyright Note Language",
@@ -5529,7 +5592,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Description Language",
@@ -5549,7 +5612,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Description Type",
@@ -5589,7 +5652,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "External Relation Note Type",
@@ -5627,7 +5690,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "External Relation Note Language",
@@ -5647,7 +5710,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Object Number Type",
@@ -5667,7 +5730,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Depicted Items Note Type",
@@ -5687,7 +5750,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Depicted Items Note Language",
@@ -5705,7 +5768,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "External Relation URL",
@@ -5779,7 +5842,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Copyright Type",
@@ -5797,7 +5860,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Copyright Status Revision",
@@ -5815,7 +5878,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Copyright Revision Timespan",
@@ -5833,7 +5896,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Copyright Revision Date",
@@ -5912,7 +5975,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Start Date Note Type",
@@ -5932,7 +5995,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Creation Note Language",
@@ -6026,7 +6089,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "End Date Note Language",
@@ -6082,7 +6145,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Creation Actor Note Type",
@@ -6102,7 +6165,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Title Language",
@@ -6128,7 +6191,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Start Date",
@@ -6186,7 +6249,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Start Date Note Language",
@@ -6242,7 +6305,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Creation Actor Note Language",
@@ -6288,7 +6351,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "End Date Note Type",
@@ -6308,7 +6371,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Creation Place Note Type",
@@ -6328,7 +6391,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Creation Actor Role",
@@ -6348,7 +6411,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Creation Place Note Language",
@@ -6386,7 +6449,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Genre Type",
@@ -6442,7 +6505,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Original Entity Relation",
@@ -6480,7 +6543,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Other Identifier Type",
@@ -6554,7 +6617,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Original Entity Note Type",
@@ -6574,7 +6637,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Original Entity Note Language",
@@ -6594,7 +6657,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Language",
@@ -6632,7 +6695,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Connected Subject Note Type",
@@ -6652,7 +6715,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Connected Subject Note Language",
@@ -6672,7 +6735,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Annotation Type",
@@ -6692,7 +6755,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Annotation Language",
@@ -6789,7 +6852,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Copyright Note Type",
@@ -6845,7 +6908,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Documented Place Note Language",
@@ -6865,7 +6928,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Documented Place Note Type",
@@ -6977,7 +7040,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Previous Version Note Type",
@@ -7087,7 +7150,7 @@
                     "fieldname": null,
                     "graph_id": "26879842-ac0f-11ec-b19f-9cf387da2c40",
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "External Relation URL Prefix",
