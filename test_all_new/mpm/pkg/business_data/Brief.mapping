@@ -1,0 +1,783 @@
+{
+    "resource_model_id": "2f62301a-a5fe-11ec-b19f-9cf387da2c40",
+    "resource_model_name": "Brief",
+    "nodes": [
+        {
+            "arches_nodeid": "2f636980-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Annotation",
+            "file_field_name": "Annotation",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63aae4-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Annotation Language",
+            "file_field_name": "Annotation Language",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63aa3a-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Annotation Type",
+            "file_field_name": "Annotation Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63611a-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Associated Archive",
+            "file_field_name": "Associated Archive",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63ac38-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Associated Record",
+            "file_field_name": "Associated Record",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63ab8e-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Associated Record Note",
+            "file_field_name": "Associated Record Note",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f635e86-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Associated Record Note Language",
+            "file_field_name": "Associated Record Note Language",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f635f76-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Associated Record Note Type",
+            "file_field_name": "Associated Record Note Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63637c-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Associated Record Relation",
+            "file_field_name": "Associated Record Relation",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f636444-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Authority Entity Note",
+            "file_field_name": "Authority Entity Note",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f636a48-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Authority Entity Relation",
+            "file_field_name": "Authority Entity Relation",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f636502-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Authority Entity Widget",
+            "file_field_name": "Authority Entity Widget",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63a846-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Connected Subject Note",
+            "file_field_name": "Connected Subject Note",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63a990-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Connected Subject Note Language",
+            "file_field_name": "Connected Subject Note Language",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63a8f0-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Connected Subject Note Type",
+            "file_field_name": "Connected Subject Note Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f635da0-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Connected Subject Widget",
+            "file_field_name": "Connected Subject Widget",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f6365ca-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Copyright Note",
+            "file_field_name": "Copyright Note",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f6371d2-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Copyright Note Language",
+            "file_field_name": "Copyright Note Language",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63ad8c-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Copyright Note Type",
+            "file_field_name": "Copyright Note Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f637dd0-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Copyright Revision Date",
+            "file_field_name": "Copyright Revision Date",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f637c0e-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Copyright Type",
+            "file_field_name": "Copyright Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f6385dc-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Creation Actor Note",
+            "file_field_name": "Creation Actor Note",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f638bae-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Creation Actor Note Language",
+            "file_field_name": "Creation Actor Note Language",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f638712-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Creation Actor Note Type",
+            "file_field_name": "Creation Actor Note Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63940a-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Creation Actor Role",
+            "file_field_name": "Creation Actor Role",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f6382c6-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Creation Actor Widget",
+            "file_field_name": "Creation Actor Widget",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f6368ae-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Creation Note",
+            "file_field_name": "Creation Note",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f638186-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Creation Note Language",
+            "file_field_name": "Creation Note Language",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f636f8e-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Creation Note Type",
+            "file_field_name": "Creation Note Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f638b22-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Creation Place Note",
+            "file_field_name": "Creation Place Note",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63954a-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Creation Place Note Language",
+            "file_field_name": "Creation Place Note Language",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f639252-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Creation Place Note Type",
+            "file_field_name": "Creation Place Note Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63867c-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Creation Place Widget",
+            "file_field_name": "Creation Place Widget",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f6242a8-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Creation Time Span Source Note",
+            "file_field_name": "Creation Time Span Source Note",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f6367dc-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Depicted Items Note",
+            "file_field_name": "Depicted Items Note",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f637b78-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Depicted Items Note Language",
+            "file_field_name": "Depicted Items Note Language",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f637ad8-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Depicted Items Note Type",
+            "file_field_name": "Depicted Items Note Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f6398a6-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Depicted Item Widget",
+            "file_field_name": "Depicted Item Widget",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f637272-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Description",
+            "file_field_name": "Description",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f637312-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Description Language",
+            "file_field_name": "Description Language",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f6373a8-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Description Type",
+            "file_field_name": "Description Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63b2b4-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Documented Place Name Widget",
+            "file_field_name": "Documented Place Name Widget",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f636048-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Documented Place Note",
+            "file_field_name": "Documented Place Note",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63b03e-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Documented Place Note Language",
+            "file_field_name": "Documented Place Note Language",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63b0de-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Documented Place Note Type",
+            "file_field_name": "Documented Place Note Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63b354-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Documented Place Order",
+            "file_field_name": "Documented Place Order",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f638c44-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "End Date",
+            "file_field_name": "End Date",
+            "data_type": "edtf",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f638a8c-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "End Date Note",
+            "file_field_name": "End Date Note",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f638550-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "End Date Note Language",
+            "file_field_name": "End Date Note Language",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f638dfc-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "End Date Note Type",
+            "file_field_name": "End Date Note Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f6388d4-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "End Date Type",
+            "file_field_name": "End Date Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "340be846-756e-11ed-9e69-9cf387da2c40",
+            "arches_node_name": "Event End Date",
+            "file_field_name": "Event End Date",
+            "data_type": "edtf",
+            "export": true
+        },
+        {
+            "arches_nodeid": "340be49a-756e-11ed-9e69-9cf387da2c40",
+            "arches_node_name": "Event End Date Note",
+            "file_field_name": "Event End Date Note",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "340be7b0-756e-11ed-9e69-9cf387da2c40",
+            "arches_node_name": "Event End Date Note Language",
+            "file_field_name": "Event End Date Note Language",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "340be670-756e-11ed-9e69-9cf387da2c40",
+            "arches_node_name": "Event End Date Note Type",
+            "file_field_name": "Event End Date Note Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "340be986-756e-11ed-9e69-9cf387da2c40",
+            "arches_node_name": "Event End Date Type",
+            "file_field_name": "Event End Date Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "340be5d0-756e-11ed-9e69-9cf387da2c40",
+            "arches_node_name": "Event Start Date",
+            "file_field_name": "Event Start Date",
+            "data_type": "edtf",
+            "export": true
+        },
+        {
+            "arches_nodeid": "340be710-756e-11ed-9e69-9cf387da2c40",
+            "arches_node_name": "Event Start Date Note",
+            "file_field_name": "Event Start Date Note",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "340bea1c-756e-11ed-9e69-9cf387da2c40",
+            "arches_node_name": "Event Start Date Note Language",
+            "file_field_name": "Event Start Date Note Language",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "340be53a-756e-11ed-9e69-9cf387da2c40",
+            "arches_node_name": "Event Start Date Note Type",
+            "file_field_name": "Event Start Date Note Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "340beab2-756e-11ed-9e69-9cf387da2c40",
+            "arches_node_name": "Event Start Date Type",
+            "file_field_name": "Event Start Date Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63760a-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "External Relation",
+            "file_field_name": "External Relation",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63772c-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "External Relation Note",
+            "file_field_name": "External Relation Note",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f6377c2-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "External Relation Note Language",
+            "file_field_name": "External Relation Note Language",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f637696-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "External Relation Note Type",
+            "file_field_name": "External Relation Note Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f6374de-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "External Relation URL",
+            "file_field_name": "External Relation URL",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "0cba7466-af4d-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "External Relation URL Prefix",
+            "file_field_name": "External Relation URL Prefix",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63756a-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "External Relation URL Type",
+            "file_field_name": "External Relation URL Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f639a90-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Genre Type",
+            "file_field_name": "Genre Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f6366e2-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Keyword",
+            "file_field_name": "Keyword",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63a6e8-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Language",
+            "file_field_name": "Language",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63aed6-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Legacy Information Code",
+            "file_field_name": "Legacy Information Code",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f637ef2-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Legacy Information Published",
+            "file_field_name": "Legacy Information Published",
+            "data_type": "boolean",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f638028-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Legacy Information Type",
+            "file_field_name": "Legacy Information Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f637f92-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Legacy Information Value",
+            "file_field_name": "Legacy Information Value",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f630f30-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Material Records",
+            "file_field_name": "Material Records",
+            "data_type": "resource-instance",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f636cc8-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Object Identifier",
+            "file_field_name": "Object Identifier",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f636e08-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Object Identifier Type",
+            "file_field_name": "Object Identifier Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f6379a2-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Object Number",
+            "file_field_name": "Object Number",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f637902-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Object Number Type",
+            "file_field_name": "Object Number Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63a3aa-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Original Entity Note",
+            "file_field_name": "Original Entity Note",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63a4ea-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Original Entity Note Language",
+            "file_field_name": "Original Entity Note Language",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63a44a-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Original Entity Note Type",
+            "file_field_name": "Original Entity Note Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f639ee6-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Original Entity Relation",
+            "file_field_name": "Original Entity Relation",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f639d60-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Original Entity Widget",
+            "file_field_name": "Original Entity Widget",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63a1ac-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Other Identifier",
+            "file_field_name": "Other Identifier",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63a102-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Other Identifier Type",
+            "file_field_name": "Other Identifier Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2ba397f2-a923-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Previous Version",
+            "file_field_name": "Previous Version",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "8031cd20-a923-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Previous Version Note",
+            "file_field_name": "Previous Version Note",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "8031cb72-a923-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Previous Version Note Language",
+            "file_field_name": "Previous Version Note Language",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "8031cc6c-a923-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Previous Version Note Type",
+            "file_field_name": "Previous Version Note Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f62577a-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Record Type",
+            "file_field_name": "Record Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63ace2-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Reference Image Type",
+            "file_field_name": "Reference Image Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f637858-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Reference Image URL",
+            "file_field_name": "Reference Image URL",
+            "data_type": "url",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f638848-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Start Date",
+            "file_field_name": "Start Date",
+            "data_type": "edtf",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f63835c-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Start Date Note",
+            "file_field_name": "Start Date Note",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f6389f6-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Start Date Note Language",
+            "file_field_name": "Start Date Note Language",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f6380e6-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Start Date Note Type",
+            "file_field_name": "Start Date Note Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f638424-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Start Date Type",
+            "file_field_name": "Start Date Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f635ac6-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Title",
+            "file_field_name": "Title",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f6387a8-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Title Language",
+            "file_field_name": "Title Language",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f635c42-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Title Type",
+            "file_field_name": "Title Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "ca9c8790-b4f6-11ec-9349-9cf387da2c40",
+            "arches_node_name": "Transactions",
+            "file_field_name": "Transactions",
+            "data_type": "resource-instance",
+            "export": true
+        }
+    ]
+}
