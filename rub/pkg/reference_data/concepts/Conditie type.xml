@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <skos:Concept rdf:about="https://arches.rubenianum.be/916b87f5-98b1-4b58-98d4-64f172fadabc">
+        <skos:inScheme>
+            <skos:ConceptScheme rdf:about="https://arches.rubenianum.be/3daf0291-def1-4838-ae92-0ec0559a7cb5">
+                <dcterms:title xml:lang="nl">{"id": "1ba2a568-7afb-460b-bfc2-c2d8eb3043cc", "value": "Conditie Type"}</dcterms:title>
+                <skos:hasTopConcept rdf:resource="https://arches.rubenianum.be/dd7d6559-4978-474d-abc6-c4bcf79cb39d">
+                </skos:hasTopConcept>
+                <skos:hasTopConcept rdf:resource="https://arches.rubenianum.be/b4ef0e91-65e9-45e0-9eea-8cb855a33155">
+                </skos:hasTopConcept>
+                <dcterms:identifier xml:lang="nl">{"id": "da39704b-55fb-400d-be64-62e3c4237b2b", "value": "https://arches.importer.delving.io/3daf0291-def1-4838-ae92-0ec0559a7cb5"}</dcterms:identifier>
+                <skos:hasTopConcept rdf:resource="https://arches.rubenianum.be/916b87f5-98b1-4b58-98d4-64f172fadabc">
+                </skos:hasTopConcept>
+                <skos:hasTopConcept rdf:resource="https://arches.rubenianum.be/5197c66d-b3de-4d41-9902-1a9049ce9b57">
+                </skos:hasTopConcept>
+            </skos:ConceptScheme>
+        </skos:inScheme>
+        <skos:prefLabel xml:lang="nl">{"id": "cc1cbb5a-c436-4760-9cbf-cb014f65a25e", "value": "zeer slechte staat"}</skos:prefLabel>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://arches.rubenianum.be/5197c66d-b3de-4d41-9902-1a9049ce9b57">
+        <skos:inScheme rdf:resource="https://arches.rubenianum.be/3daf0291-def1-4838-ae92-0ec0559a7cb5">
+        </skos:inScheme>
+        <skos:prefLabel xml:lang="nl">{"id": "9e107cf3-1e23-44ba-a921-a7146cfaf2c8", "value": "Beschadigd"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="nl">{"id": "73383a41-d53f-4375-a2c7-198b3310ce99", "value": "https://arches.importer.delving.io/5197c66d-b3de-4d41-9902-1a9049ce9b57"}</dcterms:identifier>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://arches.rubenianum.be/b4ef0e91-65e9-45e0-9eea-8cb855a33155">
+        <skos:inScheme rdf:resource="https://arches.rubenianum.be/3daf0291-def1-4838-ae92-0ec0559a7cb5">
+        </skos:inScheme>
+        <skos:prefLabel xml:lang="nl">{"id": "847a8ed1-944d-4833-90f9-034284d0e1dc", "value": "goede staat"}</skos:prefLabel>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://arches.rubenianum.be/dd7d6559-4978-474d-abc6-c4bcf79cb39d">
+        <skos:prefLabel xml:lang="nl">{"id": "ae36dcfe-582c-4fe6-a134-5a6ddaf87d1f", "value": "slechte staat"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://arches.rubenianum.be/3daf0291-def1-4838-ae92-0ec0559a7cb5">
+        </skos:inScheme>
+    </skos:Concept>
+</rdf:RDF>
