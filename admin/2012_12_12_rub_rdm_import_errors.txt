@@ -1,0 +1,146 @@
+* Change History Log: OK
+
+* Brief_material:
+ResourceID,brocade.id,card,order,source_field,source_code,Object Type
+691df106-8fcc-5754-838c-cf86eda17a1b,tg:rubgr:3844_#1,e22_ObjectTypes,2,,,,kenmerken.rubedformgr,dtrvrg,,,accounts,,,,,,,
+d5516c24-0583-5264-935c-d2d6b7302f87,tg:rubgr:4925_#1,e22_ObjectTypes,3,,,,kenmerken.rubedformgr,dtrvka,,,articles,,,,,,,
+6e5c304d-2196-55bb-8bef-8723115bdf27,tg:rubgr:1484_#1,e22_ObjectTypes,2,,,,kenmerken.rubedformgr,dtrvat,,,clippings (information artifacts),,,,,,,
+876d00a4-2c59-543e-bc44-77eab963f60f,tg:rubgr:869_#1,e22_ObjectTypes,1,,,,kenmerken.rubedformgr,dtrvfk,,,documents (object genre),,,,,,,
+d5516c24-0583-5264-935c-d2d6b7302f87,tg:rubgr:4925_#1,e22_ObjectTypes,2,,,,kenmerken.rubedformgr,dtrvbu,,,files (document groupings),,,,,,,
+fb07ba56-7622-5b76-a7b2-f9dd8a04dfb8,tg:rubgr:4173_#1,e22_ObjectTypes,2,,,,kenmerken.rubedformgr,dtrvhs,,,manuscripts (documents),,,,,,,
+fc7bfbf7-4cd0-515b-982a-dc37283daf4a,tg:rubgr:2766_#1,e22_ObjectTypes,1,,,,kenmerken.rubedformgr,dtrvnt,,,notes (documents),,,,,,,
+ff56faee-17d7-58df-8643-6bdb12ffe93f,tg:rubgr:335_#1,e22_ObjectTypes,2,,,,kenmerken.rubedformgr,dtrvod,,,offprints,,,,,,,
+03809375-8d21-51d1-a101-d68e23ea585f,tg:rubgr:3339_#1,e22_ObjectTypes,2,,,,kenmerken.rubedformgr,dtrvfo,,,photographs,,,,,,,
+90997e90-5324-5dff-9bb8-586692edf32f,tg:rubgr:2452_#1,e22_ObjectTypes,2,,,,kenmerken.rubedformgr,dtrvpr,,,prospectuses,,,,,,,
+9a2229f7-e818-505a-a626-4c891dc45af4,tg:rubgr:2632_#1,e22_ObjectTypes,2,,,,kenmerken.rubedformgr,dtrvre,,,references,,,,,,,
+d59a76c0-38dc-5510-9d02-e1a2f9201b3b,tg:rubgr:1310_#1,e22_Conditions,1,,,,kenmerken.rubfyformgr,dcfvbe,Beschadigd,,,,,,,,,
+
+Collection: Object Type - brief_material RUB
+
+
+* Brief:
+Mon Dec 12 13:17:12 2022 ERROR: concept error;keywords;on line 18;on line 18 - This is an invalid concept prefLabel;or an incomplete UUID. Unable to save.
+ ResourceID,brocade.id,card,order,source_code,ire.isaar.uuid,ISAAR Brocade ID,Original Entity Relation,Original Entity Widget,Original Entity Identifier
+ 00063283-a40e-5d5b-9b91-007a96b240a7,tg:rubgr:4331,e73_OriginalBrocade,1,kw,662a79e3-e96d-5e11-ad7a-5eb0864138d8,au::11139,keywords,"dlod={""name"":""Louis Lebeer"",""ark"":""ark:/83110/x0/662a79e3-e96d-5e11-ad7a-5eb0864138d8"",""uri"":""/agents/people/67717"",""id"":""au::11139"",""isCapacity"":false,""orgID"":""digipolis"",""suggestType"":""agent""}",ark:/83110/x0/662a79e3-e96d-5e11-ad7a-5eb0864138d8
+
+Collection: ISAAR Relatie Type - brief_material RUB
+
+Mon Dec 12 13:17:12 2022 ERROR: concept error;Objecten archief Grossmann;on line 2;on line 2 - This is an invalid concept prefLabel;or an incomplete UUID. Unable to save.
+ ResourceID,brocade.id,card,order,Keeper,Object Number,Object Identifier,Record Type
+ 34001c94-f9ac-5c75-b596-3c243d80b113,tg:rubgr:4716,AA,0,Rubenianum,tg:rubgr:4716,https://data.rubenianum.be//ark:/86530/34001c94-f9ac-5c75-b596-3c243d80b113,Objecten archief Grossmann
+
+Collection:  Record Type - brief RUB
+
+
+Mon Dec 12 13:17:12 2022 ERROR: concept error;online catalogs;on line 64;on line 64 - This is an invalid concept prefLabel;or an incomplete UUID. Unable to save.
+ ResourceID,brocade.id,card,order,source_field,External Relation URL Prefix,External Relation URL,External Relation,External Relation URL Type
+ b42cd663-167d-5140-868c-2572c228a6a7,tg:rubgr:4706,e73_ExternalRelationsExtras,a::rub.17,ow.link,https://rkd.nl/nl/explore/images/,64155,online catalogs,RKDimages
+
+Collection: ISAAR Relatie Type - brief_material RUB
+
+
+Mon Dec 12 13:17:12 2022 ERROR: concept error;repository numbers;on line 21;on line 21 - This is an invalid concept prefLabel;or an incomplete UUID. Unable to save.
+ ResourceID,brocade.id,card,Other Identifier,Other Identifier Type
+ 34001c94-f9ac-5c75-b596-3c243d80b113,tg:rubgr:4716,e73_OtherIdentifiers,AFG_128_016,repository numbers
+
+Collection:  Identifier Type - brief RUB
+
+______________________________________________
+* Iconografie_material: OK
+
+
+* Iconografie:
+2022-12-12 22:33:45,916 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Objecten archief Grossmann on line 2 on line 2 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+ ResourceID,brocade.id,card,order,Keeper,Object Number,Object Identifier,Record Type
+ f579cbab-2d7c-5b36-934e-c1f49eb18929,tg:rubgr:48,AA,0,Rubenianum,tg:rubgr:48,https://data.rubenianum.be//ark:/86530/f579cbab-2d7c-5b36-934e-c1f49eb18929,Objecten archief Grossmann
+
+2022-12-12 22:33:45,917 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, repository numbers on line 13 on line 13 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+ ResourceID,brocade.id,card,Other Identifier,Other Identifier Type
+ f579cbab-2d7c-5b36-934e-c1f49eb18929,tg:rubgr:48,e73_OtherIdentifiers,AFG_001_048,repository numbers
+
+
+
+________________________________________________-
+* Teksdrager_material:
+352 lines fo errors in the log. Cut down to dictinct ones below.
+
+Mon Dec 12 21:05:14 2022 ERROR: concept error;Beschadigd;on line 320;on line 320 - This is an invalid concept prefLabel;or an incomplete UUID. Unable to save.
+ ResourceID,brocade.id,card,order,source_field,source_code,Condition Status
+ 0a742471-3397-5b6a-b37a-953f39bb1612,tg:rubgr:1554_#1,e22_Conditions,1,kenmerken.rubfyformgr,dcfvbe,Beschadigd
+
+Mon Dec 12 21:05:14 2022 ERROR: concept error;diepte;on line 40;on line 40 - This is an invalid concept prefLabel;or an incomplete UUID. Unable to save.
+ ResourceID,brocade.id,card,source_field,Dimension Value,Dimension Type,Dimension Measurement Unit
+ 11daa277-63db-5c88-a710-edbfcd31196f,tg:rubhs:31_#1,e22_Dimensions,kenmerken/rubformaths.rubformathsafm,7,diepte,millimeter
+
+Mon Dec 12 21:05:14 2022 ERROR: concept error;photographs ;on line 2895 - This is an invalid concept prefLabel;or an incomplete UUID. Unable to save.;
+ ResourceID,brocade.id,card,order,source_field,source_code,Object Type
+ 1d1d9058-015c-54a0-b061-3425dc09856a,tg:rubgr:4344_#1,e22_ObjectTypes,3,kenmerken.rubedformgr,dtrvfo,photographs
+
+Mon Dec 12 21:05:14 2022 ERROR: concept error;rubgr NOT FOUND IN: default_object_types.csv ;on line 4689 - This is an invalid concept prefLabel;or an incomplete UUID. Unable to save.;
+ Probably OK and due to the splitting of RUB. But tw will check.
+
+
+* Tekstdrager:
+24441 lines fo errors in the log. Cut down to dictinct ones below.
+
+
+Mon Dec 12 23:17:16 2022 ERROR: concept error;Documentatiemappen;on line 47;on line 47 - This is an invalid concept prefLabel;or an incomplete UUID. Unable to save.
+ ResourceID,brocade.id,card,order,Keeper,Object Number,Object Identifier,Record Type
+ cd7fe40a-0453-5929-949e-42ae7ef4f76a,tg:rubdoc:1130,AA,0,Rubenianum,tg:rubdoc:1130,https://data.rubenianum.be//ark:/86530/cd7fe40a-0453-5929-949e-42ae7ef4f76a,Documentatiemappen
+
+Mon Dec 12 23:17:16 2022 ERROR: concept error;keywords;on line 26;on line 26 - This is an invalid concept prefLabel;or an incomplete UUID. Unable to save.
+ ResourceID,brocade.id,card,order,source_code,ire.isaar.uuid,ISAAR Brocade ID,Original Entity Relation,Original Entity Widget,Original Entity Identifier
+ 868abc33-6608-503b-aa07-373c88b94f3e,tg:rubgr:598,e73_OriginalBrocade,1,kw,ca79196f-9430-56d2-86ca-543e10adef0a,au::3027,keywords,"dlod={""name"":""Pieter Brueghel De Jonge"",""ark"":""ark:/83110/x0/ca79196f-9430-56d2-86ca-543e10adef0a"",""uri"":""/agents/people/87312"",""id"":""au::3027"",""isCapacity"":false,""orgID"":""digipolis"",""suggestType"":""agent""}",ark:/83110/x0/ca79196f-9430-56d2-86ca-543e10adef0a
+
+Mon Dec 12 23:17:16 2022 ERROR: concept error;Objecten archief Grossmann;on line 2;on line 2 - This is an invalid concept prefLabel;or an incomplete UUID. Unable to save.
+ ResourceID,brocade.id,card,order,Keeper,Object Number,Object Identifier,Record Type
+ 7ca8e3f3-f259-558f-8878-7ce213fca9f4,tg:rubgr:3750,AA,0,Rubenianum,tg:rubgr:3750,https://data.rubenianum.be//ark:/86530/7ca8e3f3-f259-558f-8878-7ce213fca9f4,Objecten archief Grossmann
+
+Mon Dec 12 23:17:16 2022 ERROR: concept error;online catalogs;on line 38;on line 38 - This is an invalid concept prefLabel;or an incomplete UUID. Unable to save.
+ ResourceID,brocade.id,card,order,source_field,External Relation URL Prefix,External Relation URL,External Relation,External Relation URL Type
+ 868abc33-6608-503b-aa07-373c88b94f3e,tg:rubgr:598,e73_ExternalRelationsExtras,a::rub.17,ow.link,https://rkd.nl/nl/explore/images/,64155,online catalogs,RKDimages
+
+Mon Dec 12 23:17:16 2022 ERROR: concept error;repository numbers;on line 11;on line 11 - This is an invalid concept prefLabel;or an incomplete UUID. Unable to save.
+ ResourceID,brocade.id,card,Other Identifier,Other Identifier Type
+ 7ca8e3f3-f259-558f-8878-7ce213fca9f4,tg:rubgr:3750,e73_OtherIdentifiers,AFG_098_058,repository numbers
+
+
+_________________________
+* Foto_material
+263 lines fo errors in the log. Cut down to dictinct ones below.
+
+2022-12-13 02:02;793 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error;Beschadigd;on line 1671;on line 1671 - This is an invalid concept prefLabel;or an incomplete UUID. Unable to save.
+ ResourceID,brocade.id,card,order,source_field,source_code,Condition Status
+ d593eb96-354d-5fd2-a819-05142d0a0a02,tg:rubgr:1362_#1,e22_Conditions,1,kenmerken.rubfyformgr,dcfvbe,Beschadigd
+
+2022-12-13 02:02;751 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error;handwriting;on line 14;on line 14 - This is an invalid concept prefLabel;or an incomplete UUID. Unable to save.
+ ResourceID,brocade.id,card,order,source_field,source_code,Production Technique Type
+ be9fbdf2-a390-5af4-a25f-92642d888828,tg:rubgr:2291_#1,e22_ProductionTechniques,1,kenmerken.rubedformgr,dtrvnt,handwriting
+
+2022-12-13 02:02;750 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error;notes (documents);on line 12 - This is an invalid concept prefLabel;or an incomplete UUID. Unable to save.;
+ ResourceID,brocade.id,card,order,source_field,source_code,Object Type
+ be9fbdf2-a390-5af4-a25f-92642d888828,tg:rubgr:2291_#1,e22_ObjectTypes,1,kenmerken.rubedformgr,dtrvnt,notes (documents)
+
+2022-12-13 02:02;755 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error;references;on line 176 - This is an invalid concept prefLabel;or an incomplete UUID. Unable to save.;
+
+ fda596b4-5eb5-535c-bf19-32668e60e2ae,tg:rubgr:1747_#1,e22_ObjectTypes,2,kenmerken.rubedformgr,dtrvre,references
+ ResourceID,brocade.id,card,order,source_field,source_code,Object Type
+
+* Foto:
+1346 lines fo errors in the log. Cut down to dictinct ones below.
+
+Tue Dec 13 00:04:45 2022 ERROR: concept error;keywords;on line 12;on line 12 - This is an invalid concept prefLabel;or an incomplete UUID. Unable to save.
+ ResourceID,brocade.id,card,order,source_code,ire.isaar.uuid,ISAAR Brocade ID,Original Entity Relation,Original Entity Widget,Original Entity Identifier
+ 41d4d044-8bd2-5b13-9e1c-68858e7f8a99,tg:rubgr:1048,e73_OriginalBrocade,1,kw,52eca42b-9f44-5cb3-a2e2-61627f08810c,au::10517,keywords,"dlod={""name"":""Koninklijke Musea voor Schone Kunsten van België"",""ark"":""ark:/83110/x0/52eca42b-9f44-5cb3-a2e2-61627f08810c"",""uri"":""/agents/corporate_entities/16661"",""id"":""au::10517"",""isCapacity"":false,""orgID"":""digipolis"",""suggestType"":""agent""}",ark:/83110/x0/52eca42b-9f44-5cb3-a2e2-61627f08810c
+
+Tue Dec 13 00:04:45 2022 ERROR: concept error;Objecten archief Grossmann;on line 2;on line 2 - This is an invalid concept prefLabel;or an incomplete UUID. Unable to save.
+ ResourceID,brocade.id,card,order,Keeper,Object Number,Object Identifier,Record Type
+ 9e45e323-ac08-5613-a52b-d4923ec9a28f,tg:rubgr:1130,AA,0,Rubenianum,tg:rubgr:1130,https://data.rubenianum.be//ark:/86530/9e45e323-ac08-5613-a52b-d4923ec9a28f,Objecten archief Grossmann
+
+Tue Dec 13 00:04:45 2022 ERROR: concept error;online catalogs;on line 33;on line 33 - This is an invalid concept prefLabel;or an incomplete UUID. Unable to save.
+ ResourceID,brocade.id,card,order,source_field,External Relation URL Prefix,External Relation URL,External Relation,External Relation URL Type
+ 43f1d295-fced-5d6c-9a0c-dcd91d4afd7f,tg:rubgr:1179,e73_ExternalRelationsExtras,a::rub.29,ow.link,https://rkd.nl/nl/explore/images/,54294,online catalogs,RKDimages
+
+Tue Dec 13 00:04:45 2022 ERROR: concept error;repository numbers;on line 13;on line 13 - This is an invalid concept prefLabel;or an incomplete UUID. Unable to save.
+ ResourceID,brocade.id,card,Other Identifier,Other Identifier Type
+ 9e45e323-ac08-5613-a52b-d4923ec9a28f,tg:rubgr:1130,e73_OtherIdentifiers,AFG_024_012,repository numbers
