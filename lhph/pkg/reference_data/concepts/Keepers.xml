@@ -1,32 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-  xmlns:arches="http://localhost:8000/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
-  <skos:ConceptScheme rdf:about="http://localhost:8000/daeab577-0b16-47f7-bf3c-608331093980">
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/64c28a3c-adef-4c3b-a4a9-bf0c163badfb">
-        <dcterms:identifier xml:lang="en">{"id": "c5239320-8045-4a0b-a6b6-686d3b4f94b5", "value": "https://data.museumplantinmoretus.be/id/ark:/11975/42798d8a-4823-5ee0-95af-a23264d6dc00"}</dcterms:identifier>
-        <skos:inScheme rdf:resource="http://localhost:8000/daeab577-0b16-47f7-bf3c-608331093980"/>
-        <skos:prefLabel xml:lang="nl">{"id": "41d9a6ee-224f-41b0-a1cd-e36a35ab66bf", "value": "Museum Plantin-Moretus"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/b7509b38-e68d-492e-854f-ff472a86662b">
-        <skos:prefLabel xml:lang="nl">{"id": "bcc2c921-748c-4267-96a0-317b7a0044a4", "value": "Letterenhuis"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://localhost:8000/daeab577-0b16-47f7-bf3c-608331093980"/>
-        <dcterms:identifier xml:lang="nl">{"id": "d2efdaaa-c830-4464-b389-0cd3de25c6a6", "value": "https://data.antwerpen.be/id/ark:/24970/784198d4-56b2-5085-a593-e5c34562b3e0"}</dcterms:identifier>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/877b6efc-ab0f-4264-8e69-9ba2fa5f4f44">
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <skos:Concept rdf:about="https://arches.importer.delving.io/877b6efc-ab0f-4264-8e69-9ba2fa5f4f44">
+        <skos:inScheme>
+            <skos:ConceptScheme rdf:about="https://arches.importer.delving.io/daeab577-0b16-47f7-bf3c-608331093980">
+                <dcterms:identifier xml:lang="nl">{"id": "4e6a8ca9-a0b9-437d-b95b-149bf0833adc", "value": "https://arches.letterenhuis.be/daeab577-0b16-47f7-bf3c-608331093980"}</dcterms:identifier>
+                <dcterms:title xml:lang="en">{"id": "b25151ad-16c5-4a45-99ba-a383d8cdb36a", "value": "Keepers"}</dcterms:title>
+                <skos:hasTopConcept rdf:resource="https://arches.importer.delving.io/64c28a3c-adef-4c3b-a4a9-bf0c163badfb">
+                </skos:hasTopConcept>
+                <skos:hasTopConcept rdf:resource="https://arches.importer.delving.io/b7509b38-e68d-492e-854f-ff472a86662b">
+                </skos:hasTopConcept>
+                <skos:hasTopConcept rdf:resource="https://arches.importer.delving.io/877b6efc-ab0f-4264-8e69-9ba2fa5f4f44">
+                </skos:hasTopConcept>
+            </skos:ConceptScheme>
+        </skos:inScheme>
         <skos:prefLabel xml:lang="nl">{"id": "57e65e8e-da5a-48bd-8678-342847967a4b", "value": "Rubenianum"}</skos:prefLabel>
-        <arches:collector xml:lang="nl">{"id": "6323729c-6c63-43f3-adff-d6a1a05b6ee9", "value": "https://data.rubenianum.be/id/ark:/86530/b39b758e-3ecf-5e33-801a-8bc360fd2214"}</arches:collector>
-        <skos:inScheme rdf:resource="http://localhost:8000/daeab577-0b16-47f7-bf3c-608331093980"/>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <dcterms:title xml:lang="en">{"id": "b25151ad-16c5-4a45-99ba-a383d8cdb36a", "value": "Keepers"}</dcterms:title>
-  </skos:ConceptScheme>
+        <dcterms:identifier xml:lang="nl">{"id": "38e15ef5-8225-4e33-9522-37679d0d1c0b", "value": "https://arches.letterenhuis.be/877b6efc-ab0f-4264-8e69-9ba2fa5f4f44"}</dcterms:identifier>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://arches.importer.delving.io/b7509b38-e68d-492e-854f-ff472a86662b">
+        <skos:inScheme rdf:resource="https://arches.importer.delving.io/daeab577-0b16-47f7-bf3c-608331093980">
+        </skos:inScheme>
+        <dcterms:identifier xml:lang="nl">{"id": "d2efdaaa-c830-4464-b389-0cd3de25c6a6", "value": "https://data.antwerpen.be/id/ark:/24970/784198d4-56b2-5085-a593-e5c34562b3e0"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="nl">{"id": "bcc2c921-748c-4267-96a0-317b7a0044a4", "value": "Letterenhuis"}</skos:prefLabel>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://arches.importer.delving.io/64c28a3c-adef-4c3b-a4a9-bf0c163badfb">
+        <skos:inScheme rdf:resource="https://arches.importer.delving.io/daeab577-0b16-47f7-bf3c-608331093980">
+        </skos:inScheme>
+        <dcterms:identifier xml:lang="nl">{"id": "c5239320-8045-4a0b-a6b6-686d3b4f94b5", "value": "https://data.museumplantinmoretus.be/id/ark:/11975/42798d8a-4823-5ee0-95af-a23264d6dc00"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="nl">{"id": "41d9a6ee-224f-41b0-a1cd-e36a35ab66bf", "value": "Museum Plantin-Moretus"}</skos:prefLabel>
+    </skos:Concept>
 </rdf:RDF>

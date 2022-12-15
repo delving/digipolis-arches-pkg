@@ -1,0 +1,196 @@
+{% extends "views/components/widgets/base.htm" %}
+{% load i18n %}
+
+{% block form %}
+<div class="row widget-wrapper">
+    <div class="form-group">
+
+        <!-- select2 1 -->
+        <div data-bind="visible: isNoArchive">
+            <div class="col-xs-12">
+                <h4 class="card-title" data-bind="text: formattedDlodType"></h4>
+                <input style="display:inline-block;"
+                    data-bind="
+                            select2Query: { select2Config: select2Config }
+                            "
+                    id="select2agent"
+                    >
+                    <button class="btn btn-shim btn-labeled btn-lg fa btn-mint fa-external-link pull-right" data-bind="click: resolveURI.bind($data, 'archive'), visible: uri ">
+                        ArchivesSpace
+                    </button>
+            </div>
+
+            <!-- select2 input fields -->
+            <div class="col-xs-12">
+                <input type="hidden" data-bind="textInput: suggestValue, attr: {}" class="form-control input-lg widget-input" placeholder="Enter text" style="margin-bottom: 5px">
+                <input type="hidden" data-bind="textInput: value, attr: {}" class="form-control input-lg widget-input" placeholder="Enter text" style="margin-bottom: 5px">
+            </div>
+        </div>
+
+
+        <!-- non-archive display block -->
+        <div class="col-xs-12" data-bind="visible: isNoArchive">
+            <div data-bind="visible: ark">
+                <dl class="dl-horizontal">
+                    <dt>preview</dt>
+                    <dd data-bind="text: preview"/>
+                    
+                    <dt data-bind="visible: nameWithContext">andere namen</dt>
+                    <dd data-bind="text: agentNameWithContext"></dd>
+
+                    <dt>ark</dt>
+                    <dd data-bind="text: ark"></dd>
+
+                    <dt>identifier</dt>
+                    <dd data-bind="text: id"></dd>
+                </dl>
+            </div>
+        </div>
+
+        <!-- archive display block -->
+        {% comment %} <div class="col-xs-12" data-bind="visible: isArchive"> {% endcomment %}
+            {% comment %} <div data-bind="visible: resourceArk"> {% endcomment %}
+                {% comment %} <dl class="dl-horizontal"> {% endcomment %}
+                    {% comment %} <dt>preview</dt> {% endcomment %}
+                    {% comment %} <dd data-bind="text: preview"/> {% endcomment %}
+
+                    {% comment %} <dt>archiefnaam</dt> {% endcomment %}
+                    {% comment %} <dd data-bind="text: resourceName"/> {% endcomment %}
+
+                    {% comment %} <dt>ark</dt> {% endcomment %}
+                    {% comment %} <dd data-bind="text: resourceArk"></dd> {% endcomment %}
+
+                    {% comment %} <dt>identifier</dt> {% endcomment %}
+                    {% comment %} <dd data-bind="text: resourceID"></dd> {% endcomment %}
+                {% comment %} </dl> {% endcomment %}
+            {% comment %} </div> {% endcomment %}
+        {% comment %} </div> {% endcomment %}
+
+        <!-- archive select2 sub-select block -->
+        <div class="col-xs-12" style="padding-top:25px" data-bind="visible: isArchive">
+            <h4 class="card-title">Archiefonderdeel</h4>
+            <div class="col-xs-12">
+                <input style="display:inline-block;"
+                    data-bind="select2Query: { select2Config: select2capacity}"
+                    id="select2capacity">
+                <button class="btn btn-shim btn-labeled btn-lg fa btn-mint fa-external-link pull-right" data-bind="click: resolveURI.bind(''), visible: uri">
+                    ArchivesSpace
+                </button>
+            </div>
+
+            <div class="col-xs-12" data-bind="visible: isArchive">
+                <dl class="dl-horizontal">
+                    <dt>titel</dt>
+                    <dd>
+                        <div style="margin-bottom:2px" data-bind="text: capacityName"/>
+                    </dd>
+
+                    <dt>context</dt>
+                    <dd data-bind="foreach: nameWithContextRaw">
+                        <span data-bind="text: $data"></span><br/>
+                    </dd>
+
+                    <dt>ark</dt>
+                    <dd data-bind="text: ark"></dd>
+
+                    <dt>identifier</dt>
+                    <dd data-bind="text: id"></dd>
+                </dl>
+            </div>
+        </div>
+
+
+        <!-- agent select2 sub-select block -->
+        <div style="padding-top:40px" data-bind="visible: isAgent">
+            <h4 class="card-title">Capacity</h4>
+            <div class="col-xs-12">
+                <input style="display:inline-block;"
+                    data-bind="select2Query: { select2Config: select2capacity}"
+                    id="select2capacity">
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock form %}
+
+{% block config_form %}
+<div class="control-label">DLOD url
+</div>
+<div class="col-xs-12 pad-no crud-widget-container">
+    <input type="" placeholder="https://hub3.digipolis.delving.io" id="" class="form-control input-md widget-input" data-bind="textInput: placeholder">
+</div>
+
+<div class="control-label">data type</div>
+<div class="col-xs-12 pad-no crud-widget-container">
+    <input type="" placeholder="example: agent" id="" class="form-control input-md widget-input" data-bind="textInput: maxLength">
+</div>
+{% comment %} <div class="control-label"> suggest type </div> {% endcomment %}
+{% comment %} <div class="col-xs-12 pad-no crud-widget-container"> {% endcomment %}
+    {% comment %} <input type="" placeholder="{% trans "Default Value" %}" id="" class="form-control input-md widget-input" data-bind="textInput: defaultValue"> {% endcomment %}
+{% comment %} </div> {% endcomment %}
+
+<div class="control-label">options:</div>
+<ul>
+  <li>accessions</li>
+  <li>agent</li>
+  <li>archive</li>
+  <li>place</li>
+  <li>topic</li>
+  <li>all</li>
+</ul>
+
+{% comment %} <div class="col-xs-12 pad-no crud-widget-container"> {% endcomment %}
+    {% comment %} <select type="" id="" placeholder="select suggest type" data-bind=" {% endcomment %}
+        {% comment %} valueAllowUnset: true, {% endcomment %}
+        {% comment %} options: [ {% endcomment %}
+            {% comment %} { {% endcomment %}
+                {% comment %} value: '', {% endcomment %}
+                {% comment %} text: '' {% endcomment %}
+            {% comment %} }, {% endcomment %}
+            {% comment %} { {% endcomment %}
+                {% comment %} value: 'agent', {% endcomment %}
+                {% comment %} text: 'Agent' {% endcomment %}
+            {% comment %} }, {% endcomment %}
+            {% comment %} { {% endcomment %}
+                {% comment %} value: 'archive', {% endcomment %}
+                {% comment %} text: 'Archive' {% endcomment %}
+            {% comment %} }, {% endcomment %}
+            {% comment %} { {% endcomment %}
+                {% comment %} value: 'topic', {% endcomment %}
+                {% comment %} text: 'Topic' {% endcomment %}
+            {% comment %} }, {% endcomment %}
+            {% comment %} { {% endcomment %}
+                {% comment %} value: 'place', {% endcomment %}
+                {% comment %} text: 'Place' {% endcomment %}
+            {% comment %} }, {% endcomment %}
+            {% comment %} { {% endcomment %}
+                {% comment %} value: 'accessions', {% endcomment %}
+                {% comment %} text: 'Accessions' {% endcomment %}
+            {% comment %} } {% endcomment %}
+        {% comment %} ], {% endcomment %}
+        {% comment %} optionsText: 'text', {% endcomment %}
+        {% comment %} optionsValue: defaultValue,  {% endcomment %}
+        {% comment %} chosen: { {% endcomment %}
+            {% comment %} 'width': '100%', {% endcomment %}
+            {% comment %} 'disable_search_threshold': 10, {% endcomment %}
+            {% comment %} 'allow_single_deselect': true {% endcomment %}
+        {% comment %} } {% endcomment %}
+{% comment %} "></select> {% endcomment %}
+{% comment %} </div> {% endcomment %}
+
+{% endblock config_form %}
+
+{% block report %}
+    <dt data-bind="text: label"></dt>
+    <dd>
+        <div style='margin-bottom:2px' data-bind="text: preview"></div>
+    </dd>
+
+    <dt>identifier</dt>
+    <dd>
+        <a data-bind="attr: {href: previewResolveURI}, style: { color: 'blue'}, text: previewID" target="_blank"></a>
+        <span data-bind="visible: anetResolveURI">
+            <a data-bind="attr: {href: anetResolveURI}, style: { color: 'green'}" target="_blank">(anet)</a>
+        </span>
+    </dd>
+{% endblock report %}
