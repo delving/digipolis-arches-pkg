@@ -259,13 +259,6 @@
             "export": true
         },
         {
-            "arches_nodeid": "2688a688-ac0f-11ec-b19f-9cf387da2c40",
-            "arches_node_name": "Depicted Item Widget",
-            "file_field_name": "Depicted Item Widget",
-            "data_type": "string",
-            "export": true
-        },
-        {
             "arches_nodeid": "268887c0-ac0f-11ec-b19f-9cf387da2c40",
             "arches_node_name": "Depicted Items Note",
             "file_field_name": "Depicted Items Note",
@@ -286,6 +279,13 @@
             "file_field_name": "Depicted Items Note Type",
             "data_type": "concept",
             "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2688a688-ac0f-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Depicted Item Widget",
+            "file_field_name": "Depicted Item Widget",
+            "data_type": "string",
             "export": true
         },
         {
@@ -382,6 +382,82 @@
             "arches_nodeid": "2688a052-ac0f-11ec-b19f-9cf387da2c40",
             "arches_node_name": "End Date Type",
             "file_field_name": "End Date Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "317b54e4-7709-11ed-805e-960000f945b2",
+            "arches_node_name": "Event End Date",
+            "file_field_name": "Event End Date",
+            "data_type": "edtf",
+            "export": true
+        },
+        {
+            "arches_nodeid": "317b4e49-7709-11ed-a5f2-960000f945b2",
+            "arches_node_name": "Event End Date Note",
+            "file_field_name": "Event End Date Note",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "317b53ce-7709-11ed-9577-960000f945b2",
+            "arches_node_name": "Event End Date Note Language",
+            "file_field_name": "Event End Date Note Language",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "317b51a5-7709-11ed-9da8-960000f945b2",
+            "arches_node_name": "Event End Date Note Type",
+            "file_field_name": "Event End Date Note Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "317b5724-7709-11ed-af3f-960000f945b2",
+            "arches_node_name": "Event End Date Type",
+            "file_field_name": "Event End Date Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "317b5089-7709-11ed-8ead-960000f945b2",
+            "arches_node_name": "Event Start Date",
+            "file_field_name": "Event Start Date",
+            "data_type": "edtf",
+            "export": true
+        },
+        {
+            "arches_nodeid": "317b52b5-7709-11ed-9fd2-960000f945b2",
+            "arches_node_name": "Event Start Date Note",
+            "file_field_name": "Event Start Date Note",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "317b583a-7709-11ed-aa49-960000f945b2",
+            "arches_node_name": "Event Start Date Note Language",
+            "file_field_name": "Event Start Date Note Language",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "317b4f6f-7709-11ed-bd1a-960000f945b2",
+            "arches_node_name": "Event Start Date Note Type",
+            "file_field_name": "Event Start Date Note Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "317b594f-7709-11ed-baf0-960000f945b2",
+            "arches_node_name": "Event Start Date Type",
+            "file_field_name": "Event Start Date Type",
             "data_type": "concept",
             "concept_export_value": "label",
             "export": true
@@ -553,11 +629,10 @@
             "export": true
         },
         {
-            "arches_nodeid": "2688a8f4-ac0f-11ec-b19f-9cf387da2c40",
-            "arches_node_name": "Original Entity Relation",
-            "file_field_name": "Original Entity Relation",
-            "data_type": "concept",
-            "concept_export_value": "label",
+            "arches_nodeid": "400d229a-7c71-11ed-a6f0-960000f945b2",
+            "arches_node_name": "Original Entity Type",
+            "file_field_name": "Original Entity Type",
+            "data_type": "string",
             "export": true
         },
         {
