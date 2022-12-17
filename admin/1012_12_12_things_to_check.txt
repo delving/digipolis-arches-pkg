@@ -1,0 +1,68 @@
+
+
+
+
+
+
+Q:  Is it possible to change a collection in a concept-node with data loaded?
+A:
+ - cards/nodes with no data: YES
+ - cards/nodes with data: NO
+ - dropped index: NO
+
+Q: Is it possible to toggle between "required" or not with data loaded?
+A:
+ - cards/nodes with no data: YES
+ - cards/nodes with data: NO
+ - dropped index: NO
+
+Q: Is it possible to toggle between "Visible" or not with data loaded?
+A:
+ - by default: YES
+_________
+
+Brief_material
+
+2022-12-12 09:42:04,011 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, printing (process) on line 1081 on line 1081 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-12-12 09:42:04,012 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, forms (documents)  on line 1084 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+
+
+
+
+
+
+
+
+
+
+
+
+______________
+
+
+
+
+Can you check before as a sanity-check i continue checking new import errors. Errors when importing concepts could either be:
+
+1. new source data with concepts not added to a collection yet (easy, even if time-consumeing/boring, to fix for me)
+2. something's wrong in the way all new colections have been generated (tricky for me to sort out/understand)
+
+BEfore i move along can just check the first 2 ones in MPM, Brief_material. Both seem a bit odd.
+
+
+Import errors for MPM, Brief_material
+
+1. ResourceID,brocade.id,card,order,source_field,source_code,Object Type
+20103a66-dfb5-55e7-936d-770a22a64e81,tg:mpmbr:133_#1,e22_ObjectTypes,1,kenmerken.mpmtypohs,form,forms (documents)
+"Object Type - brief_material MPM" only has "letters". Just add "form (documents)" or is something else wrong/weird?
+Is it (if it should only be letters as in the collection):
+* an error in the the source
+* an errors when i match source_codes
+  - form,Formulier - Handgeschreven Inhoud,Digipolis Thesauri\Object Type\manuscripts (documents)\,forms (documents),300049060,production
+  - dtrvfr,Formulier,Digipolis Thesauri\Object Type\manuscripts (documents)\,forms (documents),300049060,production
+* error in RDM
+
+2. ResourceID,brocade.id,card,order,source_field,source_code,Production Technique Type
+20103a66-dfb5-55e7-936d-770a22a64e81,tg:mpmbr:133_#1,e22_ExtraProductionTechniques,1,kenmerken.mpmtypohs,form,printing (process)
+Current Collection: Techniek Type - brief_material MPM, printing is missing in that collection.
+Easy enough to add, but should it really be "materials"??? It's tch-type, not material in the model

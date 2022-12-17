@@ -251,14 +251,7 @@
                     "cardid": "7581988a-ac0f-11ec-b19f-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "7581988a-ac0f-11ec-b19f-9cf387da2c40",
-                            "constraintid": "20b32bfb-9345-49bb-9572-1b06dd6240f5",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "758070f4-ac0f-11ec-b19f-9cf387da2c40",
@@ -3108,20 +3101,6 @@
                             "nodegroup_id": "f80fd43e-5420-11ec-8d2a-9cf387da2c40",
                             "string_template": "<Description>"
                         },
-                        "descriptor_types": {
-                            "description": {
-                                "nodegroup_id": "75819af6-ac0f-11ec-b19f-9cf387da2c40",
-                                "string_template": "<Object Identifier>"
-                            },
-                            "map_popup": {
-                                "nodegroup_id": "",
-                                "string_template": ""
-                            },
-                            "name": {
-                                "nodegroup_id": "75812e54-ac0f-11ec-b19f-9cf387da2c40",
-                                "string_template": "<Object Number>"
-                            }
-                        },
                         "map_popup": {
                             "nodegroup_id": "",
                             "string_template": ""
@@ -3134,7 +3113,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "758070f4-ac0f-11ec-b19f-9cf387da2c40",
-                    "id": "c8f86962-6a64-11ed-ae3f-9cf387da2c40"
+                    "id": "9a232eba-77a0-11ed-9485-960000f945b2"
                 }
             ],
             "graphid": "758070f4-ac0f-11ec-b19f-9cf387da2c40",
@@ -3218,7 +3197,7 @@
                     "parentnodegroup_id": null
                 },
                 {
-                    "cardinality": "n",
+                    "cardinality": "1",
                     "legacygroupid": null,
                     "nodegroupid": "75819358-ac0f-11ec-b19f-9cf387da2c40",
                     "parentnodegroup_id": null
@@ -3479,7 +3458,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "f71811c5-e59d-4773-a2cd-fbb444bd3d4a"
+                        "rdmCollection": "899fb8c1-dd7c-4f1d-afbd-e49d8a1021a3"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -3553,7 +3532,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "b19df25d-7bac-4fb8-90ac-5dd28c84ab37"
+                        "rdmCollection": "eb631efa-69b8-46c2-bca8-5073d94cb638"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -3609,7 +3588,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "15edd0d9-f513-4552-8b0a-c5b6edd34f8e"
+                        "rdmCollection": "ee66f1a7-59aa-4d5d-ab5b-dc7621fb82b8"
                     },
                     "datatype": "concept-list",
                     "description": null,
@@ -3755,7 +3734,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "4f38135a-38d1-425a-8536-87aac32cabee"
+                        "rdmCollection": "e375bb64-276c-467f-a5b5-91c685847119"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -3775,7 +3754,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "eeab89b5-55cc-4c9c-883b-8c871eda99ba"
+                        "rdmCollection": "2bf1a6c8-b6f7-4a25-83a1-da103f284d83"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -3831,7 +3810,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "6fa7dd5b-6df6-46f4-9c19-42a66be267ab"
+                        "rdmCollection": "f6884bb0-6b18-42d6-913e-fddf235b5349"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -3851,7 +3830,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "bf5ea71a-25e0-4dca-8bec-8a6298220db4"
+                        "rdmCollection": "999a8f16-074d-43ab-8756-d47e436262b6"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -3933,7 +3912,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "c599334f-2452-4e9b-8265-fdd738fcc929"
+                        "rdmCollection": "5727c68c-911c-4024-bf6d-73ca8f2d0663"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -4007,7 +3986,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "67a98c28-86b7-44b6-98e9-ceb1fb99f205"
+                        "rdmCollection": "42263c98-d04a-47b6-ab0b-424597deb0de"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -4045,7 +4024,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "08690407-592d-4596-8ce9-06abcf38ce8c"
+                        "rdmCollection": "4b8ffdeb-11ff-47b5-bbdb-d3a24d93d985"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -4091,7 +4070,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "d31333e7-b57b-489f-9b4b-31ae06bdde73"
+                        "rdmCollection": "83d4f0e5-e2c0-40de-8a85-c3137f97ef11"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -4111,7 +4090,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "6fa7dd5b-6df6-46f4-9c19-42a66be267ab"
+                        "rdmCollection": "f6884bb0-6b18-42d6-913e-fddf235b5349"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -4185,7 +4164,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "d98a6250-535b-46f2-9e83-aecbbe5ca8ae"
+                        "rdmCollection": "f76a46da-73fe-4790-bf40-e4f481903377"
                     },
                     "datatype": "concept-list",
                     "description": "The role of the actor in the Production event",
@@ -4205,7 +4184,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "08690407-592d-4596-8ce9-06abcf38ce8c"
+                        "rdmCollection": "4b8ffdeb-11ff-47b5-bbdb-d3a24d93d985"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -4243,7 +4222,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "08690407-592d-4596-8ce9-06abcf38ce8c"
+                        "rdmCollection": "4b8ffdeb-11ff-47b5-bbdb-d3a24d93d985"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -4263,7 +4242,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "6fa7dd5b-6df6-46f4-9c19-42a66be267ab"
+                        "rdmCollection": "f6884bb0-6b18-42d6-913e-fddf235b5349"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -4319,7 +4298,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "08690407-592d-4596-8ce9-06abcf38ce8c"
+                        "rdmCollection": "4b8ffdeb-11ff-47b5-bbdb-d3a24d93d985"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -4357,7 +4336,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "b0117029-e2c1-4302-bb55-bb30a1c37f9e"
+                        "rdmCollection": "6934dc68-e1ca-47d3-b380-8a2fa31ae4dc"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -4377,7 +4356,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "42a9fc27-7d1c-4069-a4eb-40622caac5b3"
+                        "rdmCollection": "bfe8e4a2-edd6-4ce1-bf9d-1ee3bb8f06e1"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -4397,7 +4376,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "1b232977-ef32-4c29-9a50-03679e6a731e"
+                        "rdmCollection": "2ef4e0c5-dd98-4209-9aac-8579a8932728"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -4435,7 +4414,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "6fa7dd5b-6df6-46f4-9c19-42a66be267ab"
+                        "rdmCollection": "f6884bb0-6b18-42d6-913e-fddf235b5349"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -4473,7 +4452,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "08690407-592d-4596-8ce9-06abcf38ce8c"
+                        "rdmCollection": "4b8ffdeb-11ff-47b5-bbdb-d3a24d93d985"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -4493,7 +4472,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "6fa7dd5b-6df6-46f4-9c19-42a66be267ab"
+                        "rdmCollection": "f6884bb0-6b18-42d6-913e-fddf235b5349"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -4513,7 +4492,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "d31333e7-b57b-489f-9b4b-31ae06bdde73"
+                        "rdmCollection": "83d4f0e5-e2c0-40de-8a85-c3137f97ef11"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -4577,7 +4556,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "6fa7dd5b-6df6-46f4-9c19-42a66be267ab"
+                        "rdmCollection": "f6884bb0-6b18-42d6-913e-fddf235b5349"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -4641,7 +4620,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "6fa7dd5b-6df6-46f4-9c19-42a66be267ab"
+                        "rdmCollection": "f6884bb0-6b18-42d6-913e-fddf235b5349"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -4733,7 +4712,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "676cd354-f4d9-4d07-8564-21bbd4db98f8"
+                        "rdmCollection": "62d0c3f2-7cfa-4e77-a163-23c468be8ee8"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -4771,7 +4750,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "c744109c-38b9-4552-84ed-80ab01cbcc7d"
+                        "rdmCollection": "af4a122d-71d5-4b29-92c2-8aa491faeed6"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -4809,7 +4788,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "38370ea3-fc59-4999-8c22-23095c75c9a4"
+                        "rdmCollection": "e06d0e0e-2a8e-4743-be93-f0013ed6a5a4"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -4847,7 +4826,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "eec90bcc-b36b-40c9-88d5-8181c2ae37fc"
+                        "rdmCollection": "f0cdd983-6690-4d7d-b563-49d2542d7eaf"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -4867,7 +4846,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "eec90bcc-b36b-40c9-88d5-8181c2ae37fc"
+                        "rdmCollection": "f0cdd983-6690-4d7d-b563-49d2542d7eaf"
                     },
                     "datatype": "concept-list",
                     "description": "DECODE[field/lhdragerico/lhkleur]",
@@ -4887,7 +4866,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "8f647ea8-c369-4f71-9523-3c359d1e04dd"
+                        "rdmCollection": "9013c9a5-dae1-4953-ba36-b7ad6752efed"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -4907,7 +4886,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "6fa7dd5b-6df6-46f4-9c19-42a66be267ab"
+                        "rdmCollection": "f6884bb0-6b18-42d6-913e-fddf235b5349"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -4963,7 +4942,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "c744109c-38b9-4552-84ed-80ab01cbcc7d"
+                        "rdmCollection": "af4a122d-71d5-4b29-92c2-8aa491faeed6"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -5001,7 +4980,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "c599334f-2452-4e9b-8265-fdd738fcc929"
+                        "rdmCollection": "5727c68c-911c-4024-bf6d-73ca8f2d0663"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -5021,7 +5000,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "6fa7dd5b-6df6-46f4-9c19-42a66be267ab"
+                        "rdmCollection": "f6884bb0-6b18-42d6-913e-fddf235b5349"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -5041,7 +5020,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "89be5776-9218-4375-8a8d-9ce06845a3f9"
+                        "rdmCollection": "d7573ffb-950c-4b4d-9e09-fb3ac9922023"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -5061,7 +5040,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "c744109c-38b9-4552-84ed-80ab01cbcc7d"
+                        "rdmCollection": "af4a122d-71d5-4b29-92c2-8aa491faeed6"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -5081,7 +5060,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "c744109c-38b9-4552-84ed-80ab01cbcc7d"
+                        "rdmCollection": "af4a122d-71d5-4b29-92c2-8aa491faeed6"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -5101,7 +5080,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "08690407-592d-4596-8ce9-06abcf38ce8c"
+                        "rdmCollection": "4b8ffdeb-11ff-47b5-bbdb-d3a24d93d985"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -5139,7 +5118,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "d31333e7-b57b-489f-9b4b-31ae06bdde73"
+                        "rdmCollection": "83d4f0e5-e2c0-40de-8a85-c3137f97ef11"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -5177,7 +5156,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "08690407-592d-4596-8ce9-06abcf38ce8c"
+                        "rdmCollection": "4b8ffdeb-11ff-47b5-bbdb-d3a24d93d985"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -5277,7 +5256,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "08690407-592d-4596-8ce9-06abcf38ce8c"
+                        "rdmCollection": "4b8ffdeb-11ff-47b5-bbdb-d3a24d93d985"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -5315,7 +5294,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "08690407-592d-4596-8ce9-06abcf38ce8c"
+                        "rdmCollection": "4b8ffdeb-11ff-47b5-bbdb-d3a24d93d985"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -5425,7 +5404,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "08690407-592d-4596-8ce9-06abcf38ce8c"
+                        "rdmCollection": "4b8ffdeb-11ff-47b5-bbdb-d3a24d93d985"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -5481,7 +5460,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "6fa7dd5b-6df6-46f4-9c19-42a66be267ab"
+                        "rdmCollection": "f6884bb0-6b18-42d6-913e-fddf235b5349"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -5501,7 +5480,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "6fa7dd5b-6df6-46f4-9c19-42a66be267ab"
+                        "rdmCollection": "f6884bb0-6b18-42d6-913e-fddf235b5349"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -5539,7 +5518,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "f8524b74-7546-4a0c-b4f4-634ca319f1de"
+                        "rdmCollection": "554036f7-610f-4b8f-a80c-c9f9e93b717d"
                     },
                     "datatype": "concept",
                     "description": "This field is used to record information about the position of the mark or signature.",
@@ -5559,7 +5538,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "a202de8f-37d6-4cce-a924-cc50e7ce2896"
+                        "rdmCollection": "c8eb0d29-b637-42e3-8034-f1d9208a95d1"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -5669,7 +5648,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "c744109c-38b9-4552-84ed-80ab01cbcc7d"
+                        "rdmCollection": "af4a122d-71d5-4b29-92c2-8aa491faeed6"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -5715,9 +5694,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.12 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "db": "PostgreSQL 13.3 (Debian 13.3-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit",
         "git hash": "fatal: not a git repository (or any of the parent directories): .git",
-        "os": "Darwin",
-        "os version": "19.5.0"
+        "os": "Linux",
+        "os version": "4.19.0-17-amd64"
     }
 }
