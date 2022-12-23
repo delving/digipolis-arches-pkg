@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:ConceptScheme rdf:about="https://arches.importer.delving.io/daeab577-0b16-47f7-bf3c-608331093980">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://arches.importer.delving.io/35e1dd28-4ce4-4b72-81e6-ba5e6914d4b1">
+        <skos:prefLabel xml:lang="nl">{"id": "039e28fa-b770-433f-bc1e-e6474f3efd72", "value": "Museum Mayer van den Bergh"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://arches.importer.delving.io/daeab577-0b16-47f7-bf3c-608331093980"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "b25151ad-16c5-4a45-99ba-a383d8cdb36a", "value": "Keepers"}</dcterms:title>
+    <dcterms:identifier xml:lang="nl">{"id": "92d9d90f-80e0-4c96-8b4f-5f48e9dac17f", "value": "https://arches.museumplantinmoretus.be/daeab577-0b16-47f7-bf3c-608331093980"}</dcterms:identifier>
+  </skos:ConceptScheme>
+</rdf:RDF>

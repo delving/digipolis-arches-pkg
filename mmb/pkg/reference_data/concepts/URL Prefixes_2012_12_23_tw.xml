@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:ConceptScheme rdf:about="https://arches.importer.delving.io/723758fc-42e7-4f33-940e-27e82c955be2">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://arches.importer.delving.io/479f4494-a164-4205-a816-e98a45f0697b">
+        <skos:prefLabel xml:lang="nl">{"id": "d208eca7-3984-4b58-8737-f5e2cbab1aa3", "value": "https://www.nortonsimon.org"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://arches.importer.delving.io/723758fc-42e7-4f33-940e-27e82c955be2"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://arches.importer.delving.io/59d36551-35b3-48e9-91bd-337a4a5e8c6f">
+        <skos:inScheme rdf:resource="https://arches.importer.delving.io/723758fc-42e7-4f33-940e-27e82c955be2"/>
+        <skos:prefLabel xml:lang="en">{"id": "13a5bb98-b210-4418-a13a-144f74fd0fe3", "value": "https://collections.vam.ac.uk"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://arches.importer.delving.io/ed2771a0-97de-4fc5-99db-5395e630cc43">
+        <skos:inScheme rdf:resource="https://arches.importer.delving.io/723758fc-42e7-4f33-940e-27e82c955be2"/>
+        <skos:prefLabel xml:lang="en">{"id": "9e33fa25-089e-4e5f-a427-d91909dff4c0", "value": "https://rkd.nl"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:identifier xml:lang="nl">{"id": "c4efd8ad-7d2c-4d5f-9abb-420e7fe1ee8f", "value": "https://arches.museumplantinmoretus.be/723758fc-42e7-4f33-940e-27e82c955be2"}</dcterms:identifier>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://arches.importer.delving.io/e5902888-60d7-4c51-9265-c5180832d692">
+        <skos:prefLabel xml:lang="en">{"id": "4d4ff93b-fa88-4bc3-89e5-12641935b636", "value": "https://dams.antwerpen.be"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://arches.importer.delving.io/723758fc-42e7-4f33-940e-27e82c955be2"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "589abcd0-d2a8-43fb-9579-dae51504f473", "value": "URL Prefixes"}</dcterms:title>
+  </skos:ConceptScheme>
+</rdf:RDF>
