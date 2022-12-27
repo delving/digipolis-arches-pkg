@@ -147,6 +147,29 @@
             "export": true
         },
         {
+            "arches_nodeid": "efe3fd40-83e9-11ed-84db-9cf387da2c40",
+            "arches_node_name": "Description",
+            "file_field_name": "Description",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "efe3fe4e-83e9-11ed-84db-9cf387da2c40",
+            "arches_node_name": "Description Language",
+            "file_field_name": "Description Language",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "efe3ff20-83e9-11ed-84db-9cf387da2c40",
+            "arches_node_name": "Description Type",
+            "file_field_name": "Description Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
             "arches_nodeid": "d1de1dc2-a5fe-11ec-b19f-9cf387da2c40",
             "arches_node_name": "Dimension Measurement Unit",
             "file_field_name": "Dimension Measurement Unit",
@@ -264,6 +287,14 @@
             "arches_nodeid": "d1dd9000-a5fe-11ec-b19f-9cf387da2c40",
             "arches_node_name": "Keeper",
             "file_field_name": "Keeper",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3c73fe64-83ed-11ed-84db-9cf387da2c40",
+            "arches_node_name": "Language",
+            "file_field_name": "Language",
             "data_type": "concept",
             "concept_export_value": "label",
             "export": true
@@ -399,6 +430,14 @@
             "export": true
         },
         {
+            "arches_nodeid": "d1dd7caa-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Product Stadium",
+            "file_field_name": "Product Stadium",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
             "arches_nodeid": "d1ddfc66-a5fe-11ec-b19f-9cf387da2c40",
             "arches_node_name": "Production Actor Note",
             "file_field_name": "Production Actor Note",
@@ -493,14 +532,6 @@
             "arches_nodeid": "d1dc68d8-a5fe-11ec-b19f-9cf387da2c40",
             "arches_node_name": "Production Technique Type",
             "file_field_name": "Production Technique Type",
-            "data_type": "concept",
-            "concept_export_value": "label",
-            "export": true
-        },
-        {
-            "arches_nodeid": "d1dd7caa-a5fe-11ec-b19f-9cf387da2c40",
-            "arches_node_name": "Product Stadium",
-            "file_field_name": "Product Stadium",
             "data_type": "concept",
             "concept_export_value": "label",
             "export": true
