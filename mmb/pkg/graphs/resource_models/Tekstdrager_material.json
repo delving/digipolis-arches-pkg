@@ -80,7 +80,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Objectnummer",
                     "nodegroup_id": "647435f2-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 1,
@@ -109,7 +109,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Items",
                     "nodegroup_id": "64744196-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 11,
@@ -247,7 +247,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Bewaarinstelling",
                     "nodegroup_id": "647493b2-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 5,
@@ -285,7 +285,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Identificatie",
                     "nodegroup_id": "6474b0fe-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 2,
@@ -323,7 +323,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Objecttype",
                     "nodegroup_id": "6474e2a4-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 0,
@@ -380,7 +380,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Afmeting",
                     "nodegroup_id": "64750270-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": null,
@@ -399,7 +399,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Afmetingen",
                     "nodegroup_id": "6475089c-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 17,
@@ -437,7 +437,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Afbeeldingen",
                     "nodegroup_id": "647513fa-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 10,
@@ -3302,12 +3302,12 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
-                    "id": "e410d240-83b7-11ed-a045-9cf387da2c40"
+                    "id": "0cf23785-864c-11ed-a9bd-960000f945b2"
                 }
             ],
             "graphid": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
             "iconclass": "fa fa-envelope",
-            "is_editable": false,
+            "is_editable": true,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
@@ -4377,7 +4377,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "7a5474f1-3181-48e7-a28b-53f4df334603"
+                        "rdmCollection": "feac7dee-9fba-44ce-9dbf-e6b8e313877b"
                     },
                     "datatype": "concept-list",
                     "description": "The role of the actor in the Production event",
@@ -6009,9 +6009,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.12 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "db": "PostgreSQL 13.3 (Debian 13.3-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit",
         "git hash": "fatal: not a git repository (or any of the parent directories): .git",
-        "os": "Darwin",
-        "os version": "19.5.0"
+        "os": "Linux",
+        "os version": "4.19.0-17-amd64"
     }
 }
