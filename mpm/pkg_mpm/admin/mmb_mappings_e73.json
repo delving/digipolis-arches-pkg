@@ -1,0 +1,114 @@
+{
+  "e73_Single": {
+    "node_mappings": [
+      {"from": "recordnr", "to": "Object Number",
+          "constants": {
+            "Object Number Type": "object identifier"}
+      },
+      {"from": "inventarisnr", "to": "Other Identifier",
+          "constants": {
+            "Other Identifier Type": "record identifiers"}
+      },
+      {"from": "beschrijving", "to": "Description",
+        "constants": {
+          "Description Type": "descriptive note",
+          "Description Language": "Nederlands"}
+      },
+      {"from": "aantekeningen", "to": "Annotation",
+        "constants": {
+            "Annotation Language": "Nederlands",
+            "Annotation Type": "remarks"}
+      },
+      {"from": "titel", "to": "Title",
+          "constants": {
+            "Title Type": "constructed titles"}
+        },
+      {"from": "taal_titel", "to": "Title Language",
+        "function": {
+          "name": "column_lookup",
+          "args": {"lookup_file": "taal_types.csv"}
+        }
+      }
+    ]
+  },
+  "e73_MaterialRecords": {
+      "node_mappings": [
+            {"from": "recordnr", "to": "Material Records"}
+      ]
+    },
+  "e73_ExternalRelations": {
+        "node_mappings": [
+            {"from": "gerelateerde objecten", "to": "External Relation",
+              "constants": {
+                "External Relation": "gerelateerde objecten",
+                "External Relation URL Type": "DAMS Archief"}
+            },
+            {"from": "externe relaties 2 [gerelateerde objecten]", "to": "External Relation",
+              "constants": {
+                "External Relation": "gerelateerde objecten",
+                "External Relation URL Type": "DAMS Archief"}
+            },
+            {"from": "externe relaties 3 [gerelateerde objecten]", "to": "External Relation",
+              "constants": {
+                "External Relation": "gerelateerde objecten",
+                "External Relation URL Type": "DAMS Archief"}
+            },
+            {"from": "externe relaties 4 [gerelateerde objecten]", "to": "External Relation",
+              "constants": {
+                "External Relation": "gerelateerde objecten",
+                "External Relation URL Type": "DAMS Archief"}
+            },
+            {"from": "externe relaties 5 [gerelateerde objecten]", "to": "External Relation",
+              "constants": {
+                "External Relation": "gerelateerde objecten",
+                "External Relation URL Type": "DAMS Archief"}
+            },
+            {"from": "externe relaties 6 [gerelateerde objecten]", "to": "External Relation",
+              "constants": {
+                "External Relation": "gerelateerde objecten",
+                "External Relation URL Type": "DAMS Archief"}
+            },
+            {"from": "externe relaties 7 [gerelateerde objecten]", "to": "External Relation",
+              "constants": {
+                "External Relation": "gerelateerde objecten",
+                "External Relation URL Type": "DAMS Archief"}
+            },
+            {"from": "externe relaties 8 [gerelateerde objecten]", "to": "External Relation",
+              "constants": {
+                "External Relation": "gerelateerde objecten",
+                "External Relation URL Type": "DAMS Archief"}
+            },
+            {"from": "externe relaties 9 [gerelateerde objecten]", "to": "External Relation",
+              "constants": {
+                "External Relation": "gerelateerde objecten",
+                "External Relation URL Type": "DAMS Archief"}
+            },
+            {"from": "externe relaties 10 [gerelateerde objecten]", "to": "External Relation",
+              "constants": {
+                "External Relation": "gerelateerde objecten",
+                "External Relation URL Type": "DAMS Archief"}
+            }
+        ]
+    },
+      "e73_Languages": {
+        "node_mappings": [
+          {"from": "taal 1", "to": "Language",
+          "function": {
+            "name": "column_lookup",
+              "args": {"lookup_file": "taal_types.csv"}
+        }
+      },
+      {"from": "taal 2", "to": "Language",
+        "function": {
+          "name": "column_lookup",
+          "args": {
+            "lookup_file": "taal_types.csv"}
+        }
+      }
+  ]
+}
+}
+
+
+
+

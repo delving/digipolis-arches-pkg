@@ -1,0 +1,137 @@
+{
+  "e22_Single": {
+    "node_mappings": [
+      {"from": "magazijnplaats begin", "to": "Warehouse Location (begin)"},
+      {"from": "magazijnplaats einde", "to": "Warehouse Location (end)"},
+      {"from": "magazijnplaats", "to": "Warehouse Location (begin)"},
+      {"from": "schrijfmateriaal", "to": "Material",
+        "function": {
+          "name": "column_lookup",
+          "args": {
+            "lookup_file": "materiaal_types.csv"
+          }
+        }
+      },
+      {"from": "status", "to": "Document status",
+        "function": {
+          "name": "column_lookup",
+          "args": {
+            "lookup_file": "documentstatus_types.csv"
+          }
+        }
+      },
+      {"from": "schrijft", "to": "Production Technique Type",
+        "function": {
+          "name": "column_lookup",
+          "args": {
+            "lookup_file": "technique_types.csv"
+          }
+        }
+      },
+      {"from": "basistechniek", "to": "Material",
+        "function":
+        {
+          "name": "column_lookup",
+          "args": {
+            "lookup_file": "materiaal_types.csv"
+          }
+        }
+      },
+      {
+        "from": "drager",
+        "to": "Carrier Type",
+        "function": {
+          "name": "column_lookup",
+          "args": {
+            "lookup_file": "drager_types.csv"
+          }
+        }
+      },
+      {
+        "from": "kleur",
+        "to": "Material Colour",
+        "function": {
+          "name": "column_lookup",
+          "args": {
+            "lookup_file": "kleur_types.csv"
+          }
+        }
+      },
+      {
+        "from": "type", "to": "Object Type",
+        "function": {
+          "name": "column_lookup",
+          "args": {
+            "lookup_file": "object_types.csv"
+          }
+        }
+      },
+      {"from": "gerelateerde objecten noot", "to": "Annotation",
+          "constants": {
+            "Annotation Type": "remarks",
+            "Annotation Language": "Nederlands"}
+        },
+      {"from": "inventarisnr", "to": "Other Identifier",
+          "constants": {
+            "Other Identifier Type": "record identifiers"}
+      }
+    ]
+  },
+  "e22_Dimensions": {
+    "node_mappings": [
+      {"from": "afmetingen", "to": "Dimension Value",
+        "type": "height_width",
+        "transform": "True",
+        "constants": {
+          "height": "hoogte",
+          "width": "breedte",
+          "unit": "millimeter"
+        }
+      }
+    ]
+  },
+  "e22_Images": {
+    "node_mappings": [
+      {
+        "from": "afbeelding", "to": "Image URL"
+      }
+    ]
+  },
+  "e22_Acquisitions": {
+    "node_mappings": [
+      {"from": "aanwinstlink", "to": "Acquisition Brocade ID"}
+    ]
+  },
+  "e22_Archives": {
+    "node_mappings": [
+      {"from": "archieflink", "to": "Archive Brocade ID"}
+    ]
+  },
+  "e22_ProductionTimeSpans": {
+       "node_mappings": [
+         {"from": "begindatum", "to": "Start Date"},
+         {"from": "einddatum", "to": "End Date"}
+       ]
+     },
+  "e22_ProductionActors": {
+        "node_mappings": [
+            {"from": "au:code actor 1", "to": "au_code"},
+            {"from": "naam actor 1", "to": "actor_name"},
+            {"from": "type relatie 1", "to": "Production Actor Role"},
+
+            {"from": "au:code actor 2", "to": "au_code"},
+            {"from": "naam actor 2", "to": "actor_name"},
+            {"from": "type relatie 2", "to": "Production Actor Role"},
+
+            {"from": "au:code actor 3", "to": "au_code"},
+            {"from": "naam actor 3", "to": "actor_name"},
+            {"from": "type relatie 3", "to": "Production Actor Role"}
+
+        ]
+    },
+  "e22_ProductionPlaces": {
+      "node_mappings": [
+            {"from": "plaats", "to": "au_code"}
+      ]
+    }
+}
