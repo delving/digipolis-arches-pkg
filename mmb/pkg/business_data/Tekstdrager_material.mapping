@@ -277,10 +277,10 @@
             "export": true
         },
         {
-            "arches_nodeid": "6475845c-ac0f-11ec-b19f-9cf387da2c40",
+            "arches_nodeid": "c2bb13ac-8764-11ed-9451-9cf387da2c40",
             "arches_node_name": "Image URL",
             "file_field_name": "Image URL",
-            "data_type": "url",
+            "data_type": "string",
             "export": true
         },
         {
@@ -430,6 +430,14 @@
             "export": true
         },
         {
+            "arches_nodeid": "64752976-ac0f-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Product Stadium",
+            "file_field_name": "Product Stadium",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
             "arches_nodeid": "64754cda-ac0f-11ec-b19f-9cf387da2c40",
             "arches_node_name": "Production Actor Note",
             "file_field_name": "Production Actor Note",
@@ -524,14 +532,6 @@
             "arches_nodeid": "64746ce8-ac0f-11ec-b19f-9cf387da2c40",
             "arches_node_name": "Production Technique Type",
             "file_field_name": "Production Technique Type",
-            "data_type": "concept",
-            "concept_export_value": "label",
-            "export": true
-        },
-        {
-            "arches_nodeid": "64752976-ac0f-11ec-b19f-9cf387da2c40",
-            "arches_node_name": "Product Stadium",
-            "file_field_name": "Product Stadium",
             "data_type": "concept",
             "concept_export_value": "label",
             "export": true
