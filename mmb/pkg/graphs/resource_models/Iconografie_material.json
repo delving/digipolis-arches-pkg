@@ -27,7 +27,7 @@
                     "name": "Talen",
                     "nodegroup_id": "15989b7e-83ed-11ed-84db-9cf387da2c40",
                     "sortorder": 14,
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "active": true,
@@ -173,7 +173,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Andere identificatiecodes",
                     "nodegroup_id": "864d14dc-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 3,
@@ -211,7 +211,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Objectnummer",
                     "nodegroup_id": "864d1e8c-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 1,
@@ -240,7 +240,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Items",
                     "nodegroup_id": "864d2346-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 11,
@@ -278,7 +278,7 @@
                     "helptext": "<p>Production Actors</p>\n\n<ul>\n\t<li>This card will use a widget to link place data from D-LoD. None of that data will be editable in the card.</li>\n\t<li>Production Actor ID will be removed in production migration.</li>\n\t<li>Production Actor Role can be added and editied in the card.</li>\n\t<li>The Production Actor Note can be added and edited in the card.</li>\n</ul>\n",
                     "helptitle": "Actor Card Note",
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Actoren",
                     "nodegroup_id": "864d2d50-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 0,
@@ -340,7 +340,7 @@
                     "helptext": "<p>Production Time Span</p>\n\n<ul>\n\t<li>All fields can be added and edited in the card.</li>\n</ul>\n",
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Datering",
                     "nodegroup_id": "864d448e-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 2,
@@ -359,7 +359,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Vervaardiging",
                     "nodegroup_id": "864d4ac4-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 6,
@@ -378,7 +378,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Bewaarinstelling",
                     "nodegroup_id": "864d5064-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 5,
@@ -389,7 +389,14 @@
                     "cardid": "864d5974-ac0f-11ec-b19f-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "864d5974-ac0f-11ec-b19f-9cf387da2c40",
+                            "constraintid": "c2191e58-7f49-422d-b418-6044f4da1a0f",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
@@ -401,7 +408,7 @@
                     "name": "Waarmerk",
                     "nodegroup_id": "864d55e6-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 20,
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "active": true,
@@ -416,7 +423,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Identificatie",
                     "nodegroup_id": "864d5b5e-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 2,
@@ -427,7 +434,14 @@
                     "cardid": "864d6bda-ac0f-11ec-b19f-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "864d6bda-ac0f-11ec-b19f-9cf387da2c40",
+                            "constraintid": "79229aad-dae0-4606-a990-c78d7918c566",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
@@ -439,14 +453,21 @@
                     "name": "Conditiebeoordeling",
                     "nodegroup_id": "864d6658-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 21,
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "active": true,
                     "cardid": "864d74e0-ac0f-11ec-b19f-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "864d74e0-ac0f-11ec-b19f-9cf387da2c40",
+                            "constraintid": "f635721d-b74d-4cb3-a2e4-c2f8b7e509cc",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
@@ -458,7 +479,7 @@
                     "name": "Objecttype",
                     "nodegroup_id": "864d6e3c-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 0,
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "active": true,
@@ -473,7 +494,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Materialen",
                     "nodegroup_id": "864d7698-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 15,
@@ -492,7 +513,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Dragers",
                     "nodegroup_id": "864d7bc0-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 16,
@@ -511,7 +532,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Afmeting",
                     "nodegroup_id": "864d80ac-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": null,
@@ -530,7 +551,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Afmetingen",
                     "nodegroup_id": "864d8aac-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 17,
@@ -549,7 +570,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Toelichtingen",
                     "nodegroup_id": "864d97f4-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 7,
@@ -575,7 +596,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Afbeeldingen",
                     "nodegroup_id": "864da802-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 10,
@@ -586,7 +607,14 @@
                     "cardid": "864dc300-ac0f-11ec-b19f-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "864dc300-ac0f-11ec-b19f-9cf387da2c40",
+                            "constraintid": "0d2e1acf-5bd4-4bae-ae12-0016023b7945",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
@@ -598,7 +626,7 @@
                     "name": "Paginering",
                     "nodegroup_id": "864dbf5e-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 18,
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "active": true,
@@ -624,7 +652,14 @@
                     "cardid": "864de2f4-ac0f-11ec-b19f-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "864de2f4-ac0f-11ec-b19f-9cf387da2c40",
+                            "constraintid": "58a92ece-6afc-46b7-a78e-0e653d8cc9b5",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
@@ -636,7 +671,7 @@
                     "name": "Productiestadium",
                     "nodegroup_id": "864dd4d0-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 12,
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "active": true,
@@ -700,7 +735,7 @@
                     "name": "Opschriften",
                     "nodegroup_id": "f8ba0d53-b03e-11ec-8495-960000cf02df",
                     "sortorder": 19,
-                    "visible": true
+                    "visible": false
                 }
             ],
             "cards_x_nodes_x_widgets": [
@@ -3311,12 +3346,12 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
-                    "id": "be0eaad0-8755-11ed-96d0-9cf387da2c40"
+                    "id": "75f743e6-890a-11ed-9acc-960000f945b2"
                 }
             ],
             "graphid": "864d0758-ac0f-11ec-b19f-9cf387da2c40",
             "iconclass": "fa fa-envelope",
-            "is_editable": true,
+            "is_editable": false,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
@@ -6018,9 +6053,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.12 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "db": "PostgreSQL 13.3 (Debian 13.3-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit",
         "git hash": "fatal: not a git repository (or any of the parent directories): .git",
-        "os": "Darwin",
-        "os version": "19.5.0"
+        "os": "Linux",
+        "os version": "4.19.0-17-amd64"
     }
 }
