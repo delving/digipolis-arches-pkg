@@ -147,24 +147,25 @@
             "export": true
         },
         {
-            "arches_nodeid": "908b39fc-83ea-11ed-84db-9cf387da2c40",
-            "arches_node_name": "Description",
-            "file_field_name": "Description",
-            "data_type": "string",
-            "export": true
-        },
-        {
-            "arches_nodeid": "908b3b3c-83ea-11ed-84db-9cf387da2c40",
-            "arches_node_name": "Description Language",
-            "file_field_name": "Description Language",
+            "arches_nodeid": "1bb0c7e6-a703-11ed-8ace-96a6d245525a",
+            "arches_node_name": "DAMS Manifest Type",
+            "file_field_name": "DAMS Manifest Type",
             "data_type": "concept",
             "concept_export_value": "label",
             "export": true
         },
         {
-            "arches_nodeid": "908b3c40-83ea-11ed-84db-9cf387da2c40",
-            "arches_node_name": "Description Type",
-            "file_field_name": "Description Type",
+            "arches_nodeid": "a0bde83e-a6c1-11ed-a9f8-96a6d245525a",
+            "arches_node_name": "DAMS Restriction Type",
+            "file_field_name": "DAMS Restriction Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "84e0b1aa-a6c1-11ed-a9f8-96a6d245525a",
+            "arches_node_name": "DAMS URL Type",
+            "file_field_name": "DAMS URL Type",
             "data_type": "concept",
             "concept_export_value": "label",
             "export": true
@@ -277,10 +278,17 @@
             "export": true
         },
         {
-            "arches_nodeid": "c2bb13ac-8764-11ed-9451-9cf387da2c40",
+            "arches_nodeid": "1bb0c638-a703-11ed-8ace-96a6d245525a",
+            "arches_node_name": "Image Manifest",
+            "file_field_name": "Image Manifest",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "84e0b06a-a6c1-11ed-a9f8-96a6d245525a",
             "arches_node_name": "Image URL",
             "file_field_name": "Image URL",
-            "data_type": "string",
+            "data_type": "url",
             "export": true
         },
         {
@@ -430,6 +438,14 @@
             "export": true
         },
         {
+            "arches_nodeid": "64752976-ac0f-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Product Stadium",
+            "file_field_name": "Product Stadium",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
             "arches_nodeid": "64754cda-ac0f-11ec-b19f-9cf387da2c40",
             "arches_node_name": "Production Actor Note",
             "file_field_name": "Production Actor Note",
@@ -529,14 +545,6 @@
             "export": true
         },
         {
-            "arches_nodeid": "64752976-ac0f-11ec-b19f-9cf387da2c40",
-            "arches_node_name": "Product Stadium",
-            "file_field_name": "Product Stadium",
-            "data_type": "concept",
-            "concept_export_value": "label",
-            "export": true
-        },
-        {
             "arches_nodeid": "64755950-ac0f-11ec-b19f-9cf387da2c40",
             "arches_node_name": "Restriction Revision Date",
             "file_field_name": "Restriction Revision Date",
@@ -544,7 +552,7 @@
             "export": true
         },
         {
-            "arches_nodeid": "647547bc-ac0f-11ec-b19f-9cf387da2c40",
+            "arches_nodeid": "a0bde6b8-a6c1-11ed-a9f8-96a6d245525a",
             "arches_node_name": "Restriction Type",
             "file_field_name": "Restriction Type",
             "data_type": "concept",

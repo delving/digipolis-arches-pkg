@@ -1,0 +1,284 @@
+{
+    "graph": [
+        {
+            "author": "",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "2f4f5358-a703-11ed-8ace-96a6d245525a",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": "",
+                    "graph_id": "2f4f518c-a703-11ed-8ace-96a6d245525a",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Image Manifest",
+                    "nodegroup_id": "2f4f5254-a703-11ed-8ace-96a6d245525a",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "2f4f5498-a703-11ed-8ace-96a6d245525a",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": "",
+                    "graph_id": "2f4f518c-a703-11ed-8ace-96a6d245525a",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Images",
+                    "nodegroup_id": "2f4f53ee-a703-11ed-8ace-96a6d245525a",
+                    "sortorder": 10,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "2f4f5498-a703-11ed-8ace-96a6d245525a",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "DAMS URL Type",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "2f4f5678-a703-11ed-8ace-96a6d245525a",
+                    "label": "DAMS URL Type",
+                    "node_id": "2f4f5524-a703-11ed-8ace-96a6d245525a",
+                    "sortorder": null,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "2f4f5498-a703-11ed-8ace-96a6d245525a",
+                    "config": {
+                        "label": "Image URL",
+                        "link_color": "#0055a0",
+                        "url_label_placeholder": "Enter URL Label... ",
+                        "url_placeholder": "Enter URL... "
+                    },
+                    "id": "2f4f56aa-a703-11ed-8ace-96a6d245525a",
+                    "label": "Image URL",
+                    "node_id": "2f4f55d8-a703-11ed-8ace-96a6d245525a",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "ca0c43ff-af73-4349-bafd-53ff9f22eebd"
+                }
+            ],
+            "color": null,
+            "config": {
+                "nodes": []
+            },
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": "",
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "2f4f53ee-a703-11ed-8ace-96a6d245525a",
+                    "edgeid": "2f4f59d4-a703-11ed-8ace-96a6d245525a",
+                    "graph_id": "2f4f518c-a703-11ed-8ace-96a6d245525a",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "2f4f55d8-a703-11ed-8ace-96a6d245525a"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "2f4f55d8-a703-11ed-8ace-96a6d245525a",
+                    "edgeid": "2f4f5a4c-a703-11ed-8ace-96a6d245525a",
+                    "graph_id": "2f4f518c-a703-11ed-8ace-96a6d245525a",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "2f4f5524-a703-11ed-8ace-96a6d245525a"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "2f4f5254-a703-11ed-8ace-96a6d245525a",
+                    "edgeid": "2f4f5ab0-a703-11ed-8ace-96a6d245525a",
+                    "graph_id": "2f4f518c-a703-11ed-8ace-96a6d245525a",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "2f4f563c-a703-11ed-8ace-96a6d245525a"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "2f4f53ee-a703-11ed-8ace-96a6d245525a",
+                    "edgeid": "2f4f5b0a-a703-11ed-8ace-96a6d245525a",
+                    "graph_id": "2f4f518c-a703-11ed-8ace-96a6d245525a",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "2f4f5254-a703-11ed-8ace-96a6d245525a"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "2f4f518c-a703-11ed-8ace-96a6d245525a",
+            "iconclass": "fa fa-envelope",
+            "is_editable": true,
+            "isactive": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": "Images",
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "2f4f5254-a703-11ed-8ace-96a6d245525a",
+                    "parentnodegroup_id": "2f4f53ee-a703-11ed-8ace-96a6d245525a"
+                },
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "2f4f53ee-a703-11ed-8ace-96a6d245525a",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": "image_manifest",
+                    "config": null,
+                    "datatype": "string",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "2f4f518c-a703-11ed-8ace-96a6d245525a",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Image Manifest",
+                    "nodegroup_id": "2f4f5254-a703-11ed-8ace-96a6d245525a",
+                    "nodeid": "2f4f5254-a703-11ed-8ace-96a6d245525a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "images",
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "2f4f518c-a703-11ed-8ace-96a6d245525a",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Images",
+                    "nodegroup_id": "2f4f53ee-a703-11ed-8ace-96a6d245525a",
+                    "nodeid": "2f4f53ee-a703-11ed-8ace-96a6d245525a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item",
+                    "parentproperty": "",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "dams_url_type",
+                    "config": {
+                        "rdmCollection": "aeb1f254-5819-4b79-b5f7-7ceb5293542c"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "2f4f518c-a703-11ed-8ace-96a6d245525a",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "DAMS URL Type",
+                    "nodegroup_id": "2f4f53ee-a703-11ed-8ace-96a6d245525a",
+                    "nodeid": "2f4f5524-a703-11ed-8ace-96a6d245525a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "image_url",
+                    "config": null,
+                    "datatype": "url",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "2f4f518c-a703-11ed-8ace-96a6d245525a",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Image URL",
+                    "nodegroup_id": "2f4f53ee-a703-11ed-8ace-96a6d245525a",
+                    "nodeid": "2f4f55d8-a703-11ed-8ace-96a6d245525a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "dams_manifest_type",
+                    "config": {
+                        "rdmCollection": "aeb1f254-5819-4b79-b5f7-7ceb5293542c"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "2f4f518c-a703-11ed-8ace-96a6d245525a",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "DAMS Manifest Type",
+                    "nodegroup_id": "2f4f5254-a703-11ed-8ace-96a6d245525a",
+                    "nodeid": "2f4f563c-a703-11ed-8ace-96a6d245525a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                }
+            ],
+            "ontology_id": "83a164f7-2ec1-48db-bdd8-b73779c339c9",
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "alias": "images",
+                "config": null,
+                "datatype": "semantic",
+                "description": "",
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "2f4f518c-a703-11ed-8ace-96a6d245525a",
+                "hascustomalias": false,
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Images",
+                "nodegroup_id": "2f4f53ee-a703-11ed-8ace-96a6d245525a",
+                "nodeid": "2f4f53ee-a703-11ed-8ace-96a6d245525a",
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item",
+                "sortorder": 0
+            },
+            "slug": null,
+            "subtitle": "",
+            "template_id": "50000000-0000-0000-0000-000000000003",
+            "version": ""
+        }
+    ],
+    "metadata": {
+        "db": "PostgreSQL 15.1 on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit",
+        "git hash": "fatal: not a git repository (or any of the parent directories): .git",
+        "os": "Darwin",
+        "os version": "22.3.0"
+    }
+}

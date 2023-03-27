@@ -147,24 +147,25 @@
             "export": true
         },
         {
-            "arches_nodeid": "efe3fd40-83e9-11ed-84db-9cf387da2c40",
-            "arches_node_name": "Description",
-            "file_field_name": "Description",
-            "data_type": "string",
-            "export": true
-        },
-        {
-            "arches_nodeid": "efe3fe4e-83e9-11ed-84db-9cf387da2c40",
-            "arches_node_name": "Description Language",
-            "file_field_name": "Description Language",
+            "arches_nodeid": "c97315ec-a702-11ed-8ace-96a6d245525a",
+            "arches_node_name": "DAMS Manifest Type",
+            "file_field_name": "DAMS Manifest Type",
             "data_type": "concept",
             "concept_export_value": "label",
             "export": true
         },
         {
-            "arches_nodeid": "efe3ff20-83e9-11ed-84db-9cf387da2c40",
-            "arches_node_name": "Description Type",
-            "file_field_name": "Description Type",
+            "arches_nodeid": "426289c8-a6be-11ed-a9f8-96a6d245525a",
+            "arches_node_name": "DAMS Restriction Type",
+            "file_field_name": "DAMS Restriction Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "50edb8bc-a6bb-11ed-a9f8-96a6d245525a",
+            "arches_node_name": "DAMS URL Type",
+            "file_field_name": "DAMS URL Type",
             "data_type": "concept",
             "concept_export_value": "label",
             "export": true
@@ -277,10 +278,17 @@
             "export": true
         },
         {
-            "arches_nodeid": "700c191c-8764-11ed-9451-9cf387da2c40",
+            "arches_nodeid": "c9731466-a702-11ed-8ace-96a6d245525a",
+            "arches_node_name": "Image Manifest",
+            "file_field_name": "Image Manifest",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "a4925e52-a6b9-11ed-a9f8-96a6d245525a",
             "arches_node_name": "Image URL",
             "file_field_name": "Image URL",
-            "data_type": "string",
+            "data_type": "url",
             "export": true
         },
         {
@@ -430,6 +438,14 @@
             "export": true
         },
         {
+            "arches_nodeid": "d1dd7caa-a5fe-11ec-b19f-9cf387da2c40",
+            "arches_node_name": "Product Stadium",
+            "file_field_name": "Product Stadium",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
             "arches_nodeid": "d1ddfc66-a5fe-11ec-b19f-9cf387da2c40",
             "arches_node_name": "Production Actor Note",
             "file_field_name": "Production Actor Note",
@@ -524,14 +540,6 @@
             "arches_nodeid": "d1dc68d8-a5fe-11ec-b19f-9cf387da2c40",
             "arches_node_name": "Production Technique Type",
             "file_field_name": "Production Technique Type",
-            "data_type": "concept",
-            "concept_export_value": "label",
-            "export": true
-        },
-        {
-            "arches_nodeid": "d1dd7caa-a5fe-11ec-b19f-9cf387da2c40",
-            "arches_node_name": "Product Stadium",
-            "file_field_name": "Product Stadium",
             "data_type": "concept",
             "concept_export_value": "label",
             "export": true

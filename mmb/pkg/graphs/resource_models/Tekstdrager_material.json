@@ -5,6 +5,25 @@
             "cards": [
                 {
                     "active": true,
+                    "cardid": "1bb0c746-a703-11ed-8ace-96a6d245525a",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": "",
+                    "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Image Manifest",
+                    "nodegroup_id": "1bb0c638-a703-11ed-8ace-96a6d245525a",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
                     "cardid": "5523bc08-83eb-11ed-84db-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -131,15 +150,15 @@
                     "cssclass": null,
                     "description": "",
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
-                    "helpenabled": false,
+                    "helpenabled": true,
                     "helptext": null,
-                    "helptitle": null,
+                    "helptitle": "Gebruiksbeperkingen",
                     "instructions": null,
                     "is_editable": true,
                     "name": "Gebruiksbeperkingen",
                     "nodegroup_id": "64744e66-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 22,
-                    "visible": false
+                    "visible": true
                 },
                 {
                     "active": true,
@@ -447,25 +466,6 @@
                 },
                 {
                     "active": true,
-                    "cardid": "647515ee-ac0f-11ec-b19f-9cf387da2c40",
-                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
-                    "config": null,
-                    "constraints": [],
-                    "cssclass": null,
-                    "description": "",
-                    "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
-                    "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": true,
-                    "name": "Afbeeldingen",
-                    "nodegroup_id": "647513fa-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 10,
-                    "visible": true
-                },
-                {
-                    "active": true,
                     "cardid": "6475211a-ac0f-11ec-b19f-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -575,6 +575,32 @@
                 },
                 {
                     "active": true,
+                    "cardid": "84e0afd4-a6c1-11ed-a9f8-96a6d245525a",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "84e0afd4-a6c1-11ed-a9f8-96a6d245525a",
+                            "constraintid": "7c11af0d-04f3-4d90-8327-e14124fdd7df",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": "",
+                    "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Afbeeldingen",
+                    "nodegroup_id": "84e0aeda-a6c1-11ed-a9f8-96a6d245525a",
+                    "sortorder": 10,
+                    "visible": true
+                },
+                {
+                    "active": true,
                     "cardid": "858cedea-b044-11ec-b19f-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -620,65 +646,10 @@
                 },
                 {
                     "active": true,
-                    "cardid": "908b37ea-83ea-11ed-84db-9cf387da2c40",
-                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
-                    "config": {
-                        "groupedCardIds": [
-                            "f8e6d1ca-bd1a-11eb-962e-9cf387da2c40",
-                            "1ea3f01a-bd1a-11eb-962e-9cf387da2c40"
-                        ],
-                        "sortedWidgetIds": [
-                            "ddc9fd40-cac1-11eb-99fe-00163e71351b",
-                            "ddc9fbce-cac1-11eb-99fe-00163e71351b",
-                            "ddc9fa20-cac1-11eb-99fe-00163e71351b",
-                            "ddc9fc8c-cac1-11eb-99fe-00163e71351b",
-                            "ddc9fb10-cac1-11eb-99fe-00163e71351b",
-                            "06f8c0c6-ce8b-11eb-8a0a-00163e71351b",
-                            "6ef2cb1e-ce8a-11eb-8a0a-00163e71351b",
-                            "b6241952-ce8a-11eb-84a8-00163e71351b",
-                            "b62415d8-ce8a-11eb-84a8-00163e71351b",
-                            "b6241470-ce8a-11eb-84a8-00163e71351b",
-                            "b6241830-ce8a-11eb-84a8-00163e71351b",
-                            "b624170e-ce8a-11eb-84a8-00163e71351b",
-                            "678f6a3a-ce8f-11eb-84a8-00163e71351b",
-                            "678f67ec-ce8f-11eb-84a8-00163e71351b",
-                            "678f66fc-ce8f-11eb-84a8-00163e71351b"
-                        ]
-                    },
-                    "constraints": [
-                        {
-                            "card_id": "908b37ea-83ea-11ed-84db-9cf387da2c40",
-                            "constraintid": "5a8aa746-b8e5-4ed0-a459-68946824a2ce",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
-                    "cssclass": null,
-                    "description": "",
-                    "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
-                    "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": true,
-                    "name": "Beschrijving",
-                    "nodegroup_id": "908b327c-83ea-11ed-84db-9cf387da2c40",
-                    "sortorder": 4,
-                    "visible": true
-                },
-                {
-                    "active": true,
-                    "cardid": "c2bb1618-8764-11ed-9451-9cf387da2c40",
+                    "cardid": "a0bde7a8-a6c1-11ed-a9f8-96a6d245525a",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "c2bb1618-8764-11ed-9451-9cf387da2c40",
-                            "constraintid": "45a44e66-d8cf-4f75-a7f9-59c326ac327e",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
@@ -687,8 +658,8 @@
                     "helptitle": null,
                     "instructions": null,
                     "is_editable": true,
-                    "name": "Image URL",
-                    "nodegroup_id": "c2bb13ac-8764-11ed-9451-9cf387da2c40",
+                    "name": "Restriction Type",
+                    "nodegroup_id": "a0bde6b8-a6c1-11ed-a9f8-96a6d245525a",
                     "sortorder": null,
                     "visible": true
                 },
@@ -759,6 +730,38 @@
             ],
             "cards_x_nodes_x_widgets": [
                 {
+                    "card_id": "647455d2-ac0f-11ec-b19f-9cf387da2c40",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Usage Restriction Note",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "2008830f-db60-4890-8753-3e3d58edf503",
+                    "label": "Usage Restriction Note",
+                    "node_id": "64755a04-ac0f-11ec-b19f-9cf387da2c40",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "647455d2-ac0f-11ec-b19f-9cf387da2c40",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Usage Restriction Note Language",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "3adbc618-ed8f-4cf8-a10b-8674bd0982cd",
+                    "label": "Usage Restriction Note Language",
+                    "node_id": "64755aae-ac0f-11ec-b19f-9cf387da2c40",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
                     "card_id": "5523bc08-83eb-11ed-84db-9cf387da2c40",
                     "config": {
                         "defaultValue": "",
@@ -821,1368 +824,63 @@
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
-                    "card_id": "6474b63a-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Permalink",
-                        "link_color": "blue",
-                        "maxLength": null,
-                        "placeholder": "Vul tekst in",
-                        "uneditable": true,
-                        "width": "100%"
-                    },
-                    "id": "6475870e-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Permalink",
-                    "node_id": "6475818c-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "a32c6aec-92f4-4580-8446-29f88659ae31"
-                },
-                {
-                    "card_id": "6474b63a-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "b3871a8f-8453-4e05-8fe2-cc3e77632a4b",
-                        "label": "Type",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64758740-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Type",
-                    "node_id": "64756846-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 1,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "64746842-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
-                        "label": "Opmerking type",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64758772-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Opmerking type",
-                    "node_id": "64755036-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 2,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "64746842-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "dlod_datatype": "agent",
-                        "label": "ID",
-                        "maxLength": "place",
-                        "placeholder": "https://hub3.digipolis.delving.io",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "647587a4-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "ID",
-                    "node_id": "64755220-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "37d48742-ccf0-470b-8b41-d799ad912c51"
-                },
-                {
-                    "card_id": "64746842-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Opmerking",
-                        "maxLength": null,
-                        "placeholder": "Vul tekst in",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "647587d6-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Opmerking",
-                    "node_id": "64754f82-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000005"
-                },
-                {
-                    "card_id": "64746842-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "048fca15-5c29-4911-ab5b-2b767b9b5fec",
-                        "label": "Opmerking taal",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64758808-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Opmerking taal",
-                    "node_id": "647550d6-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 3,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "64750a86-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "360cd1be-032b-4db0-a8d0-264226e6c93a",
-                        "label": "Meeteenheid",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "6475883a-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Meeteenheid",
-                    "node_id": "64756bb6-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 2,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "64750a86-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Type",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "6475886c-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Type",
-                    "node_id": "64755f4a-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "6475211a-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Meeteenheid",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64758966-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Meeteenheid",
-                    "node_id": "647540dc-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 2,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "6475211a-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Type",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "647589a2-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Type",
-                    "node_id": "64754014-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "6475211a-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Aantal",
-                        "maxLength": null,
-                        "placeholder": "Vul tekst in",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "647589d4-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Aantal",
-                    "node_id": "64753d6c-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "647526b0-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Documentstatus",
-                        "maxLength": null,
-                        "options": [],
-                        "placeholder": "Vul tekst in",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "64758a06-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Documentstatus",
-                    "node_id": "64752476-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "64743b6a-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Type",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64758a38-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Type",
-                    "node_id": "6475609e-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 1,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "64743b6a-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Objectnummer",
-                        "maxLength": null,
-                        "placeholder": "Vul tekst in",
-                        "uneditable": true,
-                        "width": "100%"
-                    },
-                    "id": "64758a6a-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Objectnummer",
-                    "node_id": "6475465e-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
                     "card_id": "647455d2-ac0f-11ec-b19f-9cf387da2c40",
                     "config": {
                         "defaultValue": "",
-                        "label": "Controledatum",
-                        "placeholder": ""
-                    },
-                    "id": "64758a9c-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Controledatum",
-                    "node_id": "64755950-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
-                },
-                {
-                    "card_id": "647455d2-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Type",
+                        "label": "Usage Restriction Note Type",
                         "options": [],
-                        "placeholder": "Maak een keuze"
+                        "placeholder": "Select an option"
                     },
-                    "id": "64758ace-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Type",
-                    "node_id": "647547bc-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "647455d2-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
-                        "label": "Opmerking type",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64758b00-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Opmerking type",
+                    "id": "6e57d95b-086c-45d0-bf74-7ed8475b4063",
+                    "label": "Usage Restriction Note Type",
                     "node_id": "64757a8e-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 3,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "84e0afd4-a6c1-11ed-a9f8-96a6d245525a",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "DAMS URL Type",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "9bed3b5a-67cf-4e13-b8f1-2103ece7ba26",
+                    "label": "DAMS URL Type",
+                    "node_id": "84e0b1aa-a6c1-11ed-a9f8-96a6d245525a",
+                    "sortorder": null,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
                     "card_id": "647455d2-ac0f-11ec-b19f-9cf387da2c40",
                     "config": {
-                        "defaultValue": "048fca15-5c29-4911-ab5b-2b767b9b5fec",
-                        "label": "Opmerking taal",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64758b32-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Opmerking taal",
-                    "node_id": "64755aae-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 4,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "647455d2-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
                         "defaultValue": "",
-                        "label": "Opmerking",
-                        "maxLength": null,
-                        "placeholder": "Vul tekst in",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "64758b64-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Opmerking",
-                    "node_id": "64755a04-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 2,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000005"
-                },
-                {
-                    "card_id": "6474303e-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "dlod_datatype": "agent",
-                        "label": "ID",
-                        "maxLength": "archive",
-                        "placeholder": "https://hub3.digipolis.delving.io",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "64758b96-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "ID",
-                    "node_id": "647548ac-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "37d48742-ccf0-470b-8b41-d799ad912c51"
-                },
-                {
-                    "card_id": "64751148-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "048fca15-5c29-4911-ab5b-2b767b9b5fec",
-                        "label": "Taal",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64758bc8-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Taal",
-                    "node_id": "647565d0-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 3,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "64751148-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
-                        "label": "Type",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64758bfa-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Type",
-                    "node_id": "647580ce-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 1,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "64751148-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Toelichting",
-                        "maxLength": null,
-                        "placeholder": "Vul tekst in",
-                        "width": "100%"
-                    },
-                    "id": "64758c2c-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Toelichting",
-                    "node_id": "64755ff4-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000005"
-                },
-                {
-                    "card_id": "64740b90-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Andere identificatiecode",
-                        "link_color": "blue",
-                        "maxLength": null,
-                        "placeholder": "Vul tekst in",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "64758c5e-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Andere identificatiecode",
-                    "node_id": "647571ec-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "64740b90-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Type",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64758c9a-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Type",
-                    "node_id": "647574ee-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "6474ef4c-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Materiaal",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64758ccc-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Materiaal",
-                    "node_id": "64756152-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "6474ef4c-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Kleur",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64758cfe-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Kleur",
-                    "node_id": "647562a6-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "6474ef4c-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Materiaal",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64758d30-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Materiaal",
-                    "node_id": "6474eaba-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "6474fb7c-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Materiaal",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64758d62-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Materiaal",
-                    "node_id": "64756526-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "6474fb7c-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Kleur",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64758d94-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Kleur",
-                    "node_id": "64756454-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 2,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
-                },
-                {
-                    "card_id": "6474fb7c-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Onderdeel van het object",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64758dc6-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Onderdeel van het object",
-                    "node_id": "64757430-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "64752c82-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Productiestadium",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64758df8-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Productiestadium",
-                    "node_id": "64752976-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "6474ab22-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Type",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64758e2a-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Type",
-                    "node_id": "6474a186-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "647448ee-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Magazijnplaats opmerking",
-                        "maxLength": null,
-                        "placeholder": "Vul tekst in",
-                        "width": "100%"
-                    },
-                    "id": "64758e5c-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Magazijnplaats opmerking",
-                    "node_id": "64757700-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 14,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000005"
-                },
-                {
-                    "card_id": "647448ee-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Volgnummer",
-                        "maxLength": null,
-                        "placeholder": "Vul tekst in",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "64758e8e-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Volgnummer",
-                    "node_id": "64754712-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "647448ee-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Plaatsingsnummer",
-                        "maxLength": null,
-                        "placeholder": "Vul tekst in",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "64758ec0-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Plaatsingsnummer",
-                    "node_id": "64755b58-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "647448ee-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Magazijnplaats (begin)",
-                        "maxLength": null,
-                        "placeholder": "Vul tekst in",
-                        "uneditable": null,
-                        "width": "100%"
-                    },
-                    "id": "64758ef2-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Magazijnplaats (begin)",
-                    "node_id": "647566b6-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "647448ee-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Magazijnplaatse",
-                        "maxLength": null,
-                        "placeholder": "Vul tekst in",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "64758f2e-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Magazijnplaatse",
-                    "node_id": "64757f70-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "647448ee-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Magazijnplaats (einde)",
-                        "maxLength": null,
-                        "placeholder": "Vul tekst in",
-                        "uneditable": null,
-                        "width": "100%"
-                    },
-                    "id": "64758f56-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Magazijnplaats (einde)",
-                    "node_id": "6475801a-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "647448ee-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
-                        "label": "Magazijnplaats opmerking type",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64758f88-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Magazijnplaats opmerking type",
-                    "node_id": "64757656-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 15,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "647448ee-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "048fca15-5c29-4911-ab5b-2b767b9b5fec",
-                        "label": "Magazijnplaats opmerking taal",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64758fba-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Magazijnplaats opmerking taal",
-                    "node_id": "64756fbc-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 17,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "647448ee-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "ae0ad600-9b1b-460e-b2c0-878923bf0457",
-                        "label": "Magazijnplaats type",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64758fec-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Magazijnplaats type",
-                    "node_id": "647575a2-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 2,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "6474df52-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
-                        "label": "Opmerking type",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "6475901e-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Opmerking type",
-                    "node_id": "64758240-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 6,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "6474df52-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Einddatum conditiebeoordeling",
+                        "label": "Restriction Revision Date",
                         "placeholder": ""
                     },
-                    "id": "64759050-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Einddatum conditiebeoordeling",
-                    "node_id": "64757bf6-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 11,
-                    "visible": true,
-                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
-                },
-                {
-                    "card_id": "6474df52-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Material condition",
-                        "maxLength": null,
-                        "options": [],
-                        "placeholder": "Vul tekst in",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "647590f0-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Material condition",
-                    "node_id": "6474d7a0-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 2,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "6474df52-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Beoordelingsdatum kwalificatie",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64759122-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Beoordelingsdatum kwalificatie",
-                    "node_id": "647577b4-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 13,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "6474df52-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Materi\u00eble toestand",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "6475914a-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Materi\u00eble toestand",
-                    "node_id": "64757110-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 2,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "6474df52-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Opmerking",
-                        "maxLength": null,
-                        "placeholder": "Vul tekst in",
-                        "width": "100%"
-                    },
-                    "id": "6475917c-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Opmerking",
-                    "node_id": "647568f0-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 5,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000005"
-                },
-                {
-                    "card_id": "6474df52-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Onderdeel van het object",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64759276-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Onderdeel van het object",
-                    "node_id": "6475699a-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "6474df52-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Beoordelaar",
-                        "maxLength": null,
-                        "placeholder": "Vul tekst in",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "6475935c-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Beoordelaar",
-                    "node_id": "64754230-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 4,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "6474df52-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "048fca15-5c29-4911-ab5b-2b767b9b5fec",
-                        "label": "Opmerking taal",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "647593d4-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Opmerking taal",
-                    "node_id": "64756a8a-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 8,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "6474df52-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Begindatum conditiebeoordeling",
-                        "placeholder": ""
-                    },
-                    "id": "6475942e-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Begindatum conditiebeoordeling",
-                    "node_id": "647572b4-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 10,
-                    "visible": true,
-                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
-                },
-                {
-                    "card_id": "6474e826-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Type",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "6475947e-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Type",
-                    "node_id": "6474e2a4-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
-                },
-                {
-                    "card_id": "64747238-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Techniek",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "647594e2-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Techniek",
-                    "node_id": "64746ce8-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "64747f58-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Einddatum opmerking",
-                        "maxLength": null,
-                        "placeholder": "Vul tekst in",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "6475953c-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Einddatum opmerking",
-                    "node_id": "647554c8-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 9,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000005"
-                },
-                {
-                    "card_id": "64747f58-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Begindatum",
-                        "placeholder": ""
-                    },
-                    "id": "64759596-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Begindatum",
-                    "node_id": "64754a1e-ac0f-11ec-b19f-9cf387da2c40",
+                    "id": "e5beda2d-fa86-49f7-adc2-904971961190",
+                    "label": "Restriction Revision Date",
+                    "node_id": "64755950-ac0f-11ec-b19f-9cf387da2c40",
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
                 },
                 {
-                    "card_id": "64747f58-ac0f-11ec-b19f-9cf387da2c40",
+                    "card_id": "84e0afd4-a6c1-11ed-a9f8-96a6d245525a",
                     "config": {
-                        "defaultValue": "",
-                        "label": "Einddatum",
-                        "placeholder": ""
+                        "label": "Image URL",
+                        "link_color": "#0055a0",
+                        "url_label_placeholder": "Enter URL Label... ",
+                        "url_placeholder": "Enter URL... "
                     },
-                    "id": "647595c8-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Einddatum",
-                    "node_id": "64755806-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 7,
-                    "visible": true,
-                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
-                },
-                {
-                    "card_id": "64747f58-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Einddatum kwalificatie",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "647595fa-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Einddatum kwalificatie",
-                    "node_id": "64754ac8-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 8,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "64747f58-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Begindatum opmerking",
-                        "maxLength": null,
-                        "placeholder": "Vul tekst in",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "6475962c-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Begindatum opmerking",
-                    "node_id": "64755766-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 2,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000005"
-                },
-                {
-                    "card_id": "64747f58-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "048fca15-5c29-4911-ab5b-2b767b9b5fec",
-                        "label": "Begindatum opmerking taal",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "6475965e-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Begindatum opmerking taal",
-                    "node_id": "647558b0-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 5,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "64747f58-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "048fca15-5c29-4911-ab5b-2b767b9b5fec",
-                        "label": "Einddatum opmerking taal",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64759690-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Einddatum opmerking taal",
-                    "node_id": "64755612-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 12,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "64747f58-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
-                        "label": "Einddatum opmerking type",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "647596e0-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Einddatum opmerking type",
-                    "node_id": "64755572-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 10,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "64747f58-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Begindatum kwalificatie",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64759730-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Begindatum kwalificatie",
-                    "node_id": "647556bc-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "64747f58-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
-                        "label": "Begindatum opmerking type",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64759780-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Begindatum opmerking type",
-                    "node_id": "64754974-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 3,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "64746360-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Opmerking",
-                        "maxLength": null,
-                        "placeholder": "Vul tekst in",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "647597d0-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Opmerking",
-                    "node_id": "64754cda-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 3,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000005"
-                },
-                {
-                    "card_id": "64746360-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "dlod_datatype": "agent",
-                        "label": "ID",
-                        "maxLength": "agent",
-                        "placeholder": "https://hub3.digipolis.delving.io",
-                        "uneditable": true,
-                        "width": "100%"
-                    },
-                    "id": "6475982a-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "ID",
-                    "node_id": "64754c30-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "37d48742-ccf0-470b-8b41-d799ad912c51"
-                },
-                {
-                    "card_id": "64746360-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Rol",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "6475987a-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Rol",
-                    "node_id": "64754e24-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
-                },
-                {
-                    "card_id": "64746360-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
-                        "label": "Opmerking type",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "647598d4-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Opmerking type",
-                    "node_id": "64754ece-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 4,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "64746360-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "048fca15-5c29-4911-ab5b-2b767b9b5fec",
-                        "label": "Opmerking taal",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "6475992e-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Opmerking taal",
-                    "node_id": "64754b72-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 5,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "64753254-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
-                        "label": "Type",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64759992-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Type",
-                    "node_id": "647552d4-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 1,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "64753254-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Opmerking",
-                        "maxLength": null,
-                        "placeholder": "Vul tekst in",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "64759ac8-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Opmerking",
-                    "node_id": "6475537e-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000005"
-                },
-                {
-                    "card_id": "64753254-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "048fca15-5c29-4911-ab5b-2b767b9b5fec",
-                        "label": "Taal",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64759b68-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Taal",
-                    "node_id": "6475541e-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 3,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "64749e2a-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Naam",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "64759bc2-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Naam",
-                    "node_id": "64753f2e-ac0f-11ec-b19f-9cf387da2c40",
+                    "id": "e78a98b8-7dfc-4d73-9785-0eb5b1b75502",
+                    "label": "Image URL",
+                    "node_id": "84e0b06a-a6c1-11ed-a9f8-96a6d245525a",
                     "sortorder": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "858cedea-b044-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
-                        "label": "Opmerking type",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "858cf70e-b044-11ec-b19f-9cf387da2c40",
-                    "label": "Opmerking type",
-                    "node_id": "858cf1b4-b044-11ec-b19f-9cf387da2c40",
-                    "sortorder": 5,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "858cedea-b044-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "048fca15-5c29-4911-ab5b-2b767b9b5fec",
-                        "label": "Opmerking taal",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "858cf75e-b044-11ec-b19f-9cf387da2c40",
-                    "label": "Opmerking taal",
-                    "node_id": "858cf402-b044-11ec-b19f-9cf387da2c40",
-                    "sortorder": 6,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "858cedea-b044-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Taal",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "858cf790-b044-11ec-b19f-9cf387da2c40",
-                    "label": "Taal",
-                    "node_id": "858cf4b6-b044-11ec-b19f-9cf387da2c40",
-                    "sortorder": 3,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "858cedea-b044-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Tekst",
-                        "maxLength": null,
-                        "placeholder": "Vul tekst in",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "858cf7c2-b044-11ec-b19f-9cf387da2c40",
-                    "label": "Tekst",
-                    "node_id": "858cf556-b044-11ec-b19f-9cf387da2c40",
-                    "sortorder": 2,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000005"
-                },
-                {
-                    "card_id": "858cedea-b044-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Positie",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "858cf7ea-b044-11ec-b19f-9cf387da2c40",
-                    "label": "Positie",
-                    "node_id": "858cf600-b044-11ec-b19f-9cf387da2c40",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "858cedea-b044-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Type",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "858cf81c-b044-11ec-b19f-9cf387da2c40",
-                    "label": "Type",
-                    "node_id": "858cf6aa-b044-11ec-b19f-9cf387da2c40",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "858cedea-b044-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Opmerking",
-                        "maxLength": null,
-                        "placeholder": "Vul tekst in",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "858cf844-b044-11ec-b19f-9cf387da2c40",
-                    "label": "Opmerking",
-                    "node_id": "858cf362-b044-11ec-b19f-9cf387da2c40",
-                    "sortorder": 4,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000005"
-                },
-                {
-                    "card_id": "908b37ea-83ea-11ed-84db-9cf387da2c40",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Beschrijving",
-                        "maxLength": null,
-                        "placeholder": "Vul tekst in",
-                        "width": "100%"
-                    },
-                    "id": "908b3ccc-83ea-11ed-84db-9cf387da2c40",
-                    "label": "Beschrijving",
-                    "node_id": "908b39fc-83ea-11ed-84db-9cf387da2c40",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000005"
-                },
-                {
-                    "card_id": "908b37ea-83ea-11ed-84db-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "4e5a2929-1d4d-44d0-aa7f-52ad2ea64054",
-                        "label": "Type",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "908b3d1c-83ea-11ed-84db-9cf387da2c40",
-                    "label": "Type",
-                    "node_id": "908b3c40-83ea-11ed-84db-9cf387da2c40",
-                    "sortorder": 2,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "908b37ea-83ea-11ed-84db-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "2af5e05a-ea73-4272-9fea-c827792a41a0",
-                        "label": "Taal",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "908b3d4e-83ea-11ed-84db-9cf387da2c40",
-                    "label": "Taal",
-                    "node_id": "908b3b3c-83ea-11ed-84db-9cf387da2c40",
-                    "sortorder": 3,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "c4d25120-b6fc-11ec-b41d-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "dlod_datatype": "agent",
-                        "label": "ID",
-                        "maxLength": "accessions",
-                        "placeholder": "https://hub3.digipolis.delving.io",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "c4d25922-b6fc-11ec-b41d-9cf387da2c40",
-                    "label": "ID",
-                    "node_id": "c4d25828-b6fc-11ec-b41d-9cf387da2c40",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "37d48742-ccf0-470b-8b41-d799ad912c51"
-                },
-                {
-                    "card_id": "c4d25422-b6fc-11ec-b41d-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "b6fad5a7-6082-46bd-b692-3c70190f2101",
-                        "label": "Inschrijvingsnummer type",
-                        "options": [],
-                        "placeholder": "Maak een keuze"
-                    },
-                    "id": "c4d25968-b6fc-11ec-b41d-9cf387da2c40",
-                    "label": "Inschrijvingsnummer type",
-                    "node_id": "c4d258c8-b6fc-11ec-b41d-9cf387da2c40",
-                    "sortorder": 0,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "c4d25422-b6fc-11ec-b41d-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Inschrijvingsnummer",
-                        "maxLength": null,
-                        "placeholder": "Vul tekst in",
-                        "uneditable": true,
-                        "width": "100%"
-                    },
-                    "id": "c4d25990-b6fc-11ec-b41d-9cf387da2c40",
-                    "label": "Inschrijvingsnummer",
-                    "node_id": "c4d25756-b6fc-11ec-b41d-9cf387da2c40",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "c2bb1618-8764-11ed-9451-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Afbeelding URL",
-                        "maxLength": null,
-                        "placeholder": "Vul tekst in",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "d2f0a8ae-8764-11ed-9451-9cf387da2c40",
-                    "label": "Afbeelding URL",
-                    "node_id": "c2bb13ac-8764-11ed-9451-9cf387da2c40",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                    "widget_id": "ca0c43ff-af73-4349-bafd-53ff9f22eebd"
                 }
             ],
             "color": null,
@@ -2193,6 +891,24 @@
             "deploymentfile": null,
             "description": "Keyword added\nArtistic, Visual and Textual Content merged into Immaterial Content\n\n13 Jan: Deleted archive and acquisition notes in Items",
             "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "1bb0c638-a703-11ed-8ace-96a6d245525a",
+                    "edgeid": "1bb0c958-a703-11ed-8ace-96a6d245525a",
+                    "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "1bb0c7e6-a703-11ed-8ace-96a6d245525a"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "64754190-ac0f-11ec-b19f-9cf387da2c40",
+                    "edgeid": "544109f7-c1ec-4383-9ad7-e76c7a7417fa",
+                    "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation",
+                    "rangenode_id": "84e0aeda-a6c1-11ed-a9f8-96a6d245525a"
+                },
                 {
                     "description": null,
                     "domainnode_id": "5523b9ba-83eb-11ed-84db-9cf387da2c40",
@@ -2354,15 +1070,6 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
                     "rangenode_id": "64750e32-ac0f-11ec-b19f-9cf387da2c40"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "64744e66-ac0f-11ec-b19f-9cf387da2c40",
-                    "edgeid": "647fa8ce-ac0f-11ec-b19f-9cf387da2c40",
-                    "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "rangenode_id": "647547bc-ac0f-11ec-b19f-9cf387da2c40"
                 },
                 {
                     "description": null,
@@ -2970,15 +1677,6 @@
                 {
                     "description": null,
                     "domainnode_id": "64754190-ac0f-11ec-b19f-9cf387da2c40",
-                    "edgeid": "647fc692-ac0f-11ec-b19f-9cf387da2c40",
-                    "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation",
-                    "rangenode_id": "647513fa-ac0f-11ec-b19f-9cf387da2c40"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "64754190-ac0f-11ec-b19f-9cf387da2c40",
                     "edgeid": "647fc6ec-ac0f-11ec-b19f-9cf387da2c40",
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
                     "name": null,
@@ -3158,6 +1856,33 @@
                 },
                 {
                     "description": null,
+                    "domainnode_id": "84e0aeda-a6c1-11ed-a9f8-96a6d245525a",
+                    "edgeid": "8257153d-ef3f-486e-b36a-79e0cdbe490c",
+                    "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "1bb0c638-a703-11ed-8ace-96a6d245525a"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "84e0aeda-a6c1-11ed-a9f8-96a6d245525a",
+                    "edgeid": "84e0b54c-a6c1-11ed-a9f8-96a6d245525a",
+                    "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "84e0b06a-a6c1-11ed-a9f8-96a6d245525a"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "84e0b06a-a6c1-11ed-a9f8-96a6d245525a",
+                    "edgeid": "84e0b5ba-a6c1-11ed-a9f8-96a6d245525a",
+                    "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "84e0b1aa-a6c1-11ed-a9f8-96a6d245525a"
+                },
+                {
+                    "description": null,
                     "domainnode_id": "858cf2a4-b044-11ec-b19f-9cf387da2c40",
                     "edgeid": "858d06b8-b044-11ec-b19f-9cf387da2c40",
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
@@ -3248,48 +1973,12 @@
                 },
                 {
                     "description": null,
-                    "domainnode_id": "908b327c-83ea-11ed-84db-9cf387da2c40",
-                    "edgeid": "908b41f4-83ea-11ed-84db-9cf387da2c40",
-                    "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
-                    "rangenode_id": "908b39fc-83ea-11ed-84db-9cf387da2c40"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "908b327c-83ea-11ed-84db-9cf387da2c40",
-                    "edgeid": "908b429e-83ea-11ed-84db-9cf387da2c40",
-                    "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P72_has_language",
-                    "rangenode_id": "908b3b3c-83ea-11ed-84db-9cf387da2c40"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "908b327c-83ea-11ed-84db-9cf387da2c40",
-                    "edgeid": "908b430c-83ea-11ed-84db-9cf387da2c40",
+                    "domainnode_id": "a0bde6b8-a6c1-11ed-a9f8-96a6d245525a",
+                    "edgeid": "a0bdea1e-a6c1-11ed-a9f8-96a6d245525a",
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "rangenode_id": "908b3c40-83ea-11ed-84db-9cf387da2c40"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "64754190-ac0f-11ec-b19f-9cf387da2c40",
-                    "edgeid": "908b4438-83ea-11ed-84db-9cf387da2c40",
-                    "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
-                    "rangenode_id": "908b327c-83ea-11ed-84db-9cf387da2c40"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "647513fa-ac0f-11ec-b19f-9cf387da2c40",
-                    "edgeid": "c2bb18ac-8764-11ed-9451-9cf387da2c40",
-                    "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "rangenode_id": "c2bb13ac-8764-11ed-9451-9cf387da2c40"
+                    "rangenode_id": "a0bde83e-a6c1-11ed-a9f8-96a6d245525a"
                 },
                 {
                     "description": null,
@@ -3344,6 +2033,15 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P12i_was_present_at",
                     "rangenode_id": "c4d25526-b6fc-11ec-b41d-9cf387da2c40"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "64744e66-ac0f-11ec-b19f-9cf387da2c40",
+                    "edgeid": "c5d9401e-ed56-466c-a8e8-d1212af2d653",
+                    "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "a0bde6b8-a6c1-11ed-a9f8-96a6d245525a"
                 }
             ],
             "functions_x_graphs": [
@@ -3352,6 +2050,20 @@
                         "description": {
                             "nodegroup_id": "f80fd43e-5420-11ec-8d2a-9cf387da2c40",
                             "string_template": "<Description>"
+                        },
+                        "descriptor_types": {
+                            "description": {
+                                "nodegroup_id": "",
+                                "string_template": ""
+                            },
+                            "map_popup": {
+                                "nodegroup_id": "",
+                                "string_template": ""
+                            },
+                            "name": {
+                                "nodegroup_id": "647435f2-ac0f-11ec-b19f-9cf387da2c40",
+                                "string_template": "<Object Number>"
+                            }
                         },
                         "map_popup": {
                             "nodegroup_id": "",
@@ -3365,7 +2077,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
-                    "id": "e4efeb42-97ec-11ed-9c37-960000f945b3"
+                    "id": "634618d7-0e37-4391-9efc-0e0e0e14e75c"
                 }
             ],
             "graphid": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
@@ -3376,6 +2088,12 @@
             "jsonldcontext": null,
             "name": "Tekstdrager_material",
             "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "1bb0c638-a703-11ed-8ace-96a6d245525a",
+                    "parentnodegroup_id": "84e0aeda-a6c1-11ed-a9f8-96a6d245525a"
+                },
                 {
                     "cardinality": "n",
                     "legacygroupid": null,
@@ -3503,12 +2221,6 @@
                     "parentnodegroup_id": null
                 },
                 {
-                    "cardinality": "n",
-                    "legacygroupid": null,
-                    "nodegroupid": "647513fa-ac0f-11ec-b19f-9cf387da2c40",
-                    "parentnodegroup_id": null
-                },
-                {
                     "cardinality": "1",
                     "legacygroupid": null,
                     "nodegroupid": "64751ed6-ac0f-11ec-b19f-9cf387da2c40",
@@ -3541,6 +2253,12 @@
                 {
                     "cardinality": "n",
                     "legacygroupid": null,
+                    "nodegroupid": "84e0aeda-a6c1-11ed-a9f8-96a6d245525a",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
                     "nodegroupid": "858ceab6-b044-11ec-b19f-9cf387da2c40",
                     "parentnodegroup_id": "858cef48-b044-11ec-b19f-9cf387da2c40"
                 },
@@ -3551,16 +2269,10 @@
                     "parentnodegroup_id": null
                 },
                 {
-                    "cardinality": "n",
-                    "legacygroupid": null,
-                    "nodegroupid": "908b327c-83ea-11ed-84db-9cf387da2c40",
-                    "parentnodegroup_id": null
-                },
-                {
                     "cardinality": "1",
                     "legacygroupid": null,
-                    "nodegroupid": "c2bb13ac-8764-11ed-9451-9cf387da2c40",
-                    "parentnodegroup_id": "647513fa-ac0f-11ec-b19f-9cf387da2c40"
+                    "nodegroupid": "a0bde6b8-a6c1-11ed-a9f8-96a6d245525a",
+                    "parentnodegroup_id": "64744e66-ac0f-11ec-b19f-9cf387da2c40"
                 },
                 {
                     "cardinality": "n",
@@ -3583,12 +2295,56 @@
             ],
             "nodes": [
                 {
+                    "alias": "image_manifest",
+                    "config": null,
+                    "datatype": "string",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Image Manifest",
+                    "nodegroup_id": "1bb0c638-a703-11ed-8ace-96a6d245525a",
+                    "nodeid": "1bb0c638-a703-11ed-8ace-96a6d245525a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "dams_manifest_type",
+                    "config": {
+                        "rdmCollection": "aeb1f254-5819-4b79-b5f7-7ceb5293542c"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "DAMS Manifest Type",
+                    "nodegroup_id": "1bb0c638-a703-11ed-8ace-96a6d245525a",
+                    "nodeid": "1bb0c7e6-a703-11ed-8ace-96a6d245525a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "languages",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -3601,6 +2357,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "language",
                     "config": {
                         "rdmCollection": "a6e772a9-ab2e-40b7-aee6-86f58f3a86a8"
                     },
@@ -3609,6 +2366,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -3621,12 +2379,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "other_identifiers",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -3639,12 +2399,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "archives",
                     "config": null,
                     "datatype": "semantic",
                     "description": "adm.isadPartOf",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -3657,12 +2419,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "object_numbers",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -3675,12 +2439,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "items",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -3693,12 +2459,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "usage_restrictions",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -3711,12 +2479,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "production_actor",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -3729,12 +2499,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "production_place",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -3747,6 +2519,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "production_technique_type",
                     "config": {
                         "rdmCollection": "e374d104-3b25-4320-90fb-cff058d97fe5"
                     },
@@ -3755,6 +2528,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -3767,12 +2541,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "production_time_span",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -3785,12 +2561,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "production",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -3803,12 +2581,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "keepers",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -3821,6 +2601,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "hallmark_type",
                     "config": {
                         "rdmCollection": "636b9247-b633-480b-a81c-536aacf6d1f6"
                     },
@@ -3829,6 +2610,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -3841,12 +2623,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "object_identifiers",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -3859,12 +2643,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "condition_assessment",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -3877,6 +2663,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "object_type",
                     "config": {
                         "rdmCollection": "1a62be5e-108e-4c26-8ff3-3639c91a2a6e"
                     },
@@ -3885,6 +2672,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -3897,12 +2685,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "materials",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -3915,12 +2705,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "carrier",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -3933,12 +2725,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "dimension",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -3951,12 +2745,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "dimensions",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -3969,12 +2765,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "annotations",
                     "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -3987,30 +2785,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": "",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Images",
-                    "nodegroup_id": "647513fa-ac0f-11ec-b19f-9cf387da2c40",
-                    "nodeid": "647513fa-ac0f-11ec-b19f-9cf387da2c40",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation",
-                    "sortorder": 0
-                },
-                {
+                    "alias": "formats",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -4023,6 +2805,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "document_status",
                     "config": {
                         "rdmCollection": "c0927117-db11-418f-9af3-89a577754e80"
                     },
@@ -4031,6 +2814,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -4043,6 +2827,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "product_stadium",
                     "config": {
                         "rdmCollection": "422b4a1d-04f4-41a1-b822-5387deb1430e"
                     },
@@ -4051,6 +2836,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -4063,12 +2849,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "production_technique_notes",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -4081,12 +2869,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "dimension_source_note",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -4099,12 +2889,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "format_number",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4117,6 +2909,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "keeper",
                     "config": {
                         "rdmCollection": "2f33fa6d-be7e-4e93-8fd8-72100f4472ee"
                     },
@@ -4125,6 +2918,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4137,6 +2931,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "format_number_type",
                     "config": {
                         "rdmCollection": "d494b970-dc9b-490d-8939-1bd5f314a3ad"
                     },
@@ -4145,6 +2940,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4157,6 +2953,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "format_unit_type",
                     "config": {
                         "rdmCollection": "baaf2e15-1b23-4b0e-bb79-09b537bf0baa"
                     },
@@ -4165,6 +2962,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4177,12 +2975,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "tekstdrager_material",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4195,12 +2995,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "assessor",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4213,12 +3015,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "restriction_status_revision",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4231,12 +3035,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "object_number",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4249,12 +3055,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "volgnummer",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4267,32 +3075,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": {
-                        "rdmCollection": "42811850-8bcc-4359-8079-935ae887b705"
-                    },
-                    "datatype": "concept",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Restriction Type",
-                    "nodegroup_id": "64744e66-ac0f-11ec-b19f-9cf387da2c40",
-                    "nodeid": "647547bc-ac0f-11ec-b19f-9cf387da2c40",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 0
-                },
-                {
+                    "alias": "archive_widget",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4305,6 +3095,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "start_date_note_type",
                     "config": {
                         "rdmCollection": "80f783d5-5b70-414d-88d5-d04b93e0eee2"
                     },
@@ -4313,6 +3104,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4325,6 +3117,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "start_date",
                     "config": {
                         "fuzzy_day_padding": 1,
                         "fuzzy_month_padding": 1,
@@ -4339,6 +3132,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4351,6 +3145,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "end_date_type",
                     "config": {
                         "rdmCollection": "fcdcdc88-a7ea-4611-92bf-bf87dbfb09b8"
                     },
@@ -4359,6 +3154,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4371,6 +3167,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "production_actor_note_language",
                     "config": {
                         "rdmCollection": "a6e772a9-ab2e-40b7-aee6-86f58f3a86a8"
                     },
@@ -4379,6 +3176,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4391,12 +3189,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "production_actor_widget",
                     "config": null,
                     "datatype": "string",
                     "description": "The name of the Actor",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4409,12 +3209,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "production_actor_note",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4427,12 +3229,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "production_actor_notes",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4445,6 +3249,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "production_actor_role",
                     "config": {
                         "rdmCollection": "f38c5f7e-bbb4-4042-8256-5011e78529bb"
                     },
@@ -4453,6 +3258,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4465,6 +3271,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "production_actor_note_type",
                     "config": {
                         "rdmCollection": "80f783d5-5b70-414d-88d5-d04b93e0eee2"
                     },
@@ -4473,6 +3280,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4485,12 +3293,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "production_place_note",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4503,6 +3313,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "production_place_note_type",
                     "config": {
                         "rdmCollection": "80f783d5-5b70-414d-88d5-d04b93e0eee2"
                     },
@@ -4511,6 +3322,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4523,6 +3335,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "production_place_note_language",
                     "config": {
                         "rdmCollection": "a6e772a9-ab2e-40b7-aee6-86f58f3a86a8"
                     },
@@ -4531,6 +3344,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4543,12 +3357,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "production_place_notes",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4561,12 +3377,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "production_place_widget",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4579,6 +3397,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "production_technique_note_type",
                     "config": {
                         "rdmCollection": "80f783d5-5b70-414d-88d5-d04b93e0eee2"
                     },
@@ -4587,6 +3406,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4599,12 +3419,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "production_technique_note",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4617,6 +3439,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "production_technique_note_language",
                     "config": {
                         "rdmCollection": "a6e772a9-ab2e-40b7-aee6-86f58f3a86a8"
                     },
@@ -4625,6 +3448,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4637,12 +3461,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "end_date_note",
                     "config": null,
                     "datatype": "string",
                     "description": "id/date.creationdate/sr\n",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4655,6 +3481,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "end_date_note_type",
                     "config": {
                         "rdmCollection": "80f783d5-5b70-414d-88d5-d04b93e0eee2"
                     },
@@ -4663,6 +3490,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4675,6 +3503,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "end_date_note_language",
                     "config": {
                         "rdmCollection": "a6e772a9-ab2e-40b7-aee6-86f58f3a86a8"
                     },
@@ -4683,6 +3512,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4695,6 +3525,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "start_date_type",
                     "config": {
                         "rdmCollection": "fcdcdc88-a7ea-4611-92bf-bf87dbfb09b8"
                     },
@@ -4703,6 +3534,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4715,12 +3547,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "start_date_note",
                     "config": null,
                     "datatype": "string",
                     "description": "id/date.creationdate/sr\n",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4733,6 +3567,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "end_date",
                     "config": {
                         "fuzzy_day_padding": 1,
                         "fuzzy_month_padding": 1,
@@ -4747,6 +3582,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4759,6 +3595,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "start_date_note_language",
                     "config": {
                         "rdmCollection": "a6e772a9-ab2e-40b7-aee6-86f58f3a86a8"
                     },
@@ -4767,6 +3604,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4779,6 +3617,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "restriction_revision_date",
                     "config": {
                         "fuzzy_day_padding": 1,
                         "fuzzy_month_padding": 1,
@@ -4793,6 +3632,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4805,12 +3645,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "usage_restriction_note",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4823,6 +3665,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "usage_restriction_note_language",
                     "config": {
                         "rdmCollection": "a6e772a9-ab2e-40b7-aee6-86f58f3a86a8"
                     },
@@ -4831,6 +3674,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4843,12 +3687,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "plaatsingsnummer",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4861,12 +3707,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "end_date_notes",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4879,12 +3727,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "start_date_notes",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4897,12 +3747,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "usage_restriction_notes",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4915,6 +3767,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "dimension_type",
                     "config": {
                         "rdmCollection": "65662412-64ee-4694-b403-3640d48edde1"
                     },
@@ -4923,6 +3776,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4935,12 +3789,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "annotation",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4953,6 +3809,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "object_number_type",
                     "config": {
                         "rdmCollection": "0d98de02-6524-405b-a0b6-aad7918ee609"
                     },
@@ -4961,6 +3818,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4973,6 +3831,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "material",
                     "config": {
                         "rdmCollection": "c7689750-336a-46e6-a82a-54fc75699799"
                     },
@@ -4981,6 +3840,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4993,12 +3853,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "restriction_revision_timespan",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5011,6 +3873,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "material_colour",
                     "config": {
                         "rdmCollection": "73dc168d-c1c9-418b-827a-cb0a3a83b9a5"
                     },
@@ -5019,6 +3882,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5031,6 +3895,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "carrier_colour",
                     "config": {
                         "rdmCollection": "73dc168d-c1c9-418b-827a-cb0a3a83b9a5"
                     },
@@ -5039,6 +3904,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5051,6 +3917,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "carrier_type",
                     "config": {
                         "rdmCollection": "55ad24ba-0ca8-4009-9ff5-f0be1f838f1b"
                     },
@@ -5059,6 +3926,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5071,6 +3939,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "annotation_language",
                     "config": {
                         "rdmCollection": "a6e772a9-ab2e-40b7-aee6-86f58f3a86a8"
                     },
@@ -5079,6 +3948,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5091,12 +3961,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "warehouse_location_begin_",
                     "config": null,
                     "datatype": "string",
                     "description": "adm/magazijnplaats",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5109,12 +3981,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "condition_state_notes",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5127,6 +4001,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "object_identifier_type",
                     "config": {
                         "rdmCollection": "0d98de02-6524-405b-a0b6-aad7918ee609"
                     },
@@ -5135,6 +4010,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5147,12 +4023,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "condition_state_note",
                     "config": null,
                     "datatype": "string",
                     "description": "notes/lhdetail",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5165,6 +4043,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "condition_part_type",
                     "config": {
                         "rdmCollection": "83ec347c-00e0-4b8b-b2f6-77db3efd62d7"
                     },
@@ -5173,6 +4052,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5185,6 +4065,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "condition_state_notes_language",
                     "config": {
                         "rdmCollection": "a6e772a9-ab2e-40b7-aee6-86f58f3a86a8"
                     },
@@ -5193,6 +4074,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5205,6 +4087,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "dimension_measurement_unit",
                     "config": {
                         "rdmCollection": "7c30386c-9015-4673-b850-26ea66cd5441"
                     },
@@ -5213,6 +4096,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5225,6 +4109,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "source_note_language",
                     "config": {
                         "rdmCollection": "a6e772a9-ab2e-40b7-aee6-86f58f3a86a8"
                     },
@@ -5233,6 +4118,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5245,6 +4131,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "condition_status",
                     "config": {
                         "rdmCollection": "1a593b20-2b6b-448b-bcaa-b26fa0e448bf"
                     },
@@ -5253,6 +4140,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5265,12 +4153,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "other_identifier",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5283,6 +4173,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "condition_assessment_start_date",
                     "config": {
                         "fuzzy_day_padding": 1,
                         "fuzzy_month_padding": 1,
@@ -5297,6 +4188,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5309,12 +4201,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "condition_part",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5327,6 +4221,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "carrier_part_type",
                     "config": {
                         "rdmCollection": "83ec347c-00e0-4b8b-b2f6-77db3efd62d7"
                     },
@@ -5335,6 +4230,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5347,6 +4243,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "other_identifier_type",
                     "config": {
                         "rdmCollection": "0d98de02-6524-405b-a0b6-aad7918ee609"
                     },
@@ -5355,6 +4252,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5367,6 +4265,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "warehouse_location_type",
                     "config": {
                         "rdmCollection": "0d98de02-6524-405b-a0b6-aad7918ee609"
                     },
@@ -5375,6 +4274,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5387,6 +4287,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "source_note_type",
                     "config": {
                         "rdmCollection": "80f783d5-5b70-414d-88d5-d04b93e0eee2"
                     },
@@ -5395,6 +4296,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5407,12 +4309,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "source_note",
                     "config": null,
                     "datatype": "string",
                     "description": "notes/lhdetail",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5425,6 +4329,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "condition_assessment_date_qualifier_type",
                     "config": {
                         "rdmCollection": "fcdcdc88-a7ea-4611-92bf-bf87dbfb09b8"
                     },
@@ -5433,6 +4338,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5445,12 +4351,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "dimension_value",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5463,6 +4371,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "usage_restriction_note_type",
                     "config": {
                         "rdmCollection": "80f783d5-5b70-414d-88d5-d04b93e0eee2"
                     },
@@ -5471,6 +4380,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5483,6 +4393,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "condition_assessment_end_date",
                     "config": {
                         "fuzzy_day_padding": 1,
                         "fuzzy_month_padding": 1,
@@ -5497,6 +4408,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5509,12 +4421,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "condition_state",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5527,12 +4441,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "warehouse_location_id",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5545,12 +4461,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "warehouse_location_end_",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5563,6 +4481,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "annotation_type",
                     "config": {
                         "rdmCollection": "80f783d5-5b70-414d-88d5-d04b93e0eee2"
                     },
@@ -5571,6 +4490,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5583,12 +4503,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "object_identifier",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5601,6 +4523,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "condition_state_notes_type",
                     "config": {
                         "rdmCollection": "80f783d5-5b70-414d-88d5-d04b93e0eee2"
                     },
@@ -5609,6 +4532,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5621,12 +4545,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "condition_assessment_timespan",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5639,12 +4565,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "source_notes",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5657,12 +4585,76 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "images",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Images",
+                    "nodegroup_id": "84e0aeda-a6c1-11ed-a9f8-96a6d245525a",
+                    "nodeid": "84e0aeda-a6c1-11ed-a9f8-96a6d245525a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "image_url",
+                    "config": null,
+                    "datatype": "url",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Image URL",
+                    "nodegroup_id": "84e0aeda-a6c1-11ed-a9f8-96a6d245525a",
+                    "nodeid": "84e0b06a-a6c1-11ed-a9f8-96a6d245525a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "dams_url_type",
+                    "config": {
+                        "rdmCollection": "aeb1f254-5819-4b79-b5f7-7ceb5293542c"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "DAMS URL Type",
+                    "nodegroup_id": "84e0aeda-a6c1-11ed-a9f8-96a6d245525a",
+                    "nodeid": "84e0b1aa-a6c1-11ed-a9f8-96a6d245525a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "mark",
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -5675,12 +4667,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "marks",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -5693,6 +4687,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "mark_note_type",
                     "config": {
                         "rdmCollection": "80f783d5-5b70-414d-88d5-d04b93e0eee2"
                     },
@@ -5701,6 +4696,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5713,12 +4709,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "mark_notes",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5731,12 +4729,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "mark_note",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5749,6 +4749,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "mark_note_language",
                     "config": {
                         "rdmCollection": "a6e772a9-ab2e-40b7-aee6-86f58f3a86a8"
                     },
@@ -5757,6 +4758,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5769,6 +4771,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "mark_language",
                     "config": {
                         "rdmCollection": "a6e772a9-ab2e-40b7-aee6-86f58f3a86a8"
                     },
@@ -5777,6 +4780,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5789,12 +4793,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "mark_text",
                     "config": null,
                     "datatype": "string",
                     "description": "This field is to record the actual text of the mark or signature.\n\n\nnotes/lhsignatuur",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5807,6 +4813,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "mark_position",
                     "config": {
                         "rdmCollection": "935b830d-f430-41e4-a351-5722d0673ddb"
                     },
@@ -5815,6 +4822,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5827,6 +4835,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "mark_type",
                     "config": {
                         "rdmCollection": "c578dda9-5717-4a52-b271-bb64b06dc33d"
                     },
@@ -5835,6 +4844,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5847,106 +4857,58 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
-                    "datatype": "semantic",
+                    "alias": "restriction_type",
+                    "config": {
+                        "rdmCollection": "42811850-8bcc-4359-8079-935ae887b705"
+                    },
+                    "datatype": "concept",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Descriptions",
-                    "nodegroup_id": "908b327c-83ea-11ed-84db-9cf387da2c40",
-                    "nodeid": "908b327c-83ea-11ed-84db-9cf387da2c40",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "string",
-                    "description": "notes/lhdetail",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Description",
-                    "nodegroup_id": "908b327c-83ea-11ed-84db-9cf387da2c40",
-                    "nodeid": "908b39fc-83ea-11ed-84db-9cf387da2c40",
-                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
-                        "rdmCollection": "a6e772a9-ab2e-40b7-aee6-86f58f3a86a8"
-                    },
-                    "datatype": "concept",
-                    "description": "",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Description Language",
-                    "nodegroup_id": "908b327c-83ea-11ed-84db-9cf387da2c40",
-                    "nodeid": "908b3b3c-83ea-11ed-84db-9cf387da2c40",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P72_has_language",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
-                        "rdmCollection": "970ff6b6-cf2d-4b2e-95c9-08f01ce4ba5e"
-                    },
-                    "datatype": "concept",
-                    "description": "",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Description Type",
-                    "nodegroup_id": "908b327c-83ea-11ed-84db-9cf387da2c40",
-                    "nodeid": "908b3c40-83ea-11ed-84db-9cf387da2c40",
+                    "name": "Restriction Type",
+                    "nodegroup_id": "a0bde6b8-a6c1-11ed-a9f8-96a6d245525a",
+                    "nodeid": "a0bde6b8-a6c1-11ed-a9f8-96a6d245525a",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 0
                 },
                 {
-                    "config": null,
-                    "datatype": "string",
-                    "description": "",
+                    "alias": "dams_restriction_type",
+                    "config": {
+                        "rdmCollection": "aeb1f254-5819-4b79-b5f7-7ceb5293542c"
+                    },
+                    "datatype": "concept",
+                    "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
-                    "is_collector": true,
+                    "hascustomalias": false,
+                    "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Image URL",
-                    "nodegroup_id": "c2bb13ac-8764-11ed-9451-9cf387da2c40",
-                    "nodeid": "c2bb13ac-8764-11ed-9451-9cf387da2c40",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "name": "DAMS Restriction Type",
+                    "nodegroup_id": "a0bde6b8-a6c1-11ed-a9f8-96a6d245525a",
+                    "nodeid": "a0bde83e-a6c1-11ed-a9f8-96a6d245525a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 0
                 },
                 {
+                    "alias": "acquisition",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -5959,12 +4921,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "acquisition_numbers",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -5977,12 +4941,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "acquisitions",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -5995,12 +4961,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "acquisition_number",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -6013,12 +4981,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "acquisition_widget",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -6031,6 +5001,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "acquisition_number_type",
                     "config": {
                         "rdmCollection": "0d98de02-6524-405b-a0b6-aad7918ee609"
                     },
@@ -6039,6 +5010,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -6055,12 +5027,14 @@
             "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
             "root": {
+                "alias": "tekstdrager_material",
                 "config": null,
                 "datatype": "semantic",
                 "description": "",
                 "exportable": false,
                 "fieldname": null,
                 "graph_id": "6473fe5c-ac0f-11ec-b19f-9cf387da2c40",
+                "hascustomalias": false,
                 "is_collector": false,
                 "isrequired": false,
                 "issearchable": true,
@@ -6078,9 +5052,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 13.3 (Debian 13.3-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit",
+        "db": "PostgreSQL 15.1 on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit",
         "git hash": "fatal: not a git repository (or any of the parent directories): .git",
-        "os": "Linux",
-        "os version": "4.19.0-17-amd64"
+        "os": "Darwin",
+        "os version": "22.3.0"
     }
 }

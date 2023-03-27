@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:ConceptScheme rdf:about="http://localhost:8000/867ea0a9-73de-4ee3-8529-d31c7c5a04dd">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/93318928-08f3-491c-961e-5c6e18a71e63">
+        <skos:inScheme rdf:resource="http://localhost:8000/867ea0a9-73de-4ee3-8529-d31c7c5a04dd"/>
+        <skos:prefLabel xml:lang="en">{"id": "cd8ca101-f0b1-4403-a347-b13b8b53e518", "value": "DAMS Image"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "f5543d5c-f8f4-48c4-b4e5-fff42fa2a244", "value": "DAMS Type"}</dcterms:title>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/e90aceb9-7078-42ca-9812-23a540ebed4a">
+        <skos:inScheme rdf:resource="http://localhost:8000/867ea0a9-73de-4ee3-8529-d31c7c5a04dd"/>
+        <skos:prefLabel xml:lang="en">{"id": "a30683b5-963a-4d32-8720-ce458b778a41", "value": "DAMS Manifest"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/a291f0b7-fe60-4549-9028-7d9585687a55">
+        <skos:inScheme rdf:resource="http://localhost:8000/867ea0a9-73de-4ee3-8529-d31c7c5a04dd"/>
+        <skos:prefLabel xml:lang="en">{"id": "978f5d6a-db12-4aa6-9736-e183f968cdc0", "value": "DAMS Restriction"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+  </skos:ConceptScheme>
+</rdf:RDF>
