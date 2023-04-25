@@ -424,25 +424,6 @@
                 },
                 {
                     "active": true,
-                    "cardid": "397e36ea-ac0f-11ec-b19f-9cf387da2c40",
-                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
-                    "config": null,
-                    "constraints": [],
-                    "cssclass": null,
-                    "description": "",
-                    "graph_id": "397dc07a-ac0f-11ec-b19f-9cf387da2c40",
-                    "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": true,
-                    "name": "Referentie-afbeeldingen",
-                    "nodegroup_id": "397e35dc-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 14,
-                    "visible": true
-                },
-                {
-                    "active": true,
                     "cardid": "397e3bd6-ac0f-11ec-b19f-9cf387da2c40",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -707,42 +688,12 @@
                     "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
                 },
                 {
-                    "card_id": "397e36ea-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "defaultValue": "98a0696f-0b98-4dbb-8a46-dcba8d3dbe4d",
-                        "label": "Type",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "397ef0bc-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Type",
-                    "node_id": "397e8050-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 1,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "397e36ea-ac0f-11ec-b19f-9cf387da2c40",
-                    "config": {
-                        "label": "Referentie-afbeelding URL",
-                        "link_color": "blue",
-                        "url_label_placeholder": "Enter URL Label... ",
-                        "url_placeholder": "Enter URL... "
-                    },
-                    "id": "397ef1c0-ac0f-11ec-b19f-9cf387da2c40",
-                    "label": "Referentie-afbeelding URL",
-                    "node_id": "397eb99e-ac0f-11ec-b19f-9cf387da2c40",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "ca0c43ff-af73-4349-bafd-53ff9f22eebd"
-                },
-                {
                     "card_id": "397e3bd6-ac0f-11ec-b19f-9cf387da2c40",
                     "config": {
                         "defaultValue": "",
                         "label": "Genre",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397ef21a-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Genre",
@@ -757,7 +708,7 @@
                         "defaultValue": "",
                         "label": "Genre Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397ef260-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Genre Type",
@@ -786,7 +737,7 @@
                         "defaultValue": "2af5e05a-ea73-4272-9fea-c827792a41a0",
                         "label": "Opmerking taal",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397ef2f6-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking taal",
@@ -819,7 +770,7 @@
                         "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
                         "label": "Opmerking type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397ef382-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking type",
@@ -834,7 +785,7 @@
                         "defaultValue": "",
                         "label": "Opmerking",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": false,
                         "width": "100%"
                     },
@@ -851,7 +802,7 @@
                         "defaultValue": "",
                         "label": "Rol",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397ef40e-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Rol",
@@ -867,7 +818,7 @@
                         "label": "Andere identificatiecode",
                         "link_color": "blue",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": false,
                         "width": "100%"
                     },
@@ -884,7 +835,7 @@
                         "defaultValue": "",
                         "label": "Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397ef4ae-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Type",
@@ -913,7 +864,7 @@
                         "defaultValue": "",
                         "label": "Relatie",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397ef7ce-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Relatie",
@@ -928,7 +879,7 @@
                         "defaultValue": "2af5e05a-ea73-4272-9fea-c827792a41a0",
                         "label": "Opmerking taal",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397ef81e-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking taal",
@@ -943,7 +894,7 @@
                         "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
                         "label": "Opmerking type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397ef850-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking type",
@@ -958,7 +909,7 @@
                         "defaultValue": "",
                         "label": "Opmerking",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": false,
                         "width": "100%"
                     },
@@ -975,7 +926,7 @@
                         "defaultValue": "",
                         "label": "Opmerking",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": false,
                         "width": "100%"
                     },
@@ -1010,7 +961,7 @@
                         "defaultValue": "34cf3e25-0923-4557-9ded-8710d74b2a06",
                         "label": "Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397ef92c-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Type",
@@ -1025,7 +976,7 @@
                         "defaultValue": "b3871a8f-8453-4e05-8fe2-cc3e77632a4b",
                         "label": "Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397ef95e-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Type",
@@ -1041,7 +992,7 @@
                         "label": "Permalink",
                         "link_color": "blue",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": true,
                         "width": "100%"
                     },
@@ -1058,7 +1009,7 @@
                         "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
                         "label": "Opmerking type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397ef9c2-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking type",
@@ -1073,7 +1024,7 @@
                         "defaultValue": "048fca15-5c29-4911-ab5b-2b767b9b5fec",
                         "label": "Opmerking taal",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397ef9f4-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking taal",
@@ -1088,7 +1039,7 @@
                         "defaultValue": "",
                         "label": "Opmerking",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": false,
                         "width": "100%"
                     },
@@ -1123,7 +1074,7 @@
                         "defaultValue": "",
                         "label": "Opmerking",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": false,
                         "width": "100%"
                     },
@@ -1140,7 +1091,7 @@
                         "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
                         "label": "Opmerking type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397efad0-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking type",
@@ -1155,7 +1106,7 @@
                         "defaultValue": "048fca15-5c29-4911-ab5b-2b767b9b5fec",
                         "label": "Opmerking taal",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397efaf8-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking taal",
@@ -1170,7 +1121,7 @@
                         "defaultValue": "",
                         "label": "Term",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": false,
                         "width": "100%"
                     },
@@ -1187,7 +1138,7 @@
                         "defaultValue": "7f9e484d-5a5a-4b43-a1ad-4e39d592a5db",
                         "label": "Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397efb66-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Type",
@@ -1202,7 +1153,7 @@
                         "defaultValue": "",
                         "label": "Objectnummer",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": true,
                         "width": "100%"
                     },
@@ -1219,7 +1170,7 @@
                         "defaultValue": "",
                         "label": "Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397efbca-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Type",
@@ -1234,7 +1185,7 @@
                         "defaultValue": "2af5e05a-ea73-4272-9fea-c827792a41a0",
                         "label": "Taal",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397efc06-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Taal",
@@ -1249,7 +1200,7 @@
                         "defaultValue": "",
                         "label": "Titel",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": false,
                         "width": "100%"
                     },
@@ -1266,7 +1217,7 @@
                         "defaultValue": "",
                         "label": "Waarde",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": true,
                         "width": "100%"
                     },
@@ -1301,7 +1252,7 @@
                         "defaultValue": "",
                         "label": "Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397efd00-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Type",
@@ -1316,7 +1267,7 @@
                         "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
                         "label": "Opmerking type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397efd32-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking type",
@@ -1331,7 +1282,7 @@
                         "defaultValue": "",
                         "label": "Opmerking",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": false,
                         "width": "100%"
                     },
@@ -1348,7 +1299,7 @@
                         "defaultValue": "048fca15-5c29-4911-ab5b-2b767b9b5fec",
                         "label": "Opmerking taal",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397efd96-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking taal",
@@ -1363,7 +1314,7 @@
                         "defaultValue": "",
                         "label": "URL type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397efdc8-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "URL type",
@@ -1379,7 +1330,7 @@
                         "label": "URL fragment",
                         "link_color": "blue",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": false,
                         "width": "100%"
                     },
@@ -1396,7 +1347,7 @@
                         "defaultValue": "",
                         "label": "Volgnummer",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": false,
                         "width": "100%"
                     },
@@ -1431,7 +1382,7 @@
                         "defaultValue": "",
                         "label": "Opmerking",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": false,
                         "width": "100%"
                     },
@@ -1448,7 +1399,7 @@
                         "defaultValue": "048fca15-5c29-4911-ab5b-2b767b9b5fec",
                         "label": "Opmerking taal",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397efecc-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking taal",
@@ -1463,7 +1414,7 @@
                         "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
                         "label": "Opmerking type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397efefe-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking type",
@@ -1478,7 +1429,7 @@
                         "defaultValue": "",
                         "label": "Opmerking",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": false,
                         "width": "100%"
                     },
@@ -1495,7 +1446,7 @@
                         "defaultValue": "048fca15-5c29-4911-ab5b-2b767b9b5fec",
                         "label": "Opmerking taal",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397eff6c-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking taal",
@@ -1510,7 +1461,7 @@
                         "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
                         "label": "Opmerking type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397eff9e-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking type",
@@ -1539,7 +1490,7 @@
                         "defaultValue": null,
                         "label": "Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397f0002-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Type",
@@ -1554,7 +1505,7 @@
                         "defaultValue": "",
                         "label": "Opmerking",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": false,
                         "width": "100%"
                     },
@@ -1571,7 +1522,7 @@
                         "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
                         "label": "Opmerking type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397f0106-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking type",
@@ -1586,7 +1537,7 @@
                         "defaultValue": "048fca15-5c29-4911-ab5b-2b767b9b5fec",
                         "label": "Opmerking taal",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397f014c-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking taal",
@@ -1601,7 +1552,7 @@
                         "defaultValue": "",
                         "label": "Controledatum",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": false,
                         "width": "100%"
                     },
@@ -1618,7 +1569,7 @@
                         "defaultValue": "",
                         "label": "Status",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397f01e2-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Status",
@@ -1651,7 +1602,7 @@
                         "defaultValue": "",
                         "label": "ID",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": false,
                         "width": "100%"
                     },
@@ -1668,7 +1619,7 @@
                         "defaultValue": "",
                         "label": "Opmerking",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": false,
                         "width": "100%"
                     },
@@ -1685,7 +1636,7 @@
                         "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
                         "label": "Opmerking type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397f0660-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking type",
@@ -1700,7 +1651,7 @@
                         "defaultValue": "048fca15-5c29-4911-ab5b-2b767b9b5fec",
                         "label": "Opmarking taal",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397f06ce-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Opmarking taal",
@@ -1733,7 +1684,7 @@
                         "defaultValue": "",
                         "label": "Taal",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397f07aa-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Taal",
@@ -1748,7 +1699,7 @@
                         "defaultValue": "2af5e05a-ea73-4272-9fea-c827792a41a0",
                         "label": "Taal",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397f0822-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Taal",
@@ -1763,7 +1714,7 @@
                         "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
                         "label": "Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397f08ae-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Type",
@@ -1778,7 +1729,7 @@
                         "defaultValue": null,
                         "label": "Toelichting",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "width": "100%"
                     },
                     "id": "397f0908-ac0f-11ec-b19f-9cf387da2c40",
@@ -1794,7 +1745,7 @@
                         "defaultValue": "2af5e05a-ea73-4272-9fea-c827792a41a0",
                         "label": "Opmerking taal",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397f0958-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking taal",
@@ -1809,7 +1760,7 @@
                         "defaultValue": "",
                         "label": "Opmerking",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": false,
                         "width": "100%"
                     },
@@ -1826,7 +1777,7 @@
                         "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
                         "label": "Opmerking type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397f0a34-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking type",
@@ -1859,7 +1810,7 @@
                         "defaultValue": "",
                         "label": "Opmerking",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": false,
                         "width": "100%"
                     },
@@ -1876,7 +1827,7 @@
                         "defaultValue": "2af5e05a-ea73-4272-9fea-c827792a41a0",
                         "label": "Opmerking taal",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397f0b9c-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking taal",
@@ -1891,7 +1842,7 @@
                         "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
                         "label": "Opmerking type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397f0c00-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking type",
@@ -1906,7 +1857,7 @@
                         "defaultValue": null,
                         "label": "Beschrijving",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "width": "100%"
                     },
                     "id": "397f0c50-ac0f-11ec-b19f-9cf387da2c40",
@@ -1922,7 +1873,7 @@
                         "defaultValue": "4e5a2929-1d4d-44d0-aa7f-52ad2ea64054",
                         "label": "Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397f0caa-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Type",
@@ -1937,7 +1888,7 @@
                         "defaultValue": "2af5e05a-ea73-4272-9fea-c827792a41a0",
                         "label": "Taal",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397f0d18-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Taal",
@@ -1966,7 +1917,7 @@
                         "defaultValue": "eccf0871-387f-485d-8639-6ef200cad564",
                         "label": "Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397f0de0-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Type",
@@ -1981,7 +1932,7 @@
                         "defaultValue": "2af5e05a-ea73-4272-9fea-c827792a41a0",
                         "label": "Einddatum opmerking taal",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397f0e30-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Einddatum opmerking taal",
@@ -1996,7 +1947,7 @@
                         "defaultValue": "",
                         "label": "Einddatum opmerking",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": false,
                         "width": "100%"
                     },
@@ -2013,7 +1964,7 @@
                         "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
                         "label": "Einddatum opmerking type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397f0f02-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Einddatum opmerking type",
@@ -2028,7 +1979,7 @@
                         "defaultValue": "",
                         "label": "Opmerking",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": false,
                         "width": "100%"
                     },
@@ -2045,7 +1996,7 @@
                         "defaultValue": "",
                         "label": "Opmerking type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397f0fca-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking type",
@@ -2060,7 +2011,7 @@
                         "defaultValue": null,
                         "label": "Opmerking",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "width": "100%"
                     },
                     "id": "397f109c-ac0f-11ec-b19f-9cf387da2c40",
@@ -2076,7 +2027,7 @@
                         "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
                         "label": "Begindatum opmerking type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397f10f6-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Begindatum opmerking type",
@@ -2105,7 +2056,7 @@
                         "defaultValue": "f59aadba-efa1-4d91-8f20-06e492251d4a",
                         "label": "Taal",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397f11b4-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Taal",
@@ -2138,7 +2089,7 @@
                         "defaultValue": "",
                         "label": "Einddatum kwalificatie",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397f1268-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Einddatum kwalificatie",
@@ -2153,7 +2104,7 @@
                         "defaultValue": "",
                         "label": "Opmerking taal",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397f12cc-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Opmerking taal",
@@ -2182,7 +2133,7 @@
                         "defaultValue": "2af5e05a-ea73-4272-9fea-c827792a41a0",
                         "label": "Begindatum opmerking taal",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397f139e-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Begindatum opmerking taal",
@@ -2197,7 +2148,7 @@
                         "defaultValue": "",
                         "label": "Begindatum kwalificatie",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397f13f8-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Begindatum kwalificatie",
@@ -2212,7 +2163,7 @@
                         "defaultValue": "",
                         "label": "Begindatum opmerking",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": false,
                         "width": "100%"
                     },
@@ -2229,7 +2180,7 @@
                         "defaultValue": [],
                         "label": "Rol",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397f14b6-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Rol",
@@ -2244,7 +2195,7 @@
                         "defaultValue": "",
                         "label": "Production Place Name",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": true,
                         "width": "100%"
                     },
@@ -2275,7 +2226,7 @@
                         "defaultValue": "",
                         "label": "dloi (afbeeldingen)",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": true,
                         "width": "100%"
                     },
@@ -2305,7 +2256,7 @@
                         "defaultValue": "",
                         "label": "Waarde",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": true,
                         "width": "100%"
                     },
@@ -2322,7 +2273,7 @@
                         "defaultValue": null,
                         "label": "Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "397f16fa-ac0f-11ec-b19f-9cf387da2c40",
                     "label": "Type",
@@ -2337,7 +2288,7 @@
                         "defaultValue": "",
                         "label": "Type",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": true,
                         "width": "100%"
                     },
@@ -2354,7 +2305,7 @@
                         "defaultValue": "",
                         "label": "URL Prefix",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "cb56a9f8-af4d-11ec-b19f-9cf387da2c40",
                     "label": "URL Prefix",
@@ -2369,7 +2320,7 @@
                         "defaultValue": "",
                         "label": "Einddatum opmerking",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": false,
                         "width": "100%"
                     },
@@ -2386,7 +2337,7 @@
                         "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
                         "label": "Begindatum opmerking type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "dd41bebc-7708-11ed-94b7-960000f945b2",
                     "label": "Begindatum opmerking type",
@@ -2415,7 +2366,7 @@
                         "defaultValue": "d99638a6-215c-4596-93c7-0a8f75933950",
                         "label": "Einddatum opmerking type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "dd41bf7f-7708-11ed-8310-960000f945b2",
                     "label": "Einddatum opmerking type",
@@ -2430,7 +2381,7 @@
                         "defaultValue": "",
                         "label": "Begindatum opmerking",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": "Vul tekst in",
                         "uneditable": false,
                         "width": "100%"
                     },
@@ -2447,7 +2398,7 @@
                         "defaultValue": "2af5e05a-ea73-4272-9fea-c827792a41a0",
                         "label": "Einddatum opmerking taal",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "dd41c02e-7708-11ed-b558-960000f945b2",
                     "label": "Einddatum opmerking taal",
@@ -2476,7 +2427,7 @@
                         "defaultValue": "",
                         "label": "Einddatum kwalificatie",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "dd41c0d8-7708-11ed-bfe5-960000f945b2",
                     "label": "Einddatum kwalificatie",
@@ -2491,7 +2442,7 @@
                         "defaultValue": "2af5e05a-ea73-4272-9fea-c827792a41a0",
                         "label": "Begindatum opmerking taal",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "dd41c12b-7708-11ed-b26f-960000f945b2",
                     "label": "Begindatum opmerking taal",
@@ -2506,7 +2457,7 @@
                         "defaultValue": "",
                         "label": "Begindatum kwalificatie",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": "Maak een keuze"
                     },
                     "id": "dd41c17e-7708-11ed-a96d-960000f945b2",
                     "label": "Begindatum kwalificatie",
@@ -3001,15 +2952,6 @@
                 },
                 {
                     "description": null,
-                    "domainnode_id": "397e819a-ac0f-11ec-b19f-9cf387da2c40",
-                    "edgeid": "398eee72-ac0f-11ec-b19f-9cf387da2c40",
-                    "graph_id": "397dc07a-ac0f-11ec-b19f-9cf387da2c40",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation",
-                    "rangenode_id": "397e35dc-ac0f-11ec-b19f-9cf387da2c40"
-                },
-                {
-                    "description": null,
                     "domainnode_id": "397e1872-ac0f-11ec-b19f-9cf387da2c40",
                     "edgeid": "398eef80-ac0f-11ec-b19f-9cf387da2c40",
                     "graph_id": "397dc07a-ac0f-11ec-b19f-9cf387da2c40",
@@ -3325,15 +3267,6 @@
                 },
                 {
                     "description": null,
-                    "domainnode_id": "397ee7c0-ac0f-11ec-b19f-9cf387da2c40",
-                    "edgeid": "398f0d30-ac0f-11ec-b19f-9cf387da2c40",
-                    "graph_id": "397dc07a-ac0f-11ec-b19f-9cf387da2c40",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "rangenode_id": "397eb99e-ac0f-11ec-b19f-9cf387da2c40"
-                },
-                {
-                    "description": null,
                     "domainnode_id": "397e819a-ac0f-11ec-b19f-9cf387da2c40",
                     "edgeid": "398f0e02-ac0f-11ec-b19f-9cf387da2c40",
                     "graph_id": "397dc07a-ac0f-11ec-b19f-9cf387da2c40",
@@ -3613,15 +3546,6 @@
                 },
                 {
                     "description": null,
-                    "domainnode_id": "397ee7c0-ac0f-11ec-b19f-9cf387da2c40",
-                    "edgeid": "398f28f6-ac0f-11ec-b19f-9cf387da2c40",
-                    "graph_id": "397dc07a-ac0f-11ec-b19f-9cf387da2c40",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "rangenode_id": "397e8050-ac0f-11ec-b19f-9cf387da2c40"
-                },
-                {
-                    "description": null,
                     "domainnode_id": "397e137c-ac0f-11ec-b19f-9cf387da2c40",
                     "edgeid": "398f29be-ac0f-11ec-b19f-9cf387da2c40",
                     "graph_id": "397dc07a-ac0f-11ec-b19f-9cf387da2c40",
@@ -3727,15 +3651,6 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
                     "rangenode_id": "397e97e8-ac0f-11ec-b19f-9cf387da2c40"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "397e35dc-ac0f-11ec-b19f-9cf387da2c40",
-                    "edgeid": "398f3440-ac0f-11ec-b19f-9cf387da2c40",
-                    "graph_id": "397dc07a-ac0f-11ec-b19f-9cf387da2c40",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P130i_features_are_also_found_on",
-                    "rangenode_id": "397ee7c0-ac0f-11ec-b19f-9cf387da2c40"
                 },
                 {
                     "description": null,
@@ -3928,7 +3843,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "397dc07a-ac0f-11ec-b19f-9cf387da2c40",
-                    "id": "35818622-7a23-11ed-98ec-960000f945b2"
+                    "id": "5e90b143-97ea-11ed-9d74-960000f945b3"
                 }
             ],
             "graphid": "397dc07a-ac0f-11ec-b19f-9cf387da2c40",
@@ -4051,12 +3966,6 @@
                     "cardinality": "n",
                     "legacygroupid": null,
                     "nodegroupid": "397e3104-ac0f-11ec-b19f-9cf387da2c40",
-                    "parentnodegroup_id": null
-                },
-                {
-                    "cardinality": "n",
-                    "legacygroupid": null,
-                    "nodegroupid": "397e35dc-ac0f-11ec-b19f-9cf387da2c40",
                     "parentnodegroup_id": null
                 },
                 {
@@ -4515,24 +4424,6 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Reference Images",
-                    "nodegroup_id": "397e35dc-ac0f-11ec-b19f-9cf387da2c40",
-                    "nodeid": "397e35dc-ac0f-11ec-b19f-9cf387da2c40",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation",
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": "",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "397dc07a-ac0f-11ec-b19f-9cf387da2c40",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
                     "name": "Genre Types",
                     "nodegroup_id": "397e3ab4-ac0f-11ec-b19f-9cf387da2c40",
                     "nodeid": "397e3ab4-ac0f-11ec-b19f-9cf387da2c40",
@@ -4803,7 +4694,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "5852d741-4ec2-4c31-aa5b-37b96fdff17b"
+                        "rdmCollection": "f15c7cf8-10ea-4ef2-8484-032ceef73ac2"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -4823,7 +4714,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "a26b515b-b1b1-4cc0-ae86-cf1eed5644c0"
+                        "rdmCollection": "509cac1a-dcf8-43b7-81c3-11a6d192e987"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -4843,7 +4734,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "5852d741-4ec2-4c31-aa5b-37b96fdff17b"
+                        "rdmCollection": "f15c7cf8-10ea-4ef2-8484-032ceef73ac2"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -4863,7 +4754,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "a26b515b-b1b1-4cc0-ae86-cf1eed5644c0"
+                        "rdmCollection": "509cac1a-dcf8-43b7-81c3-11a6d192e987"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -4948,27 +4839,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "4237a2bf-12db-46c5-93a9-b549d0832ee5"
-                    },
-                    "datatype": "concept",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "397dc07a-ac0f-11ec-b19f-9cf387da2c40",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Reference Image Type",
-                    "nodegroup_id": "397e35dc-ac0f-11ec-b19f-9cf387da2c40",
-                    "nodeid": "397e8050-ac0f-11ec-b19f-9cf387da2c40",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
-                        "rdmCollection": "5852d741-4ec2-4c31-aa5b-37b96fdff17b"
+                        "rdmCollection": "f15c7cf8-10ea-4ef2-8484-032ceef73ac2"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -5024,7 +4895,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "a26b515b-b1b1-4cc0-ae86-cf1eed5644c0"
+                        "rdmCollection": "509cac1a-dcf8-43b7-81c3-11a6d192e987"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -5044,7 +4915,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "5852d741-4ec2-4c31-aa5b-37b96fdff17b"
+                        "rdmCollection": "f15c7cf8-10ea-4ef2-8484-032ceef73ac2"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -5136,7 +5007,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "a26b515b-b1b1-4cc0-ae86-cf1eed5644c0"
+                        "rdmCollection": "509cac1a-dcf8-43b7-81c3-11a6d192e987"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -5156,7 +5027,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "5852d741-4ec2-4c31-aa5b-37b96fdff17b"
+                        "rdmCollection": "f15c7cf8-10ea-4ef2-8484-032ceef73ac2"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -5389,7 +5260,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "a26b515b-b1b1-4cc0-ae86-cf1eed5644c0"
+                        "rdmCollection": "509cac1a-dcf8-43b7-81c3-11a6d192e987"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -5409,7 +5280,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "5852d741-4ec2-4c31-aa5b-37b96fdff17b"
+                        "rdmCollection": "f15c7cf8-10ea-4ef2-8484-032ceef73ac2"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -5667,7 +5538,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "c464063b-95d0-4c6e-bbec-4793ec31303f"
+                        "rdmCollection": "cb31e2d2-6a88-41df-9fff-9ae3e6c3321a"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -5687,7 +5558,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "5852d741-4ec2-4c31-aa5b-37b96fdff17b"
+                        "rdmCollection": "f15c7cf8-10ea-4ef2-8484-032ceef73ac2"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -5707,7 +5578,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "a26b515b-b1b1-4cc0-ae86-cf1eed5644c0"
+                        "rdmCollection": "509cac1a-dcf8-43b7-81c3-11a6d192e987"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -5745,7 +5616,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "a26b515b-b1b1-4cc0-ae86-cf1eed5644c0"
+                        "rdmCollection": "509cac1a-dcf8-43b7-81c3-11a6d192e987"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -5765,7 +5636,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "a714e088-5f3e-451d-8191-076fd365c51d"
+                        "rdmCollection": "42bfac7d-6123-4eac-ba31-da856feccc2a"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -5785,7 +5656,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "5a935d1e-1109-4ddf-be7a-32a80e83a236"
+                        "rdmCollection": "8f018cc7-cd3d-40bc-8ffa-b4b0bb06af70"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -5805,7 +5676,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "5852d741-4ec2-4c31-aa5b-37b96fdff17b"
+                        "rdmCollection": "f15c7cf8-10ea-4ef2-8484-032ceef73ac2"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -5843,7 +5714,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "a26b515b-b1b1-4cc0-ae86-cf1eed5644c0"
+                        "rdmCollection": "509cac1a-dcf8-43b7-81c3-11a6d192e987"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -5863,7 +5734,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "c464063b-95d0-4c6e-bbec-4793ec31303f"
+                        "rdmCollection": "cb31e2d2-6a88-41df-9fff-9ae3e6c3321a"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -5883,7 +5754,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "5852d741-4ec2-4c31-aa5b-37b96fdff17b"
+                        "rdmCollection": "f15c7cf8-10ea-4ef2-8484-032ceef73ac2"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -5903,7 +5774,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "a26b515b-b1b1-4cc0-ae86-cf1eed5644c0"
+                        "rdmCollection": "509cac1a-dcf8-43b7-81c3-11a6d192e987"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -5976,26 +5847,8 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
-                    "datatype": "url",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "397dc07a-ac0f-11ec-b19f-9cf387da2c40",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Reference Image URL",
-                    "nodegroup_id": "397e35dc-ac0f-11ec-b19f-9cf387da2c40",
-                    "nodeid": "397eb99e-ac0f-11ec-b19f-9cf387da2c40",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "sortorder": 0
-                },
-                {
                     "config": {
-                        "rdmCollection": "7421da8a-b928-447b-89b1-e28a8cb8566b"
+                        "rdmCollection": "6e81faf1-adb6-4b72-9d13-f21fbd9a6771"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -6108,7 +5961,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "cb8d46ae-07bc-4809-b75f-2ee43c761bca"
+                        "rdmCollection": "faece104-bbcd-4d97-80b2-c94ccaa62fe7"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -6128,7 +5981,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "5852d741-4ec2-4c31-aa5b-37b96fdff17b"
+                        "rdmCollection": "f15c7cf8-10ea-4ef2-8484-032ceef73ac2"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -6148,7 +6001,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "a26b515b-b1b1-4cc0-ae86-cf1eed5644c0"
+                        "rdmCollection": "509cac1a-dcf8-43b7-81c3-11a6d192e987"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -6222,7 +6075,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "910a9d61-2a2f-4d34-82e0-b886051edcc2"
+                        "rdmCollection": "22e204bb-aeaf-4a7d-940d-60e3a3969c2a"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -6242,7 +6095,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "a26b515b-b1b1-4cc0-ae86-cf1eed5644c0"
+                        "rdmCollection": "509cac1a-dcf8-43b7-81c3-11a6d192e987"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -6298,7 +6151,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "5852d741-4ec2-4c31-aa5b-37b96fdff17b"
+                        "rdmCollection": "f15c7cf8-10ea-4ef2-8484-032ceef73ac2"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -6318,7 +6171,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "a26b515b-b1b1-4cc0-ae86-cf1eed5644c0"
+                        "rdmCollection": "509cac1a-dcf8-43b7-81c3-11a6d192e987"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -6364,7 +6217,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "910a9d61-2a2f-4d34-82e0-b886051edcc2"
+                        "rdmCollection": "22e204bb-aeaf-4a7d-940d-60e3a3969c2a"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -6402,7 +6255,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "a26b515b-b1b1-4cc0-ae86-cf1eed5644c0"
+                        "rdmCollection": "509cac1a-dcf8-43b7-81c3-11a6d192e987"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -6458,7 +6311,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "a26b515b-b1b1-4cc0-ae86-cf1eed5644c0"
+                        "rdmCollection": "509cac1a-dcf8-43b7-81c3-11a6d192e987"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -6504,7 +6357,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "5852d741-4ec2-4c31-aa5b-37b96fdff17b"
+                        "rdmCollection": "f15c7cf8-10ea-4ef2-8484-032ceef73ac2"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -6524,7 +6377,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "5852d741-4ec2-4c31-aa5b-37b96fdff17b"
+                        "rdmCollection": "f15c7cf8-10ea-4ef2-8484-032ceef73ac2"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -6564,7 +6417,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "a26b515b-b1b1-4cc0-ae86-cf1eed5644c0"
+                        "rdmCollection": "509cac1a-dcf8-43b7-81c3-11a6d192e987"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -6657,26 +6510,8 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "397dc07a-ac0f-11ec-b19f-9cf387da2c40",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Reference Image",
-                    "nodegroup_id": "397e35dc-ac0f-11ec-b19f-9cf387da2c40",
-                    "nodeid": "397ee7c0-ac0f-11ec-b19f-9cf387da2c40",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P130i_features_are_also_found_on",
-                    "sortorder": 0
-                },
-                {
                     "config": {
-                        "rdmCollection": "c464063b-95d0-4c6e-bbec-4793ec31303f"
+                        "rdmCollection": "cb31e2d2-6a88-41df-9fff-9ae3e6c3321a"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -6750,7 +6585,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "5852d741-4ec2-4c31-aa5b-37b96fdff17b"
+                        "rdmCollection": "f15c7cf8-10ea-4ef2-8484-032ceef73ac2"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -6770,7 +6605,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "a26b515b-b1b1-4cc0-ae86-cf1eed5644c0"
+                        "rdmCollection": "509cac1a-dcf8-43b7-81c3-11a6d192e987"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -6790,7 +6625,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "a26b515b-b1b1-4cc0-ae86-cf1eed5644c0"
+                        "rdmCollection": "509cac1a-dcf8-43b7-81c3-11a6d192e987"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -6846,7 +6681,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "37400ec0-adce-4def-8c90-6cf4eae4cbb1"
+                        "rdmCollection": "525d7c02-437a-418e-97fc-88a0f100c1c4"
                     },
                     "datatype": "concept",
                     "description": "",
@@ -6938,7 +6773,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "5852d741-4ec2-4c31-aa5b-37b96fdff17b"
+                        "rdmCollection": "f15c7cf8-10ea-4ef2-8484-032ceef73ac2"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -6984,7 +6819,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "5852d741-4ec2-4c31-aa5b-37b96fdff17b"
+                        "rdmCollection": "f15c7cf8-10ea-4ef2-8484-032ceef73ac2"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -7022,7 +6857,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "a26b515b-b1b1-4cc0-ae86-cf1eed5644c0"
+                        "rdmCollection": "509cac1a-dcf8-43b7-81c3-11a6d192e987"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -7086,7 +6921,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "910a9d61-2a2f-4d34-82e0-b886051edcc2"
+                        "rdmCollection": "22e204bb-aeaf-4a7d-940d-60e3a3969c2a"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -7106,7 +6941,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "a26b515b-b1b1-4cc0-ae86-cf1eed5644c0"
+                        "rdmCollection": "509cac1a-dcf8-43b7-81c3-11a6d192e987"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -7126,7 +6961,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "910a9d61-2a2f-4d34-82e0-b886051edcc2"
+                        "rdmCollection": "22e204bb-aeaf-4a7d-940d-60e3a3969c2a"
                     },
                     "datatype": "concept",
                     "description": null,
