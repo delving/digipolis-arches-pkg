@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://localhost:8000/d1a81bc5-4b81-433e-9648-ee0e4cb229c7">
+    <skos:scopeNote xml:lang="nl">{"id": "7436b5e1-63d6-4964-922c-d444004c2d43", "value": "Aanduiding van een specifieke of algemene gebeurtenis die gerelateerd is aan een persoon, plaats of ding. De term wordt bijvoorbeeld gebruikt in gegevensmodellering."}</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">{"id": "580124ea-93cf-471f-af6c-d19c244ef9de", "value": "Indication of a named or generic event that is related to a person, place, or thing. An example of usage is in data modeling."}</skos:scopeNote>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/3b6afbac-fe53-42bd-ad97-1d0eea38d6db">
+        <dcterms:title xml:lang="en">{"id": "acde529f-d53e-4d21-a2b1-f79c8a712b5f", "value": "Documented Event Type"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/d1a81bc5-4b81-433e-9648-ee0e4cb229c7"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="nl">{"id": "c549689d-6495-4994-b7ee-187053bcac07", "value": "gerelateerde gebeurtenissen"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "3a7313d4-7569-4532-bf0d-6704ffd2e411", "value": "related events (relationship indicator)"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "cd6afc99-0062-424f-843e-1aa1ffc1411a", "value": "http://vocab.getty.edu/aat/300404456"}</dcterms:identifier>
+  </skos:Concept>
+</rdf:RDF>
