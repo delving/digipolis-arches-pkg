@@ -1,0 +1,27 @@
+{% extends "views/components/widgets/base.htm" %}
+{% load i18n %}
+
+{% block form %}
+<div class="row widget-wrapper">
+    <div class="form-group">
+        <label class="control-label widget-input-label" for="" data-bind="text: label"></label>
+        <div class="col-xs-12">
+            <input type="text" data-bind="textInput: currentImage" class="form-control input-lg widget-input" style="margin-bottom: 5px">
+        </div>
+        <!--<div class="col-xs-12">
+            <div data-bind="jsoneditor: currentImage" style="height: 500px;"></div>
+        </div>-->
+    </div>
+</div>
+{% endblock form %}
+
+{% block config_form %}
+{% endblock config_form %}
+
+{% block report %}
+<dt data-bind="text: label"></dt>
+<dd>
+  <!--<div style='margin-bottom: 2px' data-bind="text: value"></div>-->
+  <div data-bind="openseadragon: currentImage" style="height: 500px; width: 1000px;"></div>
+</dd>
+{% endblock report %}
