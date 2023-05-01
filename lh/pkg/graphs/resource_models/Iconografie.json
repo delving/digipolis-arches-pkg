@@ -3831,28 +3831,7 @@
                     "rangenode_id": "eeb338f8-af4d-11ec-b19f-9cf387da2c40"
                 }
             ],
-            "functions_x_graphs": [
-                {
-                    "config": {
-                        "description": {
-                            "nodegroup_id": "",
-                            "string_template": ""
-                        },
-                        "map_popup": {
-                            "nodegroup_id": "",
-                            "string_template": ""
-                        },
-                        "name": {
-                            "nodegroup_id": "4a8f1e72-ac0f-11ec-b19f-9cf387da2c40",
-                            "string_template": "<Object Number>"
-                        },
-                        "triggering_nodegroups": []
-                    },
-                    "function_id": "60000000-0000-0000-0000-000000000001",
-                    "graph_id": "4a8edc64-ac0f-11ec-b19f-9cf387da2c40",
-                    "id": "3624f09a-97ea-11ed-9e20-960000f945b3"
-                }
-            ],
+            "functions_x_graphs": [],
             "graphid": "4a8edc64-ac0f-11ec-b19f-9cf387da2c40",
             "iconclass": "fa fa-envelope",
             "is_editable": true,
@@ -6998,9 +6977,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 13.3 (Debian 13.3-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit",
+        "db": "PostgreSQL 15.1 on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit",
         "git hash": "fatal: not a git repository (or any of the parent directories): .git",
-        "os": "Linux",
-        "os version": "4.19.0-17-amd64"
+        "os": "Darwin",
+        "os version": "22.4.0"
     }
 }
